@@ -35,4 +35,7 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add docs/feed.json
           git diff --cached --quiet || git commit -m "feed: $(date -u +%F)"
+          # main may have moved during the build (e.g. a sources.txt push);
+          # feed.json is only ever written by this job, so rebase never conflicts
+          git pull --rebase origin main
           git push
