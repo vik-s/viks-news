@@ -28,7 +28,7 @@ LOOKBACK_HOURS = int(os.environ.get("LOOKBACK_HOURS", "36"))
 KEEP_DAYS = int(os.environ.get("KEEP_DAYS", "14"))
 MAX_CANDIDATES = int(os.environ.get("MAX_CANDIDATES", "120"))
 MAX_SEEN_URLS = 3000
-FETCH_TIMEOUT = 20
+FETCH_TIMEOUT = 30
 
 TOPICS = ["optics", "memory", "packaging", "networking", "power", "ai-infra"]
 TAGS = ["deep-dive", "digest", "fyi"]
@@ -80,7 +80,14 @@ def fetch_source(source):
     resp = requests.get(
         source["url"],
         timeout=FETCH_TIMEOUT,
-        headers={"User-Agent": "viks-news/1.0 (GitHub Actions feed builder)"},
+        # Browser-ish UA: several IR/newsroom hosts (Nokia among them) 403
+        # anything that doesn't look like a browser.
+        headers={
+            "User-Agent": (
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+            )
+        },
     )
     resp.raise_for_status()
     parsed = feedparser.parse(resp.content)
@@ -105,8 +112,10 @@ def collect_candidates(sources, seen_set):
             title = strip_html(entry.get("title", ""))
             if not url or not title or url in seen_set:
                 continue
+            # Undated entries are dropped: a feed with no dates (Vertiv) would
+            # otherwise dump its entire archive as "new" on every run.
             when = entry_time(entry)
-            if when and when < cutoff:
+            if not when or when < cutoff:
                 continue
             candidates.append(
                 {
@@ -120,7 +129,21 @@ def collect_candidates(sources, seen_set):
             count += 1
         statuses.append({"name": source["name"], "ok": True, "count": count})
         log(f"OK    {source['name']}: {count} new")
-    return candidates[:MAX_CANDIDATES], statuses
+    # Round-robin across sources up to MAX_CANDIDATES: a straight [:MAX] cut
+    # keeps the first N in sources.txt order, letting a few busy feeds at the
+    # top of the file starve every source below them out of curation.
+    by_source = {}
+    for c in candidates:
+        by_source.setdefault(c["source"], []).append(c)
+    picked = []
+    while len(picked) < MAX_CANDIDATES and by_source:
+        for name in list(by_source):
+            picked.append(by_source[name].pop(0))
+            if not by_source[name]:
+                del by_source[name]
+            if len(picked) >= MAX_CANDIDATES:
+                break
+    return picked, statuses
 
 
 def call_claude(api_key, system, user_text):
