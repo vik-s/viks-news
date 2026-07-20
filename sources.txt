@@ -2,7 +2,19 @@
 # Lines starting with # are ignored.
 # A source that fails to fetch is named in the feed page header,
 # so a dead URL is visible the same day. Curate this list freely.
+#
+# 2026-07-20: merged in the semidoped newsletter roster
+# (~/work/semidoped-news/companies.yaml + sources.py). Two tiers:
+#   1. trade press / wires (keyword-scoped Google News where no real RSS)
+#   2. company IR / newsroom RSS (primary sources)
+# Deliberately NOT ported: semidoped's ~140 per-company Google News queries
+# (would rate-limit fast from one IP) and its non-RSS fetchers, DigiTimes
+# (login + scrape) and TrendForce (HTML scrape).
+# Semidoped's Reuters/Korea queries were publisher-wide firehoses filtered
+# downstream; here the chip-topic scope is baked into the GN query instead,
+# since this pipeline has no keyword filter ahead of curation.
 
+# ── Trade press / general (pre-existing viks-news set) ─────────────────────
 SemiEngineering | https://semiengineering.com/feed/
 ServeTheHome | https://www.servethehome.com/feed/
 The Next Platform | https://www.nextplatform.com/feed/
@@ -13,3 +25,186 @@ IEEE Spectrum | https://spectrum.ieee.org/feeds/feed.rss
 The Register Systems | https://www.theregister.com/systems/headlines.atom
 arXiv physics.optics | https://rss.arxiv.org/rss/physics.optics
 arXiv cs.AR | https://rss.arxiv.org/rss/cs.AR
+
+# ── Trade press / wires (from semidoped outlets) ───────────────────────────
+Bloomberg Tech | https://feeds.bloomberg.com/technology/news.rss
+# Rotation backstop: Bloomberg Tech RSS holds only ~30 entries; the GN query
+# sees Bloomberg's full index. Topic-scoped so non-tech Bloomberg stays out.
+Bloomberg (via Google News) | https://news.google.com/rss/search?q=site%3Abloomberg.com+(chip+OR+semiconductor+OR+datacenter+OR+%22data+center%22+OR+AI+OR+GPU+OR+memory+OR+foundry)&hl=en-US&gl=US&ceid=US:en
+Reuters (via Google News) | https://news.google.com/rss/search?q=site%3Areuters.com+(chip+OR+semiconductor+OR+datacenter+OR+%22data+center%22+OR+AI+OR+GPU+OR+memory+OR+foundry)&hl=en-US&gl=US&ceid=US:en
+The Elec | https://www.thelec.net/rss/allArticle.xml
+# Chosun English has near-zero GN indexing; Herald + Times cover the beat.
+Korea (Herald / Times / Chosun) | https://news.google.com/rss/search?q=(site%3Akoreaherald.com+OR+site%3Akoreatimes.co.kr+OR+site%3Aenglish.chosun.com)+(chip+OR+semiconductor+OR+memory+OR+foundry+OR+HBM+OR+datacenter)&hl=en-US&gl=US&ceid=US:en
+SCMP Tech | https://www.scmp.com/rss/36/feed
+EE News Europe | https://www.eenewseurope.com/feed
+Light Reading | https://www.lightreading.com/rss.xml
+
+# ── Company IR / newsroom RSS — COMPUTING ──────────────────────────────────
+AMD | https://ir.amd.com/news-events/press-releases/rss
+Arm Newsroom | https://newsroom.arm.com/news/rss
+Nvidia News | https://nvidianews.nvidia.com/rss.xml
+Nvidia Blog | https://blogs.nvidia.com/feed/
+Intel Newsroom | https://newsroom.intel.com/feed
+Broadcom | https://news.broadcom.com/feed
+Marvell | https://investor.marvell.com/news-events/press-releases/rss
+Qualcomm | https://investor.qualcomm.com/rss/pressrelease.aspx
+Ambarella | https://investor.ambarella.com/rss/news-releases.xml
+IBM | https://newsroom.ibm.com/announcements?pagetemplate=rss
+Lattice Semiconductor | https://ir.latticesemi.com/rss/news-releases.xml
+Arteris | https://ir.arteris.com/rss/news-releases.xml
+CEVA | https://www.ceva-ip.com/feed/
+Achronix | https://www.achronix.com/rss.xml
+Blaize | https://ir.blaize.com/rss/news-releases.xml
+Hailo | https://hailo.ai/feed/
+Rebellions | https://rebellions.ai/feed/
+
+# ── Company IR / newsroom RSS — OPTICS ─────────────────────────────────────
+Ayar Labs | https://ayarlabs.com/feed/
+Lightmatter | https://lightmatter.co/feed/
+Point2 | https://point2tech.com/feed/
+Applied Optoelectronics | https://investors.ao-inc.com/rss/news-releases.xml
+Lumentum | https://investor.lumentum.com/rss/pressrelease.aspx
+nLIGHT | https://investors.nlight.net/rss/pressrelease.aspx
+Fabrinet | https://investor.fabrinet.com/rss/news-releases.xml
+MACOM | https://ir.macom.com/rss/news-releases.xml
+Adtran | https://investors.adtran.com/rss/pressrelease.aspx
+Ciena | https://investor.ciena.com/rss/pressrelease.aspx
+
+# ── Company IR / newsroom RSS — NETWORKING ─────────────────────────────────
+Arista Networks | https://investors.arista.com/rss/pressrelease.aspx
+Astera Labs | https://ir.asteralabs.com/rss/news-releases.xml
+Credo | https://investors.credosemi.com/rss/pressrelease.aspx
+Cisco | https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=press-releases
+MaxLinear | https://investors.maxlinear.com/news/rss
+Nokia | https://www.nokia.com/newsroom/feed/
+
+# ── Company IR / newsroom RSS — MEMORY ─────────────────────────────────────
+Micron | https://investors.micron.com/rss/news-releases.xml
+Samsung Semiconductor | https://news.samsungsemiconductor.com/global/category/news/feed/
+SK Hynix | https://news.skhynix.com/feed/
+Everspin | https://investor.everspin.com/rss/news-releases.xml
+Penguin Solutions | https://ir.smartm.com/rss/pressrelease.aspx
+Weebit Nano | https://www.weebit-nano.com/feed/
+
+# ── Company IR / newsroom RSS — STORAGE ────────────────────────────────────
+Western Digital | https://investor.wdc.com/rss/news-releases.xml
+Sandisk | https://investor.sandisk.com/rss/news-releases.xml
+Silicon Motion | https://siliconmotiontechnologycorporation.gcs-web.com/rss/news-releases.xml
+Quantum | https://investors.quantum.com/news-events/press-releases/rss
+
+# ── Company IR / newsroom RSS — SEMICAP ────────────────────────────────────
+Applied Materials | https://ir.appliedmaterials.com/rss/news-releases.xml
+Lam Research | https://investor.lamresearch.com/index.php?s=43&pagetemplate=rss
+KLA | https://ir.kla.com/news-events/press-releases/rss
+Teradyne | https://investors.teradyne.com/news-events/press-releases/rss
+Onto Innovation | https://investors.ontoinnovation.com/rss/pressrelease.aspx
+FormFactor | https://investors.formfactor.com/rss/news-releases.xml
+Entegris | https://investor.entegris.com/rss/pressrelease.aspx
+Photronics | https://photronicsinc.gcs-web.com/rss/news-releases.xml
+Axcelis | https://investor.axcelis.com/rss/news-releases.xml
+ACM Research | https://ir.acmr.com/rss/news-releases.xml
+Ultra Clean Holdings | https://www.uct.com/rss/pressrelease.aspx
+Cohu | https://www.cohu.com/feed
+Veeco | https://ir.veeco.com/rss/pressrelease.aspx
+MKS Instruments | https://investor.mksinst.com/rss/news-releases.xml
+Azenta | https://investors.azenta.com/news-releases?pagetemplate=rss
+Nordson | https://investors.nordson.com/rss/pressrelease.aspx
+inTEST | https://intestcorp.gcs-web.com/rss/news-releases.xml
+
+# ── Company IR / newsroom RSS — POWER / ANALOG / RF ────────────────────────
+Semtech | https://www.semtech.com/company/rss
+Texas Instruments | https://investor.ti.com/rss/news-releases.xml
+Analog Devices | https://investor.analog.com/rss/news-releases.xml
+onsemi | https://investor.onsemi.com/rss/news-releases.xml
+STMicroelectronics | https://investors.st.com/rss/news-releases.xml
+NXP Semiconductors | https://investors.nxp.com/rss/news-releases.xml
+Microchip | https://ir.microchip.com/news-events/press-releases/rss
+Wolfspeed | https://investor.wolfspeed.com/rss/pressrelease.aspx
+Navitas Semiconductor | https://ir.navitassemi.com/rss/news-releases.xml
+Power Integrations | https://investors.power.com/rss/pressrelease.aspx
+Allegro MicroSystems | https://investors.allegromicro.com/rss/news-releases.xml
+Vishay | https://ir.vishay.com/rss/news-releases.xml
+Littelfuse | https://investor.littelfuse.com/rss/pressrelease.aspx
+Silicon Labs | https://investor.silabs.com/rss/news-releases.xml
+Qorvo | https://ir.qorvo.com/rss/news-releases.xml
+Skyworks | https://investors.skyworksinc.com/rss/news-releases.xml
+
+# ── Company IR / newsroom RSS — FOUNDRY ────────────────────────────────────
+GlobalFoundries | https://gf.com/feed/
+Tower Semiconductor | https://towersemi.com/feed/
+SkyWater Technology | https://www.skywatertechnology.com/feed/
+
+# ── Company IR / newsroom RSS — PACKAGING ──────────────────────────────────
+Amkor Technology | https://ir.amkor.com/rss/news-releases.xml
+Kulicke and Soffa | https://investor.kns.com/news-releases?pagetemplate=rss
+ChipMOS | https://chipmostechnologiesinc.gcs-web.com/rss/news-releases.xml
+
+# ── Company IR / newsroom RSS — INFRASTRUCTURE ─────────────────────────────
+AWS Blogs | https://aws.amazon.com/blogs/aws/feed/
+Meta Engineering | https://engineering.fb.com/feed/
+Google Research | https://research.google/blog/rss/
+CoreWeave Blog | https://www.coreweave.com/blog/rss.xml
+Vertiv | https://www.vertiv.com/en-us/about/news-and-insights/rss/
+Dell Technologies | https://investors.delltechnologies.com/rss/news-releases.xml
+HPE | https://investors.hpe.com/rss/news
+Lenovo | https://news.lenovo.com/feed/
+Equinix | https://investor.equinix.com/rss/news-releases.xml
+Digital Realty | https://investor.digitalrealty.com/rss/news-releases.xml
+Celestica | https://corporate.celestica.com/rss/news-releases.xml
+IREN | https://irisenergy.gcs-web.com/rss/news-releases.xml
+Applied Digital | https://ir.applieddigital.com/news-events/press-releases/rss
+Lambda | https://lambda.ai/blog/rss.xml
+VNET Group | https://ir.vnet.com/rss/news-releases.xml
+
+
+# ── PR wire industry segments (name-free primary-source layer) ─────────────
+# Any company, public or private, announcing over these wires shows up with
+# no prior knowledge of its existence. Noisy by design — curation filters.
+# Business Wire deliberately absent: blocks non-browser clients outright
+# (HTTP/2 reset even on the newsroom page), would fail from Actions; its
+# releases surface via the Google News topic queries below instead.
+GlobeNewswire Semiconductors | https://www.globenewswire.com/RssFeed/industry/9576-Semiconductors/feedTitle/GlobeNewswire%20-%20Industry%20News%20on%20Semiconductors
+GlobeNewswire Computer Hardware | https://www.globenewswire.com/RssFeed/industry/9572-Computer%20Hardware/feedTitle/GlobeNewswire%20-%20Industry%20News%20on%20Computer%20Hardware
+PR Newswire Semiconductors | https://www.prnewswire.com/rss/business-technology-latest-news/semiconductors-list.rss
+PR Newswire Electronic Components | https://www.prnewswire.com/rss/business-technology-latest-news/electronic-components-list.rss
+PR Newswire EDA | https://www.prnewswire.com/rss/business-technology-latest-news/electronic-design-automation-list.rss
+PR Newswire Computer Hardware | https://www.prnewswire.com/rss/business-technology-latest-news/computer-hardware-list.rss
+# PRN's AI-category feed is broken server-side (consumer-tech path 500s; the
+# business-tech path silently serves the generic all-news feed). Skipped.
+
+# ── Vertical trade press (beat coverage = name-free company discovery) ─────
+# Validated 2026-07-20. Skipped as broken/blocked: HPCwire (403 even with a
+# browser UA), Optical Connections News (feed 500s server-side).
+Data Center Dynamics | https://www.datacenterdynamics.com/rss/
+Data Center Knowledge | https://www.datacenterknowledge.com/rss.xml
+Data Center Frontier | https://www.datacenterfrontier.com/__rss/website-scheduled-content.xml?input=%7B%22sectionAlias%22%3A%22home%22%7D
+SemiAnalysis | https://www.semianalysis.com/feed
+Semiconductor Digest | https://www.semiconductor-digest.com/feed/
+SemiWiki | https://semiwiki.com/feed/
+Converge Digest | https://convergedigest.com/feed/
+Fierce Electronics | https://www.fierceelectronics.com/rss/xml
+TechCrunch AI | https://techcrunch.com/category/artificial-intelligence/feed/
+Chips and Cheese | https://chipsandcheese.com/feed/
+More Than Moore | https://morethanmoore.substack.com/feed
+Gazettabyte | https://gazettabyte.com/feed/
+
+# ── Google News topic queries (one per vertical, no company names) ─────────
+# Catches any company whose news uses the vertical's vocabulary. 15 queries
+# + 3 wire queries above = 18 GN requests/run (vs the 140 per-company
+# queries these replace). Bare "HBM" collides with Hudbay Minerals' ticker,
+# hence the negative terms on that query.
+Topic: co-packaged optics / SiPh | https://news.google.com/rss/search?q=%22co-packaged+optics%22+OR+%22silicon+photonics%22+OR+%22optical+interconnect%22+OR+%22optical+engine%22&hl=en-US&gl=US&ceid=US:en
+Topic: optical transceivers | https://news.google.com/rss/search?q=transceiver+(800G+OR+1.6T+OR+3.2T+OR+%22optical+module%22)&hl=en-US&gl=US&ceid=US:en
+Topic: HBM | https://news.google.com/rss/search?q=(HBM+OR+HBM4+OR+%22high+bandwidth+memory%22)+-Hudbay+-copper+-mining&hl=en-US&gl=US&ceid=US:en
+Topic: advanced packaging | https://news.google.com/rss/search?q=%22advanced+packaging%22+OR+CoWoS+OR+chiplet+OR+%22hybrid+bonding%22+OR+%22panel-level+packaging%22&hl=en-US&gl=US&ceid=US:en
+Topic: AI silicon | https://news.google.com/rss/search?q=%22AI+chip%22+OR+%22AI+accelerator%22+OR+%22inference+chip%22+OR+%22custom+silicon%22&hl=en-US&gl=US&ceid=US:en
+Topic: foundry / process | https://news.google.com/rss/search?q=foundry+(2nm+OR+wafer+OR+%22gate-all-around%22+OR+capacity+OR+node)&hl=en-US&gl=US&ceid=US:en
+Topic: semicap | https://news.google.com/rss/search?q=%22semiconductor+equipment%22+OR+lithography+OR+EUV+OR+%22wafer+fab%22&hl=en-US&gl=US&ceid=US:en
+Topic: datacenter power | https://news.google.com/rss/search?q=%22data+center%22+(gigawatt+OR+%22power+purchase%22+OR+HVDC+OR+substation+OR+%22small+modular+reactor%22)&hl=en-US&gl=US&ceid=US:en
+Topic: liquid cooling | https://news.google.com/rss/search?q=%22liquid+cooling%22+OR+%22immersion+cooling%22+OR+%22cold+plate%22&hl=en-US&gl=US&ceid=US:en
+Topic: interconnect fabrics | https://news.google.com/rss/search?q=NVLink+OR+UALink+OR+%22Ultra+Ethernet%22+OR+CXL+OR+SerDes+OR+retimer&hl=en-US&gl=US&ceid=US:en
+Topic: SiC / GaN power | https://news.google.com/rss/search?q=%22silicon+carbide%22+OR+%22gallium+nitride%22+OR+%22GaN+power%22&hl=en-US&gl=US&ceid=US:en
+Topic: chip startup funding | https://news.google.com/rss/search?q=(chip+OR+semiconductor+OR+photonics)+startup+(funding+OR+raises+OR+%22Series+A%22+OR+%22Series+B%22+OR+seed)&hl=en-US&gl=US&ceid=US:en
+Topic: export controls | https://news.google.com/rss/search?q=(%22export+controls%22+OR+%22export+control%22+OR+%22entity+list%22)+(chip+OR+semiconductor)&hl=en-US&gl=US&ceid=US:en
+Topic: neocloud / AI compute | https://news.google.com/rss/search?q=neocloud+OR+%22GPU+cloud%22+OR+%22AI+compute%22+OR+%22compute+capacity%22&hl=en-US&gl=US&ceid=US:en
+Topic: enterprise storage | https://news.google.com/rss/search?q=%22enterprise+SSD%22+OR+QLC+OR+HAMR+OR+nearline+OR+eSSD&hl=en-US&gl=US&ceid=US:en
