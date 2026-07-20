@@ -1,5 +1,178 @@
 {
- "meta": {},
- "items": [],
- "seen_urls": []
+ "meta": {
+  "generated_at": "2026-07-20T16:21:37.151367+00:00",
+  "model": "claude-sonnet-4-6",
+  "sources": [
+   {
+    "name": "SemiEngineering",
+    "ok": true,
+    "count": 2
+   },
+   {
+    "name": "ServeTheHome",
+    "ok": true,
+    "count": 1
+   },
+   {
+    "name": "The Next Platform",
+    "ok": true,
+    "count": 2
+   },
+   {
+    "name": "Blocks and Files",
+    "ok": false,
+    "count": 0
+   },
+   {
+    "name": "EE Times",
+    "ok": true,
+    "count": 5
+   },
+   {
+    "name": "Tom's Hardware",
+    "ok": true,
+    "count": 17
+   },
+   {
+    "name": "IEEE Spectrum",
+    "ok": true,
+    "count": 2
+   },
+   {
+    "name": "The Register Systems",
+    "ok": false,
+    "count": 0
+   },
+   {
+    "name": "arXiv physics.optics",
+    "ok": true,
+    "count": 28
+   },
+   {
+    "name": "arXiv cs.AR",
+    "ok": true,
+    "count": 13
+   }
+  ],
+  "candidates": 70,
+  "kept": 4
+ },
+ "items": [
+  {
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-will-deploy-amds-helios-rack-scale-ai-accelerator-at-scale-on-azure-radeon-instinct-mi455x-and-epyc-venice-power-will-be-available-through-redmonds-cloud-infrastructure",
+   "title": "Microsoft will deploy AMD\u2019s Helios rack-scale AI accelerator \u2018at scale\u2019 on Azure \u2013 Radeon Instinct MI455X and Epyc Venice power will be available through Redmond\u2019s cloud infrastructure",
+   "source": "Tom's Hardware",
+   "published": "2026-07-20T13:05:00+00:00",
+   "why": "Microsoft committing to deploy AMD's Helios rack-scale AI system (MI455X + EPYC Venice) 'at scale' on Azure is a direct competitive signal against NVIDIA in hyperscale AI infrastructure.",
+   "topic": "ai-infra",
+   "tag": "deep-dive",
+   "date": "2026-07-20",
+   "added_at": "2026-07-20T16:21:37.151367+00:00"
+  },
+  {
+   "url": "https://www.tomshardware.com/tech-industry/policy/memory-chip-boss-admits-ram-prices-are-abnormally-high-sk-group-chairman-considering-building-a-semiconductor-plant-in-the-us-to-expand-supply-calm-chipflation",
+   "title": "Memory chip boss admits RAM prices are 'abnormally high' \u2014 SK Group chairman considering building a semiconductor plant in the US to expand supply, calm \u2018chipflation\u2019",
+   "source": "Tom's Hardware",
+   "published": "2026-07-19T13:55:00+00:00",
+   "why": "SK Group chairman publicly acknowledging 'abnormally high' RAM prices and weighing a US fab signals both supply-side pressure and geopolitical reshoring dynamics relevant to HBM/DRAM markets.",
+   "topic": "memory",
+   "tag": "digest",
+   "date": "2026-07-20",
+   "added_at": "2026-07-20T16:21:37.151367+00:00"
+  },
+  {
+   "url": "https://arxiv.org/abs/2607.15534",
+   "title": "Machine Learning-Driven Design of Mixed-Pitch Grating Couplers for Co-Packaged Optics Applications",
+   "source": "arXiv physics.optics",
+   "published": "2026-07-20T04:00:00+00:00",
+   "why": "ML-optimized mixed-pitch grating coupler design targeting CPO applications directly addresses a key coupling-efficiency bottleneck in silicon photonics interconnects.",
+   "topic": "optics",
+   "tag": "fyi",
+   "date": "2026-07-20",
+   "added_at": "2026-07-20T16:21:37.151367+00:00"
+  },
+  {
+   "url": "https://arxiv.org/abs/2607.08407",
+   "title": "Who Needs DRAM? We Have Fiber",
+   "source": "arXiv cs.AR",
+   "published": "2026-07-20T04:00:00+00:00",
+   "why": "Proposes using optical fiber memory as a DRAM alternative for AI workloads, a novel architectural concept relevant to the memory-bandwidth bottleneck in AI infrastructure.",
+   "topic": "memory",
+   "tag": "fyi",
+   "date": "2026-07-20",
+   "added_at": "2026-07-20T16:21:37.151367+00:00"
+  }
+ ],
+ "seen_urls": [
+  "https://semiengineering.com/verifying-networks-on-chip/",
+  "https://semiengineering.com/data-center-chokepoints-tied-to-ai-political-pressure-supply-chain/",
+  "https://www.servethehome.com/msi-slyly-shows-off-an-upcoming-dlc-amd-epyc-venice-platform-with-cd182-s6091-x2-servers-and-racks/",
+  "https://www.nextplatform.com/compute/2026/07/20/google-uses-ai-reinforcement-learning-for-quantum-error-correction/5275023",
+  "https://intelligence.theregister.com/paper/view/20526",
+  "https://www.eetimes.com/nisshinbo-micro-devices-expands-high-voltage-ic-lineup-for-next-gen-automotive-48-v-systems/",
+  "https://www.eetimes.com/powering-the-automotive-revolution-from-zonal-architecture-to-48v/",
+  "https://www.eetimes.com/photonics-components-the-eyes-and-ears-of-the-future-unmanned-system-and-connected-soldiers/",
+  "https://www.eetimes.com/post-quantum-cryptography-incorporated-into-socs-via-efpga/",
+  "https://www.eetimes.com/risc-v-europe-summit-2026-beyond-embedded-electronics/",
+  "https://www.tomshardware.com/tech-industry/government-funded-dutch-report-rates-chip-sector-at-very-high-risk-of-chinese-interference",
+  "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-will-deploy-amds-helios-rack-scale-ai-accelerator-at-scale-on-azure-radeon-instinct-mi455x-and-epyc-venice-power-will-be-available-through-redmonds-cloud-infrastructure",
+  "https://www.tomshardware.com/tech-industry/artificial-intelligence/power-companies-can-seize-private-land-to-make-way-for-new-ai-data-center-transmission-lines-report-says-takeovers-could-be-implemented-using-eminent-domain-law-when-private-citizens-refuse-to-sell-land",
+  "https://www.tomshardware.com/monitors/samsung-now-supplying-new-vesa-displayhdr-true-black-1400-laptop-displays-lenovo-asus-dell-and-msi-set-to-launch-portables-with-the-first-1-600-nits-tandem-oled-panels",
+  "https://www.tomshardware.com/3d-printing/3d-printing-enthusiast-resurrects-cancelled-dbrand-steam-machine-companion-cube-as-diy-project-project-shelved-due-to-copyright-can-now-be-made-and-assembled-at-home",
+  "https://www.tomshardware.com/pc-components/save-usd148-on-an-amd-ryzen-7-9800x3d-bundle-with-32gb-of-ram-motherboard-and-liquid-aio-start-your-am5-gaming-build-for-just-usd1-039",
+  "https://www.tomshardware.com/peripherals/gaming-mice/logitechs-g-pro-x2-superstrike-gaming-mouse-is-usd125-99-after-getting-a-massive-usd54-discount-hall-effect-haptic-switches-8k-polling-and-30-ms-faster-clicks-for-peak-gaming-performance",
+  "https://www.tomshardware.com/pc-components/creality-k2-se-3d-printer-price-slashed-by-17-percent-now-under-usd250-grab-a-competitive-entry-level-high-speed-multicolor-device-at-a-bargain-price",
+  "https://www.tomshardware.com/pc-components/cpus/amds-next-gen-10-core-medusa-point-apu-shows-up-on-geekbench-again-with-its-best-score-yet-leaked-sku-outpaces-every-other-x86-mobile-chip-in-the-single-core-test",
+  "https://www.tomshardware.com/tech-industry/zilog-z80-turns-50-as-open-source-replacement-heads-for-drop-in-dip40-silicon",
+  "https://www.tomshardware.com/tech-industry/policy/memory-chip-boss-admits-ram-prices-are-abnormally-high-sk-group-chairman-considering-building-a-semiconductor-plant-in-the-us-to-expand-supply-calm-chipflation",
+  "https://www.tomshardware.com/tech-industry/drones/phantom-twist-drone-spins-so-fast-that-it-is-nearly-invisible-flying-device-adds-motion-blur-to-the-real-world",
+  "https://www.tomshardware.com/tech-industry/samsung-cuts-hundreds-of-us-consumer-electronics-jobs-ahead-of-texas-hq-move",
+  "https://www.tomshardware.com/tech-industry/drones/russian-drones-spotted-using-screwed-on-magnetic-compasses-as-navigation-aids-the-on-board-camera-can-occasionally-tilt-down-to-check-bearings-if-satellite-comms-are-lost",
+  "https://www.tomshardware.com/pc-components/coil-whine-can-be-musical-demonstrates-engineering-student-this-usually-hated-noise-can-make-some-people-happy",
+  "https://www.tomshardware.com/networking/clever-hacker-fits-537-000-domains-in-a-tiny-usd5-esp32-ad-blocking-dongle-firmware-uses-only-around-50kb-of-ram-and-can-answer-blocked-lookups-in-10-milliseconds",
+  "https://www.tomshardware.com/desktops/pc-building/crazed-enthusiast-runs-pc-on-192-aa-batteries-successfully-boots-into-hannah-montana-linux-system-is-stable-during-stress-testing-and-even-plays-freedoom",
+  "https://event.on24.com/wcc/r/5418459/287E3D5B99470D34C830D69A24B3B207",
+  "https://spectrum.ieee.org/led-light-pollution",
+  "https://arxiv.org/abs/2607.15393",
+  "https://arxiv.org/abs/2607.15526",
+  "https://arxiv.org/abs/2607.15534",
+  "https://arxiv.org/abs/2607.15614",
+  "https://arxiv.org/abs/2607.15622",
+  "https://arxiv.org/abs/2607.15644",
+  "https://arxiv.org/abs/2607.15725",
+  "https://arxiv.org/abs/2607.15765",
+  "https://arxiv.org/abs/2607.15783",
+  "https://arxiv.org/abs/2607.15793",
+  "https://arxiv.org/abs/2607.15805",
+  "https://arxiv.org/abs/2607.15843",
+  "https://arxiv.org/abs/2607.15852",
+  "https://arxiv.org/abs/2607.15925",
+  "https://arxiv.org/abs/2607.16067",
+  "https://arxiv.org/abs/2607.16176",
+  "https://arxiv.org/abs/2607.15567",
+  "https://arxiv.org/abs/2607.15938",
+  "https://arxiv.org/abs/2508.00521",
+  "https://arxiv.org/abs/2604.21466",
+  "https://arxiv.org/abs/2605.12346",
+  "https://arxiv.org/abs/2607.10622",
+  "https://arxiv.org/abs/2405.05093",
+  "https://arxiv.org/abs/2502.04808",
+  "https://arxiv.org/abs/2510.14566",
+  "https://arxiv.org/abs/2603.24095",
+  "https://arxiv.org/abs/2604.10987",
+  "https://arxiv.org/abs/2605.13466",
+  "https://arxiv.org/abs/2607.15830",
+  "https://arxiv.org/abs/2607.15846",
+  "https://arxiv.org/abs/2607.16058",
+  "https://arxiv.org/abs/2607.15328",
+  "https://arxiv.org/abs/2607.15753",
+  "https://arxiv.org/abs/2607.15782",
+  "https://arxiv.org/abs/2607.16042",
+  "https://arxiv.org/abs/2512.03594",
+  "https://arxiv.org/abs/2606.27350",
+  "https://arxiv.org/abs/2607.08407",
+  "https://arxiv.org/abs/2605.29752",
+  "https://arxiv.org/abs/2606.04221",
+  "https://arxiv.org/abs/2607.03153"
+ ]
 }
