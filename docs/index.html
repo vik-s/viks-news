@@ -116,6 +116,32 @@
   .chip.active { color: var(--text); border-color: var(--tc, var(--muted)); background: var(--card); }
   .chip-gap { border-left: 1px solid var(--line); margin: 4px 2px; }
 
+  /* Search */
+  .search { position: relative; padding-top: 10px; }
+  .search input {
+    width: 100%;
+    font-family: var(--mono);
+    font-size: 12.5px;
+    color: var(--text);
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 8px 60px 8px 12px;
+    outline: none;
+  }
+  .search input::placeholder { color: var(--faint); }
+  .search input:focus { border-color: var(--optics); }
+  .search .hits {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(calc(-50% + 5px));
+    font-family: var(--mono);
+    font-size: 10.5px;
+    color: var(--faint);
+    pointer-events: none;
+  }
+
   /* Feed */
   .day {
     font-family: var(--mono);
@@ -212,6 +238,11 @@
     <div class="spectrum" role="presentation"></div>
     <div class="failures" id="failures" hidden></div>
     <nav class="filters" id="filters" aria-label="Filters"></nav>
+    <div class="search">
+      <input id="search" type="search" placeholder="Search two weeks of news&#8230; ( / )"
+             aria-label="Search news" autocomplete="off">
+      <span class="hits" id="hits"></span>
+    </div>
   </header>
   <main id="feed"></main>
 </div>
@@ -234,11 +265,14 @@
   var meta = {};
   var topicFilter = null;
   var tagFilter = null;
+  var query = "";
 
   var $status = document.getElementById("status");
   var $failures = document.getElementById("failures");
   var $filters = document.getElementById("filters");
   var $feed = document.getElementById("feed");
+  var $search = document.getElementById("search");
+  var $hits = document.getElementById("hits");
 
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
@@ -350,15 +384,25 @@
       "</article>";
   }
 
+  function matches(item, terms) {
+    if (!terms.length) return true;
+    var hay = (item.title + " " + item.why + " " + item.source + " " +
+               item.topic + " " + item.tag).toLowerCase();
+    return terms.every(function (t) { return hay.indexOf(t) !== -1; });
+  }
+
   function renderFeed() {
+    var terms = query.toLowerCase().split(/\s+/).filter(Boolean);
     var visible = items.filter(function (i) {
       if (topicFilter && i.topic !== topicFilter) return false;
       if (tagFilter && i.tag !== tagFilter) return false;
-      return true;
+      return matches(i, terms);
     });
+    $hits.textContent = terms.length ? visible.length + " hit" + (visible.length === 1 ? "" : "s") : "";
     if (!visible.length) {
       $feed.innerHTML = '<div class="empty">' +
-        (items.length ? "Nothing under this filter." : "No items yet.") + "</div>";
+        (terms.length ? "No matches in the last two weeks."
+          : items.length ? "Nothing under this filter." : "No items yet.") + "</div>";
       return;
     }
     var html = "";
@@ -380,6 +424,25 @@
     renderFilters();
     renderFeed();
   }
+
+  $search.addEventListener("input", function () {
+    query = $search.value;
+    renderFeed();
+  });
+  $search.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") {
+      $search.value = "";
+      query = "";
+      renderFeed();
+      $search.blur();
+    }
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "/" && document.activeElement !== $search) {
+      e.preventDefault();
+      $search.focus();
+    }
+  });
 
   if (window.SAMPLE_DATA) {
     boot(window.SAMPLE_DATA);
