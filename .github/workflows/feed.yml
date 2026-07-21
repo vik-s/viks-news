@@ -2,7 +2,7 @@ name: Build feed
 
 on:
   schedule:
-    - cron: "30 2 * * *" # daily, 02:30 UTC; edit to taste
+    - cron: "30 */4 * * *" # every 4h at :30 UTC; edit to taste
   workflow_dispatch:
 
 permissions:

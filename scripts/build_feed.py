@@ -11,6 +11,7 @@ import json
 import os
 import re
 import sys
+import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -77,6 +78,10 @@ def entry_time(entry):
 
 
 def fetch_source(source):
+    # Google News gets 18 requests per run; at a 4-hour cadence, space them
+    # out so a burst never looks like scraping to their per-IP limiter.
+    if "news.google.com" in source["url"]:
+        time.sleep(2)
     resp = requests.get(
         source["url"],
         timeout=FETCH_TIMEOUT,
