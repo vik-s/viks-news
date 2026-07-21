@@ -3,32 +3,42 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="dark">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#ffffff">
 <title>Vik's News</title>
+<link rel="icon" type="image/png" href="logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
+  /* Semiexponent brand (Brand Assets / Ready Reference.xlsx), light theme.
+     Base white, dark-grey #242526 text, pale orange primary accent,
+     blue = tech/links, lavender = hover/selected, grey-green = soft panels.
+     Six topics map onto the three accent hues at two depths each. */
   :root {
-    --bg: #0f1317;
-    --card: #171d24;
-    --card-raise: #1b222a;
-    --line: #242d36;
-    --text: #e7ecf0;
-    --muted: #94a1ad;
-    --faint: #5f6c78;
-    --optics: #5fd4e6;
-    --memory: #efc356;
-    --packaging: #b18cf0;
-    --networking: #72d48d;
-    --power: #f0854e;
-    --ai-infra: #6e9bef;
-    --display: "Space Grotesk", system-ui, sans-serif;
-    --mono: "JetBrains Mono", ui-monospace, monospace;
-    --body: system-ui, -apple-system, "Segoe UI", sans-serif;
+    --bg: #ffffff;
+    --card: #ffffff;
+    --card-raise: #f4f8f5;
+    --line: #e2e7e4;
+    --text: #242526;
+    --muted: #5d6a72;
+    --faint: #96a09b;
+    --accent: #ff7f6f;
+    --accent-deep: #d05540;
+    --link: #6ca0d9;
+    --hover: #9b65c9;
+    --optics: #9b65c9;
+    --memory: #d05540;
+    --packaging: #6f4494;
+    --networking: #3d6ea8;
+    --power: #ff7f6f;
+    --ai-infra: #6ca0d9;
+    --display: "Audiowide", system-ui, sans-serif;
+    --mono: "Quicksand", system-ui, sans-serif;
+    --body: "Quicksand", system-ui, -apple-system, "Segoe UI", sans-serif;
   }
   * { box-sizing: border-box; }
-  html { -webkit-text-size-adjust: 100%; }
+  html { -webkit-text-size-adjust: 100%; background: var(--bg); min-height: 100%; }
   body {
     margin: 0;
     background: var(--bg);
@@ -42,8 +52,11 @@
   /* Masthead */
   header { padding-top: 28px; }
   .mast { display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; }
+  .ident { display: flex; align-items: center; gap: 14px; }
+  .mark { width: 46px; height: 46px; display: block; }
   .eyebrow {
     font-family: var(--mono);
+    font-weight: 600;
     font-size: 10.5px;
     letter-spacing: 0.14em;
     text-transform: uppercase;
@@ -52,9 +65,9 @@
   }
   h1 {
     font-family: var(--display);
-    font-weight: 600;
-    font-size: 26px;
-    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 21px;
+    letter-spacing: 0.01em;
     margin: 0;
   }
   .status {
@@ -69,21 +82,21 @@
     line-height: 1.6;
   }
   .status.has-failures { cursor: pointer; }
-  .status .warn { color: var(--memory); }
+  .status .warn { color: var(--accent-deep); }
   .spectrum {
     height: 2px;
     margin-top: 14px;
     border-radius: 1px;
     background: linear-gradient(90deg,
-      var(--packaging), var(--ai-infra), var(--optics),
-      var(--networking), var(--memory), var(--power));
+      var(--hover), var(--link), #abc0b5, var(--accent));
   }
   .failures {
     font-family: var(--mono);
+    font-weight: 500;
     font-size: 11.5px;
-    color: var(--memory);
-    background: var(--card);
-    border: 1px solid var(--line);
+    color: var(--accent-deep);
+    background: #fdf2f0;
+    border: 1px solid #f6d3cc;
     border-radius: 8px;
     padding: 10px 12px;
     margin-top: 12px;
@@ -100,6 +113,7 @@
   .filters::-webkit-scrollbar { display: none; }
   .chip {
     font-family: var(--mono);
+    font-weight: 600;
     font-size: 11.5px;
     color: var(--muted);
     background: none;
@@ -113,7 +127,7 @@
     gap: 6px;
   }
   .chip .swatch { width: 6px; height: 6px; border-radius: 50%; background: var(--tc, var(--muted)); }
-  .chip.active { color: var(--text); border-color: var(--tc, var(--muted)); background: var(--card); }
+  .chip.active { color: var(--text); border-color: var(--tc, var(--text)); background: var(--card-raise); }
   .chip-gap { border-left: 1px solid var(--line); margin: 4px 2px; }
 
   /* Search */
@@ -130,7 +144,8 @@
     outline: none;
   }
   .search input::placeholder { color: var(--faint); }
-  .search input:focus { border-color: var(--optics); }
+  .search input { font-weight: 500; background: var(--card-raise); }
+  .search input:focus { border-color: var(--link); background: var(--card); }
   .search .hits {
     position: absolute;
     right: 12px;
@@ -163,6 +178,7 @@
     border-radius: 10px;
     padding: 13px 15px 12px;
     margin-bottom: 10px;
+    box-shadow: 0 1px 2px rgba(36, 37, 38, 0.05);
   }
   @media (prefers-reduced-motion: no-preference) {
     .card { transition: background 0.15s ease, transform 0.15s ease; }
@@ -187,11 +203,11 @@
   .meta .src { color: var(--muted); }
   .meta .tag { margin-left: auto; text-transform: none; letter-spacing: 0.02em; }
   .tag-deep-dive {
-    color: var(--tc);
-    background: color-mix(in srgb, var(--tc) 14%, transparent);
+    color: color-mix(in srgb, var(--tc) 62%, var(--text));
+    background: color-mix(in srgb, var(--tc) 12%, transparent);
     border-radius: 5px;
     padding: 2px 7px;
-    font-weight: 500;
+    font-weight: 600;
   }
   .tag-digest {
     color: var(--muted);
@@ -201,17 +217,17 @@
   }
   .headline {
     display: block;
-    font-family: var(--display);
-    font-weight: 500;
+    font-family: var(--body);
+    font-weight: 600;
     font-size: 15.5px;
     line-height: 1.35;
     color: var(--text);
     text-decoration: none;
     margin: 7px 0 5px;
   }
-  .headline:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .headline:hover { color: var(--hover); text-decoration: underline; text-underline-offset: 3px; }
   .headline:focus-visible, .chip:focus-visible, .status:focus-visible {
-    outline: 2px solid var(--optics);
+    outline: 2px solid var(--link);
     outline-offset: 2px;
     border-radius: 4px;
   }
@@ -229,9 +245,12 @@
 <div class="wrap">
   <header>
     <div class="mast">
-      <div>
-        <div class="eyebrow">Daily semiconductor feed</div>
-        <h1>Vik&#8217;s News</h1>
+      <div class="ident">
+        <img class="mark" src="logo.png" alt="Semiexponent logo" width="46" height="46">
+        <div>
+          <div class="eyebrow">Daily semiconductor feed</div>
+          <h1>Vik&#8217;s News</h1>
+        </div>
       </div>
       <button class="status" id="status" aria-live="polite">Loading&#8230;</button>
     </div>
