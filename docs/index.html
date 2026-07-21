@@ -265,6 +265,7 @@
   var meta = {};
   var topicFilter = null;
   var tagFilter = null;
+  var todayOnly = false;
   var query = "";
 
   var $status = document.getElementById("status");
@@ -349,10 +350,18 @@
     return getComputedStyle(document.documentElement).getPropertyValue("--" + key).trim();
   }
 
+  function localISO() {
+    var n = new Date();
+    return n.getFullYear() + "-" + pad(n.getMonth() + 1) + "-" + pad(n.getDate());
+  }
+
   function renderFilters() {
     $filters.innerHTML = "";
-    $filters.appendChild(chip("All", null, !topicFilter && !tagFilter, function () {
-      topicFilter = null; tagFilter = null; renderFilters(); renderFeed();
+    $filters.appendChild(chip("All", null, !topicFilter && !tagFilter && !todayOnly, function () {
+      topicFilter = null; tagFilter = null; todayOnly = false; renderFilters(); renderFeed();
+    }));
+    $filters.appendChild(chip("Today", null, todayOnly, function () {
+      todayOnly = !todayOnly; renderFilters(); renderFeed();
     }));
     Object.keys(TOPICS).forEach(function (key) {
       $filters.appendChild(chip(TOPICS[key], topicColor(key), topicFilter === key, function () {
@@ -393,7 +402,9 @@
 
   function renderFeed() {
     var terms = query.toLowerCase().split(/\s+/).filter(Boolean);
+    var today = localISO();
     var visible = items.filter(function (i) {
+      if (todayOnly && i.date !== today) return false;
       if (topicFilter && i.topic !== topicFilter) return false;
       if (tagFilter && i.tag !== tagFilter) return false;
       return matches(i, terms);
@@ -402,6 +413,7 @@
     if (!visible.length) {
       $feed.innerHTML = '<div class="empty">' +
         (terms.length ? "No matches in the last two weeks."
+          : todayOnly && items.length ? "Nothing added today yet."
           : items.length ? "Nothing under this filter." : "No items yet.") + "</div>";
       return;
     }
