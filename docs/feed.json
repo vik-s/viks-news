@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-07-25T14:14:21.791820+00:00",
+  "generated_at": "2026-07-25T17:33:52.677100+00:00",
   "model": "claude-sonnet-4-6",
   "sources": [
    {
@@ -11,11 +11,11 @@
    {
     "name": "ServeTheHome",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "The Next Platform",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -31,16 +31,16 @@
    {
     "name": "Tom's Hardware",
     "ok": true,
-    "count": 6
+    "count": 3
    },
    {
     "name": "IEEE Spectrum",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "The Register Off-Prem",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -56,12 +56,12 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Bloomberg (via Google News)",
     "ok": true,
-    "count": 1
+    "count": 5
    },
    {
     "name": "Reuters (via Google News)",
@@ -76,12 +76,12 @@
    {
     "name": "Korea (Herald / Times / Chosun)",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "SCMP Tech",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "EE News Europe",
@@ -585,7 +585,7 @@
    },
    {
     "name": "GlobeNewswire Computer Hardware",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -601,7 +601,7 @@
    {
     "name": "PR Newswire EDA",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "PR Newswire Computer Hardware",
@@ -611,7 +611,7 @@
    {
     "name": "Data Center Dynamics",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Data Center Knowledge",
@@ -681,27 +681,27 @@
    {
     "name": "Topic: HBM",
     "ok": true,
-    "count": 6
+    "count": 1
    },
    {
     "name": "Topic: advanced packaging",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: AI silicon",
     "ok": true,
-    "count": 6
+    "count": 2
    },
    {
     "name": "Topic: foundry / process",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: semicap",
     "ok": true,
-    "count": 2
+    "count": 1
    },
    {
     "name": "Topic: datacenter power",
@@ -736,16 +736,16 @@
    {
     "name": "Topic: neocloud / AI compute",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "Topic: enterprise storage",
     "ok": true,
-    "count": 1
+    "count": 0
    }
   ],
-  "candidates": 31,
-  "kept": 7
+  "candidates": 18,
+  "kept": 0
  },
  "items": [
   {
@@ -6319,6 +6319,24 @@
   "https://news.google.com/rss/articles/CBMidkFVX3lxTFA2X2pXVkxsV1FmUkJSMGRrbVlhS19WWGJ1SFBDSWZIMHlORlUweWJKcXFmOE0xSGZCbE5wZjhlaVRhQnN2WU9hcnBiQVdaREt0ejJodXBqZGZ2cnFpS3ZLMFN0ckcxdXhIMDJLVEt4bkx5d25wOUE?oc=5",
   "https://news.google.com/rss/articles/CBMilgFBVV95cUxNX1VZWWZSNllYdEktQ21BRlVCNFY5TFB0Q0V6SWMxWWYzQXA4WnZfSnp6cVNLVTY2NTNXRm43RkpvQ2h2RDJ0TlVweHQwUmpYZy1ETS1zUV9KTUN1Z29hTGpOSGl4WE1VUG15SzAzRGtXVVE0bDB6TFEyQ3RyNGFoSWhPZzRhMjlaT1JQaEFEYWRkLUp6WXc?oc=5",
   "https://www.tomshardware.com/tech-industry/drones/pro-ukraine-group-claims-it-helped-hack-russian-drone-air-defence-system-shooting-down-su-57-in-friendly-fire-incident-moscow-confirms-fifth-generation-fighter-jet-crashed-in-technical-malfunction",
-  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPN3F0NUFOUUgyVmRyR2NtanA1bHJ1WEVFeDJEY01lRlVtX3BHU0gzdjJWY0xtRmJ1M0szTVdIekwxemRNVWZpb0RKczFwaG1Hb1pCdHRFUk5FbHpna1l3bHM2UkplYy1oc2ZicXlhdXEzcE05N0FSQlhjdXlxMURkNldDLVB0V0xna0ZuVDJTekV0WTBsUXZHeml0c1FSc0kyUnNJblJOY1V0NktLWW5PelVYVGJGaWtKa3B0d0Y4WkEzU3JnSTN5Sw?oc=5"
+  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPN3F0NUFOUUgyVmRyR2NtanA1bHJ1WEVFeDJEY01lRlVtX3BHU0gzdjJWY0xtRmJ1M0szTVdIekwxemRNVWZpb0RKczFwaG1Hb1pCdHRFUk5FbHpna1l3bHM2UkplYy1oc2ZicXlhdXEzcE05N0FSQlhjdXlxMURkNldDLVB0V0xna0ZuVDJTekV0WTBsUXZHeml0c1FSc0kyUnNJblJOY1V0NktLWW5PelVYVGJGaWtKa3B0d0Y4WkEzU3JnSTN5Sw?oc=5",
+  "https://www.servethehome.com/geekbench-7-is-out-with-a-major-overhaul/",
+  "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-agent-goes-rogue-and-hacks-popular-ai-community-left-escape-plans-for-future-models-inside-the-companys-infrastructure",
+  "https://www.bloomberg.com/news/articles/2026-07-25/deepseek-said-to-tell-backers-of-funding-pause-after-viral-posts",
+  "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZmM5SHI4SGhzcko5THg1SGx5a1RiY2p0MExUU0R0NHM3T2pjN0NaR1piRGhGbTVDQll5aElhOHpOWnFUNC14S1dHNUtMaElCLTZFLTd5SW5OTmEyb2lUT1ZhVE5qQ2JvNzRiX3JrMWNIcDB5YWJYZ2luLXFfSk5hNXpLMndhdHpfWURFVl9OcmVpSGUzeDBTdEJlUFQ4cUZHQXZTMjdyM1NfQ3Z5N09zX0FPMEtvQQ?oc=5",
+  "https://www.prnewswire.com/news-releases/tony-jaa-becomes-gacs-30-millionth-customer--gac-wins-global-trust-with-true-craftsmanship-302834634.html",
+  "https://www.datacenterdynamics.com/en/opinions/the-key-to-the-data-center-power-problem/",
+  "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
+  "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQ2JRTXpEMUdwQjhSbmVlc2lWNjhLa0Q2dEtxSFBNVExIZUU2Ym9kQWpyb1M4NXNhOVZ6dVpzZy1PTWtrNjdWMDR2UHdMTFpUb05LLUNtQ255aVZSODlqYjNGam9pekhEeHVyZGVSZWdJSDBHb0ctTWZCZ2g1NHFKR1NCQWNmOFAtdXdRcXM1Y2ZVa3g4eTFzejhRRVp5dDVSbldmV19BWWjSAbABQVVfeXFMT2Z0SHRmMVVaQkxmU2E5eC14enNNMlRQMGFvbXJpMWRNTHkyOC14UEZHaVRJTjlKc3lGQURNT3ZyN1ptQlo4VW82WDZFRDhGVUZtSnVBdi1HWkk2TDNneVRyVWZlQVpiTnYzXzRPWUxldXhOVGZ5MGRGTzFEcWRRZERhU0owcTVFZzZVQkdoYjF4ZFMzLU9JX29OcWxxUlozQ0k1Q0xmZ2NXZFRjbEY5X1Y?oc=5",
+  "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ19YLUt0R2Z5cDlkSVFDd2lWaTAtaVp0NHpjYllieFFxaGs1ZDBHVVlnc3YtdnptNU4xakVQN2xwSVhpWW40Sm03aWNyRlEzbGdGMllwOVkwMjM4N19XVjlCdWRoenlBMEYzbnhybzBhek5xLUNoNU9TMEN6ZjlBSFdTYTE3QVRYOWJTZmZGQmZENnIxWnhXeE9IeF9pOVNOUlB4aGhWeWdrVU5DNHlocDUzZlVLYXZaRDJHQmxmNXJ6UQ?oc=5",
+  "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUHV4YnA2LURUazFpdHNJd3pMYS1USE9NNkR2WGc5VGpLV21jTU1vVnpKX3pOYzhERUN1OTNFUFJMUXVQTkhlS1VrbjVkcmJWbjVSb25va1ZBaXJoTWdFdU1aYW5HUzRvR3dIV2lKQmZfNFVUdzl2SFZsaXdCYTg5Y2ExLTlweUF4SmdGTGFrYllVb2xwLWdV?oc=5",
+  "https://news.google.com/rss/articles/CBMijAFBVV95cUxOM1R2ZFFoQ1M4eUJqSDh4TExFVUxxRWFWQWhvSWxfTFJxUS1zZEdHNDhlQV9uTlZySnFHUEJnM0hkTGloQkQzbWlkN1NLVjZmMHFxMXU0ZnQ2TjZPUjBiUEhDY3pocVc4OWJIZmxFTGRfOVNPc0dKRHpoNjhwR1FxbXQtbXlBTFlaSHE3eQ?oc=5",
+  "https://www.tomshardware.com/desktops/gaming-pcs/ram-machine-case-probably-costs-more-than-the-entire-build-nvidia-rtx-5060-core-ultra-5-cpu-and-32gb-ddr5-8200-ram-are-hiding-inside",
+  "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUXI1aFBRa21UWjR3akctdHNWX0ROM2dGdThfLW9QOGpKa0pMS29jOHZxbTY4VG1ueWdmTEtJWnhDQ1ZJVlg3MWs1Z0RYVnFqYzNqZTFlNDVyT081SVBhSzlZTzNfX3FHSW5jcE8wZ1AzYjhVbmN2MDdiRy0za252aExpWWxheDFOS0t2dk51OHRybkxDV3o0RTdEbi1XdGRzcUNVZmJDUjljYVJ1dHc?oc=5",
+  "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMURXUlpKZ0VISzVTbXJZVTJHN3M3SUdCenhKNkE3X2NDUjNZZnlKRTN4LUpEZklmYjVHQTd5a2paSlpLclNsSWRLb1JuOF9nRXZJSVBBQ1hxUmdyNVppNUVmdVVEN2tMS1hRXzV1aDVTLTJVUldUVWZrNzhFc2RBWkQxUURKemF0?oc=5",
+  "https://www.tomshardware.com/pc-components/grab-an-nvidia-rtx-5060-ti-gaming-pc-with-core-ultra-7-cpu-and-32gb-ram-for-under-usd1-200-thermaltakes-view-u2660t-170-slashed-by-33-percent",
+  "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMzhfS3hub3lRczNsZlpmQW5haWdtYnk1a2RqZ1pRTjNlQzhRdlJRZ0FlQ01teDdRVlNCWnhtZXJGRkQ1aFhvbXd2NEtubS1fZG0yaTJLa0xGVUlmTXZMSnZOcXFxcGZMUkxHV29LSmRFMEUtdWYzbzV6Q1pjVkVXSkxYYUoxRU9RVERNQURpSUN3UzNxZkVpTk50RlczRDF6V0llSUlSeDc1TjJOaXVJSzRDOGg4QQ?oc=5",
+  "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLWx5MjBueEVLRVZ0bWw1TjJOUGUzbWhwdENsbE9KZ2RuVlFVMXdpS0otbkw4c05NcE5zd1dIeDhaWDRKSWs1NVpEYUQzSm1QazhraTBFT3dSaE5xQk9BV091c2hqYlZlSlFITmF6eVNBc21TSUJQbkxzUDYwWGVsbDliYWpsY3V2aUFtaEtILVMyVERkeE1GWTR5ZGY0MU80VWF4MW1ucW5KcW4wX2VuZzFvSmo?oc=5",
+  "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbWVlbTNHS3laanQ2WE14LTExUFllZEdHTWp4WkZROGEzM1ZyNS1wSlZnVU1SbmtlbGUtT29sOWlTT1RwcUk3WF9RX3BybkhwY1N4Z0RFWHhtU0YxbVcxRm5rS0plWFNiRER4VDFQQmxrZVo0SE1wMnJGaVBORmxRbGlrXzVIVDc4RkR1MUg2QjF2N0lDM0t4QllEOHRkaVREbU4wMkJzLVlTdGJJVWY1M3ZkVXBnUQ?oc=5"
  ]
 }
