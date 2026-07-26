@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-07-26T17:36:18.112174+00:00",
+  "generated_at": "2026-07-26T21:29:57.062428+00:00",
   "model": "claude-sonnet-4-6",
   "sources": [
    {
@@ -11,7 +11,7 @@
    {
     "name": "ServeTheHome",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "The Next Platform",
@@ -20,7 +20,7 @@
    },
    {
     "name": "Blocks and Files",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
@@ -31,7 +31,7 @@
    {
     "name": "Tom's Hardware",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "IEEE Spectrum",
@@ -40,7 +40,7 @@
    },
    {
     "name": "The Register Off-Prem",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
@@ -56,17 +56,17 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Bloomberg (via Google News)",
     "ok": true,
-    "count": 2
+    "count": 1
    },
    {
     "name": "Reuters (via Google News)",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "The Elec",
@@ -76,7 +76,7 @@
    {
     "name": "Korea (Herald / Times / Chosun)",
     "ok": true,
-    "count": 2
+    "count": 1
    },
    {
     "name": "SCMP Tech",
@@ -285,7 +285,7 @@
    },
    {
     "name": "Weebit Nano",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
@@ -601,7 +601,7 @@
    {
     "name": "PR Newswire EDA",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "PR Newswire Computer Hardware",
@@ -636,7 +636,7 @@
    {
     "name": "SemiWiki",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Converge Digest",
@@ -701,7 +701,7 @@
    {
     "name": "Topic: semicap",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: datacenter power",
@@ -711,7 +711,7 @@
    {
     "name": "Topic: liquid cooling",
     "ok": true,
-    "count": 0
+    "count": 2
    },
    {
     "name": "Topic: interconnect fabrics",
@@ -741,11 +741,11 @@
    {
     "name": "Topic: enterprise storage",
     "ok": true,
-    "count": 0
+    "count": 1
    }
   ],
-  "candidates": 14,
-  "kept": 3
+  "candidates": 15,
+  "kept": 0
  },
  "items": [
   {
@@ -6652,6 +6652,21 @@
   "https://www.tomshardware.com/tech-industry/artificial-intelligence/open-source-3d-printed-portable-mri-machine-built-for-under-usd70-000-diy-medical-equipment-costs-less-than-7-percent-of-a-full-sized-mri-machines-usd1-1-million-starting-price",
   "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNVZNTkhjNjF6b3c4SEIxdy1KalY0X0V4eVB5WTAzNmYzazU1Mk44R242SWFMbi1kNHBaUjJRaUEta0pqbndxNzFXVVhCbkFoOGRVWDlIeEhvQ1VGOXM2RHg4UHc4NVYxVmpwT3Y4V3ZKRXlIOHFFR0NoNXRONVo1bVdWRnM1WUVfU3g0NTg3dm5sdEhGUlAwLTVPOWtNRmpOQ19ocFhMaEQ2TFF1VnpLN3hNWQ?oc=5",
   "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOEJZLUc0SW9id0JnMEV3cmkzd2Z4UU9jNkxRX2plVVN0WERpOEZnRWVCay1sU3R0ellkZU9RamdZOFZhMEZXaXFrSVBXSFNGNElDZEs0WENSMm01YnEzbDljY3lrai1UX1VFX1RKNzR0a2FMYW9aM0lPU0hkRElkT3BUWGVPeEk5X1BYME9uWGV0RDdCNV9yUDFnRWduUzhoVkI1Nkozdnc0RjB5Q3p5RDJJS2piTUptNEJRSkVQMGg1SFRpTHc3Vw?oc=5",
-  "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBjbmZXSzJMMTFqc0hYa1REcUpwZGJYZ0RKdk9QZ2lhblBFZ29NR0RmTmk0SXBpeUZrLUlJMkxDNG5JMUgxYlNvQQ?oc=5"
+  "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBjbmZXSzJMMTFqc0hYa1REcUpwZGJYZ0RKdk9QZ2lhblBFZ29NR0RmTmk0SXBpeUZrLUlJMkxDNG5JMUgxYlNvQQ?oc=5",
+  "https://www.bloomberg.com/news/articles/2026-07-26/european-spacex-rival-in-talks-to-raise-300-million-ft-reports",
+  "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbXhvdzhGMUNndXhLNjlzaWRhd2pac3ZscjAtWjdTbDI1V3RaQW5QVjhLZ0NjNjdJd3RIN0IwSDBCRGpHdlgyWTlzaFV2bXRISXJldGwtTUNncXNEREUzWkVwNXJ1UEFSLVVhaklIMnRqNk5OYmZxRXJuX1R2eHh5SGF1SWZ6bkRFLXBzekVTMEJDRU9LUWJGck1aWEZINlExaU0ycjRlU1RLWHR6S2lnUEl3NjhCV0E4eUE?oc=5",
+  "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNzlSSmd0bWhYSS1BLWpCeWduUTlBaEl5RWJZdUE4ZDZqY0lBakVzNlZSSHZpZ2E4M3pnd2gxbkZGUEV6MTVacVItZEZEQi10dl8xb3ZqSFBHQkFvckotcm1hUTBsUVRjVU5EejlaTl8zczJsOHpJRkNmaU9FbUpEeDVVVW5hZzZRZ2VfS9IBkgFBVV95cUxPWkplY2V1M2cybDltZGt3RU4zUDl1SGstUDhZX1pULXQzUXA5MUJKMV9Wd0dKS1JvOXdjLTYzQnFMSThZU2NtU2ZLTk43cWpNdzFzaDA4dmk3dHNFcUJKajZjRTEzNGE5aE5zVzZJNHZqaUhkczFMdFFxZE0wQ1hSN2lUR1k1MDFONE5QZjVIY25Rdw?oc=5",
+  "https://www.prnewswire.com/news-releases/tony-jaa-wird-der-30-millionste-kunde-von-gac--mit-echter-handwerkskunst-gewinnt-gac-weltweit-vertrauen-302834759.html",
+  "https://semiwiki.com/ceo-interviews/371562-ceo-interview-with-ohad-agami-of-hiveware/",
+  "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/",
+  "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPTmtmTW4xSmZhZ0xhdkNlTWtVSm1laEp1ckUyT084X0hHY0M2MEJkanFUQWZUTW5jOWtCVGVYeXlEaFk0MkZVSUYta1pGTlB0VjZJY0JpSTZ0bnlFOUpUTjZhWWdtbzltTnB6dkx3R1FZWGVpenpYZkh1Rnc1VlpFM0FBMDFnV3pobGZGRGFYREM2Uk9rZjFyNmF5NHROUW1SOVpDT2NuRF82cHJYLWp1aTB5QkdoRmtKb19kSlU1dmJ6bjZycGlNWVQ4cTkwWnVZWm1qTXZpa0NLVWtacWxVYnRNdDlOdWVpWVQ4SUpoemxhNkFZeXdvbjZtZkhoUFdLUmNBVkZVN3Y?oc=5",
+  "https://news.google.com/rss/articles/CBMiiAFBVV95cUxON2FlY0dla3lGV3lJak0wUUlRcW1aVDBKc2dvWm12ck1CQkhEMTNJV09Ra29SdnZJREdBY3hQUjhXZGJUaWFhSy1DcEs1Rl9VQ0lLNWgtMzVlMXd5Qmc0YTFzMXYtN0NmclN3RE50S0RleWJPNWVWRkxPQXlkbHlFQURaYXpyLWkz?oc=5",
+  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQ0ZFbVZXT3dkRWdTem1qbnhXUFZ2UVI1eTJ2akdVM2RWTGNfdUlxTDFsRVQ5N0FGTGlSdU1TVHgzckh1RHJJUUhXTGJ6cUJxYmlaZUxmZWtWM1BNbk5OaG9ScExsZ1RzaFdKZ0ZOUGd5QlM0OUt5RV9zM2tMbm8wRnlfMXZJMlFiemY4aVpIbEhSeTFKaXh4amoxd054d3FBMHFkZmpXYWdxWTVpYmNWUlFJV21WbTZaTzZoem5iZHk0bDVvdTZyYQ?oc=5",
+  "https://news.google.com/rss/articles/CBMifEFVX3lxTE9CTnlvNGczbGk0SUpVX3BpQk4zc3VYRmNHZ2ZwczVDcnluaUpPMFczSFdqcUVJcWJhYTJxZlZENEZRSU04TVVDZ1NRbzVyNzJQam9RNUExMkJIOTY2OTBjZ1ViZ1hvMlllNTJqUFhsT1pHVmZsSVE5Ymd5REE?oc=5",
+  "https://news.google.com/rss/articles/CBMifkFVX3lxTE96MXpDVGs5aFNKWDBtOThJVHZGUGI2TTNOcy1OeTQ1SkNFMkZBWU1sN0tWcWVBUThaZDRPMWU2LVp6Ynh0czZQUmtIMzR5NkNJeDM5WTR5SU5DdzFSQjJSTFIxT2NoblQwZkp6ZFZOWnpqOW9pT3hHTTNsLTFPZw?oc=5",
+  "https://news.google.com/rss/articles/CBMiVEFVX3lxTE84Qnh1bXc4ZmdWV01IZkZCWXVrdU16WXh1Wkd0S1BUNjhkSUtSdVFDNEQ2LVVFTDFoN3JXYllBc0pWRU9DakxkVlJDaXpfOTZUMWhlVA?oc=5",
+  "https://news.google.com/rss/articles/CBMid0FVX3lxTE1VWjJ2S3pybWpWT2dENkN2Z1JrOWtnc2VYQWV3YlJKUm12dnhqQVA5T1NSaVlOc04ycVVnclVnTHcxY0RPWmxmN3RZcGwxRi1xakdCeEdad3Z0alJwblJuaDFJcVBlOFZkVjV1cHpzRlRPb2p4WC1B?oc=5",
+  "https://news.google.com/rss/articles/CBMingFBVV95cUxNcTlDOFNVdEp5TXZ4c01HY28tdWItQlBBY3M2TEk5d2V5R1RkUWdjRUE4blhHTnNubzRoY3lYRHBwR0pwcG9jNXpGcnhHbm5BdHRET285Y3YwQnU2Yl9uSHNFeGtZQTJ3LW5DeFBLT3lYTkRuLW12T1RZTDJFZjc2a0xfVGtnSXRYZzFGQ3lfUnpZYkdiWHNQNUhiZTZSdw?oc=5",
+  "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNY0hmUnNxV3hRc3RodlBSX2Mzend0X0c0ZFlpanNJdmY0Y1AwcHl5T0NMZWx2aHdTdFdLM3NtOGNGbS01aTY4V2FSaU13TVlWbHpRTThpX2E3ZnUxVjZlNndGalplaS1ONGQweWk0ZUR3ZV9fVV9WZjVwTkpLRWdqcUNnUHoydkdkVjg4Zi05cXpxUzNfNktubFMyaG5TaW9jaUhpYTRTMjA1UVZBdlgzcVp6a1dpZi0waFozQkhhVWJJcVN5NmtYTEROM3VVeEZGejBtdTRB?oc=5"
  ]
 }
