@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-07-26T04:09:37.562609+00:00",
+  "generated_at": "2026-07-26T10:22:01.591062+00:00",
   "model": "claude-sonnet-4-6",
   "sources": [
    {
@@ -20,7 +20,7 @@
    },
    {
     "name": "Blocks and Files",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -31,7 +31,7 @@
    {
     "name": "Tom's Hardware",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "IEEE Spectrum",
@@ -40,7 +40,7 @@
    },
    {
     "name": "The Register Off-Prem",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -56,12 +56,12 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Bloomberg (via Google News)",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Reuters (via Google News)",
@@ -71,17 +71,17 @@
    {
     "name": "The Elec",
     "ok": true,
-    "count": 7
+    "count": 0
    },
    {
     "name": "Korea (Herald / Times / Chosun)",
     "ok": true,
-    "count": 2
+    "count": 4
    },
    {
     "name": "SCMP Tech",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "EE News Europe",
@@ -180,7 +180,7 @@
    },
    {
     "name": "Ayar Labs",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -481,7 +481,7 @@
    {
     "name": "Tower Semiconductor",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "SkyWater Technology",
@@ -641,7 +641,7 @@
    {
     "name": "Converge Digest",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Fierce Electronics",
@@ -651,7 +651,7 @@
    {
     "name": "TechCrunch AI",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Chips and Cheese",
@@ -681,17 +681,17 @@
    {
     "name": "Topic: HBM",
     "ok": true,
-    "count": 6
+    "count": 3
    },
    {
     "name": "Topic: advanced packaging",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: AI silicon",
     "ok": true,
-    "count": 10
+    "count": 5
    },
    {
     "name": "Topic: foundry / process",
@@ -701,12 +701,12 @@
    {
     "name": "Topic: semicap",
     "ok": true,
-    "count": 0
+    "count": 5
    },
    {
     "name": "Topic: datacenter power",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: liquid cooling",
@@ -721,7 +721,7 @@
    {
     "name": "Topic: SiC / GaN power",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: chip startup funding",
@@ -744,10 +744,76 @@
     "count": 0
    }
   ],
-  "candidates": 32,
-  "kept": 7
+  "candidates": 23,
+  "kept": 6
  },
  "items": [
+  {
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbUdrUkV2cVNSVnV3Q0ZDTkhTMy1RYU1EWVhiZ29TR3BTcmkweWxvRXFReGtUUkx2c1l1aTBLeU5PZnplU1ZXY1hwV1pZTVhwbDVuRXhoM1pSdElaX2lFTi1rY1FiN1BwT0Z2dGtPV0g1Q1A2YjJ1S0g2Q0Z5U2ZYUlBVVUJVVDVscU5KRnhrWklPR182bjhnUUROd291bkxCaXowMjRVcXlaWndRRXVua3EzV1Z3WGlvTXdlSG5mUkFuMjJ1bnNPeVFqS1RCZTg?oc=5",
+   "title": "Samsung Electronics and Broadcom Expand Strategic Collaboration Across Memory and Foundry Technologies - Samsung Global Newsroom",
+   "source": "Topic: foundry / process",
+   "published": "2026-07-25T05:32:00+00:00",
+   "why": "Samsung's official Newsroom confirms a broad Broadcom collaboration spanning memory and foundry\u2014primary source for the widely-reported $200B pact covering HBM and advanced process supply through 2030.",
+   "topic": "memory",
+   "tag": "deep-dive",
+   "date": "2026-07-26",
+   "added_at": "2026-07-26T10:22:01.591062+00:00"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTkt4Uk4yNDZLWEc1dVlFdl9abTNzdlZraXBvaDkyVTZkUXhiYkluVF9qa3BxQ29WLUxNclMwNXNHTGpFWTZJZzZ1SVhNQ2ZnVU1pbUh3ZGxYMVdNZ2hqWmZ5Q29lWjNmUVpkYmNQTjlsenJ6Y2JvaHZsSk9FOGRYbGxabHhUYTNUajAzTDFxbHZuUXhfd29YZ3VFX2VLdU0?oc=5",
+   "title": "Samsung Strikes $200 Billion AI Chip Deal; SK Extends HBM4 Supply to Microsoft - Seoul Economic Daily",
+   "source": "Topic: AI silicon",
+   "published": "2026-07-26T09:29:38+00:00",
+   "why": "Confirms SK Hynix extends HBM4 supply agreement to Microsoft alongside the Samsung-Broadcom deal, showing concurrent HBM4 supply-chain commitments to two major hyperscalers.",
+   "topic": "memory",
+   "tag": "digest",
+   "date": "2026-07-26",
+   "added_at": "2026-07-26T10:22:01.591062+00:00"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSFJJcDJfU3pPUHR3ZDI1RkJ1cmI1OXJYZnlYYlpSemQ1UXVQMk9SVmNRVUk3dXo0dTF1Nlpicm52THRWZG1GeTFuWkhHbXJWbjVpQmhIVU50eDRPdnNOSG9IVGVjVURsdVZNQm1qcU5lWmxIcVJ4QzY5Z2xndF9LemlrZVJTNGJ4ZUpRQjhyVV93b1JWVlNyUzV3dXkyUFh5RDl3N2lLMHUtX3Y0T3d3QXVXeHhnSlhlTUZzUDJ3VWthUkphZ3c?oc=5",
+   "title": "SK Hynix\u2019s HBM Dominance Faces Its Sternest Test Yet as Earnings, ADR Arbitrage and a 31% Monthly - AD HOC NEWS",
+   "source": "Topic: HBM",
+   "published": "2026-07-26T04:50:49+00:00",
+   "why": "SK Hynix HBM dominance story ahead of earnings highlights competitive dynamics and a 31% monthly ADR move, relevant context for upcoming results that matter to the HBM supply chain beat.",
+   "topic": "memory",
+   "tag": "digest",
+   "date": "2026-07-26",
+   "added_at": "2026-07-26T10:22:01.591062+00:00"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcE5SSnhjbDJIQ19LeWozbWhOckdKZXhiY0Q4MEdLLVA0TGg4V21XRWlnbjlxSEtSaE9Dalk1WWVTSmFnSFlkTWZ2MGpCZy1nZVQwbU9LTmYydlRGdW5UREtaU0t3STRMcVRERGx2QUI5akhndTFIVWFXN2hHMjJxVWZVOUNqaXpXMG1wWHlKMWgzNGVibDNSQVo5S3d0RGJqTVpnQVVHU1gwa3F0TnRtUjBmb2dLLUZvRzR0endyOVk0ODFQcmZQYndMdWJTWGM3QTJN?oc=5",
+   "title": "Nearly $1 trillion in deals: U.S. Big Tech, Korean chipmakers align to steer future of AI - Korea JoongAng Daily",
+   "source": "Topic: AI silicon",
+   "published": "2026-07-26T10:07:45+00:00",
+   "why": "Korea JoongAng Daily aggregates the ~$1 trillion in U.S. Big Tech\u2013Korean chipmaker deals (Samsung, SK, Hyundai), providing the broadest supply-chain context for the week's headline partnerships.",
+   "topic": "ai-infra",
+   "tag": "digest",
+   "date": "2026-07-26",
+   "added_at": "2026-07-26T10:22:01.591062+00:00"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMXh2aGVZdTVwYldleVNvM0t1WUdwNU44a2dnbURHSWRhM0pITENjaFgyOFVseWVFM3VvTzhzQmtiNGgwcVhxRUl6MWR6OVI0NjNNT3ViWU9KYlJnOU51TFJoNWo2cXhpMkNSX0oyeDhVWDdNWWFCRFJMZTdoYUZqcW8yNjNYUWpsT1hiX2liSHdGR0FBVHcwdkJ6RnZiUXk5MmcxQ0NnSzdsSlJHUktkZ3BfNWNLci12Y3NpcGxsM01GQjVWMVFwUU5Saw?oc=5",
+   "title": "After a 22% Pullback, Semiconductor Equipment Stocks Face a Pivotal Earnings Test - ChartMill",
+   "source": "Topic: semicap",
+   "published": "2026-07-25T12:15:56+00:00",
+   "why": "Semiconductor equipment stocks down 22% face earnings tests from ASML, Lam, and others this week\u2014a pivotal read-through for capex and leading-edge capacity signals.",
+   "topic": "ai-infra",
+   "tag": "digest",
+   "date": "2026-07-26",
+   "added_at": "2026-07-26T10:22:01.591062+00:00"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9MbWdDVzJ4SHltVFpLczZUZHJVMnhfc3dfTTZabDItUkg2bkJzNTEwYjFJZVFRUklwX3pUd09RM3hpZDVIV05mQ0hQR3ZMQXh0TElPSC1DNA?oc=5",
+   "title": "Coffee-less coffee and chocolates without cocoa \u2015 survival and politics of North Korea subsitute economy - The Korea Herald",
+   "source": "Korea (Herald / Times / Chosun)",
+   "published": "2026-07-25T07:00:00+00:00",
+   "why": "Northern Virginia datacenter cluster exposes a 3 GW grid blind spot, a concrete infrastructure constraint relevant to AI datacenter capacity planning and power beats.",
+   "topic": "power",
+   "tag": "fyi",
+   "date": "2026-07-26",
+   "added_at": "2026-07-26T10:22:01.591062+00:00"
+  },
   {
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1iQ1k1dG1zSHY0Z1cwWi1ibUlfaVdFR3g4RzRDQzZBaGUzZ0FWNjFBSS1rOG1sbUZyTl9EejV3M1QxWlR3QUk5S0VCa3JRN3BoRFBFa0c5M3hXOEdIQWlMTFFMVUdSRkR4Rko2RnE2N29UOXc?oc=5",
    "title": "Samsung Ships Industry-First Commercial HBM4 With Ultimate Performance for AI Computing - Samsung Global Newsroom",
@@ -6463,6 +6529,29 @@
   "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZUE4LS1ya2J3cDBEXzhGb1hraUJIdjlFbTMwbTduek9QcERaZ1NLZzJuUUdqamZLQzg5U19Lal93dGg5RmlKRUs2MGVnT2FWYk5KZ3I1UVFFWGY2eFBKVTNfY0ZDaWhxZkMtWWhQaUZwQXRpaXFZWWJrLTNCMGdrVFI2UzNCeUZXT1VaVjJuWjBXdVFHSlRjcVdad1RLV1RxV0FPcmU5bENReHBtSGppY180clJ5LWM?oc=5",
   "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HT0F4YmlMNktEclFtT2hKZFB4a2s1ekdqMWZHbjh4eVpNMEtoeHRKTkVGMmlUXzBxRDJ6SF8wSXN1OEZVTXZDb0t5Sy1MOEdKY1FF?oc=5",
   "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPc1dWTndFT0NxVlFmbzZjZ2pTWlduSkhjMXVza3NRZ1pfWmN4SFg3bE85NTQzZnRvNWVPOW50ZXQ3bHUwM1FzUXR3bkpCeU5WOUxwU21KaHN3NmhGZG9vSEJNNEkzY3VIejJNUmRQbWd2VG9MXzM2YWRzSDY1QkRYSkxJbVJRSWFsOGxR?oc=5",
-  "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNQjEwQUNITXktWTJhMzNrblFjSk9BWHRrU3R0WW12YWx3OEhwTTFrX1RsYW91dnBxZDJ2NDBvREprbU4zM0VQS1M2N0kzbm9FOVI0RmNKb3E5Qk5vN01zeFpYTzlwaE9nNGJneTJ0dzJsNFZTUjNJeTdHTm55aS13V2hBTHpjWkNxbUxfV240eFk0eHpaQ1VEaTg1Qlc2OW5tV0ZGc0JpeDlPZUFpdmo4ektQS2dnSU9qTnpybGUxdUJ5NnFObUwtdFpXWDlvV1JfOUt3dEV6dWg5LWJEbVZnTzNGUzRKN0Jh?oc=5"
+  "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNQjEwQUNITXktWTJhMzNrblFjSk9BWHRrU3R0WW12YWx3OEhwTTFrX1RsYW91dnBxZDJ2NDBvREprbU4zM0VQS1M2N0kzbm9FOVI0RmNKb3E5Qk5vN01zeFpYTzlwaE9nNGJneTJ0dzJsNFZTUjNJeTdHTm55aS13V2hBTHpjWkNxbUxfV240eFk0eHpaQ1VEaTg1Qlc2OW5tV0ZGc0JpeDlPZUFpdmo4ektQS2dnSU9qTnpybGUxdUJ5NnFObUwtdFpXWDlvV1JfOUt3dEV6dWg5LWJEbVZnTzNGUzRKN0Jh?oc=5",
+  "https://www.tomshardware.com/pc-components/gpus/ai-enthusiast-adds-nvidia-tesla-v100-as-loud-as-a-lawnmower-to-gaming-pc-for-usd266-32gb-of-vram-rig-can-run-27-billion-parameter-model-at-32-tokens-per-second",
+  "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQkhPY08tQVlxNjFYRGZzd1hHRWRrY1B4eHpoSFR6X1pocS1wN3RhSlNTSXJtelZkY3ltMjR0clFPR2NJN2RjTjVXZlBpUnJXUlNmUlUxRHVxb0VoQll2WEVHS0RnY2RPTmdiLUpBQkUtV0hjQWNTWlhiOTlqeWd6T2E4cFBzTENsRmVseGxLZFdmVElLTFlUT0pLY1dFR1JfRXgtNjFXUW9mNWhuaGdLUWo1M3RlNEV6SVpiV056ak0zY042XzQ00gHMAUFVX3lxTE1UV3FyeWp1dWNzWUdHa0lqTHZpZVhsaVY2amRmeGlkUmZ1TXNtTkdfdXRYU2pzbTV1QUdyb3hKR0ZTWUJWcGxuNHJxNV95bEJfWmdSaml5a0dnNmt5ckJOcXpHM3MzRDRaZ0UxaS13Z1c3MGxGR3VYZldfUzdzbEV0VUtzR2Rjam9QTHZyWTIzS1BVbnpJWE1qY19PWnVKa3NKSjJRbl9nTG1GN19vS0p2eXVaSkhyTWFGXy1EZ2Zvd05HaG0xODVlaDZZYw?oc=5",
+  "https://towersemi.com/2026/07/26/spie-defense-and-security-2027/",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSkRBOGdFRnBZcTBXaFlQaUNfWjVyQmNlUi10VXB5c0twX2ZzOEZQVEN4RHJUcm1VMFhyTFZ6Z01iLWc2WVNtTEVaT0piaWgyQ19wMXVTRzhUZ0VodFFfVHdhSzk5Zkl0UHFWQXJpOUF5MG5ScjUzSzZ2NkY1eGRJUUp3XzJDTXRCb3MyaFFBMFpLQ3JPeXpYT20wYmhsWDVaRHFfM19zaDM3akhOMTI1UXhvY9IBuAFBVV95cUxNTFRBNUNTek9jSENoQ291a25YZVFxMmY4X3YwT3Nob3huSHV2QlFMSEROWHJaYWJkbGJZVkZXM0pIYTFUTDhfSm8tOVZiOFNsNFBUWXpDVGRyWXc2WkgwYVc4Qmh4Q3YxLWtTblZONE1DcUwxS21JQzhWTkEwOVlfOTVhNzlRZmtONlRBTTlTdmtvempFTThKelRZZW9RbkQxYm9SUU9qdjFmSmVMaTZpdHBnTmxXNk9j?oc=5",
+  "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX2t3QnRpVEppZlpaS1RUa1RLM2x2YXZVTDhpc3N6b0FWR1FZQVFfNGI2YU13NF9KU0NlNjNmcWl4QTNZZDNlb3RtNFRWLVpuaXBhR0FEb1VnQk94V2FLOXpnZmhESlRVRUdXRFpWeGhua01Wb09xYjdhV2RvT3V6RGxvWVg?oc=5",
+  "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSXBLaGd4WTY5RzJTS3U4TWYzUzlGSXlLUC1BWlZobXJ6RHNwQ1I1V3hTTkRqa0M0clBzbTdyQ2VaaVZKZVBlN0hxQ1VTQnRYX2lRNUpaQ2F3Wjc0OERwakxaUEl1LVg5eFN6X0hyZjFBWl9vanBwX1ZYR1JzVjJucTlQY2lFTnNRTU8tSVZ6aG9mdGc0bDQxb3pIb3VuejhuNzRhYnRhWW9NV2hSa2hTeWdZQkRZa2lsRHA3SWhJZl9aY0JpampsOHZBc3hVQkRscG1XUmwxQThBMHZEX1p3?oc=5",
+  "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbUdrUkV2cVNSVnV3Q0ZDTkhTMy1RYU1EWVhiZ29TR3BTcmkweWxvRXFReGtUUkx2c1l1aTBLeU5PZnplU1ZXY1hwV1pZTVhwbDVuRXhoM1pSdElaX2lFTi1rY1FiN1BwT0Z2dGtPV0g1Q1A2YjJ1S0g2Q0Z5U2ZYUlBVVUJVVDVscU5KRnhrWklPR182bjhnUUROd291bkxCaXowMjRVcXlaWndRRXVua3EzV1Z3WGlvTXdlSG5mUkFuMjJ1bnNPeVFqS1RCZTg?oc=5",
+  "https://news.google.com/rss/articles/CBMitgFBVV95cUxOb1BMOWdneDZ1VTd4TExfRHFzZjQ2b1BNUmZZREdlTWU0Z3o2WXVibGxVR1JfMFNqbmsxYzFHRHVScTJoZjRNS1FSVTF4UTJIUmE4bHdSOXRxVWZLT2RubzFYdHZpNkpKUV9GUnVUalF2NFpWdzBzeXdyQzRwcUZkQloyWkRjLVFLUUtyajZXWk4zcGhockZabHpqMlpnTUhQRUR4TFQ1dU43a0FqeGpFSkZISTl1Zw?oc=5",
+  "https://news.google.com/rss/articles/CBMilwFBVV95cUxOX3IyNjdKZFVDZGFwMW5QYk02THF4WHVBVW1tMGN1OE43b2dTUWtlNFBIVDlUVkFZU3JDX21XbloyWlNNQ3JOaGxzdEVWOFU0R2oyS05FUFVrUkNwR3BJbUNwX1RsR3ZlQk5iMDdWazdsZGR1WUZsOVJaOENxQjBKemN5b2NjUkh0ajlYSUZyU2RkOGZWWWRN?oc=5",
+  "https://news.google.com/rss/articles/CBMidkFVX3lxTFBiRDNfUXhKcFp3dzBfUXhNVmRoQkdIQ3BDUVhkUlVlNWpuemlwdGJhWFJxWDFpVUdCeUtwaGprZHhuYndZalhXaHAzdU9yVS1QdFFjbUdyTDRTeUVCSzJnSXFycncydC1WWkwxOGZSQU93bTNvLWc?oc=5",
+  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9MbWdDVzJ4SHltVFpLczZUZHJVMnhfc3dfTTZabDItUkg2bkJzNTEwYjFJZVFRUklwX3pUd09RM3hpZDVIV05mQ0hQR3ZMQXh0TElPSC1DNA?oc=5",
+  "https://news.google.com/rss/articles/CBMixgFBVV95cUxONk9kQzVxV3REMVVaNWJacDM0UjRaN0EzbnRLbDFEcFVNd0VUR25TdnZLcVl0UnBSVEVJNEZ0SEQ4N1RTMUtWTFFaTnZpaXVsR3hBTHpkbEVHYk1qekpILXBRY0NsdTI3Z2U0dkIySUtiTXVCMk93QXdxdVVqYUdVOHFVdFRFZHlBb3A2aFprVmxoTTNRWjJtUnJzSHRvV2JGdVJwdFFfUWZncnQ1RDRuUWtfUFVfR0dJOGtHcVV5ZFpWdUdfbkE?oc=5",
+  "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUU9CVHpkV1BIdk02TUd1eDZJXzRpZ2l6U1dfR2lmdTJWT19GR3lqZnJPTU9oS21wQm5vaC1QWHZqY2FUZjNLODVZVUh1ZkRXRHpCdUJRamVwdHRkQnBhdzlPWkhOaDhlYXJQYmRPN09IR3RTRGwybDFsRE1oSmg1Q3pHTDBYdU1sXzZkUVZPR2hSZWpVc1RNMk1qNzhwQ0l1OXZSQzMwVWlxOW5JaDUwSmNrdDNjUzB5UnpSeTVFQQ?oc=5",
+  "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMXh2aGVZdTVwYldleVNvM0t1WUdwNU44a2dnbURHSWRhM0pITENjaFgyOFVseWVFM3VvTzhzQmtiNGgwcVhxRUl6MWR6OVI0NjNNT3ViWU9KYlJnOU51TFJoNWo2cXhpMkNSX0oyeDhVWDdNWWFCRFJMZTdoYUZqcW8yNjNYUWpsT1hiX2liSHdGR0FBVHcwdkJ6RnZiUXk5MmcxQ0NnSzdsSlJHUktkZ3BfNWNLci12Y3NpcGxsM01GQjVWMVFwUU5Saw?oc=5",
+  "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRGEwLUFHUGdUbmRnNHJhaDlSWS1SNWJ4ZlZPQ0RWTDYtckVTczJEanM3YnF1Qklfb3VQd09TZ3UtVldCWk5KMmJpYVlmdGdaMEZ0djBBMmgzUWZPYWtFMGtoNDJqV0poNU9WYkEyY19DU1NvY0FuNEdUbVZUNzdVdVJUU2I1TjZCTEFvcnVzbk9JOEhuamE3dGgzS2VsV1UtbWh2TDB0b2JwMDZGZ3lIS05XaUZEd2JSdVNESWhVOHNfcGtaMEFvMHJPV1U?oc=5",
+  "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSFJJcDJfU3pPUHR3ZDI1RkJ1cmI1OXJYZnlYYlpSemQ1UXVQMk9SVmNRVUk3dXo0dTF1Nlpicm52THRWZG1GeTFuWkhHbXJWbjVpQmhIVU50eDRPdnNOSG9IVGVjVURsdVZNQm1qcU5lWmxIcVJ4QzY5Z2xndF9LemlrZVJTNGJ4ZUpRQjhyVV93b1JWVlNyUzV3dXkyUFh5RDl3N2lLMHUtX3Y0T3d3QXVXeHhnSlhlTUZzUDJ3VWthUkphZ3c?oc=5",
+  "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcE5SSnhjbDJIQ19LeWozbWhOckdKZXhiY0Q4MEdLLVA0TGg4V21XRWlnbjlxSEtSaE9Dalk1WWVTSmFnSFlkTWZ2MGpCZy1nZVQwbU9LTmYydlRGdW5UREtaU0t3STRMcVRERGx2QUI5akhndTFIVWFXN2hHMjJxVWZVOUNqaXpXMG1wWHlKMWgzNGVibDNSQVo5S3d0RGJqTVpnQVVHU1gwa3F0TnRtUjBmb2dLLUZvRzR0endyOVk0ODFQcmZQYndMdWJTWGM3QTJN?oc=5",
+  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTldiRlJpSVF3aVlKdlQ0LW5Od05GanB1YzhoQlo0TmlHVWgxbFhoTVlfQWhjeUFsdWdiRVRiTjdwNnVKQnQtODFJVW0zN0xTaDVab2pleEFkRWpTTm9xRW56WUdtaHBJWU9oeTRjNlNmZm81bVBCRVV1aExmU205UGVoTm93YXBESEZPZkhCS2wxeUJiZG4xUXN5V3hzcDBHVnRrVWwyUW5nNnQ5NjJYY252cnB2VXo2UUhTcEVNdW1KUVFEd0hiMA?oc=5",
+  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU0M0Tk1oclVMeFE5Rmg1VVJ5cXF3RmdVWkJZWDA5WjdaRFVKUEp6M05BSldnM09lZFFuaWNjcjB1a19yT3lHbDhYVFhoTnY1N3drQTVqUVEwVVBINklCSGM5V0NNS0NiT1JpS1BLZVFUSFZRQ3dzWk1BdGY4SUloSmlLLUNfcXVoRDRYZ2pEY3ktTVJJbkJZUmUwQWVqcXVUWEFoT1hyYW85al9RR2FhOXRhNmpibG9fd0NzWl82WHJJV1hST3luNtIBzgFBVV95cUxQZnRkdTVjR0wyenN1RzIzbkxNSVNVdjQ4VE1oZ2JYMkdDSXFlQXR2RnFicWFRYnZDVVgxdXNiUVhicFk4VjhWeFlnN3JockxLd0ViQzFmNjQ5dGVmMmdaekRFQk4xdXA5TThXV2xYUkZKaE52QVBud3NGOC1aWGpibUxFSTZ3d3VNSVZfQkdIbWRvZTBYWUJMMUs2czctTFNKX0NDcWVHeXR5dTBlWHZ2V1dxdm10ZXk3Q1hnT2hZcjlVeE1Fbk45eVkwaXZEQQ?oc=5",
+  "https://news.google.com/rss/articles/CBMifkFVX3lxTFBUY3RGMl93djFnMUxKci03eVRCdHh5ZjYwYXVyeXlPUWN6aWVuSjA1ZFh1LU82X3FGZHZBNXJ6bDFZdi1nUHFNQ0dPdDJ1N2taNTVfZmdOd0lLYmhsTEllLVRRV1BDdlFEcjJzMlQ3cl94UEhBSE1PTEVNU3dCdw?oc=5",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYWFBdWozSHBRbG1HSzJTTlYxdENfLTY0b0t4Uy1wWGR2SnY2eWt0NWxuaUZLM0hpZ1VhNG4yQV9nc181b0lKeHFlS0hRNGdJZFBuQlpGd3pLdGhYOGRlZDF0dXM3NXBGYzh0ajV6dnQtMVVIcDVTZFU0aFFFbGJhU2toSG94WmI2bmh2b2hWXzRyOUN6QzQtZUU3THBjTE1fV21PS3F1eElQSEFlWUo0MUVsYWI4aW9FVTA5aWtOdTI?oc=5",
+  "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTkt4Uk4yNDZLWEc1dVlFdl9abTNzdlZraXBvaDkyVTZkUXhiYkluVF9qa3BxQ29WLUxNclMwNXNHTGpFWTZJZzZ1SVhNQ2ZnVU1pbUh3ZGxYMVdNZ2hqWmZ5Q29lWjNmUVpkYmNQTjlsenJ6Y2JvaHZsSk9FOGRYbGxabHhUYTNUajAzTDFxbHZuUXhfd29YZ3VFX2VLdU0?oc=5",
+  "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTEVXV2xkdl84NTdvQkIxeDRrOXN2cFZTc1RIcldFUHM2RUgzS25rTFVpYlp2YURzS3F1dXA3bGdzRWpxbHh3M21LWDlaSlJ3M25yY3BQaWNPdUV6MlhJX2lSMlpBLXIyWFZaeWcwSGJSd0Yxb1k1bTFDMWJhNlVVaTc3RjBuanUxeWdPRzV0M3lKTk8wTmZhVV9GOFVBZmEwcmVaMjkwbFcyR2F3bmt2Y1AyZmZCY1czdDVzV3AwblBlQ1F1VllnQUVhZXVRUQ?oc=5"
  ]
 }
