@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 """Build docs/feed.json: fetch sources, curate with Claude, merge, write.
 
-Full run:      python scripts/build_feed.py        (needs ANTHROPIC_API_KEY)
+Full run:      python scripts/build_feed.py        (needs OPENROUTER_API_KEY)
 Source check:  python scripts/build_feed.py --dry-run   (no API call, no write)
+
+Curation runs through OpenRouter by default. Set FEED_BACKEND=anthropic with
+ANTHROPIC_API_KEY to use the Anthropic Messages API instead.
 
 A failed run never touches the existing feed.json.
 """
@@ -23,8 +26,26 @@ FEED_PATH = ROOT / "docs" / "feed.json"
 SOURCES_PATH = ROOT / "sources.txt"
 PROMPT_PATH = ROOT / "prompt.md"
 
+# Two backends behind one call_claude() signature:
+#   openrouter — OpenRouter chat-completions API with OPENROUTER_API_KEY
+#                (billed to the semidoped OpenRouter tokens, same as the
+#                semidoped-news cloud runner and the EA jobs).
+#   anthropic  — direct Anthropic Messages API with ANTHROPIC_API_KEY,
+#                kept as an alternative metered path.
+# Selection: FEED_BACKEND wins; otherwise whichever key is in the environment,
+# OpenRouter first. The direct-Anthropic path is what silently broke this feed
+# on 2026-07-31 (a payload-independent 400 from the Messages API), so both
+# paths now surface the response body on failure.
 API_URL = "https://api.anthropic.com/v1/messages"
+API_VERSION = "2023-06-01"
+OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 MODEL = os.environ.get("MODEL", "claude-sonnet-4-6")
+# Model name → OpenRouter slug (verified against /api/v1/models).
+OPENROUTER_MODELS = {
+    "claude-sonnet-4-6": "anthropic/claude-sonnet-4.6",
+    "claude-opus-4-8": "anthropic/claude-opus-4.8",
+    "claude-haiku-4-5": "anthropic/claude-haiku-4.5",
+}
 LOOKBACK_HOURS = int(os.environ.get("LOOKBACK_HOURS", "36"))
 KEEP_DAYS = int(os.environ.get("KEEP_DAYS", "14"))
 MAX_CANDIDATES = int(os.environ.get("MAX_CANDIDATES", "120"))
@@ -151,28 +172,81 @@ def collect_candidates(sources, seen_set):
     return picked, statuses
 
 
-def call_claude(api_key, system, user_text):
-    body = {
-        "model": MODEL,
-        "max_tokens": 8000,
-        "system": system,
-        "messages": [{"role": "user", "content": user_text}],
-    }
+def model_backend():
+    """Which model backend to use. FEED_BACKEND overrides; otherwise pick by
+    whichever key is present, OpenRouter first."""
+    forced = os.environ.get("FEED_BACKEND", "").strip().lower()
+    if forced in ("openrouter", "anthropic"):
+        return forced
+    if os.environ.get("OPENROUTER_API_KEY"):
+        return "openrouter"
+    return "anthropic" if os.environ.get("ANTHROPIC_API_KEY") else ""
+
+
+def _fail(where, resp):
+    """Raise with the response body attached. raise_for_status() discards it,
+    which is what made the 2026-07-31 outage undiagnosable from the logs."""
+    raise RuntimeError(f"{where} HTTP {resp.status_code}: {resp.text[:500]}")
+
+
+def _call_openrouter(api_key, system, user_text):
+    resp = requests.post(
+        OPENROUTER_URL,
+        timeout=240,
+        json={
+            "model": OPENROUTER_MODELS.get(MODEL, MODEL),
+            "max_tokens": 8000,
+            "messages": [
+                {"role": "system", "content": system},
+                {"role": "user", "content": user_text},
+            ],
+        },
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+            "X-Title": "viks-news",
+        },
+    )
+    if resp.status_code != 200:
+        _fail("OpenRouter", resp)
+    data = resp.json()
+    choices = data.get("choices") or []
+    if not choices:
+        raise RuntimeError(f"OpenRouter 200 without choices: {str(data)[:300]}")
+    choice = choices[0]
+    if choice.get("finish_reason") == "length":
+        raise RuntimeError("OpenRouter response truncated at 8000 tokens")
+    return (choice.get("message", {}).get("content") or "").strip()
+
+
+def _call_anthropic(api_key, system, user_text):
     resp = requests.post(
         API_URL,
         timeout=240,
-        json=body,
+        json={
+            "model": MODEL,
+            "max_tokens": 8000,
+            "system": system,
+            "messages": [{"role": "user", "content": user_text}],
+        },
         headers={
             "x-api-key": api_key,
-            "anthropic-version": "2023-06-01",
+            "anthropic-version": API_VERSION,
             "content-type": "application/json",
         },
     )
-    resp.raise_for_status()
+    if resp.status_code != 200:
+        _fail("Anthropic", resp)
     data = resp.json()
     return "".join(
         b.get("text", "") for b in data.get("content", []) if b.get("type") == "text"
     )
+
+
+def call_claude(api_key, system, user_text):
+    if model_backend() == "openrouter":
+        return _call_openrouter(api_key, system, user_text)
+    return _call_anthropic(api_key, system, user_text)
 
 
 def parse_json_array(text):
@@ -258,12 +332,20 @@ def main():
             log(f"  [{c['source']}] {c['title']}")
         return 0
 
+    backend = model_backend()
     kept = []
     if candidates:
-        api_key = os.environ.get("ANTHROPIC_API_KEY")
-        if not api_key:
-            log("ANTHROPIC_API_KEY is not set")
+        if not backend:
+            log("No model key set (want OPENROUTER_API_KEY, or ANTHROPIC_API_KEY)")
             return 1
+        key_var = (
+            "OPENROUTER_API_KEY" if backend == "openrouter" else "ANTHROPIC_API_KEY"
+        )
+        api_key = os.environ.get(key_var)
+        if not api_key:
+            log(f"FEED_BACKEND={backend} but {key_var} is not set")
+            return 1
+        log(f"Curating {len(candidates)} candidates via {backend} ({MODEL})")
         kept = curate(candidates, api_key)
     log(f"Kept {len(kept)} of {len(candidates)}")
 
@@ -289,6 +371,7 @@ def main():
             "meta": {
                 "generated_at": now.isoformat(),
                 "model": MODEL,
+                "backend": backend,
                 "sources": statuses,
                 "candidates": len(candidates),
                 "kept": len(kept),

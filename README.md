@@ -1,8 +1,12 @@
 # viks-news
 
 Personal daily semiconductor news feed. One scheduled job fetches RSS sources,
-one Claude API call filters and summarizes, and the result is a static card
+one model call filters and summarizes, and the result is a static card
 feed on GitHub Pages. No servers, no database, no pipeline stages.
+
+Curation bills through OpenRouter (`OPENROUTER_API_KEY`), matching the
+semidoped-news cloud runner and the EA jobs. Set `FEED_BACKEND=anthropic` with
+`ANTHROPIC_API_KEY` to use the Anthropic Messages API instead.
 
 ## How it works
 
@@ -22,10 +26,10 @@ From this folder, with the [GitHub CLI](https://cli.github.com) logged in:
 
 ```
 gh repo create viks-news --public --source=. --push
-gh secret set ANTHROPIC_API_KEY
+gh secret set OPENROUTER_API_KEY
 ```
 
-Paste an API key from console.anthropic.com when prompted. Then:
+Paste a key from openrouter.ai/keys when prompted. Then:
 
 1. Repo Settings → Pages → Deploy from a branch → `main`, folder `/docs`
 2. Actions tab → "Build feed" → Run workflow

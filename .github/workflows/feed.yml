@@ -24,10 +24,15 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      # Curation bills through OpenRouter, matching the semidoped-news cloud
+      # runner and the EA jobs. The direct Anthropic key is no longer used
+      # here: it started returning a payload-independent 400 on 2026-07-31
+      # and silently froze the feed for two weeks.
       - name: Build feed
         run: python scripts/build_feed.py
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FEED_BACKEND: openrouter
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
 
       - name: Commit feed
         run: |
