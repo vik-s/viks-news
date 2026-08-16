@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-08-16T16:54:55.091605+00:00",
+  "generated_at": "2026-08-16T20:51:59.057944+00:00",
   "model": "claude-sonnet-4-6",
   "backend": "openrouter",
   "sources": [
@@ -12,7 +12,7 @@
    {
     "name": "ServeTheHome",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "The Next Platform",
@@ -21,7 +21,7 @@
    },
    {
     "name": "Blocks and Files",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
@@ -32,7 +32,7 @@
    {
     "name": "Tom's Hardware",
     "ok": true,
-    "count": 3
+    "count": 0
    },
    {
     "name": "IEEE Spectrum",
@@ -57,12 +57,12 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 1
+    "count": 3
    },
    {
     "name": "Bloomberg (via Google News)",
     "ok": true,
-    "count": 1
+    "count": 2
    },
    {
     "name": "Reuters (via Google News)",
@@ -77,7 +77,7 @@
    {
     "name": "Korea (Herald / Times / Chosun)",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "SCMP Tech",
@@ -181,7 +181,7 @@
    },
    {
     "name": "Ayar Labs",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
@@ -607,7 +607,7 @@
    {
     "name": "PR Newswire Computer Hardware",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Data Center Dynamics",
@@ -637,7 +637,7 @@
    {
     "name": "SemiWiki",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Converge Digest",
@@ -712,7 +712,7 @@
    {
     "name": "Topic: liquid cooling",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: interconnect fabrics",
@@ -737,15 +737,15 @@
    {
     "name": "Topic: neocloud / AI compute",
     "ok": true,
-    "count": 5
+    "count": 0
    },
    {
     "name": "Topic: enterprise storage",
     "ok": true,
-    "count": 0
+    "count": 1
    }
   ],
-  "candidates": 13,
+  "candidates": 12,
   "kept": 0
  },
  "items": [
@@ -839,18 +839,6 @@
   }
  ],
  "seen_urls": [
-  "https://www.servethehome.com/kyy-k1302r-portable-monitor-review-an-inexpensive-travel-display/",
-  "https://www.nextplatform.com/compute/2026/07/24/the-money-amd-is-chasing-with-its-rackscale-ai-system-roadmaps/5278510",
-  "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-24-other-companies-sign-open-weights-letter-as-washington-weighs-chinese-ai-model-ban",
-  "https://spectrum.ieee.org/ieee-president-ray-liu-award",
-  "https://www.bloomberg.com/news/articles/2026-07-24/cftc-warns-prediction-markets-over-blanket-self-certifications",
-  "https://news.google.com/rss/articles/CBMirwFBVV95cUxPc2gzdEhucTNTWF9Zb29tazI5ZG1QY280NERLYjlISE1tSnhmWWlXQ2ZqaElDSDl6elB0cjFyYkhob2lPUWFxVXlieWluNHlxTmhfMl9rQldBZmJ1OVJQTy1EVFhNekNxRm1kWTN6WDRQcmlqVEZWYzVlQmdNT2JKVWt4VzJERFlnS0ZqdDN3MFh5SDdLS0p5N21HQ1hKVjMwZ0xhX3RrZi1ETHY0bkVR?oc=5",
-  "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbGtoSHNwQ0pjZ09saEozUGlWRVZ1ZG03ZC1Xc2UzNnZQSXRsQjkyWlBFVlM4QmM5WmtKVGhJbUZydG9UWEllUzgwbW90b0k1elZyQnpaV3VTNGZiNG5YWDdyNXFVTHhhTHN6TWpUU1RuSzYtNnpnN0M4VlpzeWp4azFmbWVyQTNlSXVfSlY5UTU2RGVsQ19ucGd2VlFEMGFEMG5J?oc=5",
-  "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLWNQUm9OelpxeDcta2Jpa3hCSmdWWUFpRFdJZTJjZ0VRcnJJWDRxZ2tjcy1JM0tzTm90TkpoNUltZGlaNFBEX1o1eGxyMng2ejBEb3hIXzNlVlVzQWNybTlLMFZueUFsVktpS0lPcDh2Yk5hUTlFZ0ZJWG9VYlV3OGx4Z01BcklDa0xlYk9ob1BsWC01NEZ1RGVTUEhkX1h1NzdDZlpkRVBpTnRBanRKTGNRclFOd05LX3c4eU9ucWtmUdIBxwFBVV95cUxQQnBnVnVXenNkMVlnNHBpYmJHLTcwd1hERTVrSmJ0WFFKV2ZJM05oSGdER1AxMWFiandVZF81SDhIU0EzNTl4X2RQRFRFZzBVMEwwUTh6eVo3ZHB1VGlxZDYwa2x0Y2F3aVUzUUs3cUlBQ0thZVNmaFctWXlvdlRMc3h6Z3haQ25YT0I2cXpYaEdQRktVa0puTWowSUxFUmYyY1lBdG1lYzh6Si11RzRIVE5XTS1kWWhMRkJLNnRkV3pqMEpRNEFN?oc=5",
-  "https://www.scmp.com/opinion/china-opinion/article/3361318/chinas-ai-vision-gives-global-south-seat-table?utm_source=rss_feed",
-  "https://ir.microchip.com/news-events/press-releases/detail/1406/microchip-technology-signs-definitive-agreement-to-acquire-hailo",
-  "https://www.globenewswire.com/news-release/2026/07/24/3333099/0/en/Microchip-Technology-Signs-Definitive-Agreement-to-Acquire-Hailo.html",
-  "https://www.prnewswire.com/news-releases/okuma-america-corporation-to-exhibit-at-imts-2026-with-comprehensive-lineup-302834361.html",
   "https://www.datacenterknowledge.com/investing/ai-is-redefining-data-center-ownership-multiple-assets-multiple-timelines",
   "https://www.semiconductor-digest.com/primis-ai-becomes-chipnexus-and-launches-nex-for-agentic-chip-design-automation-2/?utm_source=rss&utm_medium=rss&utm_campaign=primis-ai-becomes-chipnexus-and-launches-nex-for-agentic-chip-design-automation-2",
   "https://convergedigest.com/taara-adds-network-planning-software-to-its-wireless-optical-c/",
@@ -3838,6 +3826,18 @@
   "https://www.tomshardware.com/tech-industry/maker-compresses-a-2-9mb-song-1000-times-with-metas-ai-codec-and-prints-it-on-paper-as-eight-qr-codes",
   "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWjEwa0llUzVmb2VVM3pYTTF6WGJIT0VUbTNQTTU4VWd4MXBfT2NoRWpKTDZ0MDgyUE1zZGNEejFfRUNYUnJ0MTB4S0FWWGsySC1BdTRYcXFQWG00WkFqa0ZUYzA2Q2tfT0M2R1Vwb3NydUt1ektPcTBtWUpiVHVKT3pVdEJ4SHJJSnFFZGQ2MHBPcFcwYWd1eGZRNUlqdlZlbWFWQnNB?oc=5",
   "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQl9iN2FaVXN5RW5tTktmZlA1SnE1V2ZZVlZkTTBzOHhLTmxiS3drUkx5QTA4RW5Yc1hKX0hxOXNwZE9iRFhQcy14QjNzTGxqOU9vTE05VjNuSjJNTFpmVWNSZGI0ejR6TW55TEIteENTTWFiTFZFVVNER1NnY0xtRGFxQU1QRk5zMmgyOFU0bUZ5cHBCQlE?oc=5",
-  "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNV2pYVHlkUDdpc3lEeXhKSGF5bDN5a3JlcGdFWC1KVmNBZlFuUlVjWlhRWjUzeWNPLUdrWXdmTEstS0FfYnNTQkdRNjVqY2dnTXc5MmZsbE0wbEtLX09BMGhVeEtnWGhmcW1kNk9Wa2Ffb3BmRzU5OUdETV9IdDk4S2xpb0VnS09SRFFkdXI4U3k3TmwtNjAtc0NsZkRPYm5NeVFPTXFjT0N6REl5X1gzWGJFdy1lVzRlUEZYd3MyaFUyaE5TQ2RQLUprQ1NvR2p4MXZCSHFLejVHbmZtNkZWRDJET0tIb0xvakgwN2lWUjF1dkxhNlcxcDduWmM?oc=5"
+  "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNV2pYVHlkUDdpc3lEeXhKSGF5bDN5a3JlcGdFWC1KVmNBZlFuUlVjWlhRWjUzeWNPLUdrWXdmTEstS0FfYnNTQkdRNjVqY2dnTXc5MmZsbE0wbEtLX09BMGhVeEtnWGhmcW1kNk9Wa2Ffb3BmRzU5OUdETV9IdDk4S2xpb0VnS09SRFFkdXI4U3k3TmwtNjAtc0NsZkRPYm5NeVFPTXFjT0N6REl5X1gzWGJFdy1lVzRlUEZYd3MyaFUyaE5TQ2RQLUprQ1NvR2p4MXZCSHFLejVHbmZtNkZWRDJET0tIb0xvakgwN2lWUjF1dkxhNlcxcDduWmM?oc=5",
+  "https://www.servethehome.com/adt-r27a-bk3-edsff-e1-s-and-e3-s-to-pcie-slot-review/",
+  "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT2VMMXR1X3Jzd1hQZ0pobFMxT0gzQWFFNjFnekt4dlR1ak9lS2NUc3V2RjVodU5BemxCSmFqVDFBUUJRbHJuUEQxb1dyT3JXWk1YSi0zRDI1NU0yNTJuMnNIZkRMVHB2TTEtc0dPbjNMSnJpTm1CUlVpbmg5Q2x4X0VQZXNiZTRJcFpTdDljbHRwVVM1eE51dmt2XzNFemRqTnZMRUJFZ3ZPMDJuX0ZjZndiWQ?oc=5",
+  "https://www.prnewswire.com/news-releases/cvc-dif-acquiert-une-participation-majoritaire-dans-firstcolo-afin-de-soutenir-le-developpement-dune-plateforme-de-centres-de-donnees-hautement-performante-et-evolutive-en-allemagne-302852379.html",
+  "https://semiwiki.com/ceo-interviews/371606-ceo-interview-with-jerry-chen-of-upbeat-technology/",
+  "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
+  "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQ2lFNlhhLWRiQVB1M00xWk1pMzRrN2t4SHNPemJyd2tmUDR0Z29obEpvS2Q4MVN1bkZKWUJQa245UzJ6enhNblFDODkwR2xzTXVGeFlIOEtmaGNMbndmUEVQeTM0SExrTV9lUl9Hdndac1ppZnFOSW1MZmgxYk1tN1NRdTJfb2lILWNDMDl1NTR1VExaZ1U4QQ?oc=5",
+  "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbUNFQVpBQkN2anBhZ0RNbURvbDF0RmFDT3o4d1BSLVJmMHdKQW5WM0VnYUtza3BWaWlvU1MwMF9EaWdNZnN1dHp2OThqb1Z1Tjc5Zzd0aXNJZ1NkbDl6VUhQMTNGdTNvZUZWVDluMFVleklYZlNUcHh3NjllQ3BBR0ZkcHJxcWlwYnFhNk94czlzdTAtRUF3MlM0dmJvRnBGVGFTb0JpM1Z1YVVGb3BR?oc=5",
+  "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUTBzQ1VmV3VScHBvc1l0cF9meVJDNzN4OXc3OVRxWC1Jb2xrOXJUR01lVG5KNmF0RVNDWno3b1BkQ3g4Yk5meExIOVNwazRzUTktMmxOWFdXci0wSEFnOXNNYXlmdHd5YVRTemxmaUxtcGNmczBueHRfWVcxa2l2b2pTcU5sV0RWeUpSNEVXRTFyME5OMkk4WEYxVmZXMlE?oc=5",
+  "https://www.bloomberg.com/news/articles/2026-08-16/skyrocketing-beef-prices-finally-have-americans-reaching-their-spending-limit",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYWpRRlVEcDkzaDM5aXQ2OXYwbFQzeHIxUDhHMUoxNlg5c1JBQy00Nk5yT2FTd2ZHbDJhYTl6ZWlheENLNWNaaHJLOW54bjJXTmtCckdLWmR3VjIwN19FOERQRzFMYnp3RDFJSnhzUUxJLUdOcnJQQm5QNWIwbWRaU2hVRWxoQXJNUHhvOUFISUcwQ2ZLLXJxOUoybGNHNjlYNTI1dkVIYlZLQ1BBR3laR3o0WQ?oc=5",
+  "https://www.bloomberg.com/news/newsletters/2026-08-16/alex-cooper-leaves-long-time-agent-seeking-new-help-to-build-media-empire"
  ]
 }
