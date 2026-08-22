@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-08-22T16:54:05.052785+00:00",
+  "generated_at": "2026-08-22T20:53:29.402974+00:00",
   "model": "claude-sonnet-4-6",
   "backend": "openrouter",
   "sources": [
@@ -12,7 +12,7 @@
    {
     "name": "ServeTheHome",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "The Next Platform",
@@ -21,7 +21,7 @@
    },
    {
     "name": "Blocks and Files",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -32,7 +32,7 @@
    {
     "name": "Tom's Hardware",
     "ok": true,
-    "count": 8
+    "count": 0
    },
    {
     "name": "IEEE Spectrum",
@@ -41,7 +41,7 @@
    },
    {
     "name": "The Register Off-Prem",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -57,17 +57,17 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 0
+    "count": 2
    },
    {
     "name": "Bloomberg (via Google News)",
     "ok": true,
-    "count": 2
+    "count": 1
    },
    {
     "name": "Reuters (via Google News)",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "The Elec",
@@ -77,7 +77,7 @@
    {
     "name": "Korea (Herald / Times / Chosun)",
     "ok": true,
-    "count": 3
+    "count": 0
    },
    {
     "name": "SCMP Tech",
@@ -181,7 +181,7 @@
    },
    {
     "name": "Ayar Labs",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -597,22 +597,22 @@
    {
     "name": "PR Newswire Electronic Components",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "PR Newswire EDA",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "PR Newswire Computer Hardware",
     "ok": true,
-    "count": 3
+    "count": 1
    },
    {
     "name": "Data Center Dynamics",
     "ok": true,
-    "count": 3
+    "count": 0
    },
    {
     "name": "Data Center Knowledge",
@@ -642,7 +642,7 @@
    {
     "name": "Converge Digest",
     "ok": true,
-    "count": 7
+    "count": 0
    },
    {
     "name": "Fierce Electronics",
@@ -652,7 +652,7 @@
    {
     "name": "TechCrunch AI",
     "ok": true,
-    "count": 2
+    "count": 1
    },
    {
     "name": "Chips and Cheese",
@@ -672,7 +672,7 @@
    {
     "name": "Topic: co-packaged optics / SiPh",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: optical transceivers",
@@ -692,7 +692,7 @@
    {
     "name": "Topic: AI silicon",
     "ok": true,
-    "count": 3
+    "count": 1
    },
    {
     "name": "Topic: foundry / process",
@@ -737,7 +737,7 @@
    {
     "name": "Topic: neocloud / AI compute",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: enterprise storage",
@@ -745,10 +745,32 @@
     "count": 0
    }
   ],
-  "candidates": 35,
-  "kept": 0
+  "candidates": 9,
+  "kept": 2
  },
  "items": [
+  {
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRFFtbG1ybFN3a3U3Rms4WWhyOFFxa2E2QWxiQ2NKZmJaamNDZEhRdll3TlFtdVFMWktTeUY5dlF4VkZwaExHdDFEMEZSQVpvNWxUWmZSZVlWYzFfa0FROUtDM1hiT2FnckdOc1pEOXhYc0lHRHE5Uk1Fd2xQbzloa0pCdkZfVlR4Y202MDgyNWJHTVA5bVpvc1JCUWlEVU5HYlNzWk55Vm9iWEIxcFlLbkxJYVM0dXpsc3JSWFAzR0l5SmI0bXRPSWNEQmdoX2tKTFdKd2R30gHbAUFVX3lxTE5PQWEwTndtUEs2WEFkbGF1YmhXVFNCekhLS1FEUXVOZWtEbjAxMm1JcGMzUm9lYURLdXJncmwxT0MtMzllTlFPeFFMNUFoOUFUMlkwLTJiUHo2RHAtZEFyemVFZnZ0aFI4b1RIT3dHQUlRMDlmTGJQREtLdWNBTW5ua0M3R1Qwa2dNOGh0T2dXYnR4eVFzM3cweTdYMUlkT2NrYzNpR1lwRG9JemtiZkZKZnllTXdIeEUtTVFVUk8wbnBYLUpxVlpIUFd4cVZ3cVBWeHo0dDFEb3c0UQ?oc=5",
+   "title": "SK hynix Takes Its Co-Packaged Optics Roadmap to Nature Electronics: 100Tb/s Nodes, Sub-1pJ/bit, Under 10ns - StorageReview.com",
+   "source": "Topic: co-packaged optics / SiPh",
+   "published": "2026-08-21T17:15:13+00:00",
+   "why": "SK hynix published a CPO roadmap in Nature Electronics targeting 100 Tb/s bandwidth nodes, sub-1 pJ/bit energy, and under 10 ns latency\u2014primary research with concrete specs directly relevant to the optics and AI-infra beats.",
+   "topic": "optics",
+   "tag": "deep-dive",
+   "date": "2026-08-22",
+   "added_at": "2026-08-22T20:53:29.402974+00:00"
+  },
+  {
+   "url": "https://www.bloomberg.com/news/articles/2026-08-22/nvidia-customers-notified-about-ai-related-price-hikes-above-15",
+   "title": "Nvidia Customers Notified About AI-Related Price Hikes Above 15%",
+   "source": "Bloomberg Tech",
+   "published": "2026-08-22T18:42:34+00:00",
+   "why": "Nvidia is notifying major customers of AI server price increases above 15%, with memory costs cited as a key driver\u2014directly relevant to HBM pricing dynamics and AI infrastructure capex.",
+   "topic": "ai-infra",
+   "tag": "deep-dive",
+   "date": "2026-08-22",
+   "added_at": "2026-08-22T20:53:29.402974+00:00"
+  },
   {
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZklqZ1N2OE90OVpNdDRwd2FZbXhTdDgzblRMTXNDdlI0UzZrRU9HR1pRYmp0Z3AtSlF0dnY1VTlQMEpvZFpvMGVadkhTQ0lHWUVBQnctSGR5TzlTYWRuZk1NYkdIUmlKaXhBMXdybjBOOHBNY3B5eC0ta2xZYUxhVVFUNkRkTmEw?oc=5",
    "title": "Marvell vs. Broadcom: the custom silicon shift - thestreet.com",
@@ -4172,15 +4194,6 @@
   }
  ],
  "seen_urls": [
-  "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdUhldW0zU2xyVFFjRkJodHVQZW8wUkxENUNkeGJ0MklVTlFuNWM5bDlfdDdoWFIxU2VvTDlQTnd1SXFJZGVDQWpzSE40MWxmZVZiR2R1WTdxRUVoVXlQcWlaLUd5WDNOc1FJU0V6eVNIN0lka1Q3bnNMemZmdDVBcHdyX0xNbjltOGk3R1MxdnV4RVJGcVNiWXkyTlBqQ0tBcjJUQ1dEZVdPbmNTSVZteG5KMFFjR0U?oc=5",
-  "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM2dVVk1PRndHeGdITURkS3h2NmhHZW5jZ2pMczBHa0c2Y0I1NFZhRi1obkhTc19PNF9QWnRGdWNHV2ZESGlvOVZ1UkpTaTVfZ21YVUg4aF9IOGl1T3RBc0NYX3gyRFRlMmlwTWpJRHFlM3BaRGx0VnFMRUFxcmlXcWw2V1gzbElvZ2R2Q0paTk96RTVIZ1dhTTIyamdjSnZLdFRyVUFPbWVPM0hBMXdGMw?oc=5",
-  "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcUctOFJjSXBjZVFYVGVBaVRFTzN4bnlDY3BzbENvdWNsanF1U21ZX0ZrZWZjYmx2elk2OUx3WG1ZaDVBSGJ1QjdXNmZ6N1lCR1Y2OXBuYV82NVRZN1hGNF9MdjM2d0JHTXp0N2V6Nk5oM1pqN2VZcUZCbnNqNTM4TUpka0JXYUl3c3JxbU4zYjZfREJVX0dqSjhWdGF2ejdZbVhMamdEV0ZXR2xDQ18yT2VEejFYVjlWY2RVOVZmQlJCQ1ZIdU9EdUtPN3dTeXo1VVE?oc=5",
-  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdFhpUHI0cjV3akxoU0ZEbmUyNnE2WHlmYlJla0trUWZJaDRNRVdIUGwyOW00YTZhMTVxUTBjcEJwMm1DSkdIN1BjaUtIR3Z4X0xoOTE4a1RLd2JyeHJjUUtneGFBTHRYNkhEWmF1VWR1R0FBcDNJZDY2aVNXcGxDSnZSN2ZnZlhmNl9JZUk2VWszbnBMa0tCSmR1MHU3SjhRd0J0YnpVVmg5R3dyc1RVNllZZEx1WWRxVHREXzFQbkNlOU85ZzdWTg?oc=5",
-  "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQXpYZXVoZlh1U3dvMk15VkZRLXhNVG5UYzB0WV90SkowVlhNb1BBNEF2NmcxdFRtaEhIUWo4blp0NWYwX3lDX3NqRGxaZ0xHSEFvSm5HV1dSb1RTR055ODZNOHZjMlUyczY0Umw3QU9vMzFZR19OWWhmRGtibUh6bHZ4ZzVwN2lDS2tycw?oc=5",
-  "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUDZqYzBweTJuMjUzZF85VVR0ZUgteWszYzdpLXp6OGFsWFBhamt3VEozR0pDbWtNXzY1VGx6dl9SSTQza1ItbGJIU185SHBtaWtYMzNnbnJIVUdVR1J5SDhwcy1oQUJjWmZvM0RCSklsTm44TWFvOFYtcVB2ZjJMRlZnX1RFaUlJclZCbTNFS1BuUGlGWkkxQtIBmAFBVV95cUxNUDZqYzBweTJuMjUzZF85VVR0ZUgteWszYzdpLXp6OGFsWFBhamt3VEozR0pDbWtNXzY1VGx6dl9SSTQza1ItbGJIU185SHBtaWtYMzNnbnJIVUdVR1J5SDhwcy1oQUJjWmZvM0RCSklsTm44TWFvOFYtcVB2ZjJMRlZnX1RFaUlJclZCbTNFS1BuUGlGWkkxQg?oc=5",
-  "https://www.bloomberg.com/news/videos/2026-07-30/rivian-sees-r2-driving-its-path-to-profitability-video",
-  "https://news.google.com/rss/articles/CBMiswFBVV95cUxNY0hQZFI5QkhPbVJKZ3V0Rkphc0Z1OU5DbXoyV3RTNU5PWGVrSmJlZ0hJckxKX1VZSHV6T2ZWSWx2QTV5RUI2S1pRM0VjSmJVVkpGRktoYXduY0l3T0xzTWE5ZVJCRVBZbXdJcjVfN2hGUkJRUkFUbTZnb1BfODFxN1BBMk9JdGJKc1hMN0VkaWtYeXVJdE1pM0lqT1BpS3NscjhPWlh3SGtCY3hCOEFMN1dsSQ?oc=5",
-  "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaVppS2J1aFJfak9hZHBGNnRWVFJndXNGd29YR0t5WnlpWEMzZHRHQUZubWlhZG1KVUxhTWZlVUdsaFlhY0s4Ul9rek9Td0ZaQy1rTnV3dnlXdzk0VUo5Qi1MMWk1clRhZGVjVjFEdjRmaXdtMDhiLUg4dnN6S1Z3SDloa2o2WkpWMU9nOEhsd0lHX09RX1dWa2VXN0d1Ykg4cDRuOWR6M3VnZG9tMzd6UWMwb0paLXh1QjNiYldIM1hUUnU0djB0QjlPbk0?oc=5",
   "https://www.lightreading.com/cable-technology/cable-and-fiber-isps-in-new-three-year-spending-cycle-peaking-in-2028-dell-oro",
   "https://wf.coreweave.com/blog/where-ai-model-training-roi-is-decided",
   "https://www.prnewswire.com/news-releases/idrive-e2-launches-mcp-support-for-secure-ai-access-to-cloud-object-storage-302839388.html",
@@ -7171,6 +7184,15 @@
   "https://convergedigest.com/zte-h1-2026-computing-ai-infrastructure-revenue/",
   "https://www.tomshardware.com/tech-industry/cyber-security/us-authorities-say-siemens-controllers-used-for-water-and-other-infrastructure-are-being-targeted-by-hackers-agencies-claim-threat-actors-use-ai-tools-to-generate-exploitation-scripts",
   "https://convergedigest.com/supermicro-board-probe-clears-senior-management/",
-  "https://www.tomshardware.com/monitors/gaming-monitors/save-usd532-on-a-480-hz-oled-gaming-monitor-amazon-drops-a-massive-53-percent-discount-on-the-lg-ultragear-27gx790a-b"
+  "https://www.tomshardware.com/monitors/gaming-monitors/save-usd532-on-a-480-hz-oled-gaming-monitor-amazon-drops-a-massive-53-percent-discount-on-the-lg-ultragear-27gx790a-b",
+  "https://www.bloomberg.com/news/videos/2026-08-22/scenes-from-the-2026-beijing-world-humanoid-robot-games-video",
+  "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeWxlMlJjV3JZVWZoeTJhRzlhTDJOenZaS195ZEl4a1NkWERBQUwyU2hQcXlTOEk2RkpqLW5OeWhybzlFbzFONVkyWHhjNWhnSEhZQUpJS2xlSU0wOUQ3b2NsZXd0RTdGMHZsQ25rYTI4aDNNOU05OEVHMHVuaXQ0N2NyUXQtN194VXhqQ0g1SlpwdFZrM3JEeTZvYjFfVWhJaC12NkRfWTE5bzZkMXNyTC1Xbk8?oc=5",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPLWE3OUFQMndpYzJSVFBuYXBocWg0RUlmWGFtZDU0NEdtTUJzRmV2c3ZtWjJFOTUxNEFwaFNkSno5ZlhCdGpTSjJOMnNUc2U1Y01Fc1YtX2NrdnRFM0pEMDYyYXBrWGdHUVpTei1ramJ6YVE1aFFFTGVwX0drX1lBOFdyRGM4cEpZVG9uUEhka1J1RDZDQ0F3UWY3S0VjQVhLbzVjYmZPazhPcnV3c1ZVd0F4bExTeU9QN0VnOVRyVlA?oc=5",
+  "https://www.prnewswire.com/news-releases/millworksuite-launches-ai-estimating-and-direct-to-cad-platform-that-cuts-drafting-time-in-half-302857729.html",
+  "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+  "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRFFtbG1ybFN3a3U3Rms4WWhyOFFxa2E2QWxiQ2NKZmJaamNDZEhRdll3TlFtdVFMWktTeUY5dlF4VkZwaExHdDFEMEZSQVpvNWxUWmZSZVlWYzFfa0FROUtDM1hiT2FnckdOc1pEOXhYc0lHRHE5Uk1Fd2xQbzloa0pCdkZfVlR4Y202MDgyNWJHTVA5bVpvc1JCUWlEVU5HYlNzWk55Vm9iWEIxcFlLbkxJYVM0dXpsc3JSWFAzR0l5SmI0bXRPSWNEQmdoX2tKTFdKd2R30gHbAUFVX3lxTE5PQWEwTndtUEs2WEFkbGF1YmhXVFNCekhLS1FEUXVOZWtEbjAxMm1JcGMzUm9lYURLdXJncmwxT0MtMzllTlFPeFFMNUFoOUFUMlkwLTJiUHo2RHAtZEFyemVFZnZ0aFI4b1RIT3dHQUlRMDlmTGJQREtLdWNBTW5ua0M3R1Qwa2dNOGh0T2dXYnR4eVFzM3cweTdYMUlkT2NrYzNpR1lwRG9JemtiZkZKZnllTXdIeEUtTVFVUk8wbnBYLUpxVlpIUFd4cVZ3cVBWeHo0dDFEb3c0UQ?oc=5",
+  "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdkIwQWNocHYzQWM0bEJFTXFKXzROM2U5TC15N1FYQ19yUTczenBsMFhZQk93Y291NEgyajM0eGxnYV9oeDMybDAybktxbVE5bjNtOFoxSl9kbmlYcTRhRC15OHhaVGc2cHU4QWxNb1lfc1dYX0pXM0xnOHlNRXp6MTFBc1FkQlh1OTNlTFA0aw?oc=5",
+  "https://news.google.com/rss/articles/CBMickFVX3lxTE51MUpvYjBYXzd4a3dIUjFYZ2M5TjZBcVUzTlBfQVpwbS1XUEd0TEd2ZExHUmUtYzFCX0JzWHhmYzdPRzlnU01HRmVab0c4VmVxNjNSaFdjcW1zdm9TeHIwbjF0TGVFaTlFbzlFWk0yd25sZ9IBd0FVX3lxTE5wU1FHTlMwYllZelRDOWFZdk9FbG5TZjJ0bVhNTjJGREV4enF6RHNCSFptWkJibHdLNEd0SmZiSGJnMTNpTzVtTC1YRnkzUTdmc1U5Q1NuS0lyeldPbjd0elE0aHV2bWpyNHppNVkwVExSUGY5WkRv?oc=5",
+  "https://www.bloomberg.com/news/articles/2026-08-22/nvidia-customers-notified-about-ai-related-price-hikes-above-15"
  ]
 }
