@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-08-22T09:00:36.900751+00:00",
+  "generated_at": "2026-08-22T13:12:28.544856+00:00",
   "model": "claude-sonnet-4-6",
   "backend": "openrouter",
   "sources": [
@@ -17,7 +17,7 @@
    {
     "name": "The Next Platform",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Blocks and Files",
@@ -32,7 +32,7 @@
    {
     "name": "Tom's Hardware",
     "ok": true,
-    "count": 0
+    "count": 8
    },
    {
     "name": "IEEE Spectrum",
@@ -41,7 +41,7 @@
    },
    {
     "name": "The Register Off-Prem",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -57,22 +57,22 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Bloomberg (via Google News)",
     "ok": true,
-    "count": 2
+    "count": 1
    },
    {
     "name": "Reuters (via Google News)",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "The Elec",
     "ok": true,
-    "count": 12
+    "count": 0
    },
    {
     "name": "Korea (Herald / Times / Chosun)",
@@ -82,7 +82,7 @@
    {
     "name": "SCMP Tech",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "EE News Europe",
@@ -471,7 +471,7 @@
    },
    {
     "name": "Skyworks",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
@@ -607,7 +607,7 @@
    {
     "name": "PR Newswire Computer Hardware",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Data Center Dynamics",
@@ -672,7 +672,7 @@
    {
     "name": "Topic: co-packaged optics / SiPh",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: optical transceivers",
@@ -682,7 +682,7 @@
    {
     "name": "Topic: HBM",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: advanced packaging",
@@ -692,7 +692,7 @@
    {
     "name": "Topic: AI silicon",
     "ok": true,
-    "count": 3
+    "count": 2
    },
    {
     "name": "Topic: foundry / process",
@@ -722,7 +722,7 @@
    {
     "name": "Topic: SiC / GaN power",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: chip startup funding",
@@ -745,7 +745,7 @@
     "count": 0
    }
   ],
-  "candidates": 23,
+  "candidates": 17,
   "kept": 0
  },
  "items": [
@@ -4172,23 +4172,6 @@
   }
  ],
  "seen_urls": [
-  "https://www.lightreading.com/ai-machine-learning/leidos-coreweave-to-accelerate-delivery-of-ai-capabilities-for-defense-national-security-and-intelligence-missions",
-  "https://wf.coreweave.com/blog/the-token-pricing-illusion-understanding-ai-inference-economics",
-  "https://www.prnewswire.com/news-releases/weka-and-andromeda-partner-to-power-ai-workloads-at-global-scale-302838548.html",
-  "https://www.datacenterdynamics.com/en/news/vertivs-earnings-and-revenues-grow-shares-fall/",
-  "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWXJ2eERpSTJFTUVpR2l6QWluYVM1RS04eFBQZ2dRVFVlYjRoWmtsMGg2ZXpvaVZXYi1Fc045VzZWSWJiZWxNS2JRRnVVVmxfbFUwQXluem1tTWo4OVQ1MVZWczFCdlZ5RV9DeTg1aEJGVTFXZXpHVjMzOGQxYUlCTG5WZ2ZvdWdrZVVvaHR4STlkWEU?oc=5",
-  "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSzZpcFBOWk50TXRBakRyQkRoSGFWQzkxdEpHU28xNXdFamJadVhIcUVxcTZFbjFFM3FhMWlqaVNpZzF4Q0x4Zkg1OVZkNUhWMkxLVDczX1FtbXhxTzFZWGFtY1hIY2N0U0d4RThwV0JjMzdRblExdkliTzA3NGxieDU0dDhOakNYeGR4ZDVEMEJuSnJqUXBSODdyUzk?oc=5",
-  "https://www.tomshardware.com/laptops/gaming-laptops/grab-a-great-value-gaming-laptop-with-a-generous-amount-of-memory-for-only-usd1-199-save-usd100-on-gigabytes-aero-x16-gaming-laptop-with-32gb-of-ddr5-and-rtx-5060-graphics",
-  "https://www.bloomberg.com/news/videos/2026-07-30/bargain-airfares-are-under-threat-from-ai-pricing-video",
-  "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYU5GRzdldXJSYTJXZ0QyM2VuRC05bFNscUFLX1NZN3ZLTDRRQ2FNNUxQLUp4ZnVRdmtLOWtZdlM4Vzg2aXh3aGwtMDA5b1N3Ny1Va3pWTmVPYzNyYzZDZkJsQVNLWldJR1hOZHNheE5wSVVOamhlV0lHYkhqVWtQNHNxZjg4OHJVdkM4blROOHpmamtaOU0zTXFLa2lBYUFQTDlHM0w5dGdlSWZUeDFrd0dn?oc=5",
-  "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOa2ttTnl4cUpFbUNXbjBDMUFOLXRpa3NiN0pQRTN5NmRTRGVrNlVnS2Vtc1dMZUxwSWxRSVRFczFtSlBHdWQ2NDBGdjIySkVIT1VVVDR1MmxzZVpwS3lobGJWSlBTdlQxVEFfTElpdXF0WVVPOHZtRHRYSDdyeERkdmx3bFpDUS1UWTV3d3puTExEYjd0amNKYng5MlZVYTNOWmNyeW92MjR1OXVSS0REcGZrdXdmZXdMYXU3TzlEYzhpUQ?oc=5",
-  "https://www.lightreading.com/finance/samsung-reports-63b-profit-but-mobile-unit-sinks-to-loss",
-  "https://wf.coreweave.com/blog/from-experimentation-to-production-why-inference-is-the-defining-layer-of-ai",
-  "https://www.prnewswire.com/news-releases/maingear-unveils-next-gen-zero-gaming-desktop-pcs-engineered-for-unrelenting-performance-designed-for-unobstructed-visibility-302838734.html",
-  "https://www.datacenterdynamics.com/en/news/microsoft-brought-88-data-centers-online-in-fy2026/",
-  "https://www.eetimes.com/space-grown-semiconductors-the-next-frontier-for-ai-compute/",
-  "https://www.tomshardware.com/software/operating-systems/legendary-windows-developer-codes-task-manager-for-the-mac-says-he-was-inspired-by-the-fact-that-apples-activity-monitor-blows",
-  "https://spectrum.ieee.org/ieee-publishing-ethics-research-integrity",
   "https://www.bloomberg.com/news/articles/2026-07-30/amazon-reports-fifth-straight-quarter-of-cloud-sales-growth",
   "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUGhkc3BHTHFxbGdJNFV1WndQa1NqaEJYRmNiODUxZU1OenhVY2VKM0FDb2hJSUhMa1lmZm1CZ0JOVkx4WTJKbHZsZ3JZUVFnUTdINUxlYktKTHBIRlhsQ2gtVWtUSU1ONXRhMExPdGt4QzhfQzdzUk5QZzRPZ0JMRFBsSE5LbnB5Y2FhendyNTZ6T3hRSEdDRDNua0hsOVp3Wmw1MzQ5bWFCa2pVQUFGVVh2X0o?oc=5",
   "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcHJIU1otWHVrMEU0Y1FqRFhmazB2bklSYzhzSzRsQXNJZzFzbk9SM3ZEU2hBZ2ZiWVlTMnhwcWZzTXJhamcxREluUnZDbWNCZjlYbVBSLU5aaGoxbWhYN1BsYy1ZTDN1M2VZampoaGVvNmZWSEsydnptM05OWlQ0QWFmbGd4M1h4WjZzR0RpMUZQRWpaOVh3UGhMenFZMmk5djdxOURGb25qeDh5b01udEU2UFVDNWRNSkhnY2x5Rk8wZw?oc=5",
@@ -7171,6 +7154,23 @@
   "https://www.thelec.net/news/articleView.html?idxno=13241",
   "https://www.thelec.net/news/articleView.html?idxno=13240",
   "https://www.thelec.net/news/articleView.html?idxno=13237",
-  "https://www.thelec.net/news/articleView.html?idxno=13236"
+  "https://www.thelec.net/news/articleView.html?idxno=13236",
+  "https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-august-22-2026-foundries-supercomputers-china-and-how-to-not-overpay-on-a-motherboard",
+  "https://www.bloomberg.com/news/articles/2026-08-22/apollo-s-slok-says-ai-weighs-on-pay-without-cutting-jobs-yet",
+  "https://news.google.com/rss/articles/CBMisgFBVV95cUxOY3NZV1ZmRWQ2LUZtcjBKak15eDdWaHVJXzBIR1NqeHFqM0dFQ0tLRkQ1c181clZLb0RrSENXRVdqVUU4N0FRVHkyUTg2OTMyalhfUnNwSFM0QTgtemY0eFJiWVdsYTBFbmRHZlJuWEo2S0s5bHUtY21mMDJrWF9Ga2h4QkdnSnRSWUpCS1FqaHlXb0d2ZkFweGJEYkNaaVRzcWh4XzNfTkdRWW9aVXN3S1hB?oc=5",
+  "https://www.prnewswire.com/news-releases/electronics-delivery-2026-same-day-options-for-chargers-earbuds-monitors-and-last-minute-tech-needs-by-expert-consumers-302857632.html",
+  "https://www.datacenterdynamics.com/en/news/terranova-boosts-technology-infrastructure-with-the-construction-of-one-of-latin-americas-first-ai-data-centers/",
+  "https://news.google.com/rss/articles/CBMidkFVX3lxTE1xM01BUEZ1THNvaUwtSTNyaFNDNUVXczlGdFJzNlREWThfRmdEUTRFY29wTy1UeDVTQlZQVGpORVRsSzV5R1lWNjMzUDQ1eS1sYm9wTE5RZHNockg4Z2RUT0duZGtDY0Zfd3RtWWNLS2dVekxDZmc?oc=5",
+  "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVUwzQjRsVExxWEFwQVVxM2JicHFDdlVEeGxzc2xsc040ZkxRbFI4Q1ZFd0V6elNlb01saHVDaDVkMVZxb25QakFkdzhtcmQxV0QwM0xvMS1pZmhYS3NDTjFzLTQyVl9Qc0NoNlYyUVB4N3hJWjVWenBkV3dzVVQ3Xw?oc=5",
+  "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYkVNYmxJRUxEMEd0V3pHSjZYVEJYVm9RUXk4eDZXWUNDRWtDVzJRaUJsczBIUTFXQ3V3NW1BVC1KUV9ZNEJ6N3JzeGVDcVVSc2NyOXpfSkFmOS1GT3A5b2I4R3U3aVRzX2xxdHFBRm1CVlprc0E3X1VDaUZnU3paNGc0c3NpQdIBggFBVV95cUxORFhNY1Z0SFJvTXdNZ3lsMDV4WFdTQ01fM010a1FzVXhTSVFNTGdtUFQ5M2xBekptTEg4WXVxNE5Ic3VEQUNqZWFCVEFKSmlDRjNBRzc4S1ZJRU0ycmp3SXZndVR5OVBCcHVYUEZwUlpqRnhHUDdLT21neU5uaXJWNjl3?oc=5",
+  "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQ2c2SGNUTUxVUnpwNnJTZ0xIRloyUExhVjdYN3FZR1ktaXBYSjZVcmxJbDk1bzAxTkhiUktuelhhTjFTWVJwWWYxeTdWWDgwZkJLQVdqT1Q3c0tJYnpqSHVzNXJiZWpkTVBxa0pZUWZPSUgtYl9mNEhDZjF0TWc5Sy0wVy1PY0N5UXJla3dyVS1GdmMwWFFGc0l5U2Y?oc=5",
+  "https://www.tomshardware.com/pc-components/cpus/desktop-cpu-shipments-crater-20-percent-amid-high-component-costs-but-amd-gains-record-share-despite-ugly-desktop-processor-market-intel-floods-laptop-market-with-millions-of-cpus-but-amd-still-sets-all-time-share-records",
+  "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZVBXZ1ZZeG9rWGw3RXpxSlo4WHp6bXgzckdCaTA2X1lCZzh0OVgzQjhGcGRvUWVNZEhiel9UWW5TTzlXZm9fRlhOUUlSNk5vaTNhc2JUWWNpMDJiWHNnNHdlQk10c2hneUY4VDBTX2FscnhMSERWR2h3b0g5U2lPWFFYS25WbG9yb1VjOG03czhSTDJPc1BXUQ?oc=5",
+  "https://www.tomshardware.com/pc-components/storage-unit-auction-winner-finds-retro-pentium-4-pc-with-a-see-through-uv-reactive-psu-y2k-time-capsule-discovered-among-100-laptops-and-hundreds-of-ram-sticks",
+  "https://www.tomshardware.com/pc-components/gpus/gigabyte-rtx-3070-owner-discovers-protective-film-on-vrm-thermal-pads-after-nearly-five-years-claims-removal-and-repasting-dropped-gpu-hotspot-temperatures-by-30-c",
+  "https://www.tomshardware.com/pc-components/power-supplies/asrock-steel-legend-sl-1200p-power-supply-review",
+  "https://www.tomshardware.com/video-games/console-gaming/take-two-subpoenas-microsoft-for-windows-device-ids-of-everyone-in-three-discord-servers-in-gta-6-leak-hunt",
+  "https://www.tomshardware.com/video-games/console-gaming/us-console-sales-fall-39-percent-in-july-as-memory-costs-push-average-price-to-542",
+  "https://www.tomshardware.com/desktops/pc-building/alleged-amazon-cpu-scam-hits-pc-shop-twice-in-three-days-ryzen-5-9600x-orders-arrive-with-empty-retail-boxes"
  ]
 }
