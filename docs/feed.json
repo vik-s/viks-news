@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-08-22T02:02:42.479045+00:00",
+  "generated_at": "2026-08-22T05:03:14.147610+00:00",
   "model": "claude-sonnet-4-6",
   "backend": "openrouter",
   "sources": [
@@ -16,12 +16,12 @@
    },
    {
     "name": "The Next Platform",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
     "name": "Blocks and Files",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
@@ -41,7 +41,7 @@
    },
    {
     "name": "The Register Off-Prem",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
@@ -57,17 +57,17 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 5
+    "count": 0
    },
    {
     "name": "Bloomberg (via Google News)",
     "ok": true,
-    "count": 3
+    "count": 0
    },
    {
     "name": "Reuters (via Google News)",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "The Elec",
@@ -77,7 +77,7 @@
    {
     "name": "Korea (Herald / Times / Chosun)",
     "ok": true,
-    "count": 5
+    "count": 0
    },
    {
     "name": "SCMP Tech",
@@ -181,7 +181,7 @@
    },
    {
     "name": "Ayar Labs",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -471,7 +471,7 @@
    },
    {
     "name": "Skyworks",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
@@ -632,7 +632,7 @@
    {
     "name": "Semiconductor Digest",
     "ok": true,
-    "count": 4
+    "count": 0
    },
    {
     "name": "SemiWiki",
@@ -652,7 +652,7 @@
    {
     "name": "TechCrunch AI",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "Chips and Cheese",
@@ -672,7 +672,7 @@
    {
     "name": "Topic: co-packaged optics / SiPh",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: optical transceivers",
@@ -682,17 +682,17 @@
    {
     "name": "Topic: HBM",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: advanced packaging",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: AI silicon",
     "ok": true,
-    "count": 10
+    "count": 0
    },
    {
     "name": "Topic: foundry / process",
@@ -702,17 +702,17 @@
    {
     "name": "Topic: semicap",
     "ok": true,
-    "count": 1
+    "count": 2
    },
    {
     "name": "Topic: datacenter power",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: liquid cooling",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: interconnect fabrics",
@@ -737,16 +737,16 @@
    {
     "name": "Topic: neocloud / AI compute",
     "ok": true,
-    "count": 7
+    "count": 1
    },
    {
     "name": "Topic: enterprise storage",
     "ok": true,
-    "count": 1
+    "count": 0
    }
   ],
-  "candidates": 43,
-  "kept": 7
+  "candidates": 5,
+  "kept": 0
  },
  "items": [
   {
@@ -4172,10 +4172,6 @@
   }
  ],
  "seen_urls": [
-  "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd0VMN2JBNXZqcHp3QUh0dEl5OU42R0xGcF9fRmhCUzYwcDlSc0JtcVVVbml0SEg0bEpNN200VHV6TUdzN2d1Zkg1YzFOckNQblM1ZGw1eDljVzlFZmpnRlExaVIzYjJsblVyWV9iMjJZQjhkazhMLTA3NlRYU2dtVWpVOFFzM3RpQkpvSk8tMU5iNFBSWVB4dg?oc=5",
-  "https://www.tomshardware.com/pc-components/motherboards/are-your-motherboards-m-2-heatsinks-making-good-contact-with-your-ssd-we-tested-20-modern-intel-and-amd-motherboards-to-verify",
-  "https://www.bloomberg.com/news/videos/2026-07-30/inside-kendra-scott-s-growth-strategy-video",
-  "https://news.google.com/rss/articles/CBMitAFBVV95cUxOS2hxd3lKbENMWEVoTG1maVRoZzBMQ2NVVlZEbUhCcS1xVndiX1VaQlVrYjJ1NWdWRkN1M2czWUtHeFV1eFhzLXNrRmdmS25lamRhc05mUjctS1dBWEJEM2hMbEgwRHVfcHhJQWdOZ19Sck9IVlFtVUs3N2lrYkplOWxVRjNEOXJvam5MTUF2U0VhRk53bnR5UFY0N0wzX3RYcE5YNHNOcmcxT3NxYzJNRk5NckI?oc=5",
   "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMHY5cV9sSlo2MzhWbnZ5dFhKN0FVY05iYUlsUHFyY0x1NEY0enFFTmRhTTAyVC1xWUdjVGdTQ0oyWGljMzZvV1lVNzFhdlpEWmdYUEFHLUV4b1VxOVlhTm5hVVV5Unhfam9IR2hTUFVTcllkYnFieHBwUDN6VTRXOTd0MGRvSGhWZVZhM1BrOUpoVENxUFBfMmFjelZIZ1By?oc=5",
   "https://www.lightreading.com/smartphones-devices/global-smartphone-shipments-fell-6-in-2q26-omdia",
   "https://wf.coreweave.com/blog/stragglers-synchronization-and-stalled-gpus-how-enterprise-ai-training-fails-quietly",
@@ -7171,6 +7167,10 @@
   "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9tSWFnQzNDaENWdVpna0N0dnhMQnVpMDBJTm56QWptcmszOTYyblh3WGRiZFU0MzBwNDNlbGpKcnI1d0pEYjdibkp1TzNfSmloV1RtaEdB?oc=5",
   "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Jd1FYSHJLV1JidWU3SEZCaDhKV0JHXzN1eVdta0NfUzB0cnprbnE5dDNQRG5TdERpd0JuTzQ2blFUUG1tdVJBbjUweDh2VkpaN0ZCdjFNd0dxdk9rSWZ4ZVpIcURCNmRjVkFtcWlhSDRaS2s3eGc?oc=5",
   "https://news.google.com/rss/articles/CBMidkFVX3lxTE5JdG4ycnZ3bVlHOGtWa2lsY29EY01BS2JCMTBveE9wbnhteW1GMk1CSUFZeFBnZWhKd0UxS1lWQWRkT1BGdU9nMFdxLTRpWW01bEhQd0YzRlBuM3F6b2FLMUg1VFp3NlU0cTJiOWxMUkZmV0p1Vnc?oc=5",
-  "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRE9DSGM2ejdBUVJWMnpGVUF0b1h4MV94SnVSNHFjVDV5OWZSRDFJVzBfcm1IT2dEQ2h2VmlvM3hLbWEzMnI2cF9lbklMZGFOVXE5MDRfTHA4cXpZSjZXRWZPSGJUai16QUdfMUhJcEFyVGJoM2FaLXNheXhfNmp6aDdqZ1Q2aHF0YnpaalFoSXF0eDM3YTUwVHJkOHFFZUVMc01FTjFOQjd6ek1tWjBrQWcxYVFUOFBEbE02RGp6dTdleVJnRV9GQ1F1V3g5OWFs?oc=5"
+  "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRE9DSGM2ejdBUVJWMnpGVUF0b1h4MV94SnVSNHFjVDV5OWZSRDFJVzBfcm1IT2dEQ2h2VmlvM3hLbWEzMnI2cF9lbklMZGFOVXE5MDRfTHA4cXpZSjZXRWZPSGJUai16QUdfMUhJcEFyVGJoM2FaLXNheXhfNmp6aDdqZ1Q2aHF0YnpaalFoSXF0eDM3YTUwVHJkOHFFZUVMc01FTjFOQjd6ek1tWjBrQWcxYVFUOFBEbE02RGp6dTdleVJnRV9GQ1F1V3g5OWFs?oc=5",
+  "https://news.google.com/rss/articles/CBMihAFBVV95cUxNME1MeG4xNkp5YlFMNUhKUFBoVDVpV0Nwa1BLcHctSlpsZUN3LW5sMGpKYTd6Z0xoMUpZVXYybEo3Z3U4Y1loTU5yZ1dPMVNsSUhXS2xTV2RPWkpuT0hLcmhyY09QUEJ5cS1wZXQ1bGtOckFPbzlib2xjYUozX0o0VER6UzM?oc=5",
+  "https://news.google.com/rss/articles/CBMieEFVX3lxTFBYdlJPOFFOdGhhX0taWnAweTdqM3dZaG1iTkdtLVpvLVl5T014ODctNUtULU1YNDl3ZnBBSjJKQmFkb1IzS0d2YktsTEJfTXlfSkVrRmdHc2FReHBIdnRFcGhaamRaaVMxV3NQb2ZvQ0RjSTNRSkVENg?oc=5",
+  "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSTFfZFRRUFBDUEtDMk5KVGVhX0ZHRWI2S0xBMTNyV2tLLXFiN05FV2ZFUEhGSXZ6Z3RGanZNVnUwQ3FGWGYxa01mQ2todzhjQm9XVVRZd05XVndRelhaLWdlbnBRX0Vndm53V1JMZVRuSGlGbEU3dW9CTzdCU2FZNmxqbWRKWTF0QjZLeDRnU0kzMTZ3eDVnekRESlNNaW5VcXl0YUhEMVZQd1VwQnNYWUFGNkp2X1dPaWFFVFZNNVJVb28?oc=5",
+  "https://news.google.com/rss/articles/CBMi1gJBVV95cUxNUUNpazNmRVJzMjBocE1HYnEwcGpUb0RrMkg4N1JxSTVkdnhPekprZTVWTV8xcHdEdG1ZVGk0dmx2WWJEa29ScHUtVXpJN2c5bUVzZDhybXpWdS1iMHB2c1JwX0hVMWVrQllJbWx2YjUxQUV1ZEQ0ZjVKbVNkV210N28xbC13bVp5UWZnU3FzNVdfeWF3VExUMkdnaVJmS3ZMOF9KMFoweUlSdUQ1cEEwZGlmOUg1bGJWNXUxVElxblB6UWJ4OXBGdHo1WG1NcVJMRDhCNVkzWHlqRG0zZzBEb3J2TGJUODlqSHI2Qk1JSS1QRndWc0ItbGstbW44a2FBamhqMk5Gb1RpcVo1N2Rjb1ZOenpLenBkVWpHb1Azdy1GRW9VTk9Gc2FGYkx3Mlo0R2pnOThtbXBGR0pWcWcwdGk0NHcxREFwLTgxU3dlUUdOQk1mNkE?oc=5"
  ]
 }
