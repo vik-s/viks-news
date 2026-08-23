@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-08-23T02:14:05.619120+00:00",
+  "generated_at": "2026-08-23T05:05:38.708275+00:00",
   "model": "claude-sonnet-4-6",
   "backend": "openrouter",
   "sources": [
@@ -62,7 +62,7 @@
    {
     "name": "Bloomberg (via Google News)",
     "ok": true,
-    "count": 3
+    "count": 0
    },
    {
     "name": "Reuters (via Google News)",
@@ -77,7 +77,7 @@
    {
     "name": "Korea (Herald / Times / Chosun)",
     "ok": true,
-    "count": 5
+    "count": 1
    },
    {
     "name": "SCMP Tech",
@@ -181,7 +181,7 @@
    },
    {
     "name": "Ayar Labs",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
@@ -522,7 +522,7 @@
    {
     "name": "CoreWeave Blog",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Vertiv",
@@ -652,7 +652,7 @@
    {
     "name": "TechCrunch AI",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Chips and Cheese",
@@ -672,7 +672,7 @@
    {
     "name": "Topic: co-packaged optics / SiPh",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: optical transceivers",
@@ -682,7 +682,7 @@
    {
     "name": "Topic: HBM",
     "ok": true,
-    "count": 3
+    "count": 0
    },
    {
     "name": "Topic: advanced packaging",
@@ -692,17 +692,17 @@
    {
     "name": "Topic: AI silicon",
     "ok": true,
-    "count": 5
+    "count": 1
    },
    {
     "name": "Topic: foundry / process",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: semicap",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: datacenter power",
@@ -737,7 +737,7 @@
    {
     "name": "Topic: neocloud / AI compute",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: enterprise storage",
@@ -745,8 +745,8 @@
     "count": 0
    }
   ],
-  "candidates": 23,
-  "kept": 4
+  "candidates": 3,
+  "kept": 0
  },
  "items": [
   {
@@ -4238,9 +4238,6 @@
   }
  ],
  "seen_urls": [
-  "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZy0tMTZvV2t0T2xzdXotNEhVTUp0MHFEcEs3ODVKS0hvZGVmZ0d1bURqaGZKOHFKU3U5dHNDa2pETnJqdXMzbktRczlxdDdtSVRvbHl0azhPOUc3aWdBZzZJUnc2bXo0OW1nNjA1LWNERHpfRmpTSGcwcjgzM09QRnNFd3RBazBYVGhOaG53WU1FUmo3X1lUdnU2N1k2aURjRmZRdkJFWWxfMUVCNDFVR0V1OXNBclBSYWVrdjh1WUl6cjMx?oc=5",
-  "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOczcyMFFSdTdnNFBjNHBmYVBhaGpoOW5MVnFEdnRPd0F0VzlOYnBBX0ZHUmZOWkNITDNaUFNvN1UwNW5lc0E1Wkk3T1FiTnRKYjNjX0U5M1JQN09yc0xMMTZsS25ZZ2NYV2VITE9rekNEV3h3VmFKUjFSOGg2eG03QlJOVVNRSVBGTEJqLWh6dWYxY3k0ekJVNXAzdk5uSHhOQjVNT0FkeGpTb0wtNFFHdURNdExYeV9T?oc=5",
-  "https://wf.coreweave.com/blog/what-a-reference-architecture-for-distributed-ai-training-actually-looks-like",
   "https://news.google.com/rss/articles/CBMiugFBVV95cUxORjJGR0gtRWduM3JaWE1yNUtBcDVHNjMySUxDZGJPYVRrMm5jVFI5SlBqLTExZmVlMDJKb0FvSVRycUJjVnBVME5wWHo0TWdGeTV6d1dOUWJyS1F2ZFN0ZnVvc2MydHBYRDZSaElUMl9FcEpkdUUwM09MTGJ2SV9qTkFwUEJEcFF0MjZkVjNxOFN6dWJwTmx3Y3g3X3YxM2VzZXhSNFBPbXEzY3NZbjFNcGY5RnRvVXowcGc?oc=5",
   "https://news.google.com/rss/articles/CBMidkFVX3lxTE1TNUtMQjJUZWdKbVFWU0ZESTZ5cEx1dU9sUVkzWnotS3U2VFBMdmhKTnYxYVo2YzRVWkJtNERTMnF5S29zaE83ZU90Ql9GaG5VME1ndzZkSzYyMW8wRS1Oc3BlM1RjY0ExWEZ6TzkzNEtsdXBFQWc?oc=5",
   "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaHdNREZJQzFzMGRNa19xSmpPZVR2blNvbk9uRnp1SDhUZ2o3d1lLQXJZLWlOMkR4RV8xeGFITmx5Y3RBN29KbWcyLVRDMTVScmRIcWR5NmdVWmhNVXJTRnhJWVdZN0RpeXJDcTJUMXdmMVRWTzVRYWQ4T1RHcTBoQlRFcWVwT2FqOG96bDVNdFRLRzNxQURqeERyajBBR2ly?oc=5",
@@ -7237,6 +7234,9 @@
   "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5jWlRQRFlOVGs1QWZwOFB3dml5YVBEaTZUd2M3SzNDcVVfUTZWc0ZxVWYzRnRKbkpBNnVZY3JXWFVSSkV6MjRoclBsTUdEMFZDTmJVRFk3UQ?oc=5",
   "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vUjJUX1VZMmtTSFdZQTVnNEVJUWFqdmtOZWh1YWlnY2dGWjA4V2NIZmxJX3dDbEJTV0N6NXFFeU9XbXNRejdlQ0dZV2ZRcE5rcVloN3c1NVdNTC02Qzg5ak5Hc1BWY3NyUUY1WQ?oc=5",
   "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMUNIOW90LS1QWTEwUDR0eUhoLXRtYlk0T1NlT3ZBZVBiekNXMWpoMmJMZmZNUWlFYXZXeTZDdk1YcUhsVWRVMURnOE1rRjZLT0ZzRGl3cjNjbzk4LUhFUjItSXJ6ZkhpOG02dUJ4a1M4VHlxQS10OWRYdk1jdVBoWXV2UHduTGY1Y3J0TWxuNVJRb2RDSF9HZEtSZE9Za2o5Ync1VWh1czhrQm9iNTgtT2VBZ9IBuAFBVV95cUxOdXpqQm1hTzhrdXpKSnlsUGVidDdsTTJ2bXpwalpSeUxrSUplZXlvREVUbTFzdmFiRFFyOVhUUzQxYmJuQlVZY0ZvNkM3c01wZ3NWOWdoR0VaTWpWTlBTa1hhZUdxaEMwNThqZ2Y1bGtib1ZDaDM3aGU5X3J4NmdmODRtSlFYU0RzSkdsNEdNd0d5bUpFcmdfaVR0d3JaemFxWHBTbThVQXhzLVRqemRGeUdLZ2hKaGw4?oc=5",
-  "https://news.google.com/rss/articles/CBMisAFBVV95cUxOamgxQ1R5VkRHQ1FUd0N3ak81YjZVd2pXLWxFeTJfaFRmeXdWZEVfLS1PZHctd25PS09nSEtPNFo5TU9objFtZnlpazI5c3ZxOW53OGc3TjJPX1kxV3o1dkhNeWZoRXBVMmpjU1NBNWg2WUZNcV9xdF84UkdqMFVZc3dIMmlQTl84bXZUVWZXTFg5WS1BYjI1UHdZZjBXRm1zbXNobXU1NnA1bHM4YWFEVw?oc=5"
+  "https://news.google.com/rss/articles/CBMisAFBVV95cUxOamgxQ1R5VkRHQ1FUd0N3ak81YjZVd2pXLWxFeTJfaFRmeXdWZEVfLS1PZHctd25PS09nSEtPNFo5TU9objFtZnlpazI5c3ZxOW53OGc3TjJPX1kxV3o1dkhNeWZoRXBVMmpjU1NBNWg2WUZNcV9xdF84UkdqMFVZc3dIMmlQTl84bXZUVWZXTFg5WS1BYjI1UHdZZjBXRm1zbXNobXU1NnA1bHM4YWFEVw?oc=5",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbVZGWnd2TGx3a1RuREYzb3FPbTcxeUpfU1VNZzVxM0xELTFfUUpRODBMaXRkOXA0cUs3M19LUERXTGtCbjJoZ0trcEgyQnJ0TzRlZ3VqMGtUY0x4NklBMkNlbVJmLXFHSHMyb05UdDFzWnJxSG9JY1R3MVI0TmRMMnA1ZkdLOW1jQlV1X3p4SzBNb2V0MmZKYVNoVWZhMTA4Y05uYmFEdERLamZ6TkQ3UGR5Z9IBuAFBVV95cUxPUkhXWVZZcnppUG9ZblBoYmVlS0ZZT0FiTy1UUS1UaHlvTzFkOGVxTENtSHNWeW1yMEtWRDZvOWlVN3FOUF95aWh5c3FESUlnV000S0tyUDU2LWRGblYyb1lLdXNqbjcySjZseXh3TEtIMS1ueVVRZEx6UEw2ZlRPelFkLVhZUnFOaEpIX0g2NW9UVXI0THFwZmJzNVNwdUQ1MXRvZW4yZDRQaVQyd01YWGZDMVNRXzFH?oc=5",
+  "https://www.scmp.com/tech/tech-trends/article/3364911/are-humanoid-robots-future-chinese-makers-instead-highlight-practical-design?utm_source=rss_feed",
+  "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQM2JiQVlPNVh2cExTazI1bFhudGtBR2lTbDVtanVBUGdjNkp4LWRXT2wtM3ZCMDZrSi1xZUFRNlRrN003T2FJdUJHcnR4RDRuSm0yRFl1SVNHUFc0YzlkUGttdElxRWstMGdQZ3B5ak5iWHk3LXNObG4wcmJsYUVNU1owdHF5a2ZEVEVVS2JScHllbTNadnN0UHhZWUVqZG9mcnlVc2M5a2hVTFZuVGxzcmpRd2J3NEtJaFNHZVA5SGVOUlFtRGdxQ0luamVxUDBaTDlv0gHYAUFVX3lxTE5jQ2ZVRVNwUkZrUkJuTTEwX3FadUVULTY1c1Z5cFRGNlJPRzkweUpnc3ZOazUzUmJ1ejRoREl5dE5pSkVpSG1nZEcwVnBYZHNucmZlZ2ktRU1lMGdZUEFtOXYtTXRoYVhXZ19YakJfMTJ1UlhGWnI1UXJMYm9pNWNLU3VmUE83WGN4UlctbWEtY0FuM0drY2JYNGp6LVZwSVh1a2ZJM1FJWkd4MEhkT2FfMFlOOWZLOUFqMEFlUHpMZVhXb2hvYVVzYlVGX1F6NDRWbnU0cnNQVg?oc=5"
  ]
 }
