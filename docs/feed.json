@@ -1,27 +1,27 @@
 {
  "meta": {
-  "generated_at": "2026-08-29T19:32:48.313625+00:00",
+  "generated_at": "2026-08-29T22:47:50.100396+00:00",
   "model": "claude-sonnet-4-6",
   "backend": "openrouter",
   "sources": [
    {
     "name": "SemiEngineering",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "ServeTheHome",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "The Next Platform",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
     "name": "Blocks and Files",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -32,12 +32,12 @@
    {
     "name": "Tom's Hardware",
     "ok": true,
-    "count": 4
+    "count": 0
    },
    {
     "name": "IEEE Spectrum",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "The Register Off-Prem",
@@ -57,7 +57,7 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "Bloomberg (via Google News)",
@@ -67,7 +67,7 @@
    {
     "name": "Reuters (via Google News)",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "The Elec",
@@ -77,7 +77,7 @@
    {
     "name": "Korea (Herald / Times / Chosun)",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "SCMP Tech",
@@ -181,7 +181,7 @@
    },
    {
     "name": "Ayar Labs",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -592,12 +592,12 @@
    {
     "name": "PR Newswire Semiconductors",
     "ok": true,
-    "count": 0
+    "count": 2
    },
    {
     "name": "PR Newswire Electronic Components",
     "ok": true,
-    "count": 1
+    "count": 2
    },
    {
     "name": "PR Newswire EDA",
@@ -607,7 +607,7 @@
    {
     "name": "PR Newswire Computer Hardware",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Data Center Dynamics",
@@ -652,7 +652,7 @@
    {
     "name": "TechCrunch AI",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "Chips and Cheese",
@@ -682,7 +682,7 @@
    {
     "name": "Topic: HBM",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: advanced packaging",
@@ -692,22 +692,22 @@
    {
     "name": "Topic: AI silicon",
     "ok": true,
-    "count": 6
+    "count": 1
    },
    {
     "name": "Topic: foundry / process",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "Topic: semicap",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "Topic: datacenter power",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "Topic: liquid cooling",
@@ -737,7 +737,7 @@
    {
     "name": "Topic: neocloud / AI compute",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: enterprise storage",
@@ -745,8 +745,8 @@
     "count": 0
    }
   ],
-  "candidates": 28,
-  "kept": 2
+  "candidates": 8,
+  "kept": 0
  },
  "items": [
   {
@@ -6922,12 +6922,6 @@
   }
  ],
  "seen_urls": [
-  "https://news.google.com/rss/articles/CBMie0FVX3lxTE9YVEQ1dDI1MWhVUGVEVml2eHhJNzJXX1VzS19vM0l5RmtqUWpkc2g1QV95X1lzb19XT18xVk8zck5fdHJlOWtfNVJHaFJZQjhlSDhEd1dGblZSNDltZGpsSllNZUI1UDRKdHVselZoS3dLalV4LWtfMURmQQ?oc=5",
-  "https://www.bloomberg.com/news/articles/2026-08-20/chatgpt-can-now-control-imessage-potentially-raising-apple-privacy-concerns",
-  "https://news.google.com/rss/articles/CBMie0FVX3lxTFBPaS1seHZVWjBlazNJbWM2amVKSm1vM05venUtYW43OGdoalJMQ3A2azlZaHdxUWtqZHhlOXZqVGQxSmZHblFwSWhnSDJEQ2FlOGJXQzNyeFQxSHJoSEJPUGZMU0dONDd5azhyb3NUNWVIbExoaUxfalpNUQ?oc=5",
-  "https://news.google.com/rss/articles/CBMixAFBVV95cUxPazdxdnFCVUJsTGRuNGNpWmRLTjFLYUN5eUYwbkt5OHZsWm5yRzY0dVdfWEN4Z2dDLVhGSkpfeVRmRlEwX0RRZWZuUmZzWjE0d0ZLUTQyZmlHWW1nZDZabU1EamtvcVlQUHFoWWlyMnpMZkQtQXpZWUJJM21kTlhjVHNUZHpMckZqdjBUZUlPX1VGaWs0TEFMeUs2S0ZhZGhNUUllY3pvN3NPOTcxUDBfaURTSkFFVGR5bzdTUjJxOWVMY2dB?oc=5",
-  "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSnF4dnJVX0FrcVZJbHMwY2ItY1M1N0JVdEZESnNaYjd4VWh2Ym8tSFBzWVJjUG4yYURydk04aXFIbnpoQ19FZGU2MWpJaEpwamE0TmZkLW5PeklTTm5ZRV9pZmRuVXJTcWctWFBDRENGaXFydGs2TXc0ZzBOOHV5bw?oc=5",
-  "https://news.google.com/rss/articles/CBMia0FVX3lxTE54b1g2azBLY0hjV2hWQ3NmRGNhMW5HYlhRVjhERmpBdzltYTFDRVZReU16dUx1aVkzSzRUTmh4MU54MWFVZVlILUFnNnFYdFEyazVIYXNMV3Z1ekR5dDJCRXFHS0V3OTlCZWdF?oc=5",
   "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQdGJ2a3VZVnVsNkhoWnhkYUstdTktY1NYMzFQTXF1SEdxelZZU3F4VkE5SkdocjRnUTIyUTJES1VMNUdLVWphd3lTN3NkbXVvUVM1Y2JRQTl1Z2YtLVoyOHNIUURVcWRRSzNDRk1JZzExQlBEUzA2TTdFdnhHb0RydjRHMDlicnRxSFl5MnMxM1BNdEUxTEhsSDdvLVRuck5BZ09lbmNRd3V1clRfdGZIdm8yQk8yQk9CeW5hV3ZwQW9FLUgzaWU0cmRCR0dpYUdwLU12NWxST2lBRUR2b1E5RF9rekZXU3c?oc=5",
   "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSDIzTTlEUVJoQVRXTElmaVJ6RGREZTFxMG9CVU5SZHZJcFJoSnFDR2JJd0pYRlQxNzJRTERNNUlBYXJIV0FRV2hDV2hfOXh6WV90SUNWY016U3BpMnFldURRbGloV0V4c2Y3REk5N1VQemtBU1JZU2JVZ3dxSnlZSmVEb1NXVTJ5QmJYbHJaZUo?oc=5",
   "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1lZ0F0aUFpdWF2UVlWeXh3c1BLVjFmSVRnX19laXp3Zjk5WE42M0J4SVcwMHpKakRDZk1YSndSTzQ1MDJObENQQ09XWmlnTEpsTHdrdWZHMURCdzBmcVh1Y2F4QjBPQQ?oc=5",
@@ -9921,6 +9915,12 @@
   "https://www.tomshardware.com/tech-industry/drones/startup-raises-usd7-million-to-build-backpack-portable-8-8-ounce-drone-interceptors-mara-claims-20x-cost-advantage-over-other-interceptors-priced-one-for-one-against-attack-drones",
   "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM3FHbEVkSTAwUDVGNVJFM1NsblpXa1R6NllybnJsRm9XX2JyZWJGWFR6T2puZHVDNWtFRjVmVkFsWXY0aUVUZFpFZFN2S0xPWnQ1Y2NQSl9tdkl0VXNIY0pveTlUWXZRdVNsZGNVYUxlYlFvODREUVlXOXcwZWxGeHZIZEN6VDZQaXJ6WjBERDdJalZZb1Vjc0ZrdFFEdnZIUF9hMWtqY04?oc=5",
   "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeDdIRk04MFp4dVdjU0pUZmxIYVRySHg1djd0a2wyTGJVNnB5cWNTekxkNVBhcDJJSUluZkpEbDllR3daalBBYU9vSU4yWXpSZFVreEhLdW9VMjJQYzBHRVBVMzRBZEdqZklwQWJpOGhBWGRPUlJHd3FGUUVFcEU1d0ZHVk1MQQ?oc=5",
-  "https://news.google.com/rss/articles/CBMibkFVX3lxTE5zV1JBS0NPT3hFRXZvdmJpLVZYVGZqdV9kbVE2WGl5b1Y1XzBoRDJOWTlOR3U5MTF1b1o3MGFVSDBBSlp1NktDNm0xM2lFZkdEd0UxVEZ4TWdZR2w3cHQxcDNITTVxY3BhbE5JTHRR?oc=5"
+  "https://news.google.com/rss/articles/CBMibkFVX3lxTE5zV1JBS0NPT3hFRXZvdmJpLVZYVGZqdV9kbVE2WGl5b1Y1XzBoRDJOWTlOR3U5MTF1b1o3MGFVSDBBSlp1NktDNm0xM2lFZkdEd0UxVEZ4TWdZR2w3cHQxcDNITTVxY3BhbE5JTHRR?oc=5",
+  "https://www.servethehome.com/cisco-secure-ai-factory-with-nvidia-expands-to-supermicro-rack-scale-systems/",
+  "https://news.google.com/rss/articles/CBMisgFBVV95cUxQU0RrSkgxV3NnTmFadjN0bkNtTkEwRFFMczFwLWViYkU2Tk1sNDVTenFsUHdxTFg4Yk96SVRmR0dUMm03M19jSHJ1NEs0ajc4cXhrQzhvdWpJeU1PaEFNQ2JkN0hOc0VkQmJnemRUVlpkaDY1bTF0eGJKRTJyWF9HSjVBSUh1Yk1OOU5XRG9yXzh3T1lRUnlCeFpyOVBlR202RzlKdkZLb3RLZUhBUU9XQkhB?oc=5",
+  "https://www.prnewswire.com/news-releases/tcl-electronics-01070hk-levert-sterke-groei-in-tussentijdse-resultaten-van-2026-302864338.html",
+  "https://www.prnewswire.com/news-releases/chinas-robot-boom-is-raising-security-fears-as-the-us-robotics-race-accelerates-302862277.html",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTGJDdzJGTHhiRzd5OEFvcFRmQjB5WVN4d1lqcUIyM2JqOFJMeWpSQ0tORnNQZUptZWZta09vMzNDLVRpTWliRWZvV3NnSk9LU2RLNkMzcFZZVHZSVmprLXFLUXVmbGtXQWktWUZhSVhXa2VjNmNLR1BXMGJNX2Q3R3FJTjRYOTFHR0ZSVWtTNlR3bDlVVTZvdEYtSEpaRVN6c2xNRUVpZXRsYlo0YzhaTG1fRdIBuAFBVV95cUxOaXZrM2VUbUUwN1daMDZNNWdpcElpdTl3ejJtMHptWlV4bzBtYlZVSGEtTHNxRmFWWTBYMnFQd2VyYk4wX2p5XzhtYi10VlpqVzE2Qk5SUmt2Q3dsNTh3TDVLcU1oV1paQkhkVEZ3YWxqWkZoRmpfOUMxc3A4YXdKckpWc2lUNUVOdDk4UkRKcElUcFBtczZ6ZGIyRmZ4QU1idk45NE5NZktiX09YZHpoVW9ZTnlfSDk5?oc=5",
+  "https://www.prnewswire.com/news-releases/tcl-electronics-01070hk-verzeichnet-in-den-halbjahresergebnissen-2026-starkes-wachstum-302864337.html"
  ]
 }
