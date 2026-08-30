@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-08-30T19:26:24.128320+00:00",
+  "generated_at": "2026-08-30T22:56:13.273004+00:00",
   "model": "claude-sonnet-4-6",
   "backend": "openrouter",
   "sources": [
@@ -12,7 +12,7 @@
    {
     "name": "ServeTheHome",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "The Next Platform",
@@ -32,7 +32,7 @@
    {
     "name": "Tom's Hardware",
     "ok": true,
-    "count": 4
+    "count": 0
    },
    {
     "name": "IEEE Spectrum",
@@ -57,12 +57,12 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 4
+    "count": 2
    },
    {
     "name": "Bloomberg (via Google News)",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Reuters (via Google News)",
@@ -72,12 +72,12 @@
    {
     "name": "The Elec",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Korea (Herald / Times / Chosun)",
     "ok": true,
-    "count": 2
+    "count": 1
    },
    {
     "name": "SCMP Tech",
@@ -471,7 +471,7 @@
    },
    {
     "name": "Skyworks",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -602,7 +602,7 @@
    {
     "name": "PR Newswire EDA",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "PR Newswire Computer Hardware",
@@ -637,7 +637,7 @@
    {
     "name": "SemiWiki",
     "ok": true,
-    "count": 2
+    "count": 1
    },
    {
     "name": "Converge Digest",
@@ -652,12 +652,12 @@
    {
     "name": "TechCrunch AI",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "Chips and Cheese",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "More Than Moore",
@@ -672,7 +672,7 @@
    {
     "name": "Topic: co-packaged optics / SiPh",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: optical transceivers",
@@ -682,17 +682,17 @@
    {
     "name": "Topic: HBM",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: advanced packaging",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: AI silicon",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "Topic: foundry / process",
@@ -707,7 +707,7 @@
    {
     "name": "Topic: datacenter power",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: liquid cooling",
@@ -745,8 +745,8 @@
     "count": 0
    }
   ],
-  "candidates": 22,
-  "kept": 3
+  "candidates": 9,
+  "kept": 0
  },
  "items": [
   {
@@ -6977,15 +6977,6 @@
   }
  ],
  "seen_urls": [
-  "https://arxiv.org/abs/2608.20277",
-  "https://arxiv.org/abs/2608.20306",
-  "https://arxiv.org/abs/2604.09969",
-  "https://arxiv.org/abs/2608.19336",
-  "https://arxiv.org/abs/2608.19494",
-  "https://arxiv.org/abs/2608.19566",
-  "https://arxiv.org/abs/2608.19979",
-  "https://arxiv.org/abs/2608.19992",
-  "https://arxiv.org/abs/2608.20015",
   "https://arxiv.org/abs/2608.20022",
   "https://arxiv.org/abs/2608.20096",
   "https://arxiv.org/abs/2608.20197",
@@ -9976,6 +9967,15 @@
   "https://www.tomshardware.com/tech-industry/data-centers/spacex-starts-in-house-turbine-blade-manufacturing-to-boost-gas-powered-generator-output-for-elons-ai-data-centers-new-manufacturing-strategy-cuts-generator-delays-by-18-months",
   "https://www.bloomberg.com/news/newsletters/2026-08-30/john-ternus-management-team-apple-watch-series-12-foldable-iphone-apple-pencil-mtfvmdyu",
   "https://www.tomshardware.com/video-games/retro-gaming/donkey-kong-64-finally-gets-a-fully-native-pc-port-written-in-c-dk64-rekongpiled-brings-ultrawide-support-uncapped-framerates-and-zero-ai-code",
-  "https://www.bloomberg.com/news/videos/2026-08-30/g20-faces-divide-over-debt-ai-and-global-growth-video"
+  "https://www.bloomberg.com/news/videos/2026-08-30/g20-faces-divide-over-debt-ai-and-global-growth-video",
+  "https://www.servethehome.com/nvidia-announces-jetson-orin-nano-2-entry-level-edge-board-gets-new-ampere-silicon/",
+  "https://www.bloomberg.com/news/newsletters/2026-08-30/youtube-star-markiplier-is-now-gopro-s-largest-shareholder",
+  "https://www.thelec.net/news/articleView.html?idxno=13456",
+  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE55WFNRVHlCQU42X1gxaUdFZTFOcmliT1Y0ZVpWNDBGanNDc0lkN3FKczktTEtRVURZOEd2X0E4NTNQMFpOczVVNTE3M3ZKWU85U0pMNlZmdw?oc=5",
+  "https://semiwiki.com/ceo-interviews/372496-ceo-interview-with-phillip-stanley-marbell-of-signaloid/",
+  "https://news.google.com/rss/articles/CBMiekFVX3lxTE9ESHNvTDVacXlxQkc3bThMMTdZY3YyRXlHakI3bTdVbVRHeVpuanZlUFBFaHplelZQOExmWUNkSmZtdnJIN0hKN3F4dFpmNjlNQ0hwVGVTQkh0ZVB3TjVHdWcxVi05RThFYy1DRlVzdXBqbHdxb1JSVk1R0gGOAUFVX3lxTE12ZGJRM1UzajBQUEc0Qld6UldJdFA4WnY0MDNrVDNPaWlKbzIybXFMRG5adFZMNUJtWjFNNmM2NHV6VExYV25mdlVQVEhEajMtZm0tTmdOZHBmby1FajVCc25zOUFCN2FYbDdieFpWcHN5UmxBRGV6MktpZktWS0tzLTFNZ3JYODU2RXBvcWc?oc=5",
+  "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSE45Y3hKSnBGYlNFRG0zc0dROEpGMmYtZ3ljZmlvbHg4MFFhbDRmcjFCNE51V183WjBvRHlqcDZoYUhNYWdvWEpBXzJyNktydzlwR3NTUTNRbmY0bTlHcVAzTGtUbnBYdG5ybHlNTUNxSVl4eXpjaTRuRmlQT2J4Qw?oc=5",
+  "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQOGZxZk5pcDdZcW8tRDJ6a082TEx2TmMtLWZQVXlkc1BvQS02ZUM3MUdveUxjaEoxdTc3aWc2eFE0ZktqVEFlaDlaT2RWdS1rbnY1c1dXWHUyakotQVJKbENfOEpaVmUwUGR3RDVPS1BBMTh4b3p1b3kycnBUcnhyR2hHMkVzQ3lpVVNkX0paaGlKSjhHcHlNbWZEQXBqc1hWWkt4dUVXY0tPZFlLLTBiSm1QZG1FdXp3N0MxZlFGZ3R5eGhtSC1QYzIyUzBfU2V1S0VWRXdSNlnSAd4BQVVfeXFMUEtGaGNJa0FqMzBDQ1ZkNUdHb21qaVlXSml2UWs3bG9xREMtU05GLTVnVUp1Ym5qaWtaNmw2Nnp2QjBxVjdRM3VnNkEtSm0xSGR5TUxvZFRQYk1UeTNFbl8wQU1qYWZOVng1ejZiQ0NSM2FRTXhTYTdlRGtEUUNNUEdGdkV1ZzRfaFNfengyYzdpUTF0Z1VhQ2l6M2xuSllWZXBzSlZtd29TN1dsNzJpanZDcC1UZVI3NjNjQnk4Ym8yTEFTOW1oa05yNDFtMXFUMDlEMXBPYUZONGdDZk9R?oc=5",
+  "https://www.bloomberg.com/news/videos/2026-08-30/the-ternus-era-at-apple-begins-but-cook-isn-t-leaving"
  ]
 }
