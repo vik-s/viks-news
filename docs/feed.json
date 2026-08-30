@@ -1,13 +1,13 @@
 {
  "meta": {
-  "generated_at": "2026-08-30T13:59:32.099358+00:00",
+  "generated_at": "2026-08-30T19:26:24.128320+00:00",
   "model": "claude-sonnet-4-6",
   "backend": "openrouter",
   "sources": [
    {
     "name": "SemiEngineering",
     "ok": true,
-    "count": 6
+    "count": 0
    },
    {
     "name": "ServeTheHome",
@@ -21,7 +21,7 @@
    },
    {
     "name": "Blocks and Files",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -32,7 +32,7 @@
    {
     "name": "Tom's Hardware",
     "ok": true,
-    "count": 9
+    "count": 4
    },
    {
     "name": "IEEE Spectrum",
@@ -41,7 +41,7 @@
    },
    {
     "name": "The Register Off-Prem",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -57,12 +57,12 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 2
+    "count": 4
    },
    {
     "name": "Bloomberg (via Google News)",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Reuters (via Google News)",
@@ -82,7 +82,7 @@
    {
     "name": "SCMP Tech",
     "ok": true,
-    "count": 3
+    "count": 0
    },
    {
     "name": "EE News Europe",
@@ -181,7 +181,7 @@
    },
    {
     "name": "Ayar Labs",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -436,7 +436,7 @@
    },
    {
     "name": "Navitas Semiconductor",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -471,7 +471,7 @@
    },
    {
     "name": "Skyworks",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
@@ -602,7 +602,7 @@
    {
     "name": "PR Newswire EDA",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "PR Newswire Computer Hardware",
@@ -637,7 +637,7 @@
    {
     "name": "SemiWiki",
     "ok": true,
-    "count": 0
+    "count": 2
    },
    {
     "name": "Converge Digest",
@@ -652,7 +652,7 @@
    {
     "name": "TechCrunch AI",
     "ok": true,
-    "count": 0
+    "count": 2
    },
    {
     "name": "Chips and Cheese",
@@ -672,7 +672,7 @@
    {
     "name": "Topic: co-packaged optics / SiPh",
     "ok": true,
-    "count": 2
+    "count": 1
    },
    {
     "name": "Topic: optical transceivers",
@@ -682,17 +682,17 @@
    {
     "name": "Topic: HBM",
     "ok": true,
-    "count": 3
+    "count": 0
    },
    {
     "name": "Topic: advanced packaging",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: AI silicon",
     "ok": true,
-    "count": 4
+    "count": 2
    },
    {
     "name": "Topic: foundry / process",
@@ -702,12 +702,12 @@
    {
     "name": "Topic: semicap",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: datacenter power",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: liquid cooling",
@@ -737,18 +737,51 @@
    {
     "name": "Topic: neocloud / AI compute",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: enterprise storage",
     "ok": true,
-    "count": 1
+    "count": 0
    }
   ],
-  "candidates": 35,
-  "kept": 10
+  "candidates": 22,
+  "kept": 3
  },
  "items": [
+  {
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51Z3JlcVM1andPMlI2NVFZalhGN0Rlbk80RzY2Sl81NFBDZjNSQWxSR1QyNTdfTUlteWJqNHI3NkVNTi0tXzFKTkNHaUxUSUdPMnJQNUxhZTY0WXh0VmtKbzRFZjg0WFo5QjBIM1l0N1l0ajhSN0E?oc=5",
+   "title": "Semicon to put spotlight on CPO, silicon photonics - Taipei Times",
+   "source": "Topic: co-packaged optics / SiPh",
+   "published": "2026-08-30T16:00:00+00:00",
+   "why": "Semicon Taiwan is spotlighting CPO and silicon photonics, signaling which optical interconnect technologies are drawing the most industry attention at a major trade show.",
+   "topic": "optics",
+   "tag": "digest",
+   "date": "2026-08-30",
+   "added_at": "2026-08-30T19:26:24.128320+00:00"
+  },
+  {
+   "url": "https://www.tomshardware.com/tech-industry/data-centers/spacex-starts-in-house-turbine-blade-manufacturing-to-boost-gas-powered-generator-output-for-elons-ai-data-centers-new-manufacturing-strategy-cuts-generator-delays-by-18-months",
+   "title": "SpaceX starts in-house turbine blade manufacturing to boost gas-powered generator output for Elon's AI data centers \u2014 new manufacturing strategy cuts generator delays by 18 months",
+   "source": "Tom's Hardware",
+   "published": "2026-08-30T14:49:50+00:00",
+   "why": "SpaceX is vertically integrating turbine blade manufacturing to cut AI datacenter generator lead times by 18 months, a concrete supply-chain move with direct power infrastructure implications.",
+   "topic": "power",
+   "tag": "digest",
+   "date": "2026-08-30",
+   "added_at": "2026-08-30T19:26:24.128320+00:00"
+  },
+  {
+   "url": "https://chipsandcheese.com/p/hot-chips-2026-interviewing-ibms",
+   "title": "Hot Chips 2026: Interviewing IBM's Christian Zoellin & Christian Jacobi",
+   "source": "Chips and Cheese",
+   "published": "2026-08-30T17:31:05+00:00",
+   "why": "Hot Chips 2026 interview with IBM chip architects may surface technical details on processor or packaging roadmaps relevant to AI infrastructure.",
+   "topic": "ai-infra",
+   "tag": "fyi",
+   "date": "2026-08-30",
+   "added_at": "2026-08-30T19:26:24.128320+00:00"
+  },
   {
    "url": "https://semiengineering.com/hybrid-hbm-hbf-architecture-in-llm-inference-university-of-oxford/",
    "title": "Hybrid HBM-HBF Architecture in LLM Inference (University of Oxford)",
@@ -6941,119 +6974,9 @@
    "tag": "fyi",
    "date": "2026-08-17",
    "added_at": "2026-08-17T02:08:06.150895+00:00"
-  },
-  {
-   "url": "https://www.tomshardware.com/tech-industry/nvidia-turns-usd5b-intel-stock-bet-into-usd30b-windfall-filing-reveals-new-usd21b-spacex-stake-and-complete-exit-from-arm-stock",
-   "title": "Nvidia turns $5B Intel stock bet into $30B windfall \u2014 filing reveals new $21B SpaceX stake and complete exit from Arm stock",
-   "source": "Tom's Hardware",
-   "published": "2026-08-15T14:16:35+00:00",
-   "why": "SEC filing reveals Nvidia parlayed a $5B Intel position into a $30B gain and initiated a new $21B SpaceX stake, showing the scale of its strategic equity portfolio beyond chip sales.",
-   "topic": "ai-infra",
-   "tag": "digest",
-   "date": "2026-08-16",
-   "added_at": "2026-08-16T14:26:04.235138+00:00"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcDhEY2tiMmNlRjhOajJJVDhoSHZnZGZ5WmVmQWNROWNQWUt1cWhyMXBKN0hKRFRVS18wdGRWSmFyLVFEUnhFd19kMC1pLTc0Ql9LdldORkxwcG4ycHJHNUVUYjVwTUg5c2ltLTgyb1lZUEVzUmFCaGJNc3RIR2NfREVpMWVBcGd4X2o5R0lEc3g5RmE2S0tLTi04REZMRnJPTTdYVUIzZUNQTWpkZ21mV2Nyd2pONG9iR19HZQ?oc=5",
-   "title": "SK Hynix Stock Forecast: Can HBM4 Demand Drive a Breakout Toward $194? - TradingKey",
-   "source": "Topic: HBM",
-   "published": "2026-08-16T13:02:21+00:00",
-   "why": "Digitimes reports Samsung and SK Hynix are in a talent war for HBM4 chip designers, draining South Korea's broader semiconductor design pool ahead of next-generation ramp.",
-   "topic": "memory",
-   "tag": "digest",
-   "date": "2026-08-16",
-   "added_at": "2026-08-16T14:26:04.235138+00:00"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5CdmMyOEk2NFcza0JhZFhsT3YzRzFvUTJ1di13b2FCeUQ1SkZoNDF2SmJ1a1VKa2JzTC1wWGhwSUF6Tl9ZMi1KY0hUNlFkVnhTWDl0anZXZEpYMzVPWkwybFpoVWFfekZzUUNGbG5TT1ZUOGl6MUE?oc=5",
-   "title": "AI Chip Giants' $70 Billion in Off-Balance-Sheet Guarantees Alarms Bond Investors - finance.biggo.com",
-   "source": "Topic: AI silicon",
-   "published": "2026-08-16T04:55:00+00:00",
-   "why": "Bloomberg reports AI chip companies are carrying ~$70B in off-balance-sheet credit guarantees for datacenters, alarming bond investors about contingent liability exposure.",
-   "topic": "ai-infra",
-   "tag": "digest",
-   "date": "2026-08-16",
-   "added_at": "2026-08-16T14:26:04.235138+00:00"
-  },
-  {
-   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-reportedly-taps-amd-to-design-next-generation-tpu-hybrid-ai-asic-could-integrate-on-package-cpu-cores-for-reinforcement-learning",
-   "title": "Google reportedly taps AMD to design next-generation TPU \u2014 hybrid AI ASIC could integrate on-package CPU cores for reinforcement learning",
-   "source": "Tom's Hardware",
-   "published": "2026-08-16T12:40:00+00:00",
-   "why": "Report claims Google is working with AMD on a hybrid TPU integrating on-package CPU cores for reinforcement learning workloads, a notable architectural shift for Google's custom silicon roadmap.",
-   "topic": "ai-infra",
-   "tag": "deep-dive",
-   "date": "2026-08-16",
-   "added_at": "2026-08-16T14:26:04.235138+00:00"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ROW5MOG1ETmxjZVN2eFJmakYxc0ZpVlVJZjY5STZGZ1dGVnRRSWFPNE9IazhvbEMzN3haMFlBOXJ6QWNPamZhcVFXZ0NwZ2NEemRMYnByS01nRmFudEo2YWo0TXNUTjE3cnh4LTNqcUlZd0M4cnc?oc=5",
-   "title": "BOS Semiconductors Tapes Out Automotive AI Accelerator 'Eagle-N'... Begins Evaluation with German and Chinese Automakers - finance.biggo.com",
-   "source": "Topic: AI silicon",
-   "published": "2026-08-15T22:25:00+00:00",
-   "why": "BOS Semiconductor has taped out Eagle-N, an automotive AI accelerator, and begun evaluation with German and Chinese automakers, marking a new entrant in edge AI chip competition.",
-   "topic": "ai-infra",
-   "tag": "fyi",
-   "date": "2026-08-16",
-   "added_at": "2026-08-16T14:26:04.235138+00:00"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQ3hsMkprSjF4RkVhU2t5WnZwZlRac0FXUjl2THZDaU1lemFOQmdnOWVMNW44aDFrX1lKbGZGVW9kLWpTQ1FhdWVGSXgyLU9qZ29mZFhXSkF6dElYSEQyZWxaZUFQUy01ZWowOUtEd0RONUZwYUVYYldnVml4cW1PVkJ5OG00WHl5QW1oUS1uS3Zyd1NlbC1uVjlxMGRvT1hY?oc=5",
-   "title": "Samsung Chip Chief Warns Against Complacency Despite HBM4 Win - Seoul Economic Daily",
-   "source": "Topic: HBM",
-   "published": "2026-08-16T04:30:05+00:00",
-   "why": "Samsung's semiconductor chief publicly warned against complacency despite winning HBM4 qualification, suggesting internal pressure to close remaining yield and supply gaps.",
-   "topic": "memory",
-   "tag": "fyi",
-   "date": "2026-08-16",
-   "added_at": "2026-08-16T14:26:04.235138+00:00"
-  },
-  {
-   "url": "https://www.tomshardware.com/pc-components/dram/nanya-engineer-used-360-degree-cam-hidden-in-snacks-in-attempt-to-steal-dram-process-tech-for-china-it-security-team-pinpointed-perp-due-to-cameras-leaky-wireless-signals",
-   "title": "Engineer used 360-degree cam hidden in bag of snacks in attempt to steal DRAM process tech for China \u2014 IT security team pinpointed perp due to camera's leaky wireless signals",
-   "source": "Tom's Hardware",
-   "published": "2026-08-15T11:00:00+00:00",
-   "why": "A Nanya engineer was caught attempting to steal DRAM process and manufacturing IP for a Chinese rival, illustrating continued IP-theft pressure on Taiwan's memory sector.",
-   "topic": "memory",
-   "tag": "fyi",
-   "date": "2026-08-16",
-   "added_at": "2026-08-16T14:26:04.235138+00:00"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOa1JEelNLM3NjbTcyRXJDekRCWUdRbTl4eHpIZWRxeUdwMjFnRW5XWGN6R0ZtbWVkT2hVaW9JRV92U0xYeFQ2UkZEaHNnbzBKYUM2U2xfMDhjalNpdFFWNkFJQUcwMGFBTDFEZ01obHZtZ1lBZlVVU25NVXo4cnFLSl93YmVUYmJTaFNfczVycDNJdUJlbEhPbzVHMVA4elB4Vk5Gd3d1aWpTcnZkSE53MWY2aUdQTjNJODFiZVhLa3pCb2M0SnBxY3ozMWpDSGpvMUlaYTV5NEE4Qlhw?oc=5",
-   "title": "Nvidia to Backstop GPU Capacity for Neocloud Operators - ET Datacenters",
-   "source": "Topic: neocloud / AI compute",
-   "published": "2026-08-15T03:43:39+00:00",
-   "why": "ET Datacenters reports Nvidia is backstopping GPU capacity commitments for neocloud operators, formalizing a financing model that underpins the next wave of AI datacenter buildout.",
-   "topic": "ai-infra",
-   "tag": "digest",
-   "date": "2026-08-16",
-   "added_at": "2026-08-16T14:26:04.235138+00:00"
   }
  ],
  "seen_urls": [
-  "https://arxiv.org/abs/2608.19705",
-  "https://www.bloomberg.com/news/articles/2026-08-21/cxmt-ai-hardware-firms-take-helm-as-china-earnings-enter-peak",
-  "https://convergedigest.com/sdm4-mcf-msa-4x-fiber-density-ai-scale-out/",
-  "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MeFgwRnQxX1BZZmNNYzFYdllpbUdMMjhZbG5NbGpsVHFtTjlvd0g3Y0t2cWdHSzF3eXA0RVV0WkQ3WkdzZmxyN1VrN1JMNlVYY0hJZHZoQkktLWVHUUVZbHJ0dU0yTWRYSGZJWnRsbmJkYXBvbUE?oc=5",
-  "https://arxiv.org/abs/2608.19681",
-  "https://arxiv.org/abs/2608.19837",
-  "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNUxWUDJ4blIzOTBvT0FtT1ZXX2Uxb2FWazBzWHl1VUpmeHNRUFJFa0pBQmNQak1YQ3UzUTIyYkZTWV9aUGRCSmRQbnhSOWRZbmZOUnlIaGZ3UllLeEx5czBOQ0sxeXI1QkpWRUk3alI4QjVtdjRuQnRuWEhXSEtadmNtejhOWV9JNkJaQWVzdlBFZ2ZuNExqWmZ3YlR0WTJPVFQ0VzRnb2pxOGZ2N0diZWM4ekhWaDJEWER5TTc2WFZmaVBQTTNYNTdwRnFiMHVYOExv?oc=5",
-  "https://arxiv.org/abs/2608.19731",
-  "https://arxiv.org/abs/2608.19954",
-  "https://arxiv.org/abs/2608.19878",
-  "https://arxiv.org/abs/2608.20110",
-  "https://arxiv.org/abs/2608.19934",
-  "https://arxiv.org/abs/2608.20198",
-  "https://arxiv.org/abs/2608.19967",
-  "https://arxiv.org/abs/2608.19865",
-  "https://arxiv.org/abs/2608.20119",
-  "https://arxiv.org/abs/2608.20164",
-  "https://arxiv.org/abs/2608.20124",
-  "https://arxiv.org/abs/2507.06127",
-  "https://arxiv.org/abs/2608.20142",
-  "https://arxiv.org/abs/2606.11716",
-  "https://arxiv.org/abs/2608.20224",
   "https://arxiv.org/abs/2608.20277",
   "https://arxiv.org/abs/2608.20306",
   "https://arxiv.org/abs/2604.09969",
@@ -10031,6 +9954,28 @@
   "https://www.tomshardware.com/pc-components/power-supplies/corsair-rm1000e-2026-thermalprotect-power-supply-review",
   "https://www.tomshardware.com/laptops/gaming-laptops/poor-liquid-metal-application-almost-destroys-asus-zephyrus-m16-laptop-eats-through-the-processor-lid-paste-replacement-triples-framerates-drops-temps-and-eliminates-hard-crashes",
   "https://www.tomshardware.com/pc-components/gpus/modders-solder-power-cables-directly-to-rtx-5090-pcb-to-eliminate-notorious-melting-16-pin-connector-bare-board-galax-hof-card-pulls-600w-under-chiller-cooling",
-  "https://www.tomshardware.com/tech-industry/drones/us-military-uses-high-energy-lasers-to-shoot-down-three-mexican-cartel-drones-over-the-southern-border-narcos-suspected-of-using-uavs-for-surveillance-and-reconnaissance-to-support-illegal-activities"
+  "https://www.tomshardware.com/tech-industry/drones/us-military-uses-high-energy-lasers-to-shoot-down-three-mexican-cartel-drones-over-the-southern-border-narcos-suspected-of-using-uavs-for-surveillance-and-reconnaissance-to-support-illegal-activities",
+  "https://www.tomshardware.com/monitors/gaming-monitors/speedy-34-inch-240-hz-ultrawide-oled-monitor-now-usd600-off-lg-ultragear-34gx900a-b-only-usd599-99",
+  "https://www.bloomberg.com/news/videos/2026-08-30/author-explores-cybersecurity-risks-of-driverless-cars-video",
+  "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVEN1cm52THhhWFkyYTBUMlhEemlicVBfaXc0VjJ3aTgySjNmOXRnOFhPVkdXNjk5YVl5cFUwYlFhOHdWSFBvZXhLT2pOZG5GUFBidjZYMVNLVzNiMVcwb1lQUGNHZ0U5dHJ4dXV2Wm53aEtrTjJzbGg4SVRYVUpyd0Z3XzNBVEZNd0c2QTVxUzlrTk5ZZ0RSMHF0T2lYeGFGcnhpc3pLTng4ZmtQN3ZpZw?oc=5",
+  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1mQ2xuZjV0YmY3akN3WmFkZm1BM3ZZMW1CT1FfZEoyOC00c0FRX0hjaGFhbmJCLWZhcmZlc0d4RndVOEZtNjg4bE1kdzdEdzgtaE9POWNRTQ?oc=5",
+  "https://www.prnewswire.com/news-releases/global-times-how-chinese-nevs-gain-ground-in-global-markets-providing-greener-smarter-mobility-302864402.html",
+  "https://semiwiki.com/lithography/372789-five-billion-pulses-later-what-duv-optics-testing-reveals-about-semiconductor-tool-uptime/",
+  "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
+  "https://chipsandcheese.com/p/hot-chips-2026-interviewing-ibms",
+  "https://news.google.com/rss/articles/CBMidkFVX3lxTE51Z3JlcVM1andPMlI2NVFZalhGN0Rlbk80RzY2Sl81NFBDZjNSQWxSR1QyNTdfTUlteWJqNHI3NkVNTi0tXzFKTkNHaUxUSUdPMnJQNUxhZTY0WXh0VmtKbzRFZjg0WFo5QjBIM1l0N1l0ajhSN0E?oc=5",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZk0wVTZDQjNFcl8xSnhxbC1RQ0J2ak5OdzZJd3MtV3JJSEEwclNfSndtcV9qbTh6OUp3cUJiZFhHSWdvejgxT3RsbWZjblBFMi1ZRU42MWhZOUs2WGpLLWF2bjl1WjJEZnFZR1BaUWxyMFppSEJmcjVyTmpuOXpvREhZbDdDdFdmdUFCUWkwaHI1eGNPcVdNY1dmY21lbmlXcjFDUmRRcl9JYmJuZTV4RlNERQ?oc=5",
+  "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZnpUeHl2ZGx5MEw0V1A2QjJiWGdDMzF5bVVXS09KRkZ4SldyU19oY1JhUnV2bi1qekRFU3YzU3lScjZ6UDVqUXQ0bExFRWVyRld6REtTTDFnNFNjc2xQSnlyX0NhUDNMczBESzlkZXEydVdEZUVwRk5RZkRsZmNqSVNPU3VxZExfR0NKWU1LYmhzZlFRbnJ5czJQMVhocUZ0LXRoSlkzV3U0amh6N1p0M2pNZmU5SjU5NGZjS3ZqX2dOSEU0MFdKOTJmenhVelpyRHc?oc=5",
+  "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWTlLTVdIWkxfTXQ1aXdGdW5EWnlfbDZKbXBTUDRkVEY3b201ZzEybFhlU3FPLW5nLTJGeVJWc0E0NEx1RlVSdUFfOUFtalhKNkRXTWhPOFgxM1hfYlZ2cUNXVDM3U0h5Z3lyR2dNbEpxbVoxclNGSG1PWjJrVkNQYnFtcTl3cmlueFBIME9HbGVKbVM4YjlQb1U3Q0pEYlUwWmt0bm1Ob1BXMTFsX3FSV29GMFM5UnNia3dCVldka0J1QlVTWHc?oc=5",
+  "https://www.tomshardware.com/pc-components/gpus/dlss-5-mod-brings-next-gen-tech-to-old-ampere-gpus-but-frame-rates-are-horrible-most-games-tank-to-single-digits-high-end-gpus-can-hit-up-to-40-fps-in-some-cases",
+  "https://www.bloomberg.com/news/articles/2026-08-30/google-maps-changes-lake-ontario-label-to-lake-america-in-us",
+  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9TTHliRlc4OWhhSE5iTG9PRk55cnJrUVc1ZEFJRlhvakEyR2haZHhIaEFiQVlocEMtX3gyc0RiZlMwNHloT0Y0eGZnQm5neTJQRXVWcTIzWQ?oc=5",
+  "https://semiwiki.com/ceo-interviews/372465-ceo-interview-with-stephen-strausser-of-von-ardenne-north-america-inc/",
+  "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
+  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbF9aZVZRZUpaSmNld1dNODRFc3J6R1BRa0dIZ1ZLdU5yblNrb1RGNmhVcGI1ZFY0eWtjdTd1SWxmSnZUOXBqRmlUYklRSzdIQzFyV3NoMTVFazdnVFVPSHA3RzItcXBBbGJwVXFuSUFrR2NGdU9BOU0wajdiczN1eXR2UDNuYWdyanhZdWUwdHMtZmNPN2txWnBTMUFGV1Y5SmtFS3N5RFFtc1dIRW9EN0MyRTYzUGh0NC0zZm9aNG5Bcy1fNEFIMg?oc=5",
+  "https://www.tomshardware.com/tech-industry/data-centers/spacex-starts-in-house-turbine-blade-manufacturing-to-boost-gas-powered-generator-output-for-elons-ai-data-centers-new-manufacturing-strategy-cuts-generator-delays-by-18-months",
+  "https://www.bloomberg.com/news/newsletters/2026-08-30/john-ternus-management-team-apple-watch-series-12-foldable-iphone-apple-pencil-mtfvmdyu",
+  "https://www.tomshardware.com/video-games/retro-gaming/donkey-kong-64-finally-gets-a-fully-native-pc-port-written-in-c-dk64-rekongpiled-brings-ultrawide-support-uncapped-framerates-and-zero-ai-code",
+  "https://www.bloomberg.com/news/videos/2026-08-30/g20-faces-divide-over-debt-ai-and-global-growth-video"
  ]
 }
