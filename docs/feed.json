@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-08-29T22:47:50.100396+00:00",
+  "generated_at": "2026-08-30T05:43:39.346349+00:00",
   "model": "claude-sonnet-4-6",
   "backend": "openrouter",
   "sources": [
@@ -12,7 +12,7 @@
    {
     "name": "ServeTheHome",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "The Next Platform",
@@ -41,7 +41,7 @@
    },
    {
     "name": "The Register Off-Prem",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
@@ -57,17 +57,17 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Bloomberg (via Google News)",
     "ok": true,
-    "count": 1
+    "count": 2
    },
    {
     "name": "Reuters (via Google News)",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "The Elec",
@@ -77,12 +77,12 @@
    {
     "name": "Korea (Herald / Times / Chosun)",
     "ok": true,
-    "count": 0
+    "count": 6
    },
    {
     "name": "SCMP Tech",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "EE News Europe",
@@ -592,12 +592,12 @@
    {
     "name": "PR Newswire Semiconductors",
     "ok": true,
-    "count": 2
+    "count": 1
    },
    {
     "name": "PR Newswire Electronic Components",
     "ok": true,
-    "count": 2
+    "count": 4
    },
    {
     "name": "PR Newswire EDA",
@@ -607,7 +607,7 @@
    {
     "name": "PR Newswire Computer Hardware",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Data Center Dynamics",
@@ -682,7 +682,7 @@
    {
     "name": "Topic: HBM",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: advanced packaging",
@@ -692,7 +692,7 @@
    {
     "name": "Topic: AI silicon",
     "ok": true,
-    "count": 1
+    "count": 4
    },
    {
     "name": "Topic: foundry / process",
@@ -737,7 +737,7 @@
    {
     "name": "Topic: neocloud / AI compute",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: enterprise storage",
@@ -745,7 +745,7 @@
     "count": 0
    }
   ],
-  "candidates": 8,
+  "candidates": 22,
   "kept": 0
  },
  "items": [
@@ -6922,27 +6922,6 @@
   }
  ],
  "seen_urls": [
-  "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQdGJ2a3VZVnVsNkhoWnhkYUstdTktY1NYMzFQTXF1SEdxelZZU3F4VkE5SkdocjRnUTIyUTJES1VMNUdLVWphd3lTN3NkbXVvUVM1Y2JRQTl1Z2YtLVoyOHNIUURVcWRRSzNDRk1JZzExQlBEUzA2TTdFdnhHb0RydjRHMDlicnRxSFl5MnMxM1BNdEUxTEhsSDdvLVRuck5BZ09lbmNRd3V1clRfdGZIdm8yQk8yQk9CeW5hV3ZwQW9FLUgzaWU0cmRCR0dpYUdwLU12NWxST2lBRUR2b1E5RF9rekZXU3c?oc=5",
-  "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSDIzTTlEUVJoQVRXTElmaVJ6RGREZTFxMG9CVU5SZHZJcFJoSnFDR2JJd0pYRlQxNzJRTERNNUlBYXJIV0FRV2hDV2hfOXh6WV90SUNWY016U3BpMnFldURRbGloV0V4c2Y3REk5N1VQemtBU1JZU2JVZ3dxSnlZSmVEb1NXVTJ5QmJYbHJaZUo?oc=5",
-  "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1lZ0F0aUFpdWF2UVlWeXh3c1BLVjFmSVRnX19laXp3Zjk5WE42M0J4SVcwMHpKakRDZk1YSndSTzQ1MDJObENQQ09XWmlnTEpsTHdrdWZHMURCdzBmcVh1Y2F4QjBPQQ?oc=5",
-  "https://news.google.com/rss/articles/CBMidkFVX3lxTFAxQUwxS3k0VWtEb0I1Wk5VMVZla0hlcFU1NkpFSHZjQ0w5Y1VwLXVKeURmdlhMQXZIaXo3bDZSY0tMQVpyQ1N0SktteGwzekhtMzMwMW5fRnVDU2Jpek1WMGxPcTJGenVka01hUVZIX3RuWmRTc1E?oc=5",
-  "https://news.google.com/rss/articles/CBMivwJBVV95cUxNX2ZhNjYyMHI3SG9LNThKVEhtMEVmMm5HUDhNZFlla29UYWxBakNoSjVIVU43SWo2X0MyVkRyVW5rMWJ2bmZENnVKcVNKZ1VZZk9CVWc3ODJkX0Q3bTRtMy0zdTJvRGxrdEVIZnpwSUVGSUVPYTh5QUh5WWEyMHUteDFBUEczdHJXRy00VjNYd3ZWY1hWTTcwd09IR0V2LWh1MUNWNndNUTNjVndmbk84VlBsQld1QWdIXzVIMVVyZmRhdG1QV2ZONmNpRU05a29TSXdCSDlOVTBrcmlxNWdjS2tYZjB6aWExenFUX1BvS2ZZY3VoZHFUYXQzNlF5ajBZdkMzOHBhMWk1U0JsUks3bmIzV3AzWFlEN01vYmR5YW5tMTdQZWRZUzJpdU1qMW9vbjQzOFJlam85YVNfNk9r?oc=5",
-  "https://news.google.com/rss/articles/CBMieEFVX3lxTE9iTUhhaVBBUHlLcndJZzRLQnA4OVJqa1lCTG5SRXl1RGhVcHY3TXNxcXV2S0lEangzaVV1bEQzcUdicl9mV2NLTFREUVczVHR6bXgyaDliZmE2TVdqVGNLSFQ1UUI0NlJQZjZCd2Rjcnc5VndLRVE4Vw?oc=5",
-  "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNUpfcnpWbUVuSFpYbWRabTFBVUJDcHVzc3RwOGFJSUdkc2xJdzZPdGdxME03dXZ6RDdLR2hldkF2bWFKQUdMM2ozaGJRNDdlZTZfVG0wbjl1UUhHa014WHg2ZjlLS1VYNXlQOXJERDluUllrc24wNnd5TUtPZHkwcFc5Zk1GLXpN0gGcAUFVX3lxTE9naGJuM1lNODFGdG5GVk1SR3h3SkJzUVcycDJKZFR6VDdMRkJTVnRPVUJfQUlGbkR6VFNUenhsZy1RaFVwMUZsVkRtMkRSZGtWLVBHNTVfNmZtVzExb1J3THdCamJlQXVkNGU0aDdCMlNDVC1TbS1BMFJ3cHg2Y1V4V1JPQm9kVU1jTTVjemlwbS1ob084QWRCS0VwTQ?oc=5",
-  "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQ0dPRmJXSWpRMGpPa3pZU1JGTTEwZW1OZ1VpOUdpRC1rYmpzNXBrNkVFOXdZTzNnQVZ2NHVtQVR2WlloSTYtc0RHeEg5TS1lVUtZSlk2dDZ0endoLTh6elVHWlhRZkNBcFJCUnh4ODBPWnpRblVUSmtnNTl3U003UVJXYkM5NUNCeXBoNllCOEFXSkNLcVpwUWVnU0FldEZpalpmYW45cmpuejViNWRtYkc1UXAxOS1ZbURzQThNcUFRQW9KbTRpZFpZU2htRUFmMGlBVjM1cVJscTZo?oc=5",
-  "https://news.google.com/rss/articles/CBMipAFBVV95cUxQS1BLWjNKQ3Bmdm9PYkZzbnA2bklMRm8xb0VhUkdPQ1RzVDJHRGZERXRycm9QSTVGbW8tTlVZZHFkbUNDZWcyQ0dYMEIyekgxdGlCbW5CSDBsbm5yZzYxN2I5TndQbkFLa0c2WkV1UU0wbk8zbDQwamE1NFVlTS1NdEJmVFdTVnhmbWFxSm9EUmdsUzFScEJQbzRLVXIxV0ZWa2V4ag?oc=5",
-  "https://www.theregister.com/off-prem/2026/08/21/alibaba-cloud-plans-to-use-fewer-western-chips-to-boost-its-already-huge-ai-margins/5290815",
-  "https://arxiv.org/abs/2608.19353",
-  "https://arxiv.org/abs/2608.19296",
-  "https://www.bloomberg.com/news/videos/2026-08-21/phancy-group-s-tseng-says-ai-demand-to-drive-growth-video",
-  "https://news.google.com/rss/articles/CBMisgFBVV95cUxONHlUNV9WcjRoOTBxUTEydlgxc0liNVM1SjY3NTZuWFE4SGV2Njg3cndWdVZMY0JsLTdKaXNKLTdZRDY5N2JKMXp3VTRTTV9RMkhDQWxUYk1EUS1yM2x1YzZpT245OGIzWU13SXA0dDFNZHZJTXFxQzR6NU5Zc0ZieGJHUUNtNkRJTjdOY0UtQU1JamlHWWlpdVNpc1dOM0ZyRTd6WE9QZkFfeWpWWHFKYjJ3?oc=5",
-  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWnI5Y0VrWDl0cjYtTlRNYWlMLXpTOFN0enl2TldXSW15bjB2bng4N2tTb0hpVjFvTmMwbXpyZVcxTHdveWVCd2VPNnRBOVRORXdPY2N1NERrM2s2SmxnY1RkRXJyX0dzd09CS3VyQmh3b2ZEaFpxZmNQWGUtanQ4R19JY3pXS2tsdjR5aUMzMEF3d3NLUG1BdC0zZWduMVRZQ0ZhS0h1LXpLM0hvV19MYWY3X3J4VTR5Y25SRUllOGNrSEFrSEtUaQ?oc=5",
-  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ZdEhmb0RiTmdSdWVpemcwMkVCRlo2Z3cycTBPMnE5UGZET0l5MVUzdWUxcnlzNjNudUU5LVY0cmdDWWxSQ0ZhYU5iWm1xV3RjOFFzU1IxZw?oc=5",
-  "https://www.eenewseurope.com/en/system-check-how-did-you-start-with-electronics/",
-  "https://www.prnewswire.com/news-releases/tier-iv-joins-open-invention-network-2-0-to-drive-the-expansion-of-the-open-source-ecosystem-for-autonomous-driving-through-a-patent-strategy-302857068.html",
-  "https://www.prnewswire.com/news-releases/thirdreality-fait-ses-debuts-comme-exposant-independant-au-salon-ifa-avec-ses-solutions-matter-pour-la-maison-connectee-et-les-soins-connectes-302856998.html",
-  "https://convergedigest.com/hot-interconnects-2026-ai-networking-scale-up-scale-out-scale-across/",
-  "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYWx2Uko2TGV3T04xUFk4dXpjR1Y2V2FDQ295Rm5ydHNSYUdKcWFWM1daM3VuWkdveFl2MTNiY19hdmhVUTBud3cyR3A1YmtGd0licHpNN2xoWmdTeE85WTRyVW9OWVd4Vi01bERRWGtvbzNJaDY4VUlETEcwMzZYMW1DLTBPWXQ3MUFoSUFXSVNzSnlpdFAyOWdPZlNLZHBuZERhTkpmTFNCVEhGTU5NUjl1RldmR28?oc=5",
   "https://news.google.com/rss/articles/CBMidkFVX3lxTE04Z3lHbEIyd0l6ME4wYkJ4c3RZaGcyZDVJZjRKSmVHTlh6YzZ3T2RGSXlUZHVhZ0N6ZlZHYmFmYkFIc3dNdmRYXzZRcXJDb25WUTJhTlJCYmUxaHdSaVJvVmpvRkJBOFdocElKVFJnQkI4bm9DVmc?oc=5",
   "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeDEzelRoUFNNQ3JPQjFuTWFaMUt6bElfcC1fbVEwUW4yWEpRSzZ4amRUYjN3anpLbktDYWg4ejlxQmtPeVRWQXJyMDZTZDNiSXNIU0U3VWN3bkR0MkNrbUs4dkplRkp3Mm05LTNuMmtjcWlWUmJSN0hWQ2x6VUt6b1pmTDh3SlpWQklfQXFDbGlkeTNPRG1nTy12N2w?oc=5",
   "https://news.google.com/rss/articles/CBMifkFVX3lxTE1mQVcwSTdpWmM4bnFSWmIwYW9oYXFORW1adGpHWTJmblB4UkRJU0lDX2hxZi1HOWRaLVVHV0dDZW5LeXBHNkx2bkNhYVpmeTdJZV9OQ3ZRSWVOT20tTUVZYWc2emNKQzN2RERUd3NlUHVFUjZya09VWk14c1UxQQ?oc=5",
@@ -9921,6 +9900,27 @@
   "https://www.prnewswire.com/news-releases/tcl-electronics-01070hk-levert-sterke-groei-in-tussentijdse-resultaten-van-2026-302864338.html",
   "https://www.prnewswire.com/news-releases/chinas-robot-boom-is-raising-security-fears-as-the-us-robotics-race-accelerates-302862277.html",
   "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTGJDdzJGTHhiRzd5OEFvcFRmQjB5WVN4d1lqcUIyM2JqOFJMeWpSQ0tORnNQZUptZWZta09vMzNDLVRpTWliRWZvV3NnSk9LU2RLNkMzcFZZVHZSVmprLXFLUXVmbGtXQWktWUZhSVhXa2VjNmNLR1BXMGJNX2Q3R3FJTjRYOTFHR0ZSVWtTNlR3bDlVVTZvdEYtSEpaRVN6c2xNRUVpZXRsYlo0YzhaTG1fRdIBuAFBVV95cUxOaXZrM2VUbUUwN1daMDZNNWdpcElpdTl3ejJtMHptWlV4bzBtYlZVSGEtTHNxRmFWWTBYMnFQd2VyYk4wX2p5XzhtYi10VlpqVzE2Qk5SUmt2Q3dsNTh3TDVLcU1oV1paQkhkVEZ3YWxqWkZoRmpfOUMxc3A4YXdKckpWc2lUNUVOdDk4UkRKcElUcFBtczZ6ZGIyRmZ4QU1idk45NE5NZktiX09YZHpoVW9ZTnlfSDk5?oc=5",
-  "https://www.prnewswire.com/news-releases/tcl-electronics-01070hk-verzeichnet-in-den-halbjahresergebnissen-2026-starkes-wachstum-302864337.html"
+  "https://www.prnewswire.com/news-releases/tcl-electronics-01070hk-verzeichnet-in-den-halbjahresergebnissen-2026-starkes-wachstum-302864337.html",
+  "https://www.bloomberg.com/news/articles/2026-08-30/nepal-warns-of-more-floods-as-rescue-efforts-risk-disruption",
+  "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSFRwRHdDMUtFeERTdjR3QUt5SjhnZFlGVDRBRGFsenZ4QlFBNGxMaUhNeDNJeHNRQzNacmtPeWNERmVFUG5IUGJROWlPNU1ueE5xVU9IX0NGZ3NrSVFyMlZ1djRhRE1SSFl3MXhhLV9BR1UzMHFUVE16eDZUdmFreXh2X1cwMDg3eWlTeG1BQUlqWnBMM1BNMnBudGtNS2Zta1dFT0hFWEZTcklEU0V2cnc1ZV8?oc=5",
+  "https://news.google.com/rss/articles/CBMingFBVV95cUxNUDBMcUFmSmZqdE53T3hrZWlVbHBnMmlfY0FIeXUtS2t2YkRKR3dMOEVPOVhHQkxhQVNfZDhyaFhlTUlYWE11dDRLVkZ3MkhJVG00eUpIajliNEpYdlZVdzJFc2pvdUhVbHZWV0lfaUY1RThXNUZJNFNkSjh0UU03YVYxVGliSnBPT2dCWWljTUZOT21GLVBibWt5S0s1dw?oc=5",
+  "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA4RzZTUzlqUjJLc1g5dlVrMTEwb2ZfWXhudzBvTVpfNlI2N1ZCbmptbFFrSkN0a3lDMlAwbU5mU1QtcGtHc0U5eG1pZmQyNjEwdjlxSHZHcw?oc=5",
+  "https://www.scmp.com/business/article/3365657/jdcoms-us13b-expansion-could-test-hong-kongs-footfall-driven-retail-property-model?utm_source=rss_feed",
+  "https://www.prnewswire.com/news-releases/tcl-electronics-01070hk-affiche-une-forte-croissance-dans-ses-resultats-intermediaires-de-2026-302864363.html",
+  "https://www.prnewswire.com/news-releases/yfore-lance-le-systeme-de-detection-embarquee-odms-pour-renforcer-la-securite-du-poste-de-pilotage-302864364.html",
+  "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVmVqamNlZ19lbnRwOEdZdktkMEVhT2FBUGFUMGZTTlVKTmJDQTJVbFV5Q2IyX1R6Ql95ZjZqMVJfMngxNUFobXUtNnBGZnY1YVdJbFRBUnF4R0lacjJVVWRfWnFLdWduQllFWlMtTXZwT3FIb0pNMi1Sc0syNllEdmp2VHVLR2w5Y2NFdW1RbzRrWk9hUXlzNA?oc=5",
+  "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN2RfbEc0eko5LXdvZnhtSGE5VHA0TDB2bTV2b3h3YWZzNi1mSGotQUtCT1dtMENIWGJqaFhtUkFFMGxnalpjdU03ZFMyeG9HZklCcnR5ZW40bG5kRlY3dFYxbzl0UEZ6c0hvZTFrRmxxeXNYZk5UVFZnYnlSZFo3bzBvMDV0bmhKek5BZm13dmJIdngx?oc=5",
+  "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcHc2Z29raEpwU2pQaXY4eUd6bTZhQ19uTVhHdVZic2tSVG9MdFVWQm1id1NSTElCaDkzLVEtWWJGcEpzcXhiM1hUYV9iMEF2dGdTOUZ6YXdGTE83WUtFTDU1WGRZWG9FZTk3NkNhMTI3c0U4YTBGV2JkUk9qRTFRUThJU2xsSXBSQV9KMHNHQ1hzTnUxRHNkQlVVenZkVll6OS1HeGhXaER0TmJudkdmbkpPZUViaXB1UWhFaGk4SThkUXZ2VEljM1RTWFROZnpfdjRieGxjWQ?oc=5",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxPLVkyclRnWGFrSHZ2c1ZGbkpsOTRHOG1Cb2M1MVVrZE9WOWpXeHBrV2NuWHdGR3ZEdFVyVFMyaUVCZkttRl82MGNmQmlEQWsyLUFNTlpUVjA5TlVwNFRXamRYVEp0MEwwZFd5anU2S0tISEZNYTIxdlNocHVNb0pnb1lsdEJiYVZXZ24yYXRoTlU0T1N0MEN1WnlkUXB6bURORE9MUG9VOF9DNjEtdzh6TFdCaw?oc=5",
+  "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBLNFg1SDZZbGU4YmxWNHpCd2RFV3hVaFhtZmIyZmtDWTVGbGFzSWlzWHZSTG95c2xjWFZEZFIwWGxvU015N1I1XzVjT3BJSG5tb0lpLTRFMA?oc=5",
+  "https://news.google.com/rss/articles/CBMie0FVX3lxTE83VEdzc2l6d2xWeDR5cDVacU1xVkxtbFVROG0wak90S3M4UExOOGppUE9XZ1hNejNPZmJPRU9MTTNITW1mUUZsZVFJWXVBMjdmYVBTeHNzSmsybjZkLXFhLVhKY1ItNkEydTR4cFVwaW1pUTc1N3hremQzYw?oc=5",
+  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE00Qmo1dzBDRXl2RzBFeFBRd09aOVR1UjNSWHBOeWswdE5sSThIY19CWTBFbUk3bzFJR21aX0lQTndjRkdETEhGRl9lMlVhakg1TzVjcndOOA?oc=5",
+  "https://www.prnewswire.com/news-releases/yfore-stellt-das-odms-sensorsystem-fur-den-fahrgastraum-vor-um-die-sicherheit-im-cockpit-zu-verbessern-302864354.html",
+  "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVXJFcFRQRnhCNXphVkJlejRkcjBmM3plUVhVTllxV0V5dDFNeDRVX256dS1YM3ByRzNTd0I5QjdtZVJ0dXpUdEZkX3ZQak51OHZmWE04WDFNRkw2WThEZF9OdXpITU5TRi1xSE5kUC1KYmFhMXN0aUZxaGxuVzg5Qg?oc=5",
+  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9hVjQ3T2dxSGZnaXZXN0JwMk9EZ0tCc3JNMU5jSzN1RlBHN3FBNkkzZXFMUWZKOGVHaVE0eXdjNC0xWW5PQm9tMnRadDZuRUJTd1h2aHlIOA?oc=5",
+  "https://www.prnewswire.com/news-releases/der-weltweit-fuhrende-tier-1-zulieferer-yfore-fertigt-ersten-in-den-usa-produzierten-digitalen-schlussel-302864342.html",
+  "https://news.google.com/rss/articles/CBMidkFVX3lxTE5rZHhITmxzZk53YS1EbjQ2Q0JkOU9GTTdFbkZhUFBxbWFXcUlBV2hTWW80MmNreklMZUVvUjg1dW5JdEdfQVZmdUpBbGhINnhzeWpkWGFxWXJSRlVoMVlyUFRLX1VDUHZ2Z3l2ajY4d1NnS3d0X1E?oc=5",
+  "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA0MWNXdUlpZzJOQUcxWGQ2QS04cExFNXNWQTdNWlRyakhVWTRtWlVBSkJGa19XX0pnOVJaVHNXbnp0dkMyUEZQeGxkejdyVkJXbG42MnpVYw?oc=5",
+  "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcDlBRk5FcDhteGJuQzllNnRHWkFZWGM5YlJFcUtUN1N5b3pWblJKdU5CVnBWR1I4OGF5aDlVWVI2SnMwVE5DWnVGRmpBb1NNb1k1cXV4TGxyLXc2eFBvdU5WbVFYUGdjWHhxUmpOMzRJTUp0SWVZbnpNSXdUOEYyQUVNVVJTRUltSlNFYURrZHZ5ZHRSM2RWVWdwSEcxQlBpU1RJS3pLdGE1Q1RoODRyOVY5YXE3RDN30gG-AUFVX3lxTFBOX3FLMjdlNGs0WlhSbWJwNUF0S3dMaXEwQWdpY2gwWlZKWVNheDhrQkk3c0hlamtsNHUzOUU2dmw4SlNGOU1wNi05N2RLNlZxazhnQVh5dk1WbGw0Nm1mMTVoMjRkSmJNMmtVWFh4WGhYcWZBM2RJM2tzZzlfYnRXZTFQV3gyZ1hRekxxQ3ZLNDhMZ3JrZ2RqLTFkMV9OUnpnMC14MnU2UDhCNzNGQ3J4NEQxaEluZzQ2a19SVkE?oc=5"
  ]
 }
