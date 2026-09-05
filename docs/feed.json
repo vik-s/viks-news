@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-09-04T22:32:38.195656+00:00",
+  "generated_at": "2026-09-05T04:55:13.485190+00:00",
   "model": "claude-sonnet-4-6",
   "backend": "openrouter",
   "sources": [
@@ -21,18 +21,18 @@
    },
    {
     "name": "Blocks and Files",
-    "ok": true,
-    "count": 3
+    "ok": false,
+    "count": 0
    },
    {
     "name": "EE Times",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Tom's Hardware",
     "ok": true,
-    "count": 2
+    "count": 1
    },
    {
     "name": "IEEE Spectrum",
@@ -41,7 +41,7 @@
    },
    {
     "name": "The Register Off-Prem",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -57,32 +57,32 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 11
+    "count": 4
    },
    {
     "name": "Bloomberg (via Google News)",
     "ok": true,
-    "count": 14
+    "count": 6
    },
    {
     "name": "Reuters (via Google News)",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "The Elec",
     "ok": true,
-    "count": 10
+    "count": 0
    },
    {
     "name": "Korea (Herald / Times / Chosun)",
     "ok": true,
-    "count": 1
+    "count": 2
    },
    {
     "name": "SCMP Tech",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "EE News Europe",
@@ -181,7 +181,7 @@
    },
    {
     "name": "Ayar Labs",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -396,7 +396,7 @@
    },
    {
     "name": "Semtech",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
@@ -522,7 +522,7 @@
    {
     "name": "CoreWeave Blog",
     "ok": true,
-    "count": 100
+    "count": 76
    },
    {
     "name": "Vertiv",
@@ -542,7 +542,7 @@
    {
     "name": "Lenovo",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Equinix",
@@ -597,22 +597,22 @@
    {
     "name": "PR Newswire Electronic Components",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "PR Newswire EDA",
     "ok": true,
-    "count": 6
+    "count": 2
    },
    {
     "name": "PR Newswire Computer Hardware",
     "ok": true,
-    "count": 6
+    "count": 0
    },
    {
     "name": "Data Center Dynamics",
     "ok": true,
-    "count": 11
+    "count": 0
    },
    {
     "name": "Data Center Knowledge",
@@ -626,13 +626,13 @@
    },
    {
     "name": "SemiAnalysis",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
     "name": "Semiconductor Digest",
     "ok": true,
-    "count": 5
+    "count": 0
    },
    {
     "name": "SemiWiki",
@@ -642,7 +642,7 @@
    {
     "name": "Converge Digest",
     "ok": true,
-    "count": 1
+    "count": 2
    },
    {
     "name": "Fierce Electronics",
@@ -652,7 +652,7 @@
    {
     "name": "TechCrunch AI",
     "ok": true,
-    "count": 1
+    "count": 2
    },
    {
     "name": "Chips and Cheese",
@@ -687,12 +687,12 @@
    {
     "name": "Topic: advanced packaging",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: AI silicon",
     "ok": true,
-    "count": 11
+    "count": 5
    },
    {
     "name": "Topic: foundry / process",
@@ -702,7 +702,7 @@
    {
     "name": "Topic: semicap",
     "ok": true,
-    "count": 2
+    "count": 1
    },
    {
     "name": "Topic: datacenter power",
@@ -712,17 +712,17 @@
    {
     "name": "Topic: liquid cooling",
     "ok": true,
-    "count": 2
+    "count": 1
    },
    {
     "name": "Topic: interconnect fabrics",
     "ok": true,
-    "count": 0
+    "count": 2
    },
    {
     "name": "Topic: SiC / GaN power",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: chip startup funding",
@@ -737,7 +737,7 @@
    {
     "name": "Topic: neocloud / AI compute",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: enterprise storage",
@@ -745,10 +745,65 @@
     "count": 0
    }
   ],
-  "candidates": 120,
-  "kept": 12
+  "candidates": 108,
+  "kept": 5
  },
  "items": [
+  {
+   "url": "https://convergedigest.com/gimlet-300m-multi-silicon-ai-inference-cloud/",
+   "title": "Gimlet Raises $300M to Build a Multi-Silicon Cloud for AI Inference",
+   "source": "Converge Digest",
+   "published": "2026-09-04T15:22:00+00:00",
+   "why": "Gimlet Labs raises $300M Series B to build heterogeneous inference cloud mixing GPUs, CPUs, near-memory compute, and dataflow processors\u2014a direct signal that multi-accelerator inference architecture is gaining investor traction.",
+   "topic": "ai-infra",
+   "tag": "digest",
+   "date": "2026-09-05",
+   "added_at": "2026-09-05T04:55:13.485190+00:00"
+  },
+  {
+   "url": "https://convergedigest.com/nscale-figure-100000-nvidia-gpus-physical-ai/",
+   "title": "Nscale and Figure Plan Up to 100,000 NVIDIA GPUs for Physical AI",
+   "source": "Converge Digest",
+   "published": "2026-09-04T13:18:00+00:00",
+   "why": "Nscale and Figure sign multi-year deal for up to 100,000 NVIDIA Vera Rubin GPUs, one of the larger disclosed Rubin-platform commitments to date.",
+   "topic": "ai-infra",
+   "tag": "digest",
+   "date": "2026-09-05",
+   "added_at": "2026-09-05T04:55:13.485190+00:00"
+  },
+  {
+   "url": "https://www.bloomberg.com/news/articles/2026-09-04/abu-dhabi-s-g42-weighs-us-ownership-to-safeguard-ai-chip-access",
+   "title": "Abu Dhabi\u2019s G42 Weighs US Ownership to Safeguard AI Chip Access",
+   "source": "Bloomberg Tech",
+   "published": "2026-09-04T12:50:43+00:00",
+   "why": "G42 is exploring selling a majority stake to US companies specifically to preserve access to advanced AI chips beyond 2027, highlighting export-control risk as a structural M&A driver.",
+   "topic": "ai-infra",
+   "tag": "digest",
+   "date": "2026-09-05",
+   "added_at": "2026-09-05T04:55:13.485190+00:00"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZGp0SktBQmxhNEs0N3NTREpJSmFnSWdVRlB5VVFHS19yLUhTcDlvd1gxVG9SM0htaEE0alZ3N0JFY1g4a3NnYk0xa1J2QUw1N0JjV0lJY2hFS3RPWlE2RjFVUDhUTThEcmw1emd4WFhYakdOY0NZa01sdDk4Qnp3VzZudTd5ZHNTemFRNU5ScDIteFJ0YW0wcmpSSXlNMkRqM2VKQTdMZEc?oc=5",
+   "title": "Kioxia Unveils NAND-Based CXL Module to Replace Some DRAM Demand - Seoul Economic Daily",
+   "source": "Topic: interconnect fabrics",
+   "published": "2026-09-04T22:13:05+00:00",
+   "why": "Kioxia has unveiled a NAND-based CXL memory expansion module aimed at displacing some DRAM in AI servers, a meaningful product signal for the CXL/memory substitution debate.",
+   "topic": "memory",
+   "tag": "deep-dive",
+   "date": "2026-09-05",
+   "added_at": "2026-09-05T04:55:13.485190+00:00"
+  },
+  {
+   "url": "https://wf.coreweave.com/blog/coreweave-taps-dell-technologies-to-strengthen-cloud-platform-for-ai-and-machine-learning",
+   "title": "CoreWeave Taps Dell Technologies to Strengthen Cloud Platform for AI and Machine Learning",
+   "source": "CoreWeave Blog",
+   "published": "2026-09-04T20:06:00+00:00",
+   "why": "CoreWeave and Dell are extending their infrastructure partnership, the latest in a series of supply and integration agreements that shape GPU cloud rack architecture.",
+   "topic": "ai-infra",
+   "tag": "fyi",
+   "date": "2026-09-05",
+   "added_at": "2026-09-05T04:55:13.485190+00:00"
+  },
   {
    "url": "https://www.datacenterdynamics.com/en/news/flex-acquires-data-center-power-conversion-manufacturer-epc-power-in-44bn-deal/",
    "title": "Flex acquires data center power conversion manufacturer EPC Power in $4.4bn deal",
@@ -6039,194 +6094,9 @@
    "tag": "deep-dive",
    "date": "2026-08-22",
    "added_at": "2026-08-22T20:53:29.402974+00:00"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZklqZ1N2OE90OVpNdDRwd2FZbXhTdDgzblRMTXNDdlI0UzZrRU9HR1pRYmp0Z3AtSlF0dnY1VTlQMEpvZFpvMGVadkhTQ0lHWUVBQnctSGR5TzlTYWRuZk1NYkdIUmlKaXhBMXdybjBOOHBNY3B5eC0ta2xZYUxhVVFUNkRkTmEw?oc=5",
-   "title": "Marvell vs. Broadcom: the custom silicon shift - thestreet.com",
-   "source": "Topic: AI silicon",
-   "published": "2026-08-21T21:37:00+00:00",
-   "why": "Google expanding AI chip ties with Marvell at Broadcom's expense marks a notable shift in hyperscaler custom silicon sourcing.",
-   "topic": "ai-infra",
-   "tag": "deep-dive",
-   "date": "2026-08-22",
-   "added_at": "2026-08-22T02:02:42.479045+00:00"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOEY0T0xmU2N1UmtxZHFIaXRVb2Q1bmhiaG1KR1RyYlBRTjZ3TnN3ZWlLZjFvTDNrMnJIYS1qcnU4ak0zMk5lUDV3T1NaRUVyZ2tRUktYODVTSnBUOG1vZEV5MkRKeFowdjhjTlp0Vm0wbkhKUzlOVEVlUjFZTkc4ZG84Q2I4RVliZEx6UUtWWnQ0LTdYYWlpZ3Y2RVRIbnVuVmRfNzFLM2JsOEhmYzJqU0RVeDBKdmloakE?oc=5",
-   "title": "Apple Cuts Jobs in Siri, Vision Pro Immersive Video and Gaming Teams - Bloomberg.com",
-   "source": "Bloomberg (via Google News)",
-   "published": "2026-08-21T18:45:32+00:00",
-   "why": "Anthropic pursuing custom silicon to reduce Nvidia dependency is a significant AI-infra supply chain development worth tracking.",
-   "topic": "ai-infra",
-   "tag": "digest",
-   "date": "2026-08-22",
-   "added_at": "2026-08-22T02:02:42.479045+00:00"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYnVtUUVfYWJoSUhsRXpLZGNEdHM0eFBmU0hVZzZiVzlDdUZXWkV2X3k1bGppdnp5Zy1fcy1HYnBGc0pPXzZoRmpsZmtPTDRqSFd5anNGR1hnMDlOYjk2U1BZeU42UTh4RUxiaE1XSWRyZW9RTjUtWjYzVXM5N0ZYU0VXdXRSNmNmZnRpREUzdDE4U3l4VDBIa3JPdklOUjdvbFp3dGRZdlZnQjBwSEE?oc=5",
-   "title": "Nvidia invests in data center developer Cloverleaf Infrastructure - Reuters",
-   "source": "Reuters (via Google News)",
-   "published": "2026-08-21T14:44:25+00:00",
-   "why": "Nvidia investing in Cloverleaf datacenter developer extends its vertical integration into AI datacenter build-out infrastructure.",
-   "topic": "ai-infra",
-   "tag": "fyi",
-   "date": "2026-08-22",
-   "added_at": "2026-08-22T02:02:42.479045+00:00"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPOE0wSzJtZjlWZXR4Mm1BTjVtVHRHc0ZTSVpVZEFSMG0wS3IwUUI0Wkt5Zll2WXBqZ1Z6Nmw4cEpMVng1dlEzSkxpUE94QkFCX2NZLWVMZTVFdTI1NHE5S3pGMTJHVk5QX0FRNm1BZ3RUSUVYR0FCN0FsbW9JbTN1OE1DR1VLeVREZW90U1NIYWstYTRPRnVnX21jT284TVRXc085T1JMdTFFQ0c4WC01SEEzWllVWUROQzRxbEg4a0xBdktXODN6cVpSUEVZQ1k5aks4eA?oc=5",
-   "title": "Micron's Memory Pipeline Is Sold Out Through 2028 \u2014 But the Stock Is Sitting Out the Party - Ad-hoc-news.de",
-   "source": "Topic: HBM",
-   "published": "2026-08-21T20:02:44+00:00",
-   "why": "Report that Micron's memory pipeline is sold out through 2028 is a significant supply signal for HBM and AI-driven DRAM demand.",
-   "topic": "memory",
-   "tag": "digest",
-   "date": "2026-08-22",
-   "added_at": "2026-08-22T02:02:42.479045+00:00"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWXVIeUQ2aUg1N05ndGZUNFB4MkJkVzBvNi13TWphSld3Qkk4TjNEaWFFMTlhR1hQaFFPZ0JpU2V6U1AyX0cxQ1BsNXVxSTFIdmRnUlpDNTlLZ1RtTHNQUHV1MGhqbDdzQXlyR3JMUHhSU0ZDaHZ4R201M2dEU1pfRU9ZbFRHNzRZVXhwTXdIS2RaZEQ3Zy0tdkVDRlMyZVZxMTR0bWJQYk1vRG5OYXZnd3dCMTRmUdIBuwFBVV95cUxPNlhIb2ZzaUZVUnpiMzkwNEhGczdzazNxYUNBMVRkZnVJeHdqdHQzWjFzc0lodDFUVHRhZWx6NUh2MC05Y1k4el95elEzRm1jdTdTQlZ1VzhkYW1LVEM3WEs5ci02aU5IZzk1dmY3TmVuVnlTN2lBdHhNdUpFdTdrWlBaS0pkUWhDaFVRcDhBOGVmQWVuR19QY0xOd3R0b2ZPQ0ZxeS12WHVwVkt6bWFla3ZRQ0pMaEYwQjhv?oc=5",
-   "title": "Baidu: GPU Cloud Revenue Jumps 283% As AI-Powered Business Reaches 50% Of General Business Revenue - Pulse 2.0",
-   "source": "Topic: neocloud / AI compute",
-   "published": "2026-08-21T21:06:06+00:00",
-   "why": "Baidu GPU cloud revenue jumping 283% YoY and AI reaching 50% of general business revenue is a concrete demand signal for AI compute infrastructure.",
-   "topic": "ai-infra",
-   "tag": "digest",
-   "date": "2026-08-22",
-   "added_at": "2026-08-22T02:02:42.479045+00:00"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRE9DSGM2ejdBUVJWMnpGVUF0b1h4MV94SnVSNHFjVDV5OWZSRDFJVzBfcm1IT2dEQ2h2VmlvM3hLbWEzMnI2cF9lbklMZGFOVXE5MDRfTHA4cXpZSjZXRWZPSGJUai16QUdfMUhJcEFyVGJoM2FaLXNheXhfNmp6aDdqZ1Q2aHF0YnpaalFoSXF0eDM3YTUwVHJkOHFFZUVMc01FTjFOQjd6ek1tWjBrQWcxYVFUOFBEbE02RGp6dTdleVJnRV9GQ1F1V3g5OWFs?oc=5",
-   "title": "Nvidia, South Korean AI Chip Designer Rebellions in Preliminary Collaboration Talks - marketscreener.com",
-   "source": "Topic: AI silicon",
-   "published": "2026-08-21T09:32:43+00:00",
-   "why": "Nvidia in preliminary talks with Korean AI chip startup Rebellions ($2.3B valuation) could reshape Korea's AI silicon ecosystem.",
-   "topic": "ai-infra",
-   "tag": "fyi",
-   "date": "2026-08-22",
-   "added_at": "2026-08-22T02:02:42.479045+00:00"
-  },
-  {
-   "url": "https://www.semiconductor-digest.com/fujifilm-completes-new-production-facility-for-advanced-semiconductor-materials-in-oita-japan/?utm_source=rss&utm_medium=rss&utm_campaign=fujifilm-completes-new-production-facility-for-advanced-semiconductor-materials-in-oita-japan",
-   "title": "Fujifilm Completes New Production Facility for Advanced Semiconductor Materials in Oita, Japan",
-   "source": "Semiconductor Digest",
-   "published": "2026-08-21T21:13:34+00:00",
-   "why": "Fujifilm completing a new Oita facility for post-CMP cleaners expands capacity for AI semiconductor advanced packaging materials supply chain.",
-   "topic": "packaging",
-   "tag": "fyi",
-   "date": "2026-08-22",
-   "added_at": "2026-08-22T02:02:42.479045+00:00"
   }
  ],
  "seen_urls": [
-  "https://news.google.com/rss/articles/CBMitAFBVV95cUxQajUzdXdLcXRSQ0dLeWEwNkE3by1abjJ6dVJpLW1BZnc2N0FpMEZIVlYwTXRhWGZydmREWlVCaXRua0c2SkdjVDdSWm1qUXBnZk81WHJvbXozdmd2UmQzSThvSU1UeU95V0laZ19jVnQ3Qy1EVWVadldEemZpdE1WTTBDc1pCQVE4bG11d1BsZzZmRUxyalpqS0NyQl9vWHc2NmpYZENzcXJqd2JiRFk1MHU2aXY?oc=5",
-  "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNFBiN0MydXZkUlB3UHdHb0xzNGNqVVhKdzZVMkQwalM4WWozbUxWSkZuRTljSXdfdjdOUjZkMWN2SEVRSnBXTEJwSlJfdkNqNzJreVp5MDNULVdDZ1ozSzE1YXp6dWR6MzZsOFBlRllhdlZEQmVBa1Eyb1hpQWlMWmdUaGlzeFpUZFlDZUszLU5KRG9SblF0VTNFT092TllTQnVqVlZHY2J3Uk1WblBfOUJGRmFob041dzEwRV9WaU5TWjlxbkswcTVJRQ?oc=5",
-  "https://wf.coreweave.com/blog/coreweave-trains-deepseek-v3-in-two-minutes",
-  "https://www.prnewswire.com/news-releases/lam-research-corporation-announces-participation-at-upcoming-conferences-302860844.html",
-  "https://www.prnewswire.com/news-releases/dover-precision-components-launches-advanced-innovation-lab-services-to-support-product-validation-and-development-of-rotating-and-reciprocating-machinery-302860702.html",
-  "https://www.semiconductor-digest.com/agentrys-raises-24-5-million-to-build-agentic-design-automation-for-chipmakers/?utm_source=rss&utm_medium=rss&utm_campaign=agentrys-raises-24-5-million-to-build-agentic-design-automation-for-chipmakers",
-  "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/",
-  "https://news.google.com/rss/articles/CBMixgFBVV95cUxNLU56MFE5dHRySk51LTZ4UTVPd0NrQ0ZtS3NONnJCSVhoR1AxblZhSTZYSkh4cDJMVEt0TktwajRGMjBieV9xOXJicmhkeUNENEctWDUwbkpPekpXMkdhZUFnUUNNSlVmR2xBWDlHOHNsLWZ4Uk5QbFdIb21ta0M2Q2pid3d2VlhBdDB2UVRBQmRpbk9HNnFHYTB2cWNReTViQVhjVi1sdkk0bUx1SnE0OVFwOGlucWlRN25kZS1YekV2Z2JWcXfSAcsBQVVfeXFMTWszSzBhYlVHakdXMzJ5WW42M3BnOFFocE50eWFFRkY4c2l6UVRET2RfUFZHLVVndHltdVJBZkMtRUNoVU1zWTZyQUl2R1pVanBXZUFoMHpJU2FmNzNGekpyXzUwUlpZYTZ5Z2ZENmNydzRVWGhISUdjM3hBQ2EyVjBpUTlTdE1RblRIRm40VnNLSkFBbHFkV2gtX0NuTlpkVm9uM3d0U2JaaTNuZGM1TkQ2d2tuOTRRcnYzaUF4UVVIQ1VzalZMdlBXNlU?oc=5",
-  "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPRk45SWprZnV4cFQxOXFvSGpOMDBkWk43WjVna0VvSHQ0N2xTdW02WFl3aTFSWUFxUTZseHFfX09nRElKZzZ3RW5ORG1vZk9DYmNuSWxpWmdGbDREcllCLW00akcxWjI0bFZrVXd4R1BGZEJ6Y0VzNEV5RXJsdVNiSGREOEl3RWpnRkluVm0xQllzY1hYa3U2ZTFlWnNzMmo1X3doQ1AyVURpVjF4SXNLd2FfTmhYdWdENEgtemhFWXdaYktjTnNyRnBGcjkyWVE2RkhKOVBhVXFDYVVnM2t6RUtGZ2dMV05SOU1ZVjFXWTliV0phSmRnbFQtd01xNDNreEZxYm4tNXJoWDQ?oc=5",
-  "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRDZVUXYtWmZLbksxNGVpYjNFSjNLRllObHNmdC1wYTA4UG9hWnJfVlg5QktLU2NVX0xkVjFNYUppVUtoNDZyRzM1aHNGcG5SSG9mbDY4cTlQUW93V01oQVBFdzY5eEk4YVQxSzdkSTY4VXVOREdkVXVzVFlBcnZDeXJfN2dpMUhYMng5YUo5aWxOMmx4bW5CbmhVWDlsOUhDMkE?oc=5",
-  "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMjd2NUhwbjRTU3drYlZGcWxDTWZHNzhha2VaT0tDR3I0SGxqeDBxSjdWNGZCVzRvSW9lMktlajQwb3g4aHVCbGVRMXdRS0lPRXdiMDhQbG9LUEhlTDlySmItZHhTMGV0X1cwZVlhWGZSLWdLbHY2QXNGaG5WTHRZUFRuYmhtVEFnc2Y0bDJWdmw?oc=5",
-  "https://news.google.com/rss/articles/CBMihAJBVV95cUxQTTA0NGZwVGRuWWJCYUNiZUk2SFprR0NqUXZ1Y2UwZTBYQjBfZTNuSHp4eDc1Q1U3STFlNGNBZnd0aEJzb2JWc2IxbjBrcDVLU0dPcFZDUjhKRnAtdlpOdkF6UmNJRjBfRWZHcF90cmdIa0Jid3VRUWxFM1NnRXAyRWliTF9PRzg5d1ZkbUFGWmYxZkJKNFRkcjltQ0dlRGJHandQZ09HWjFHU011SDRXaHlHUE1QbHByMlVoZlNodno4MExRcTAzcW9NTkoyckpXaWhwZEhMMXNmNDNaVENXQXRjRjVSTEs2Qm1GVFBaMDV5ZHRXZzlhNk1waV9vZlZWc01Jbg?oc=5",
-  "https://www.tomshardware.com/tech-industry/data-centers/kansas-town-drops-charges-against-teacher-who-clapped-during-public-hearings-on-data-centers-says-that-case-has-been-dismissed-without-prejudice",
-  "https://www.bloomberg.com/news/articles/2026-08-26/musk-s-x-suit-against-new-york-over-hate-speech-data-dismissed",
-  "https://news.google.com/rss/articles/CBMitAFBVV95cUxNR0VTbmNDeXJzbGJqcWJVV1c5MXBYX2ZXbjAzYVBBUVNjVkhFVTBqcjNTTWNoUV9QX3poeldfUVJsTUgzR052cnA3NzQ4MnRGSkNpelZncVBKc0tHSzJkcnN2MVVnSVRmbUZpbGMyZTl2ZjhFcUR2SUlBNkd4MDJ5dUdFWjZ2bUtNU1UzMHRiQ0Nuc3JGQ0w3VTRPdGdJQ2VjRUp6V1ZjcWlyeV9lNm5hOXJhWXc?oc=5",
-  "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVTdJRXVOXzFrQjZXaG1XeVpHNUg0UzBHMnZ0b3lUT1hCZktWajJhbkJfSmcweHEyVE9sNVdrOGx2MlFhUlZ2Z0xna3Jzd0gzWUJCdHR2MHN3Y0pqYURLQ0JQUmxfYVJpT3h3TEV4amE3TkR5SnlIa3A1NlRvcE16Y3NZbnNzQUVuRFlfS2lvUE81ajBta2hYaEp5Wk94c014b3lkQmg5S3N6WlMyWWc?oc=5",
-  "https://wf.coreweave.com/blog/the-bar-cisos-should-set-for-ai-infrastructure",
-  "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
-  "https://news.google.com/rss/articles/CBMipAFBVV95cUxOXzNFRnh5WHlyQTFPOHdhdmU3eVlEUW9uUkdYSW14YlZQalZoMmhTZlpENl9uV2JIUHZid0licmcwbFVGTnNtdFNMbWdiT3JMYmh4MG03ZGxidjFYQ091azduUF9iTWNFMi0zYTI4M1hSUWxzc1BPNE54eEJWNXM0alY2NVZmS05seXFXQm1vbGtUdk9CYjdnMy12QkJ3N1IxcllrUdIBqgFBVV95cUxQeF9qckJTa1NQeDdjSEhtRGc3dkQ5RlA4WG1uSUdsNjBVSzRjVXFhTTNUM3RZMzZOR1hrajhya3RBdkpkRDIwcjJ5STdDVXB6X0pCNjdTRUhOTjdpang3RUo4VjZ1cXh2YWhpTWJtRFlaTGQxbzJROFcyQktpdy1EcVctLVRFckMxZjEyQ3lMbTZkMUV6OFA4ck9WMURlOVdKMG9XZFhKREJlUQ?oc=5",
-  "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhT0V2SVE1Tlh3cmJHSmRVeTFBcHB3SUwyR1pWSTlwTjBmZi16TGdnakpyOGVYVjdUbGpGbF9yak16bVNXc3dFbnZtWUxPYU9aUXF4c3V0dmk0emx1VHRnMDlFbXAwUVBvQzN1TzRiT0hZblhaR3c?oc=5",
-  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZ0xFaF9iLVJ5Mk1vNkpXaU9RZmJpdzNaek9HZnBrYjY1YlZSQURMel9wSF9nWWtpZExSSGJNQlF2cE9Fd25MQUR6UUs0ckpsLV9qLTQtTHB4ZEV4SExaNWc3NFpaeXdoNEpTTlRNSmgtREMtcUVYSGR2dmZCVHJ4U2gyQXp6UG9SNkxmQ3g5QlBZOFd0ZFV6NzYyUnhWOW1WaDRXZkF2WDJ4YXc?oc=5",
-  "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdkZCaDg4TWJTSHlUZlJCTkZyWXBRdUFmdkJVOUJ2T3FLalVBT1YteV9rUzdFOFFmT2x3eTdCS2ZzVUEyR0lrVXZPanV0N1hXR1FNM3A2WXV2RU1Qd1l1V0NjdzUzVk9tZy1Ld095dEJtZ3UzUFVWOF9yZDJpa2pVbHUzODUwc2p2UTUtZGpqM3VxZDVNcGpheFllWWs?oc=5",
-  "https://www.tomshardware.com/tech-industry/data-centers/hot-chips-2026-nvidia-touts-benefits-of-its-dsx-maxlps-site-power-management-approach-tech-allows-for-more-compute-from-fixed-data-center-power-budgets",
-  "https://www.bloomberg.com/news/videos/2026-08-26/muted-inflation-advance-offers-fed-breathing-room-video",
-  "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ0ZyNEs4VHlpUTE2VEsyU3R2Rmpxb3pZYTBjTFZENzBnWnk3MkpMU0gwUEwxRUJOVUtaeGx5bGJSR3RaRDBhd2ZNa0ZXS3U2aDhkRElxUE52S3ZrUmFQdE5fSVEyVmFGWmUwSnF2RXRJR281cWd2Nmpwcm9fQnhoRldrZHRkblNlNzNSZy1WT0xSUXNEMEE5M0hYakJqb2lzcU1rZUUwUlFOLVJuUnktVkNqLUM?oc=5",
-  "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObmp1Sm45YlVSVElnTE1FdlZuWnZDWW1RRFRDdzRxUmEwYXNlWktadzMxYXN0UmFqZERGbkhOWU1xZlVZRnp1YmUxMHlNbWw3c2NfZUp2cUJEaDl4MWdzX3VpdmNneklCanFvRWx6TUpzbUJ4S20xZDY5WUE1cmstam1TWjVzQnBuSXVvblZSeTNUSDlNVHZVNHZCdmpBVTBJa3dCcDJ3Q3BYNlA2dXVGVWgtV3dwbE1TNHpCdDVzaXROdk0?oc=5",
-  "https://wf.coreweave.com/blog/where-ai-model-training-roi-is-decided",
-  "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVGNsNl9uTVVJczU3SjJzRU5QYmdkdFdSWkl5cWhtNDF2YkFlQWM5anN6emQzeDA4V0NzcTBHbUVXYmFLUXRiQkJSTllMaXZKV1lTNEx4SHllUWVROV9yRmdtTm5UamkxdV9XNlpqNmdsLURFN2J0bXdENF9mbW1sbF85SWRpSTFhcmd1M051M0Y0Q1FFLU5ETjlWREc4OUdp?oc=5",
-  "https://news.google.com/rss/articles/CBMisgFBVV95cUxONmR0QUlFbWFkNGxHNEVteGplSGZSWFVHTmFyYm5BVXJ6SVdQM0c3VEhoX1Uwb1VLNVdXbWhsZ2FrZnhqQ0JSRlB6YzFIR29ob3ZUazhOaC0wdUJlRGI2V3FtQWFzYWpJemhYUC1fS21RSGV0cDlfWGFGeU5fTUtla2hfU0V2TTkwdWVxMXdNSVNNaW9IM1ZOd0NNZ1NjSFQ5RmJjQnZUNFZjUXNOdWtGWkVR?oc=5",
-  "https://www.tomshardware.com/pc-components/save-usd260-on-this-high-end-am5-gaming-combo-from-newegg-just-usd1-345-99-buys-a-ryzen-9-9950x3d-32gb-corsair-ddr5-ram-msi-x870e-carbon-wifi-motherboard-along-with-a-free-240mm-aio-and-amd-game-bundle",
-  "https://www.bloomberg.com/news/articles/2026-08-26/brazil-seeks-97-million-from-app-discord-over-user-protections",
-  "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMzZuOHVBVkxBTHhDMTFEbTdpRUJFNFdpNUxVMEwtR3FQMVRVdkZCR3pRS0piOUFZSkRHb1B2UzVEaEYtZ0dZTERHbUs1UHFHUzY5UTVJMFNlWmNBRDZrNDN5eW1ULW1aa2VrZUMxYmpVT0hwZV9CZzFBTGpNVkVOLW01aHplYkNhM0pXSW1UY3plV0VqWTNVZUlDNEtSVzhpSl95T1J0bC16Vk1nRjRrYW5rRlBPOVM0?oc=5",
-  "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRUJvclZMWDVlbjg5WkZ0S0VIamNQb3V2LWpOMlRlT2t5TlJmZEQxWERNd2hTMnpQbWZVWVNnZjdWQWgxUHhBcldObmJKanFTRmNFbHpzTE54NzVnRzM4ckdEMUw3ZGdqc0hRZzRBNDhKdkZLTFZEQUhHZVFoZUFmbGx2eVktODJiNkdBcld3V0VNWVc2YWNucXUzRHdVMzNyLTF6dWVwUTlwOTgxS1E?oc=5",
-  "https://wf.coreweave.com/blog/production-ai-runs-on-inference-are-you-ready-for-it",
-  "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdE5uVDdRd29aUlYxa0Z6RlY0emtzLVo2XzFOenVnajVyVHhoSjdhT01sdWdhbFE3SGoxQlVlRTRTTk9VUUpFcjFBQlhPZ19iR2QtcVdvSW5wYlpuMWlIVVVhSm85WVp0UWY2MDFUSTZ6LWNYWVRZR3BsV1JFbTFYU3ZmTS1YWlp2ZDRBeXZMNE9hRWxwYjZ4QmJvVFBMVXZnektaa01NRXBWcmEyS1BoY1J3X2tyTVF3dVltSExQSFhGMGRWdWJIVGtKam5Rc3F0MWl3?oc=5",
-  "https://news.google.com/rss/articles/CBMikgFBVV95cUxOR0RVY1A3ZXJjMHdVSVp1UG1DYWdDNE1HYy12ejRidTBVeTV2QnpnVU40ZDZhWWI4em96QlctUkFlQ1BpSG5zWW56MVYzeW5iUm42SUxELWNMRjhTLW1NaEdKaGlObkJpbnJMOGlKbHJxMUxZTnB0SUh1ZlBVa0k3U3daZU9SMHFpOTZ2SXpaUG9FZw?oc=5",
-  "https://www.tomshardware.com/tech-industry/semiconductors/d-matrix-stacks-its-ai-accelerator-directly-on-custom-dram-for-100-tbs-per-card",
-  "https://semiengineering.com/issues-stack-up-with-more-hbm-layers/",
-  "https://www.nextplatform.com/compute/2026/08/27/the-network-is-more-of-nvidias-computer-than-it-ever-was-at-sun/5292807",
-  "https://www.eetimes.com/why-connectivity-has-become-an-edge-ai-design-decision/",
-  "https://www.tomshardware.com/tech-industry/data-centers/polls-show-us-data-center-resistance-is-due-to-concerns-over-object-level-local-environmental-impact-beliefs-and-political-affiliation-had-minimal-impact-on-ai-data-center-views",
-  "https://arxiv.org/abs/2608.25064",
-  "https://arxiv.org/abs/2608.25053",
-  "https://www.bloomberg.com/news/articles/2026-08-27/hugging-face-unveils-400-singing-skating-duck-like-robot",
-  "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTFk4NjRMR2dNSS0zTDRRamxnREtqZ0NYdndQUjAxeTNHYVNndDVIWlM3VWNrRWhvSE5xYWtUZnp0QTI5NHZhN0ZDdFVNdmZfdDkzZENsdFFKQk4yalBCbzlUZ3Q5NlQtQmdSRS1fRXNMcGJ6ZzJNb3FtZ2F4LXdXckl6eWE0Ym4wT3VhbjI0UUNuajY3am0xM3VWLXdtTmpFOUFtTHRkS0lpQlJTVUJ6RzI3dw?oc=5",
-  "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYmFTYjRhRjAzTnZXU3lJa1V4a3ZlVy1INVptbHZUc3V6b2NyOGJFRnRtQTFWQ2lrU2pYc0M3N01TcW9tVkh6ZmRQTU81OUd1VlBnQ0o1b3pZSlFqZmtSM1NjYzd5T2xnZE12clJPM3ZlUjdhdWxfbVB4MlQ1UWowZGhNNmxYZXNJRVdGVk1nZ3ZIMjlZdU5WWEg4ak5mYmUy?oc=5",
-  "https://www.thelec.net/news/articleView.html?idxno=13386",
-  "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMEtPLWFvZFRHV184SWpDT2dpbkduQUFMXzF5ZUlNZ0d4aTBCbWgzbnBiQ3I1OE5LQnV5bFJCbzhCZW5NQzY4elFraUlWQTNXb2FkMTAzUm5FbTRjYkNwVjI2SFZsLVNmaThoQ3hXM0FVaTBNMjhzQmZIOExlZERIVFRtdk9KU19heUJOcFlBY1M5dkN4dHdNaU5TRmpEcHhwV1FxS9IBqgFBVV95cUxOQ0RYNXFCdjJ5WEt0bFQ2T1dDeHYyQ1RTQ1ozZFMwTmZyRnNXOUVXNXpUNGg0STVVd1VSRDFtQXdGZVo2d1JtUFktNnNOMFc5YzJKdDBUd0l6NmQwS3dXcUF5UkNqakp1ZnlGM044ZGlUcWZLY1M0VFFfSVJOTi1tVlNqSHVvTEMwTTRtRWFwUnRpQjVRY0pzejlsZlhETXJ0eFltYVNVdXI1UQ?oc=5",
-  "https://www.scmp.com/tech/tech-trends/article/3365459/unitrees-stock-slump-ipo-stokes-fears-bubble-chinese-humanoid-robotics?utm_source=rss_feed",
-  "https://www.lightreading.com/5g/balls-don-t-lie-ericsson-and-nokia-s-big-5g-bet-meets-multibeam-threat",
-  "https://investor.digitalrealty.com/news-releases/news-release-details/digital-realty-breaks-ground-new-state-art-data-center",
-  "https://www.prnewswire.com/news-releases/bittium-launches-new-faros-pro-ecg-device-and-easyflex-single-use-electrode-patch-for-long-term-ambulatory-ecg-monitoring-302861467.html",
-  "https://www.prnewswire.com/news-releases/canadian-solar-reports-second-quarter-2026-results-302861334.html",
-  "https://www.prnewswire.com/news-releases/geekom-regresa-a-ifa-2026-con-ia-local-distribuida-y-ordenadores-de-ultima-generacion-302861200.html",
-  "https://www.datacenterdynamics.com/en/news/lg-cns-deploys-direct-to-chip-cooling-for-naver-cloud-at-data-center-in-goyang-city-south-korea/",
-  "https://www.datacenterknowledge.com/data-center-software/how-data-centers-are-using-ai-to-run-cooler-and-smarter",
-  "https://convergedigest.com/nvidia-q2-fy2027-data-center-vera-rubin-ai-infrastructure/",
-  "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
-  "https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island",
-  "https://news.google.com/rss/articles/CBMinwFBVV95cUxPanNXT1Uzemc4RmNNVEJ6SmtQWmt5bWhsRmN2T3lrQVhQazJla2NUTFZUWGdmZ1FaOTBBaXltWTNlZm5KOUowbVBrdHp4WTVoeVd2MHZ6UllCbXdPN21EQURHZ2Q0YzJsNlpLY0xHN0lyUjRYWTl3VTdEZ0pRMWRBOS1ycWF2SFRnY01iNVRSdzhEVDl0T2EwV3QzVVZObDg?oc=5",
-  "https://news.google.com/rss/articles/CBMidEFVX3lxTE9aZENpQ2x5a1N6NWU1d0ZjVjJya2E4bnhNWkVodUFiNXVpdzJKaVFSaEw3cDJZYWIwZXR3YUtvV2ZGV1Bqa0dhMElnbTRfcGczY0M5dW1UdjJDVnVyaXF3aktpTWUtaGNhVTBIYVFYSGdkbWow?oc=5",
-  "https://news.google.com/rss/articles/CBMif0FVX3lxTE1jc2puZ0VXM1R3eHhpanM5V1dOZVE1UXVKTFNWSURqNUpZWjR3WG1NcmkwWnJtTi1BM081c2FkdS1JcE9WNllQdzJOZFBjeTR0QUd6aDRKMHhMcGczd1NueEx0SGJ2VWUwZWtxUkFjejZCS1c3U2d4NGdQOTVfSG8?oc=5",
-  "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYVlsa1lmZEZNUjJReU4wWWtWbDA0aFBEbWxqd1BKMXBxSXoxWHllbnpFZWRqUUx3c0hUeTRwd212dU4xTHJrTjY5RndKMmlUZVBhVjdQamxWNlo2SHoydzg0VzhqdVk2SmF4VER4bjlNX1ZDV2lXUi0wUFVxRW5raEJaNjRlODZEczVURk04OXNiSzVrVEc3N0s1R0VteVNv?oc=5",
-  "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUnJXY1p4S3pzMHMyZFoyLUVYb1FYQkxtdjJ6MElqZV84bEI5RDNRODBBWmE4czBoY01WT1pyTjhvWTVsR19vZGNuNHc0Z3QxRDR2Zy1KeWJYcjVHV21mWXJjNFVEeWd3alBvcG1hQ3RvX09VMjZ4NXltWTQ0VFE3bmdrOXpMLXRpdGpjRkVtVEthaTFGOUxtcmpPdmROYm1sYnFoa183Mnlmck5zSmhOZQ?oc=5",
-  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObGxicGNQOEk3eVdELU4yQ2h5dFVnNVVYS0VBYzVpandZd3ExLXNHNE5lc19ROU03MkF6QzFITHRsM2N2aW13dW5yMUc1UFN0MW9teGN1NlFXUlJyWjk5QVZJZ29XRUZoYVNaVE4tLVNyT2xBai01WHgtY1hfRTdLX3ExaFpYNGRwbFZ0OWxUVk80UlNnay1mZUU4LVlZVF9KajVxRzhIMjUtLXBnQ1JlMXNnWE1SSVVERUN1T1ZMMUVpaGdKTlctZQ?oc=5",
-  "https://news.google.com/rss/articles/CBMic0FVX3lxTE5zZ2tmZ01kLUFpRnU5OEZRR0c4YnVjTmo0SU1pT0pGYzczaHc1THZvY2p3c0pYQzY3OFZSYUZYUkZPVVdYajZ2dXJLdnBlZkMxSzBwTHBfcm5JamRjTEliR1pjc3hQXzdFd2ZqcWVKaFcwNDQ?oc=5",
-  "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YZnpfV0llZHk3SFdoX0JYUTV0bkN5NF9mMWR2T1VQV2s0ejh4amZWLUJDNV9zQm5xME9MalRuamtXM0NRZmFUNTJBVkF1RlpHS2RXVEZPQjl6WG1xUnAzSmVtenR0cVk?oc=5",
-  "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaE84SV8tN3oxMFpjNGNMRkZDZWVNdG5NSFUxaWxGNXdsMmtnVnJaYm9TQXJ1RWFXNi00TnJnMUI3MW02ak5IMDFiN1hQc0JwWS1OenY0TUFyMVhTd0FrUlVzckJPQWRWMkVTOFBvdjQ3MWJ6U2VhSng5eDJiQ0lMcUFoREtmYVYxOFhXSVgxU0dTa05fVURyMkU2LXJzMXp2R0FNblJySnE0ZHh3VWc?oc=5",
-  "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPTDYtTS1qVkN0NkEzRFk3MTYtcFpvT1F5MFhaYnpMOF9HWlRDdk00SUVSYW9udnBhZXNKM1otQU1lVS1FbXBXcE1oSk1yYlk3aFdJWkQ5Y3NWUDNnYk54ZWVhLVhMMnRHSTJWX0gxNEkwMmdweGpsdzljOUZaNEp2MDNUeXVZbVZmclM2b3VETTB5cDNDLXBZaV9icmRjRE01SU9MeXFfdG1tM1RDdzZhSEZEeTBmUnpKRDRDY1dOdkZCbGo2RUs4cEFPNWV2UlRkSmh0WXE1V28yTWtabWdYdUk0aW1DVHl6UDVSMjBGZ9IB7wFBVV95cUxPTDYtTS1qVkN0NkEzRFk3MTYtcFpvT1F5MFhaYnpMOF9HWlRDdk00SUVSYW9udnBhZXNKM1otQU1lVS1FbXBXcE1oSk1yYlk3aFdJWkQ5Y3NWUDNnYk54ZWVhLVhMMnRHSTJWX0gxNEkwMmdweGpsdzljOUZaNEp2MDNUeXVZbVZmclM2b3VETTB5cDNDLXBZaV9icmRjRE01SU9MeXFfdG1tM1RDdzZhSEZEeTBmUnpKRDRDY1dOdkZCbGo2RUs4cEFPNWV2UlRkSmh0WXE1V28yTWtabWdYdUk0aW1DVHl6UDVSMjBGZw?oc=5",
-  "https://semiengineering.com/from-spec-to-formal-properties/",
-  "https://www.tomshardware.com/video-games/playstation/hardware-modder-builds-overclocked-ps3-pro-v3-with-3d-printed-cooling-mod-dual-noctua-fans-and-server-heatsinks-provide-fps-boost-in-almost-every-game",
-  "https://arxiv.org/abs/2608.25129",
-  "https://arxiv.org/abs/2608.25062",
-  "https://www.bloomberg.com/news/articles/2026-08-27/meta-s-teen-safeguards-on-facebook-instagram-apply-only-to-us",
-  "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNklMUUtoV1ZqazMzekFNb3kwMUQ2MU5pX3hHZmNDTGFJTzVhSGExZW9GT3YwdWdPOTBOZGc0RlBnblRZZUlOd0ZUTWE4bjRuaFlNNkdMQWUyVE5Lb0xObHRwajc1ZlBhTEdJRlBZek5UbzY5Mk5OVUlpS2FUUTN5R0xjZWw4NkVMNTg1bUIxSUJmbmFrNUlPQlFXUjg2bm9ZTE9DZnNtZTRsMUV1dnRlZA?oc=5",
-  "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWjY5eWhaSGFuNFFCTVVVQWNXZDhFM2FOUEFLNUo5QjY0QWl6OWtVRmlrU3F0YVRSZTA5NFpteUdlUHBPTGlNTThXYlNfTV9PX0UyaVh0Y3oyMkIxSDJGRDJZLXJLQ1hQeWFzZkJWQnBqVHBGTVU4Z0VXR3FlWmtEZmM0dFRJczNvNFlweEdEc3E4NWRGZl90NVZrWjJWam9ZYXpZQ3R5WWphVXhNUWZMcmF1LUZmLThQMkdVUy04d3FVUU0?oc=5",
-  "https://www.thelec.net/news/articleView.html?idxno=13410",
-  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE04RXdxTndQLU5KS01WVGxzb2E5cFlaeGRyWkIzME13aW5hUEFuNVN2S1FTWXhQamxYVU9TWFN4NHF1S1QzUUhIaTA0N0hMSElmZHRRNGZJMA?oc=5",
-  "https://www.scmp.com/plus/tech/policy/article/3365454/gates-pitches-us-china-ai-cooperation-ahead-xi-meeting?utm_source=rss_feed",
-  "https://www.lightreading.com/satellite/singtel-seeks-entry-in-india-s-satellite-communications-market---report",
-  "https://www.prnewswire.com/news-releases/er-engineering-lance-de-nouvelles-solutions-de-percage-laser-de-haute-precision-et-de-plasma-hybride-avance-pour-les-cpo-et-les-emballages-avances-lors-du-salon-semicon-taiwan-2026-302861229.html",
-  "https://www.prnewswire.com/news-releases/robosense-reports-2026-interim-results-with-robotics-lidar-sales-volume-up-510-4-year-over-year-302861445.html",
-  "https://www.prnewswire.com/news-releases/geekom-kehrt-mit-verteilter-lokaler-ki-und-pcs-der-nachsten-generation-zur-ifa-2026-zuruck-302861197.html",
-  "https://www.datacenterdynamics.com/en/news/nvidia-revenue-doubles-over-last-year-as-company-forecasts-record-growth/",
-  "https://convergedigest.com/aws-nvidia-2-million-gpus-ai-infrastructure/",
-  "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
-  "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdFlsaE9NY1ZESnZkU3V3VF84Q0JHMFNyM1ZsUVFIVWRDSXNQR2x2dkpvY3FGT3hDN0NuY1RHLXlNUzM3M0R6dTRhbVRJM1AtcEFkRW5MdWFsNDRSQkNOMXFuSXhyZXFKZjR3YzdWY0JoZkxQUGRsS05uZGJhWVJwM0ZPT1Vpb3RWMXFBYWl5aS01cGUzSTRLb1dTWUVGZ19za0xiZFFtcF9Uc0dnTTRoNDVvMjNHYlQzdmgteExEQXlZRDV1ZU1XMnNmZlppdmRxV0xSeg?oc=5",
-  "https://news.google.com/rss/articles/CBMidkFVX3lxTE1yWTVWOFhMdEQxZzhqSTQyUUNrVUVULXVUNGRVSGNycUJ6OWxnaTZ3U2JNQ1Q4aUN2cklxLUtNbnNMbFUwQ2NQdzl1ZHF3YTRLSGZoOVYtTkRBcnZ0YmJyMnFxY2tEUV9zRjZXejlzR0VhQ0lLVWc?oc=5",
-  "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0xSWI1TnhzR21WNG03bWlOVDN4LUZnZkNoNGZodmhXNldoTnpVcGExVzRxVldxbFhuWTZmS0lTZk5ROHp6SW82UzRZVkJCRGtzRnNwd2ltdU1lR3lVTkpoc0ZQOFhzYlE?oc=5",
-  "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMW5DNGhMSk5tUVZ6VDNjTDNwWVladGFLVURvQ0VhbzB5TW16UFpLeXluUnZlVHVXcG9sTll3MjM4UlBBMmhGbXdBYVVna3hqY1ViTGpjbFFFWWozdmhHUUlkRVpnWFJMQVRCcC1mSzhBdWI2X05wVFlUdmtDSnVZUkNjLUlQa2d3bE5fLXhwT2Q0dDFGeGxTeEVtWkJZdkxpYkJSMzNlWUYxcHNEcUdCaEY1b3dIRTNaMmYtU1BUVQ?oc=5",
-  "https://news.google.com/rss/articles/CBMingFBVV95cUxPcWhYMkZsc1NLVk1tSUt5NGk1V3dzdzFFX3ZmU3lvZG1JTVlNSnZEc05RRExzQmMtZEpmcEtNWktsZjlVaURMSjJReFE0UDVvT2taMnAwZFNOQXJoUkVLOGhWTkFmMEhrZnIzYVZLMDN4MzhZMmhfaWtXSV8zazhGY055RWYzMkVYS25BTktVMXdPbVpldF82RVNoY0RPQQ?oc=5",
-  "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNGd2NDQwNTk3ZmRpOE02cUY3R1pLTGlsVkhKLW16d2hwTm1URC16WV9TcFZ2Vlp6UEcxMmdrNjJHUWhKRm1nMTlXenl2R0VDX2kwSWZ6MGxNbzNhaHoyNkZJQjFEQ0NLWlkybWFYbHEyRWcybTNPR295Wk5UYmo0YVRtY1JRWDBNVkU0RC1JS1F0ampUVFIzUUhrc0VJXzFvYkdDdnZLbktNbmZmazlBT3lSbm1faUFEaXZjNmRWbUVfWWFWbXA0S2ZDU09BN0xERmUweXdtb01zNXJZWlE?oc=5",
-  "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNN05xbzZ6RzNiTDdjMnhRWlJXaGdFQWhDcjdOT3hwSkNCSHFmYzhyUGg2OG16SlI1b0dXQmtkSEhYb2QzY1k4a1JlaTJ4dWllX0RLTG00VjRSRWdtMm9MTGFSM3RlUTZhZU9LWjBSV0ktWW1oVnAtcmlJWExHUnNQWmc1QkVTVFFnWGtkY09ramU0REk3aC1HT0MwQ0ZfQl9VMzlnbDRvWTlEZUk0ckstZWZ6UExxdjVnUU9aQmVwR3RSb1JNS01GUEZtd3F5UVZkQlJZRXJsTEhqUQ?oc=5",
-  "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWEcyYVpBemxwRVdlWS1HVEdFbjJUcEhmV3N6VkhQVElMcE5oOUEwX1hRM2RSTjd3WU5xZThmYXNUdVdMQzNjaUpUR3plM0R0QnZOV0FSQ245emx4d3FyUExhWHQ5X3FhT2ladTNxR1gwWFM1STRreGdYbEwtbzA0UjdUX1FWSFhmQzlJdFEyeFp2TllOcHFDNFctcTV2MmdhSkJNRVNMbw?oc=5",
-  "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTDlZdU1PZ3k0ZFlkcVRkNU9ZUkU4TngxRzRUX0V0YWpmeFQ3dVkxakhraXFybDlreWVjVGl0c1J6UmVxeHhIY0VrbldRRTliTlVxVjhrYktlMTdlUDB3RkFHVE9qc0QtVXpfX3ZuUGZiRzVyenJHWkc5ZlE5UXN4MERlNzVGa0djcXQxYzB4dnNsNTRIQXRxb19jaWZOYmFuNTQ5YTVCXzJpMmpYOFV5UXdYNA?oc=5",
-  "https://semiengineering.com/agentic-ai-success-relies-on-excellent-human-scaffolding/",
-  "https://www.tomshardware.com/video-games/retro-gaming/atari-drops-39-activision-games-on-cartridges-the-run-seamlessly-across-five-decades-of-hardware-ultimate-deluxe-collection-that-includes-every-title-clocks-in-at-usd999-96",
-  "https://arxiv.org/abs/2608.25260",
-  "https://arxiv.org/abs/2608.25155",
-  "https://www.bloomberg.com/news/videos/2026-08-27/the-opening-trade-8-27-2026-video",
-  "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQzFWdk5wc1BDUnZ0N0YtMlJHVkl5S1dLSlJGV0Q3R1pLWGpBR2pTMnBXa21DRlNMVk1QUklpYWFXdFR0MFM2Y2NmbUhyYk5YSXdxcUxjb044bEtLNjQ0RmJMMTZSSksyQUtBTHhvVEtxUFQybWMyYTR6V01ZbjJnZ3V5YXdkRkk3Zk1PU0pjb0p6a3dpdkh0RlNBOGF2M29QOUl5ZjMxQnhIZFJjUEY3ODRBaU9TQQ?oc=5",
-  "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQnh2QXBPX1FBQ1ZVNXptbXZjZjQySHJEcGZ1LS1BMlNRY2pKT1ZCeGNycXlWaHpMY2RiMlA1WFhtTkJud3VyS0lFMW1WWklJOTlzbjh0Snhmb01yV0VfQ1Q2SDAtRDNrQUV3U2oyc0U0OGNFckFJdTExWW1KVTRwd2cyeTRvSGZvWDYzX3pnR1hnQmY2MTlHNGtYVWdMU3JxbThyRQ?oc=5",
-  "https://www.thelec.net/news/articleView.html?idxno=13406",
-  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9wQmNkVzR4ZVNjTXo3dXB6cExPRFJSTUpLRUxtLWc0ZjJrSWVlMW9OY1ItYlFDS2xPWF82SGs3b0NiZ3Nid0xORVR0Mm90T2NtOWp2NXdDOA?oc=5",
-  "https://www.scmp.com/tech/big-tech/article/3365433/zhipu-ai-shares-jump-viral-ox-alpha-model-revealed-glm-53-flash-chinese-chips?utm_source=rss_feed",
-  "https://www.prnewswire.com/news-releases/geekom-revient-a-lifa-2026-avec-une-ia-locale-distribuee-et-des-pc-de-nouvelle-generation-302861190.html",
-  "https://www.datacenterdynamics.com/en/news/applications-filed-for-four-more-buildings-in-cedar-creek-texas/",
-  "https://convergedigest.com/nvidia-nvhbm-nvlink-fusion-custom-hbm-aws-trainium4/",
   "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNkYway1SSkpWbmV5TWxWUm53U1dOWndmaXBKaV9GVW9NNmtTWGk2SmhXZWVjYjFrSzhfUGlQc2MxRTYzaE1PVnZQSzQ3N25XOWFaZzhsOWdLazF0cGdkU1NLcjNqcnAtQkxmYm5FVlVUTkVtRlhja0MwTi1CYnV6MTNuVTBCTzNPa3pEelRPZ0lHdURUTXo0QTJ3elNtZEpjdWQyVkVGakxwX0cwUkluLWhxS0NaZ05fREt2VHlWcU1zUQ?oc=5",
   "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Vb1lsSllPMHM5YTlhMGlPb3htY1lSN1VlUjlyeUFCRVZyeGliU1FicVdHa01fcExRMUNzOHQzODVYWnp3eUp4WThVRnBJbC04THdrUlJSNXdaQjZyMDE4UmVJZTVjcms?oc=5",
   "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMjlGV2dsQ0xnRGdEaDZaV0t5UDg1Q1Q1bHVDRWtVek53T0JmQWdJYzd0NnVwUGpzQmFjYW00VWFuY2VUMDV4ZW4xZHlyY3J3cG01U0xDaVdkbThlM1V2bnFNUER4bmh2ZFhEdi1HemxUaVlseXpZZkVydVhLakRCajJlNG4xdGUwd1FtQ01WRDJaaUJWYWtSZ2pRTjZERXBKdXAxdkpfa3ZvUFpicENvanNRVnhuakNTU2ZCcVhjZWd5QQ?oc=5",
@@ -9118,6 +8988,114 @@
   "https://wf.coreweave.com/blog/forbes-cloud-100-2024-list",
   "https://wf.coreweave.com/blog/fidelity-and-jane-street-back-coreweave-at-7-billion-valuation",
   "https://wf.coreweave.com/blog/coreweaves-brannin-mcbee-on-the-future-of-ai-infrastructure-gpu-economics-data-centers-e1925",
-  "https://wf.coreweave.com/blog/coreweave-valuation-at-7b-after-secondary-sale"
+  "https://wf.coreweave.com/blog/coreweave-valuation-at-7b-after-secondary-sale",
+  "https://www.eetimes.com/ee-times-magazine-september-2026/",
+  "https://www.tomshardware.com/pc-components/gpus/dlss-5-officially-launches-inside-nba-2k27-limited-to-rtx-50-series-gpus-for-now-nvidia-promises-to-bring-neutral-rendering-tech-to-rtx-40-series-soon",
+  "https://www.bloomberg.com/news/articles/2026-09-04/abu-dhabi-s-g42-weighs-us-ownership-to-safeguard-ai-chip-access",
+  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTHAwM2RlVHZfSi1CRGRxUGl5OE5NYnJ5Q3pab3BUSFlHd1lIc0tKTXZ1TkVrdWw1b01PS0g5eFFxUVIzc2xhbFF3eHNxc3A0ak5BYWxYRm5YckRwWFNaWHRWZmIwNWtKVWlhWjlrdDE4WjNnYXhMcm9GdlFwZms5S3FvcTdsZ3BtdkpESkR0c2pFankyV0Flcl93X2RmdGxpRVJpVzF5RkUwTGs?oc=5",
+  "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUXJhaU1qREw2NzF4ZTZsZnhxTlJ3dFFCNWlKUmI2TWFNMzlzYnR6empHM3Fad3h0M0c1ZGF3Q3R6UTZtV1ZiT1VUYVY4LUpwWmVIZ0xRX25qQUs5Y3gwbDV6ZlVwMXFMdW54eDIxb0U5SHhLSDkxczgtRHZvWGxyS2JFX2ZwNjFoWFR6NDJjZXBfcjJZTVhkWEJ6azJta09Sdm5NRFBFY1R1dXUyOVhLcE5GZmRyNE82Q1HSAb8BQVVfeXFMTzZJbGZ4cFZZRy1qczllcjl5aVZxSmNQRVlTRWt5akdKOGx4NXhaTXZNUk5UTzJJdmQ3RTRGeU4yNzhSYkdWeEpTSmd0TFpZY3JPT2F6S3dmWEhPaVZSNGQ5dllDSjM2ZWxKbHk1VjFCVnJwRUE5WHdoRHpfYVhwUVlIZ051S21zSTVYNnRLZ2JXMHIyaTFiWDRkaUJHanJnT0ZHTHhndTg4di02bkhPT2cxLXhTMkZ1Ml9wTHVGVkU?oc=5",
+  "https://wf.coreweave.com/blog/coreweave-taps-dell-technologies-to-strengthen-cloud-platform-for-ai-and-machine-learning",
+  "https://www.prnewswire.com/news-releases/tooldance-unveils-x1-smart-desktop-cnc-mill-at-ifa-2026-302870568.html",
+  "https://convergedigest.com/gimlet-300m-multi-silicon-ai-inference-cloud/",
+  "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
+  "https://news.google.com/rss/articles/CBMiU0FVX3lxTE54cWx3Y19saENyMXktZ2Uxc1o1NWQweFRuY29faDdIRnhGNnNORmhjMjNTWWpDLS1GOHlpcUc3X0N3Z3EwN1IwVU1tX3NyenluT0Zn?oc=5",
+  "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaFlsY0ptMTNCZ2xZUU5xOHNTSUpFY2oyMnlOaUwxRm1UbnhLM2djQkhJdlM0U0hYRGlITVJlcHpaQnBzRW9uZDMwOWtNSm4zd3FCUldnY1pyOU5mZ3dBMlJwc2VuNXRVdWdQZTZxZDhxVDRSa0VHRC0tNkhtTjR1MGx3UnFmTUstUHRWNHBSNFpyaWxBZFBvSFpkNEd0WjNrRFBGOFh3?oc=5",
+  "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdWl3Zmx5dVdnT2VIVWZzNHM2RFV5bHdFVnRPbF9xeC1SZE5YRVE4T2dlX0M3R3UzNnZUZFpueE90NGZDbHJBZXhiVXAxblVQMlhIZFI0Mkw0bGN4Vm9BS1VkaTlyTjVvWHpCWDFJbWVRUWRHRnpEa0pvQkc4TnNrbkdzM0pYUkhzTGh3TWtjMXl0UER5eTEzSHEtQl9PcHNtcG5heQ?oc=5",
+  "https://news.google.com/rss/articles/CBMidkFVX3lxTE9yVlVNZFFQRkp3ZTlZa181ZjBmOVpPcFVNellONkdDZUI3T0FkdS1YQXhreWpiN0hpbHZtdy1oeGxVU1hRMmF4aUQ3bTJfOFlrVmh4LUp6ZEtsYVBjczlhSmxibkdfbWdJeFEtWl80X0dpVTF1X2fSAXZBVV95cUxPclZVTWRRUEZKd2U5WWtfNWYwZjlaT3BVTXpZTjZHQ2VCN09BZHUtWEF4a3lqYjdIaWx2bXctaHhsVVNYUTJheGlEN20yXzhZa1ZoeC1KemRLbGFQY3M5YUpsYm5HX21nSXhRLVpfNF9HaVUxdV9n?oc=5",
+  "https://news.google.com/rss/articles/CBMijgFBVV95cUxQS3drRlBJaHZKN1Nja1FTQVk0MG5KdGVIdXdwR2Q4anJTOWdObnllN2lJTDBUcjBMYTh0N3RYcGJ1dDl5U2U2ZEFkd1ozaDNaQlV2RW1mX2ROTUlHSno0enJUMmpPMDFtQThmVXhTSnNoNmx5YVU5Ukx0R1FmalVsTGpRbVJYYTlKdVVnM2l3?oc=5",
+  "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTi1XZlhOeTR1MjNSdk44Y1ZxOGVBN09aT0FYbUprQVdVRlYzSUo3TkkzcFc2UV9aWTVQMzcyWHdwTTdRVW1DVjNEeDJYMWwwalYydDloY1pkVXd6b1ZFT0l5b1ZudDRLenJHOXJsV0stMm9yYVJTdHc2NHNuZEUza3JCcUhvVGdTRk15NVZjZmZFazRPUXU1S2xjY0dDMnQxRlEyWldaNWNzaS1EclJaUDhvZ2puU05PYVZaMWs0bE9OUQ?oc=5",
+  "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZGp0SktBQmxhNEs0N3NTREpJSmFnSWdVRlB5VVFHS19yLUhTcDlvd1gxVG9SM0htaEE0alZ3N0JFY1g4a3NnYk0xa1J2QUw1N0JjV0lJY2hFS3RPWlE2RjFVUDhUTThEcmw1emd4WFhYakdOY0NZa01sdDk4Qnp3VzZudTd5ZHNTemFRNU5ScDIteFJ0YW0wcmpSSXlNMkRqM2VKQTdMZEc?oc=5",
+  "https://www.bloomberg.com/news/articles/2026-09-05/jump-trading-expands-office-space-in-hong-kong-s-ifc-building",
+  "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeFMzcGRneVI5X2FoY1czb1BfWEhweG1fbndzYVZJQW5PbUNJMmR6TTI5NjRHdnRoTlp1RGIwcG9HbkhUcDBEN1AwWFFWaGxGdzBvV3l5bnFyalk1WV83Z2wtaThtV0FCWkdXWmRqLXhrQm9KVjBUVlRBZXRTM0doREpMVk1JZDRVTHA1RmZHejBMcTF6Q1FVakdrMXRyOGJHSEExRVJkSEJneXZ5OXdWQmhhbXlyT3BZdWdmUw?oc=5",
+  "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYTZpS1NhSWM0WkR2OXNHNm12b0sya2NwZWdqdWNlcmZGbzNLeWh5Tm1CWlc5OFF0bHFfZ2ZSaXcxZVo2Qmd0VGp2Ul9fX2ZXSlhnMWk1MXJQYmVwSHUwM1FscW44Y1VPZGVibE9jSEFhMUpDbkpMMEdMVWdsWGNqeHN4TldBNFpSQXJMR2VfenplRVpzclVHd1J2dnU1RjBGZWUtMWMtQnJWQzBDTXJ0TNIBtgFBVV95cUxNYTFLdzgzRWJwQ0h5YzBGZUR2d1dORzBwYlZmYkRWaThiMXhIdkVUQnlDYUtCdEFEcmx2SGIyX1ZUMFItbmJteW9yRFZibFd3TkxqMEloUzBVT2JqSWs5WE1PdjJmdER5VUJHQUd6aGJveExCNFdSTmZLdFZZc0o5R1ppcGQ1YVRydGF4Um94MUEzclBFbzY2UjczcFFiRDlFcWUxbldyZGhwU09xLTZTejg2MmctZw?oc=5",
+  "https://wf.coreweave.com/blog/coreweave-secures-200-million-series-b-extension-bringing-total-round-to-421-million",
+  "https://www.prnewswire.com/news-releases/spolonos-chiq-na-ifa-2026-od-globalnej-expanzie-k-hlbiemu-lokalnemu-zapojeniu-302870536.html",
+  "https://convergedigest.com/nscale-figure-100000-nvidia-gpus-physical-ai/",
+  "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+  "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNU8yNGR3eTRnNjhYQUdFZTVCYXVreEZTSU51R29ZMXFxUGEyalM0T0tpOExSYWNuaUZERUoyWWo1dGdlS3dfTWxLSmJHRWZ3YXFfUTFkUlpPNV9iR1Bla1JScTBacjJCLXZuSXZyRkdLNXFGbHdHU1Q5dUduaXVuTngyTVVGRFlXZlZRTnBfek9temE5?oc=5",
+  "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeU1rRFBwZGF1U3I4bTNrM1dWcHRhR0dHMFJfR2JOWTFoQUVKT3Z3QU90czktSHhwYnMzOWxQWkxqMFpVczQwT0NzYmhfcTQyd1c4RlZ3ajBZakFPaVJzdG5rLWFwTjlpUVB6RUFZUldfcWptcTlmVmI5ZGNial84bnBNY0JkeWd4RGhOQWcxTHBNd2ZFSEZuQWZLUmVLTXBNVXp4YnJuWnluSEtZajN4eVdDSzZwZw?oc=5",
+  "https://www.bloomberg.com/news/articles/2026-09-05/japan-says-progress-made-on-550-billion-investment-pact-with-us",
+  "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUVVvOTJLdmJ1TS1OSm1uN3JLZm5JME5jdFFJZkdKeGo3ZlFvWnl5SWV4dFEybTRfWDRncTBKTmpIMzhkbTNJQUtUVkNCMDM5RzRmVGxiRFU1Yl9uTVo3X3N6YW53T0dUVEk4NktWNmRmd0tVWEs3MHNfWmM4MVZXUmN3TUxud2VaOWpJOEFMTXpFLXUwTktOVktEZEpibVZKdjR4VFZzMmZXenh3ZUE?oc=5",
+  "https://wf.coreweave.com/blog/coreweave-secures-2-3-billion-in-new-financing-for-gpu-cloud-data-centers",
+  "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWnlKS2ZUR2FnakRCZm9pbzRUclliWDZZTEgySmJzRmdyRU12RktQVzNjeVhrb2VtUjdZS2c3WHB4ZEpsdXRvOHRJMzViRGtwZWNOMmVNMjVyMGxSRUZDamlOVDg3TWEtd3pnVnJHZnRGNnJ1T3hmSzhqYTRPMEQ1LWQyMGdmSllKQTVfb2pRQjhWVzF3MjM1V040Z1c2V0tHX3BuLQ?oc=5",
+  "https://www.bloomberg.com/news/articles/2026-09-05/china-s-26-earnings-boom-lands-with-a-thud-in-the-stock-market",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdkJGUlQ5NUpLUzVZNU9PMDZiSnBXck05bzNCTldWejd2bUJoOXlmbkRXbmg1NU1qSVBpN1RraTU1Ulg2aER0QnZmb1B1SGFWRDBSWTM2RmRLTjYtbDYtSXZCalBmaE11TTM0TkdyT0dpa0Y5eUNZaWhrY2lWWm9BSUFubnpwWExmdmZMUE9FN2RIS3FsNkZkVXdyVWdPa2VzVzY2LUJMMVl6bGdVR1BCX2dqMA?oc=5",
+  "https://wf.coreweave.com/blog/coreweave-secures-2-3-billion-debt-financing-facility-led-by-magnetar-capital-and-blackstone-to-meet-surging-demand-and-ongoing-expansion-of-specialized-cloud-infrastructure-to-power-ai",
+  "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZzljY0RGOXdTM3BRRjZkQ2w3b0owZFctS0xScEhrVEE1QkZGbTlfdFVlX0xIZnA4QVNjMkduZFJzaGthV2lxUVZIdWZzWm1ReWREX1BzUGd5UkF1cEVTdmdjYWlmTkdDbC1sN0RBalBpSlU5clg5RGlVTUh0NG1mVTJhdk02LXNRVldxRm1uZTBYZlJOdGZaQUxhdDVkRlZwMDFqdUVPc3BMNE5uNEVEVHZIM1lCTmZEUlk1STJITWZfdVVad2RKV0QzQVF2ZzlfZFJEU3hIWDhEZGRHdC1kWNIB5gFBVV95cUxNYl9aYjM1cjhsMHhyR1c2dEc4NmtlNjRKbDhRNHY3NlNJbmI2S2RZX09MSGdJQnJpeEs2N3FxYUNSTzNPbDlWQ29MNkpFT2lnNTQ5dXQ4a2tYVmpUU1RLSzRuTkRlYUJlY1BYbTBXT1ZZdlpScjlLZGZEQjZfa1U0UTVjQjY4ckhjYUIwZHZFODZ5d3FERkg5QnhsWmdlQnZjU1c0WmZPeWM2cFJwbUljeGVka0NjZjcySXRIWjQ4SkxOOGpqNElqTXoxWTB4cUcxTVdzQUJla3NYdjR2VVVoTXh5eWZqQQ?oc=5",
+  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMHVCdzdsazY3NEtTT1VHbFVlV2J0TE5CV25ZaEtPVGUwME9MU3lYN1hrZ1dLZDVJZHVBa3lDc01HdVM1SXlObEtidjBJXzdvdFZYeVVYTWF4b0dHM0NzX0VQckx3UENCXzZlM2NreTBwOHlybjBmSk5LWXdLaVZJMWNMcTFFemdJOVN0QjQyN2FoTnFOSXBWaFVreEYya1dYLXVhTEZXVHdyQQ?oc=5",
+  "https://wf.coreweave.com/blog/coreweave-secures-1-1-billion-in-series-c-funding-to-drive-the-next-generation-of-cloud-computing-for-the-future-of-ai",
+  "https://news.google.com/rss/articles/CBMivwFBVV95cUxQc0JabGNwMXg4dk10eVZGbS1vWU9Ja3VBQi1ZNklMZVB0d0ZoX052aVc5QzlPX190X3JVeFFDbzNPVUExZ0FUNTBkNWljczRmTGQ4U3NhcE44dzlic0w1ZHRESG85RERnNWhldnZEZG01WTJ1QVVyVHk4UzRRNVdqeWZheUMwQ1FGcGdRUWstZlpDRE94aTdLbGhjd1dZUGJyVGg1NTRHOVc2cUtIX3NxR1dlaVRUZl96WHducDRzTQ?oc=5",
+  "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcnhtV185d01RdEtXOFdFU1FIV1RSM3hWNExFSWozUDR5NEwwNzJqdWZKTXpPSmZOTmxYQkJGdHE3SjZiYUlXdHlEODdUaEhVS09NNC1PX1dIeE1MSmF2dDAxNDhwb0pvYzk1M1Jaekx4M0RkT2ljaHJVQVBfdkVzS2NOanpRcGVHNFhrRFNMWUxlSGRrUHZ4UnV4SzJjRkNFQ2NIbDNPOWJScWhmX3FhX0R3?oc=5",
+  "https://wf.coreweave.com/blog/coreweave-raises-7-5-billion-in-debt-for-ai-computing-push",
+  "https://wf.coreweave.com/blog/coreweave-raises-7-5-billion-in-debt-deal-led-by-blackstone-others",
+  "https://wf.coreweave.com/blog/coreweave-raises-221m-to-expand-gpu-focused-cloud-computing-infrastructure",
+  "https://wf.coreweave.com/blog/coreweave-raises-221m-series-b-to-expand-specialized-cloud-infrastructure-powering-the-generative-ai-and-large-language-model-boom",
+  "https://wf.coreweave.com/blog/coreweave-raises-221m-series-b-to-expand-specialized-cloud-infrastructure-powering-the-generative-ai-and-large-language-model",
+  "https://wf.coreweave.com/blog/coreweave-raises-221m-in-a-series-b-funding-round",
+  "https://wf.coreweave.com/blog/coreweave-raises-2-3-billion-in-debt-collateralized-by-nvidia-chips",
+  "https://wf.coreweave.com/blog/coreweave-partners-with-ibm-to-deliver-new-ai-supercomputer-for-ibm-granite-models",
+  "https://wf.coreweave.com/blog/coreweave-partners-with-ecodatacenter-to-host-one-of-europes-first-large-scale-nvidia-blackwell-training-clusters",
+  "https://wf.coreweave.com/blog/coreweave-opens-new-texas-data-center-to-expand-access-to-high-performance-gpus",
+  "https://wf.coreweave.com/blog/coreweave-named-to-usa-todays-top-workplaces-2024-list",
+  "https://wf.coreweave.com/blog/coreweave-launches-nvidia-gb200-grace-blackwell-systems-at-scale",
+  "https://wf.coreweave.com/blog/coreweave-invests-ps1-billion-in-uk-opens-new-european-headquarters-and-data-centres-in-london-to-bring-cloud-infrastructure-to-power-the-ai-revolution",
+  "https://wf.coreweave.com/blog/coreweave-first-to-market-with-nvidia-h200-tensor-core-gpus",
+  "https://wf.coreweave.com/blog/coreweave-first-cloud-provider-to-announce-general-availability-of-nvidia-gb200-nvl72-instances",
+  "https://wf.coreweave.com/blog/coreweave-files-registration-statement-for-proposed-initial-public-offering",
+  "https://wf.coreweave.com/blog/coreweave-completes-acquisition-of-weights-biases-2",
+  "https://wf.coreweave.com/blog/coreweave-completes-acquisition-of-weights-biases",
+  "https://wf.coreweave.com/blog/coreweave-ceo-the-world-is-dependent-on-nvidia",
+  "https://wf.coreweave.com/blog/coreweave-ceo-chatgpt-boom-added-rocket-fuel-to-growth-of-our-niche-cloud",
+  "https://wf.coreweave.com/blog/coreweave-came-out-of-nowhere-now-its-poised-to-make-billions-off-ai-with-its-gpu-cloud",
+  "https://wf.coreweave.com/blog/coreweave-appoints-sandy-venugopal-as-chief-information-officer",
+  "https://wf.coreweave.com/blog/coreweave-appoints-new-chief-marketing-officer-jean-english",
+  "https://wf.coreweave.com/blog/coreweave-appoints-karen-boone-as-independent-board-director",
+  "https://wf.coreweave.com/blog/coreweave-announces-two-initial-data-centers-in-the-uk-are-now-operational",
+  "https://wf.coreweave.com/blog/coreweave-announces-significant-european-expansion-commits-an-incremental-2-2-billion-to-meet-surging-demand-for-ai-infrastructure-in-the-region",
+  "https://wf.coreweave.com/blog/coreweave-announces-secondary-sale-of-642-million",
+  "https://wf.coreweave.com/blog/coreweave-announces-pricing-of-initial-public-offering",
+  "https://wf.coreweave.com/blog/coreweave-announces-nitin-agrawal-as-chief-financial-officer-and-additional-senior-leadership-changes",
+  "https://wf.coreweave.com/blog/coreweave-announces-new-chief-accounting-officer",
+  "https://wf.coreweave.com/blog/coreweave-announces-key-senior-hires-to-fuel-growth-plans",
+  "https://wf.coreweave.com/blog/coreweave-announces-date-of-first-quarter-2025-financial-results",
+  "https://wf.coreweave.com/blog/coreweave-announces-chetan-kapoor-as-chief-product-officer",
+  "https://wf.coreweave.com/blog/coreweave-announces-appointment-of-michelle-orourke-as-chief-people-officer",
+  "https://wf.coreweave.com/blog/coreweave-announces-agreement-with-openai-to-deliver-ai-infrastructure",
+  "https://wf.coreweave.com/blog/coreweave-and-dell-technologies-extend-relationship-to-deliver-ai-at-scale",
+  "https://wf.coreweave.com/blog/coreweave-achieves-new-record-breaking-ai-inferencing-benchmark-with-nvidia-gb200-grace-blackwell-superchips",
+  "https://wf.coreweave.com/blog/coreweave-a-19b-ai-compute-provider-opens-european-hq-in-london-with-plans-for-2-uk-data-centers",
+  "https://wf.coreweave.com/blog/core-weave-secures-7-5-billion-debt-financing-facility-led-by-blackstone-and-magnetar",
+  "https://wf.coreweave.com/blog/cloudflares-r2-is-the-infrastructure-powering-leading-ai-companies",
+  "https://wf.coreweave.com/blog/cloud-provider-coreweave-to-invest-2-2-bln-in-europe",
+  "https://wf.coreweave.com/blog/cloud-computing-for-all-fast-company",
+  "https://wf.coreweave.com/blog/briefing-cloud-startup-coreweave-raises-221-million",
+  "https://wf.coreweave.com/blog/breaking-down-claynosaurzs-unconventional-approach-to-brand-building",
+  "https://wf.coreweave.com/blog/benchmarking-large-language-models-on-nvidia-h100-gpus-with-coreweave-part-1",
+  "https://wf.coreweave.com/blog/an-ai-company-you-never-heard-of-just-raised-1-billion-heres-what-coreweaves-new-19-billion-valuation-really-means",
+  "https://wf.coreweave.com/blog/americas-best-startup-employers-2024",
+  "https://wf.coreweave.com/blog/american-ai-group-coreweave-to-invest-ps1bn-in-britain",
+  "https://wf.coreweave.com/blog/ai-startup-coreweave-closes-650-million-secondary-share-sale-with-cisco-joining-as-investor",
+  "https://wf.coreweave.com/blog/ai-ready-data-centers-are-poised-for-fast-growth-buoyed-by-rising-demand-for-enterprise-ai-tools-coreweave-secures-a-2-3-billion-debt-facility-to-build-data-centers-that-can-handle-more-intensive-computer-applications",
+  "https://wf.coreweave.com/blog/ai-infrastructure-startup-coreweave-raises-7-5-billion-in-debt-deal-led-by-blackstone",
+  "https://wf.coreweave.com/blog/ai-dungeon-powering-text-adventure-with-the-industrys-leading-inference-service",
+  "https://wf.coreweave.com/blog/ai-demand-for-data-centers-vastly-underestimated-coreweave-says",
+  "https://wf.coreweave.com/blog/ai-cloud-computing-startup-coreweave-valued-at-19-billion-in-new-funding-round",
+  "https://wf.coreweave.com/blog/a-startup-in-the-new-jersey-suburbs-is-battling-the-giants-of-silicon-valley",
+  "https://wf.coreweave.com/blog/30-most-powerful-people-in-enterprise-software",
+  "https://wf.coreweave.com/blog/generative-ai-cloud-startup-coreweave-raises-221-million-megaround",
+  "https://wf.coreweave.com/blog/nvidia-h100-gpu-benchmark-results-what-we-learned-from-large-scale-gpu-testing",
+  "https://wf.coreweave.com/blog/gpu-cloud-rendering-5-tips-to-keep-vfx-studio-production-on-track-and-on-budget",
+  "https://wf.coreweave.com/blog/press-release-coreweave-joins-nvidia-csp-program",
+  "https://wf.coreweave.com/blog/kueue-a-kubernetes-native-system-for-ai-training-workloads",
+  "https://wf.coreweave.com/blog/coreweave-announces-support-for-nvidia-ai-enterprise-software-platform-and-nvidia-cloud-functions",
+  "https://wf.coreweave.com/blog/coreweave-launches-the-first-generally-available-nvidia-rtx-pro-6000-blackwell-server-instances",
+  "https://wf.coreweave.com/blog/accelerating-ai-leadership-how-coreweaves-mlperf-results-unlock-customer-innovation",
+  "https://wf.coreweave.com/blog/our-capacity-plans-for-coreweave-data-centers",
+  "https://wf.coreweave.com/blog/maximize-gpu-infrastructure-utilization-with-better-workload-balancing",
+  "https://wf.coreweave.com/blog/coreweave-delivers-cloud-solutions-for-jane-street",
+  "https://wf.coreweave.com/blog/a-bold-new-approach-our-networking-services-for-genai",
+  "https://wf.coreweave.com/blog/3-ways-coreweave-mission-control-simplifies-cluster-management",
+  "https://wf.coreweave.com/blog/coreweave-adds-skypilot-support-for-effortless-multi-cloud-ai-orchestration",
+  "https://wf.coreweave.com/blog/inference-benchmarks-coreweaves-versus-popular-generalized-cloud"
  ]
 }
