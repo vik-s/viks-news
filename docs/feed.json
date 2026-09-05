@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-09-05T15:32:50.357687+00:00",
+  "generated_at": "2026-09-05T18:33:27.370615+00:00",
   "model": "claude-sonnet-4-6",
   "backend": "openrouter",
   "sources": [
@@ -12,7 +12,7 @@
    {
     "name": "ServeTheHome",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "The Next Platform",
@@ -21,7 +21,7 @@
    },
    {
     "name": "Blocks and Files",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -32,7 +32,7 @@
    {
     "name": "Tom's Hardware",
     "ok": true,
-    "count": 4
+    "count": 2
    },
    {
     "name": "IEEE Spectrum",
@@ -41,7 +41,7 @@
    },
    {
     "name": "The Register Off-Prem",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -57,17 +57,17 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Bloomberg (via Google News)",
     "ok": true,
-    "count": 1
+    "count": 2
    },
    {
     "name": "Reuters (via Google News)",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "The Elec",
@@ -181,7 +181,7 @@
    },
    {
     "name": "Ayar Labs",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
@@ -607,7 +607,7 @@
    {
     "name": "PR Newswire Computer Hardware",
     "ok": true,
-    "count": 3
+    "count": 0
    },
    {
     "name": "Data Center Dynamics",
@@ -626,7 +626,7 @@
    },
    {
     "name": "SemiAnalysis",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
@@ -652,7 +652,7 @@
    {
     "name": "TechCrunch AI",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Chips and Cheese",
@@ -682,7 +682,7 @@
    {
     "name": "Topic: HBM",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: advanced packaging",
@@ -692,7 +692,7 @@
    {
     "name": "Topic: AI silicon",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "Topic: foundry / process",
@@ -702,12 +702,12 @@
    {
     "name": "Topic: semicap",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: datacenter power",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "Topic: liquid cooling",
@@ -737,15 +737,15 @@
    {
     "name": "Topic: neocloud / AI compute",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "Topic: enterprise storage",
     "ok": true,
-    "count": 1
+    "count": 0
    }
   ],
-  "candidates": 19,
+  "candidates": 6,
   "kept": 0
  },
  "items": [
@@ -6097,12 +6097,6 @@
   }
  ],
  "seen_urls": [
-  "https://arxiv.org/abs/2608.25536",
-  "https://www.bloomberg.com/news/videos/2026-08-27/robinhood-cio-ai-boom-collides-with-rising-rates-video",
-  "https://news.google.com/rss/articles/CBMickFVX3lxTE5RZ25KcFZHbDV2WlVSRDRQVnFwdnkydVRDQi1QN2dJTEQ4bUdhYWVCUW4yanBqR0pUbWhSU0Q3ZU5BM3FxcG5ESEFkbVdidzJxQ1o0OHR0azNzRUg0MHIxcFZhdVd3RHRIRmRnb3RKVXFvUQ?oc=5",
-  "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTWhmNnhIejBEcG1zQWRzeWtHbVZCOUtZZmtraGJiNHdjVzdpU3liY2VfZTF0X3pUUl8tNWN1TXMxcTNqRk9xRXRTZ3VGQUV2MVl1MllqWHpCby1ua2R2VWJJR1hRUi1aTWJxQ1lXWHBEcklUb1hZS3dkTEZkSDFxUjNzbFFiZUktaXJ3WGJRUjF5RHROREJSd2c3N0RfRkNIbzNxd05GdnJ4VnZma0R5QU5QTEJwOG1aUmZuaERmMA?oc=5",
-  "https://www.thelec.net/news/articleView.html?idxno=13401",
-  "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSDBFQlRsbFVpbVF1RXd0a3dFQnVIT190QUVNX0JGRGRjSnhsdjhsRkZZdzh1b0dBZ0J4ZGktSzRsd193UFFvYTQxSENDeWUxYjJOQVRicXJFcTNIbjBTOEtmZEJYU2k3MmZhWURHWFRQcFBtVWNmVWlRZnFyUDE5ZGpIZ3Vpc3V1bDZsZ0paVkh1NDNpVnJIOdIBngFBVV95cUxPRzlBM0dNY3BGcEg2NTZQU09RRVBVNm5wZWpndFhMUXBKbjJVWi1VWEpEbFVOSklDMFpHaU1ibmg3V0ZZUmZhdkVnQ2RpZ3AtNDlJdHh1R2tvSTVPTUlBSXgtbDlaS3piRGN5UGw4TkM1TUh2VkVDZE8tQU5fdUU0SjkwWTJoS0VZRVpkWGZwLUdiQU1tSEdsbUhqSGxVZw?oc=5",
   "https://www.scmp.com/tech/big-tech/article/3365491/alibaba-pushes-south-americas-ai-market-launch-brazil-data-centres?utm_source=rss_feed",
   "https://www.eenewseurope.com/en/ibm-acquires-hrl-laboratories-to-boost-quantum-technologies/",
   "https://www.lightreading.com/fixed-wireless-access/5g-fwa-has-rural-urban-performance-gap-in-us-ookla",
@@ -9096,6 +9090,12 @@
   "https://news.google.com/rss/articles/CBMilgFBVV95cUxObi14UFpoWkRfb2Q5RkZvM0N4NWsyZDNibVNmb0dma1pkTEtmbkQ0MjRoaDJMdTloYzZrT1Y4czN1Z0VpamMyWnctRV82YndnUXZRakJhNTFyM0V4em5uVml1SFN6RVNIenhXWWxtV0ZXNVRjSEwwTVdlRGhxVGczRnhySjdDTXhTVTl6WG9qb0Vfb3hiemc?oc=5",
   "https://www.tomshardware.com/tech-industry/best-of-ifa-2026",
   "https://www.prnewswire.com/news-releases/creality-unveils-k3-sparkx-i8-and-expanded-creative-ecosystem-at-ifa-2026-302870657.html",
-  "https://www.tomshardware.com/pc-components/gpus/modder-gets-nvidias-dlss-5-working-on-amds-rdna-4-gpus-rx-9070-xt-only-manages-30-fps-at-1080p-right-now-but-5070-ti-level-performance-is-the-eventual-goal"
+  "https://www.tomshardware.com/pc-components/gpus/modder-gets-nvidias-dlss-5-working-on-amds-rdna-4-gpus-rx-9070-xt-only-manages-30-fps-at-1080p-right-now-but-5070-ti-level-performance-is-the-eventual-goal",
+  "https://www.tomshardware.com/software/windows/stripped-down-windows-11-for-ai-developers-demands-64gb-ram-and-insane-250-gb-s-bandwidth-project-zenith-will-debut-on-amds-flagship-ryzen-ai-halo-platform",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbW1pUUx6a3A1dDZjd1R6R2tFVVhzb2I3dHoxbU9HR0xXQjJEU1VVNXFxODk4bVhjaE9GSFFsWVRPUzR5MFJJcUNMZUtDRkRlN2taWGhycTVnVGhoU1pTRnB4VU1VcVdrdmQ5dlNYTkxnZDg0MWYyZXZ0cHlOU2lrZl9qbHB4WndxVnlISTNHMElXcF9uaDNDT3p1ckFJdTRzTUhxTmNfa0FnUVFtaEdodlpiQQ?oc=5",
+  "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPU0FtQktXNWY5eEpHaUxBVGI2YWpHWE9SUGUtb1BhUkxLQmJvODRPX01WMnFqeEI2RThKMi1IT0E1eDBSUngtQkIwTUtiQWFjSHpFbXY0Q1BFcjZuUnBkVEZFMnFtOWpLUHVOZ1lZZzIwT3NxSnJnNG5DdHBvWi1STnFWSk1reWZRVkpEQjlCT05fdm8tV3ItQU5kSThCSjZON3ZvNXJhNXB2dWV0Zmt6NlJ1UUxoUDY4ZjZERk1qWmNUNkIxaW01anhRSURSaGlPZkE?oc=5",
+  "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+  "https://www.tomshardware.com/video-games/gamescom-apologizes-after-backlash-over-callous-response-to-indie-dev-hardware-thefts-pledges-security-overhaul-and-invites-devs-to-the-roundtable",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxPY21ITGlDYTdRMVVPRG9vZmVKNzNfb0JCU0haUzNOeU93Ri04NzZ4alB1OEJSWno5d3BUUVRYdTF2WTRKM21TczJXc3hMUjUzOURhd0hRNEkzaHFRejhNcXZyMkxIT3FSQ3M1cUhNSTF2VWlDa0RGOHo3SDBBWUdBU2R1RVhGWExUaWRCdnVrZUlnU0NpckNkU1RlSHlKd1FrVUlfQ21LTmVWeHdwbVdGUnNyVQ?oc=5"
  ]
 }
