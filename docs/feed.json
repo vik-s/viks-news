@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-09-05T18:33:27.370615+00:00",
+  "generated_at": "2026-09-05T22:12:51.652275+00:00",
   "model": "claude-sonnet-4-6",
   "backend": "openrouter",
   "sources": [
@@ -21,7 +21,7 @@
    },
    {
     "name": "Blocks and Files",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
@@ -32,7 +32,7 @@
    {
     "name": "Tom's Hardware",
     "ok": true,
-    "count": 2
+    "count": 1
    },
    {
     "name": "IEEE Spectrum",
@@ -41,7 +41,7 @@
    },
    {
     "name": "The Register Off-Prem",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
@@ -57,17 +57,17 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Bloomberg (via Google News)",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "Reuters (via Google News)",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "The Elec",
@@ -607,7 +607,7 @@
    {
     "name": "PR Newswire Computer Hardware",
     "ok": true,
-    "count": 0
+    "count": 7
    },
    {
     "name": "Data Center Dynamics",
@@ -626,7 +626,7 @@
    },
    {
     "name": "SemiAnalysis",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -682,7 +682,7 @@
    {
     "name": "Topic: HBM",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: advanced packaging",
@@ -702,17 +702,17 @@
    {
     "name": "Topic: semicap",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: datacenter power",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: liquid cooling",
     "ok": true,
-    "count": 0
+    "count": 5
    },
    {
     "name": "Topic: interconnect fabrics",
@@ -745,7 +745,7 @@
     "count": 0
    }
   ],
-  "candidates": 6,
+  "candidates": 18,
   "kept": 0
  },
  "items": [
@@ -6072,49 +6072,9 @@
    "tag": "digest",
    "date": "2026-08-23",
    "added_at": "2026-08-23T02:14:05.619120+00:00"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRFFtbG1ybFN3a3U3Rms4WWhyOFFxa2E2QWxiQ2NKZmJaamNDZEhRdll3TlFtdVFMWktTeUY5dlF4VkZwaExHdDFEMEZSQVpvNWxUWmZSZVlWYzFfa0FROUtDM1hiT2FnckdOc1pEOXhYc0lHRHE5Uk1Fd2xQbzloa0pCdkZfVlR4Y202MDgyNWJHTVA5bVpvc1JCUWlEVU5HYlNzWk55Vm9iWEIxcFlLbkxJYVM0dXpsc3JSWFAzR0l5SmI0bXRPSWNEQmdoX2tKTFdKd2R30gHbAUFVX3lxTE5PQWEwTndtUEs2WEFkbGF1YmhXVFNCekhLS1FEUXVOZWtEbjAxMm1JcGMzUm9lYURLdXJncmwxT0MtMzllTlFPeFFMNUFoOUFUMlkwLTJiUHo2RHAtZEFyemVFZnZ0aFI4b1RIT3dHQUlRMDlmTGJQREtLdWNBTW5ua0M3R1Qwa2dNOGh0T2dXYnR4eVFzM3cweTdYMUlkT2NrYzNpR1lwRG9JemtiZkZKZnllTXdIeEUtTVFVUk8wbnBYLUpxVlpIUFd4cVZ3cVBWeHo0dDFEb3c0UQ?oc=5",
-   "title": "SK hynix Takes Its Co-Packaged Optics Roadmap to Nature Electronics: 100Tb/s Nodes, Sub-1pJ/bit, Under 10ns - StorageReview.com",
-   "source": "Topic: co-packaged optics / SiPh",
-   "published": "2026-08-21T17:15:13+00:00",
-   "why": "SK hynix published a CPO roadmap in Nature Electronics targeting 100 Tb/s bandwidth nodes, sub-1 pJ/bit energy, and under 10 ns latency\u2014primary research with concrete specs directly relevant to the optics and AI-infra beats.",
-   "topic": "optics",
-   "tag": "deep-dive",
-   "date": "2026-08-22",
-   "added_at": "2026-08-22T20:53:29.402974+00:00"
-  },
-  {
-   "url": "https://www.bloomberg.com/news/articles/2026-08-22/nvidia-customers-notified-about-ai-related-price-hikes-above-15",
-   "title": "Nvidia Customers Notified About AI-Related Price Hikes Above 15%",
-   "source": "Bloomberg Tech",
-   "published": "2026-08-22T18:42:34+00:00",
-   "why": "Nvidia is notifying major customers of AI server price increases above 15%, with memory costs cited as a key driver\u2014directly relevant to HBM pricing dynamics and AI infrastructure capex.",
-   "topic": "ai-infra",
-   "tag": "deep-dive",
-   "date": "2026-08-22",
-   "added_at": "2026-08-22T20:53:29.402974+00:00"
   }
  ],
  "seen_urls": [
-  "https://www.scmp.com/tech/big-tech/article/3365491/alibaba-pushes-south-americas-ai-market-launch-brazil-data-centres?utm_source=rss_feed",
-  "https://www.eenewseurope.com/en/ibm-acquires-hrl-laboratories-to-boost-quantum-technologies/",
-  "https://www.lightreading.com/fixed-wireless-access/5g-fwa-has-rural-urban-performance-gap-in-us-ookla",
-  "https://nvidianews.nvidia.com/news/nvidia-announces-upcoming-event-for-financial-community-6927858",
-  "https://blogs.nvidia.com/blog/geforce-now-thursday-gamescom-2026/",
-  "https://investor.marvell.com/news-events/press-releases/detail/1031/marvell-technology-inc-reports-second-quarter-of-fiscal-year-2027-financial-results",
-  "https://newsroom.ibm.com/2026-08-27-ibm-brings-ai-powered-us-open-fan-experience-back-to-madison-square-park",
-  "https://investors.credosemi.com/news-events/news/news-details/2026/Credo-to-Present-at-Goldman-Sachs-Communacopia--Technology-Conference/default.aspx",
-  "https://www.nokia.com/newsroom/changes-in-nokia-corporations-own-shares-863887/",
-  "https://news.skhynix.com/en/groundbreaking-ceremony-in-indiana-01/",
-  "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-appoints-akash-palkhiwala-board-directors",
-  "https://investor.lamresearch.com/2026-08-27-Lam-Research-Corporation-Announces-a-27-Increase-in-Quarterly-Dividend",
-  "https://investors.nordson.com/news/news-details/2026/Nordson-Corporation-Board-of-Directors-Increases-Dividend-15-Percent-Marking-63-Consecutive-Years-of-Annual-Dividend-Increases/default.aspx",
-  "https://ir.vishay.com/news-releases/news-release-details/vishay-intertechnology-expands-power-transformer-portfolio-new",
-  "https://gf.com/news-and-events/blog/a-new-kind-of-rf-switch-built-on-familiar-silicon-the-research-team-behind-a-nature-electronics-paper-discusses-the-future-of-rf-switching/",
-  "https://investor.kns.com/2026-08-27-Kulicke-Soffa-Declares-Quarterly-Dividend-of-0-205",
-  "https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/",
-  "https://news.lenovo.com/cuts-time-spent-searching-30-knowledge-super-agent/",
   "https://investor.equinix.com/news-events/press-releases/detail/1120/equinix-commits-additional-50-million-to-the-equinix",
   "https://irisenergy.gcs-web.com/news-releases/news-release-details/iren-reports-fy26-results",
   "https://lambda.ai/blog/lambda-closes-926-million-senior-secured-term-loan-b-facility",
@@ -9096,6 +9056,24 @@
   "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPU0FtQktXNWY5eEpHaUxBVGI2YWpHWE9SUGUtb1BhUkxLQmJvODRPX01WMnFqeEI2RThKMi1IT0E1eDBSUngtQkIwTUtiQWFjSHpFbXY0Q1BFcjZuUnBkVEZFMnFtOWpLUHVOZ1lZZzIwT3NxSnJnNG5DdHBvWi1STnFWSk1reWZRVkpEQjlCT05fdm8tV3ItQU5kSThCSjZON3ZvNXJhNXB2dWV0Zmt6NlJ1UUxoUDY4ZjZERk1qWmNUNkIxaW01anhRSURSaGlPZkE?oc=5",
   "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
   "https://www.tomshardware.com/video-games/gamescom-apologizes-after-backlash-over-callous-response-to-indie-dev-hardware-thefts-pledges-security-overhaul-and-invites-devs-to-the-roundtable",
-  "https://news.google.com/rss/articles/CBMiswFBVV95cUxPY21ITGlDYTdRMVVPRG9vZmVKNzNfb0JCU0haUzNOeU93Ri04NzZ4alB1OEJSWno5d3BUUVRYdTF2WTRKM21TczJXc3hMUjUzOURhd0hRNEkzaHFRejhNcXZyMkxIT3FSQ3M1cUhNSTF2VWlDa0RGOHo3SDBBWUdBU2R1RVhGWExUaWRCdnVrZUlnU0NpckNkU1RlSHlKd1FrVUlfQ21LTmVWeHdwbVdGUnNyVQ?oc=5"
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxPY21ITGlDYTdRMVVPRG9vZmVKNzNfb0JCU0haUzNOeU93Ri04NzZ4alB1OEJSWno5d3BUUVRYdTF2WTRKM21TczJXc3hMUjUzOURhd0hRNEkzaHFRejhNcXZyMkxIT3FSQ3M1cUhNSTF2VWlDa0RGOHo3SDBBWUdBU2R1RVhGWExUaWRCdnVrZUlnU0NpckNkU1RlSHlKd1FrVUlfQ21LTmVWeHdwbVdGUnNyVQ?oc=5",
+  "https://www.tomshardware.com/pc-components/save-nearly-50-percent-on-this-awesome-16-inch-oled-laptop-with-a-ryzen-ai-5-430-cpu-and-16gb-ram-hps-macbook-neo-beating-omnibook-x-flip-is-down-to-just-usd699",
+  "https://www.bloomberg.com/news/articles/2026-09-05/german-startup-isar-s-rocket-lifts-off-on-european-space-mission",
+  "https://www.prnewswire.com/news-releases/tcl-predstavuje-na-vetrhu-ifa-2026-rad-tab-a1-s-dvoma-vekosami-obrazovky-a-dvoma-sposobmi-zobrazenia-302870747.html",
+  "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+  "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaW1CeGh2SVd2cWxsSlNYMk13SmdHRkNVeDVIbjUxUkVkcXNscGVrQ1N5YjQ2a2lCOUNsS2ZTaDNyald1czB4ZzNaWVRsY3VHVEtqSm5YbFpQVl9fUEFMVnQ2aERneERmSHhRQm81RmltWE9TeC11Wmc2WkZSNWZaWkdtcmxnQS15S2ZRR0t2NjBMYnNxNjdkMFpvZnNUWW1GakE?oc=5",
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxNci1jdVU4aTFzSUVsZXpwWkRMcGFVcklNQnJHbzZzM1NyRE5UaUc2eDQ0MkprQlVpLXRvTG5jeU5uQzFrSGxtb3JkVGM0LVQ4eHpDQjdTZ0lzSm5GY0dTeE02akZxRlZTcXBUc3ZOQ2FyVV9mcmVGVTNsWDNuRUJKUTZodERTaUdHU3FJZ09EUzJHTEFrZjFodVhB?oc=5",
+  "https://news.google.com/rss/articles/CBMif0FVX3lxTE5zMWFKeFRpTnplY1JRNk5UVnp4VGNOa0k2XzNSRmc4b2VfUmRUSEQ4cXhBc01SQTVfVG9qZDNKYTZQT3RQTWNEWTcxSVQ4TWZLZHpKTjVpd2R2emRuZ1RkQ0duRnFBT3lhYzZSV0xWUkt3dDIyZkt6aXNuZW5Kemc?oc=5",
+  "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOTHkwakowcFpteFIzZWR3UnFCY185NnFvR05qdGxid3RoXzBGc0lKcElIM21xRlI4bVJ3LTc3NlpiVDR3RjBLLWljQmRnNFpRQjRjcUNuOXF4X0VtWEx5OVVmVWZuLWhIT1JrdmVrWDc2c1NUeEEwUjF4RzdpWV9rR1lrLTNXRkpqX2JMWVhJT21tb1lkNG5teG85WGI2aDZTTmVhSUJyQnVUVTJmcWVYVWRJSU9GQTVyTWcwZjZJTDBIbFpvRi10QXlRa2g1OTdPekVrRHBodDBhdUdYZGhUUg?oc=5",
+  "https://www.prnewswire.com/news-releases/tcl----ifa-2026--tab-a1---------302870746.html",
+  "https://news.google.com/rss/articles/CBMingFBVV95cUxNWm00TmZJakZWaXdLYUNGS21MU3pocUhlM0UwVGxKYU1hVzl6bF9VWWJrendzZExpdkVEVjR1UzBGRncwM0w1Nnp0anBnSlNjZmgwdDNOdzJGNkJsd0JEdk4wZjFONllFR2FFX3p2Z1NlRm5hdFlqNUtLRkZfZF93ekZuZE5acWhqYXRrZjFUT2lfdGNueVViWklXaXhzQQ?oc=5",
+  "https://www.prnewswire.com/news-releases/tcl-prasentiert-auf-der-ifa-2026-die-tab-a1-serie-mit-zwei-bildschirmgroWen-und-zwei-display-erlebnissen-302870745.html",
+  "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5jMVdmdGxEZ09FXzkySElzOFlFZURNbmVQM1JNaExXTUNSR2MwLTY5WFBMaFBuWjdUZmcxWmIwX2ZicHJ5SGo5QWZobDRYcFpLSG14Q0pKSmhSSjZLd015aG93?oc=5",
+  "https://www.prnewswire.com/news-releases/tcl-presente-la-serie-tab-a1-a-lifa-2026-avec-deux-tailles-decran-et-deux-experiences-visuelles-differentes-302870744.html",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxNb3lYQmdXclNPbzRZS1pxRkRrWnBCZDV2RTVUNDF0S1E0TEZhNHZmMUpETkI0UnU0bnJfU1BZMzliRjNra2ozUWUzaXlsRDl5WUlBSTRxLXdRUnB4QjJnckh2T0k0NWUxODdrWWVUeWtodmt6OXVIMUJYMEhvNTV2VzQzN2liai1NYTVZQ09VU0c2V2FGdlhOZWtFSnJUVXNqZVk5YjNPVVlGT19aOUVWZjFhZw?oc=5",
+  "https://www.prnewswire.com/news-releases/morpho-uv-printer-unveiled-at-ifa-with-hands-on-live-creation-302870741.html",
+  "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTFhqc1pabGFyc0gtSXFhaFV6NzFnN1NHaHNKU0VDYzRzV0JiemY2ZzRQSVZhZTBHSTZIN3lmY2RwSU9fN1RvazBkNnZPOFJOLTFub09YVk9SMHhtb0xKVlhIM182UWw2eWkyNlVucVdCQ0swaElDUGlWMl9CLVpqUUVYWnBWRUVSR3JjekwxUzdybklaczlTcjRSNNIB_AJBVV95cUxNNzBoX1lVLVBZcEJVcEJPVGVnMDdBNnVSV2s1dC1SLV9GRTFtbjU2M01aZEwxTXNxZk5TMFk0dnBjcDdiQzFRbk5NQm5LZ1hXd3pBWU8zMjhJUEZjdV90WlZWeXdQemhFdVNkS2tWOGlyYWx1SDB2OU9ZbjI5SmF2RTFBOTJEUGg3RU9aUE9ET0VhbjQ2T0tTMndIS0xGa25XQVR0Yzdkb3QzUDBfcEo0clktTnFwOFBBdnM4dDA0c2g4TGZzVk5aN2NyVFNiVzBRR3FfTldSZGVBNVJab04yTkN3TVJXOWZCYmo1UlEtNkFSNmVmOGo4WHV4Z2JsbHZSc09WUERkazl1SHdEd3dvaUVLMzJiN3ZQYkRaNk1IdVBVY3g5Rmg0dHJub2pJdVBTNTNnZnJoOExMZ2pXak9GV19FREx1OFFEM0ZDcTNiVVBYT2lQWnhqNnhqQ3l2cjhRN0RiXzFyVkF1alNQZ044VGoxN09jOFZSOS1lVw?oc=5",
+  "https://www.prnewswire.com/news-releases/tecno-wins-two-ifa-global-product-technology-innovation-awards-for-modular-phone-and-tonino-lamborghini-tecno-taurus-302870739.html",
+  "https://www.prnewswire.com/news-releases/lg-electronics-showcases-complete-premium-rgb-lineup-with-tuv-rheinland-certification-for-high-purity-color-at-ifa-2026-302870723.html"
  ]
 }
