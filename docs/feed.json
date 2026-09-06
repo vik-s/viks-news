@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-09-06T18:35:16.605721+00:00",
+  "generated_at": "2026-09-06T22:16:46.338128+00:00",
   "model": "claude-sonnet-4-6",
   "backend": "openrouter",
   "sources": [
@@ -12,7 +12,7 @@
    {
     "name": "ServeTheHome",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "The Next Platform",
@@ -57,12 +57,12 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Bloomberg (via Google News)",
     "ok": true,
-    "count": 2
+    "count": 1
    },
    {
     "name": "Reuters (via Google News)",
@@ -77,7 +77,7 @@
    {
     "name": "Korea (Herald / Times / Chosun)",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "SCMP Tech",
@@ -181,7 +181,7 @@
    },
    {
     "name": "Ayar Labs",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -637,7 +637,7 @@
    {
     "name": "SemiWiki",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Converge Digest",
@@ -672,7 +672,7 @@
    {
     "name": "Topic: co-packaged optics / SiPh",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: optical transceivers",
@@ -682,7 +682,7 @@
    {
     "name": "Topic: HBM",
     "ok": true,
-    "count": 0
+    "count": 2
    },
    {
     "name": "Topic: advanced packaging",
@@ -692,7 +692,7 @@
    {
     "name": "Topic: AI silicon",
     "ok": true,
-    "count": 1
+    "count": 3
    },
    {
     "name": "Topic: foundry / process",
@@ -702,7 +702,7 @@
    {
     "name": "Topic: semicap",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: datacenter power",
@@ -722,7 +722,7 @@
    {
     "name": "Topic: SiC / GaN power",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: chip startup funding",
@@ -745,7 +745,7 @@
     "count": 0
    }
   ],
-  "candidates": 8,
+  "candidates": 10,
   "kept": 0
  },
  "items": [
@@ -5874,107 +5874,9 @@
    "tag": "digest",
    "date": "2026-08-24",
    "added_at": "2026-08-24T02:12:45.390478+00:00"
-  },
-  {
-   "url": "https://chipsandcheese.com/p/hot-chips-2026-samsung-and-hbm-base",
-   "title": "Hot Chips 2026: Samsung and HBM Base Die Opportunities",
-   "source": "Chips and Cheese",
-   "published": "2026-08-23T19:01:23+00:00",
-   "why": "Samsung Hot Chips 2026 presentation details using a logic node for HBM base dies to expand compute integration opportunities\u2014key roadmap signal for HBM4 and beyond.",
-   "topic": "memory",
-   "tag": "deep-dive",
-   "date": "2026-08-23",
-   "added_at": "2026-08-23T20:53:34.707653+00:00"
-  },
-  {
-   "url": "https://www.servethehome.com/samsung-evolving-hbm-base-die-at-hot-chips-2026/",
-   "title": "Samsung Evolving HBM Base Die at Hot Chips 2026",
-   "source": "ServeTheHome",
-   "published": "2026-08-23T18:00:34+00:00",
-   "why": "Samsung's Hot Chips 2026 talk outlines evolving HBM base die architecture to free package area for more efficient compute, directly relevant to next-gen AI accelerator packaging.",
-   "topic": "packaging",
-   "tag": "digest",
-   "date": "2026-08-23",
-   "added_at": "2026-08-23T20:53:34.707653+00:00"
-  },
-  {
-   "url": "https://www.servethehome.com/micron-evolving-memory-architectures-for-ai-at-hot-chips-2026/",
-   "title": "Micron Evolving Memory Architectures for AI at Hot Chips 2026",
-   "source": "ServeTheHome",
-   "published": "2026-08-23T17:55:32+00:00",
-   "why": "Micron's Hot Chips 2026 presentation covers AI memory architecture evolution and packaging approaches, including the compute-outrunning-HBM-bandwidth problem at 3x per two years.",
-   "topic": "memory",
-   "tag": "deep-dive",
-   "date": "2026-08-23",
-   "added_at": "2026-08-23T20:53:34.707653+00:00"
-  },
-  {
-   "url": "https://www.servethehome.com/sk-hynix-hbm-packaging-at-hot-chips-2026/",
-   "title": "SK hynix HBM Packaging at Hot Chips 2026",
-   "source": "ServeTheHome",
-   "published": "2026-08-23T20:40:15+00:00",
-   "why": "SK Hynix Hot Chips 2026 session covers advanced HBM packaging challenges including Intel EMIB integration and a roadmap toward 3D stacked structures.",
-   "topic": "packaging",
-   "tag": "digest",
-   "date": "2026-08-23",
-   "added_at": "2026-08-23T20:53:34.707653+00:00"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM19aazNFbU5SYTIzMHhvOHNnQVBRRUlJVHhYamt4bDJxZ20yd0VFVVp2NVp3RFdVajFpZ0lyb0RreUlveXNneXc2ZWRwTUtZd21rbVVrRURya3M4UE9iSlVXZXhBSUx2SF9DX08zcVdmZ3ZXN1JUdG5tb1dISEo0NHZ3eko4VGRnYTE4dVh0VGliY2FrU2tkYXNzYldIeDZfT1hibUFLc3plajFmWkU40gG0AUFVX3lxTE1lT0oxZUthOHFtSGJfSlRlaWdwdWJOTl95VEs5a0F4ZE02MXkwZDVoQThpUUhSbzhMMklrdjlHN21tbkVYNTNGQ2Z6NGFRSU1zVUhCMzFVSFVpejlnVUR3S0NoYm1xZHZWcW1EMFZzaHE2UTB0VmxkVy1iVmpWNkN3N21iT1BaZFdVSWVoQkxaZF9XZXl4eEMwV2NpaC1PU21vemhYTEJVcEtwMDFBSUJ3NThkQg?oc=5",
-   "title": "Micron Says AI\u2019s Memory Wall is Worsening as Compute outruns HBM Bandwidth by 3x every Two Years, Advanced Packaging & Process To Tackle Rising Thermal Constraints - Wccftech",
-   "source": "Topic: advanced packaging",
-   "published": "2026-08-23T17:35:42+00:00",
-   "why": "Micron quantifies the memory wall: compute bandwidth is outpacing HBM by 3x every two years, with packaging and process cited as primary mitigation levers.",
-   "topic": "memory",
-   "tag": "digest",
-   "date": "2026-08-23",
-   "added_at": "2026-08-23T20:53:34.707653+00:00"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcXRJUUxrMVA1WUxsd19uSXVvMUJtOHFNaFAzUHZvZ2VpQnE4VEM2UjFQaVZsSnpkUDhsc3BJTGh3emxpTW9OQ0V5Z2MzRm9SRVNuT2lOZmlUQVlDMTFhVFdKQnZnNlZtcmw5ZDI5d0paMU5aaHVRTEtGQ3d5dVNBX1VYRXc2OFRnY1VhVDVQZGU0aTZUb2JxRk1VeVdPbHZNeUw1dVh4MNIBrAFBVV95cUxNck1hdjJrdnN1RGZtc29palBjZzFRQjVzVXJMY2lmTjZDNHBDUWFfakVhS0RnSHhHTFYyQ1dMUERkVldXR1FhUS16Z0VxS2JYbVR4azBkcy1CSlo5ckRrVUw1MHRMMVZ6ek5TbGgtOV9qbEdWS0JweWVlN2ppeUo4NkkzNnByNm14LTZQX2NmZGdUX3BoZXQyUU1WODl2QllrQVZQRXM1WkE0ZXFB?oc=5",
-   "title": "Samsung Leverages Advanced Logic Processes To Advance HBM As It Works On Its Next-Gen zHBM DRAM That 3D Stacks Memory On Compute - Wccftech",
-   "source": "Topic: HBM",
-   "published": "2026-08-23T18:45:35+00:00",
-   "why": "Samsung's zHBM roadmap\u20143D stacking DRAM directly on compute using advanced logic processes\u2014is a significant architectural shift disclosed at Hot Chips 2026.",
-   "topic": "memory",
-   "tag": "deep-dive",
-   "date": "2026-08-23",
-   "added_at": "2026-08-23T20:53:34.707653+00:00"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1wQlQxV0Nfdk1vbnlRdWY5VFFHNFJrUkZIc2I4dzVFMDBHMmdrdVptS0hqLVdqaGtLZjRiNVF4eFRIdEZqV0FKUnVib2FmLVZTcEFOakY1Y09VeWI5REg0bHEzRENtY3p2VHY1dkEzaEdtLXFwMk0w?oc=5",
-   "title": "Samsung High Bandwidth Memory (HBM) - ServeTheHome",
-   "source": "Topic: HBM",
-   "published": "2026-08-23T18:30:13+00:00",
-   "why": "SK Hynix is evaluating a Japan memory fab to strengthen HBM supply chain and reduce geographic concentration risk\u2014supply capacity signal for the HBM market.",
-   "topic": "memory",
-   "tag": "fyi",
-   "date": "2026-08-23",
-   "added_at": "2026-08-23T20:53:34.707653+00:00"
-  },
-  {
-   "url": "https://semiwiki.com/semiconductor-manufacturers/372509-the-twelve-month-rule-does-not-describe-a-new-fab/",
-   "title": "The Twelve-Month Rule Does Not Describe a New Fab",
-   "source": "SemiWiki",
-   "published": "2026-08-23T17:00:18+00:00",
-   "why": "Data-backed analysis of five advanced-node fabs shows the common 12-month capex-to-capacity rule fails for greenfield fabs, relevant to modeling HBM and leading-edge capacity timelines.",
-   "topic": "ai-infra",
-   "tag": "fyi",
-   "date": "2026-08-23",
-   "added_at": "2026-08-23T20:53:34.707653+00:00"
   }
  ],
  "seen_urls": [
-  "https://arxiv.org/abs/2608.25708",
-  "https://arxiv.org/abs/2608.25216",
-  "https://www.bloomberg.com/news/articles/2026-08-27/netflix-s-grand-theft-auto-peek-draws-traffic-for-influencers",
-  "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUVNHUlc2TVZRdXdTZEpqb0RIOVQ3bU9KeXBrSDNxajhVUC1tTGlRNlJYeEo0cUJMU196aERTN3F4UTVQSUFtU1JlaE9xdzkxSU85cVZ4eS1TQXlZcHdPUEExbllwemM3UDJZSzgtblJiZVdKRndBa09jaGg2YWhfNHBMVnYyX2FUTGpLZi0xejAyMVJKa2N0cHpRazF5SzB0dmI5OWltcWtMcmNBYkRSX1hJbGU?oc=5",
-  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbGFaaDN4azFXVkpsOXY3T3VNbk9KOEdHQ2xqN1R4aGxVMWtnUERCWE0yN0pDRWhVNDUwTG1aekxQTEk0X2taY09ZN1JGTXNHNUMyR1Q2SmY5TEhOYVBHVzVSTTltVnRoeDhoem9vXzNZTjI5Q0NHWjBZU3Z3MDF3YTNnZ0pvOS1vRHUyQ1gxQ3NXdXhyeENEeXFlUWU3X0lCWG9UakIyUVVqaEs5NkRsemxJUnNDVHJwV21fZ2N3VUpuTUhTMnA3Rw?oc=5",
-  "https://www.thelec.net/news/articleView.html?idxno=13399",
-  "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTzBWOVFpSGFfWlRudmE4ZElxM0QzNGF2UmdqMzlDYlRDMndMVFRmTmdYaDI0U1JDOXlzcnN0R0pQZWVoVWRHanA2YVJ4eXMwY3RXRmVTcjdiQVFLdjliTndGRUpYblVZV3o0QWh0YXJqeloxcEJuRG1iYm9xOU1ZZlhRNXJiZjlBbVhTR2VyUlNCVVhuM2w4YjJ6RndvWUxfS1FQd1d3a1Z0ZENxNVcwS29NRXRuU0tZRmkyTUpVVdIBxAFBVV95cUxNWk9BWEJ3Y2JpY1kyWWFXY0pEYjZoVG5aTW9yZGw5QThyR3dhMXVld1poMGMycktQV3NmTlhMYmlDcGRuY2JHNS13dUdDWUk2eHZrdGlRUTVaREJzQWItYURDbF9xQ2h3MmMwQVJOMHRqSXBrNERPQ2t6Q01nVnJKWTdjT2x3Ul9QajIwbVJlZHRZdVdrS3l5YVFKZzB5RnJlekVGM2ExbmRqSFc0NTE5dmcyUlJiM2RtNzBpNnl6ZlpxWWY0?oc=5",
-  "https://www.lightreading.com/smartphones-devices/southeast-asia-smartphone-shipments-fall-23-in-2q26-to-lowest-level-since-2014-omdia",
-  "https://www.prnewswire.com/news-releases/sivers-semiconductors-reports-q2-2026-results-as-product-growth-record-pipeline-and-customer-ramps-position-company-for-growth-acceleration-302862078.html",
-  "https://www.prnewswire.com/news-releases/aes-cleanroom-technology-panels-earn-fm-4882-approval-addressing-the-cleanroom-risk-that-fire-ratings-miss-302860641.html",
   "https://www.prnewswire.com/news-releases/enterprise-manufacturers-cut-cnc-programming-time-by-up-to-50-with-limitless-cam-agent-debuting-at-imts-2026-302861954.html",
   "https://www.prnewswire.com/news-releases/la-xpertstation-ws300-de-msi-basee-sur-la-dgx-station-de-nvidia-est-desormais-disponible-302862081.html",
   "https://www.datacenterdynamics.com/en/news/salim-group-buys-out-keppels-share-of-indonesian-data-center-venture/",
@@ -8964,6 +8866,16 @@
   "https://news.google.com/rss/articles/CBMieEFVX3lxTE55ektzSXlzV3pJakY4U2NMVl9oS002c2dqbGJoNG5FcVQ5RzkyZ0FHSy1vcFNpSnYxOE5McVJaalJQdW5KbFhZdEVHdUNkN3p0d1N5TGpsQXY1TERGUmk5X28zZG54SlpKcUJzYWNwRWtzWmVTcmpiSg?oc=5",
   "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOWkwTUVLWk1QdmMtMlRJTmZYLWp0WldQZ01hQUFlX091NUk2UTlQNkU2TGFZdHlOUDdQaXVHZW1tY3p4b20ya1R4Y0pjbVpjZGJLNU4zOW1QcUtyR2YtQS1mTjIxY2lQdlZXRkNIeW1MYllBRTZiMzA2c0J6SXF4WjRXTnIycjE3LTQ3SFptLThnUTI1QUE?oc=5",
   "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZWc1ck9vMHNpYU1SbTItV25CZTVMbEFKakZJME5rQ1o4Ry1WSUN3MkZMTTJnYVJtdVVWa05jaGlMd3lSWjFBaV9pTnNaRzJ0OXpTQTN3N3U3bXJaOHhwSXpLdnBZX1FPbXVRWFk0bUtkWDR6TDROUFpVV1RzQ0xRTW5LZlMzU2hPM2dMa09ud2F4dzBzdGpLN0tvX005ZUFhNXR3UVRENll3MVJtb3FUc2ZUMWVkNnBhTWJ2TzVuRQ?oc=5",
-  "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTGZ2cFFKQktCQXlidjZBTWRNYzFiekNFeWFuZlFFLWhudHVwZk14N1pxNlJyNEI3NEZuMENQaVBaX2ZTUjVCaUl2enhGcDVUcFZrc1dlLTR0MmVGcE15TXh1M05pRHZlamZycmJuT3pWTHBqbGUyWlBod0MtOVhZMGhZVGFTSHp5VktZWTdrbHBOTC1xbC1FV2xaLXQ2bXhDZ1p1cXMwWQ?oc=5"
+  "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTGZ2cFFKQktCQXlidjZBTWRNYzFiekNFeWFuZlFFLWhudHVwZk14N1pxNlJyNEI3NEZuMENQaVBaX2ZTUjVCaUl2enhGcDVUcFZrc1dlLTR0MmVGcE15TXh1M05pRHZlamZycmJuT3pWTHBqbGUyWlBod0MtOVhZMGhZVGFTSHp5VktZWTdrbHBOTC1xbC1FV2xaLXQ2bXhDZ1p1cXMwWQ?oc=5",
+  "https://www.bloomberg.com/news/videos/2026-09-06/amazon-plane-overshoots-runway-closing-miami-airport-video",
+  "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQN2w2bjVSZVR6SmFiR3J0Mnc1Nm1VOUMwcS1DenFQek1xcXB0VnM1a3pfeVRBMVpYc0xWRDZPazl0Rm9KOUFVbGkzS2xneXM5LWJ0MnZNOURBNVJNRExMQzJLRjM1eElPQWNrLVJhX0g3Mi11VDhJVzBMZHZTWkxFR1Nja0RkeDNyM1FRWVVTd1N2SHgtYjgyQXpkd295ZzRKWW9LMkZ1bkdmMC1YQkZPQ3FUa1NWcGlEb1JpX2Q3SnJCdw?oc=5",
+  "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZVhzQ2oyTGJVdkpRczdCcGk0NkRYZ1RrQWo3ZzNFVURHdmpVSUhMYzlfQ1BCUmtnR3kzQXRtNnk0akFoYXdsQV8yVmFlRUdNREVqanJ1UTRqdUNUdmFzZDc4TnZSaVUyR2U0M1FrRVpKdWRweXFqdkRSTVV6TGp3bmRtTlF2LUx5QW0wZlNYaVBzcmpIQ19qakVycVZtMzl1dXhoNlRPMDhaRVpxbWI4MG10bk7SAboBQVVfeXFMTWp3UUdIa0dscFNVOUNkNEtQb2IxZS1aWHVFMG5TbnRWa0lxM2NZdWZ6MGZITDFXUjI5SVI3bVJHM2NCaUNCNTJCQ19LV1RCUFpkX254VUtMY3dHeDYyd016VTBQalRQQXZEOW5PT19CM3N1b3RpWEhBQzBBc2dZN1BWMjEzZ0J6VW5hWEZob0xscXRIYWhsZVg3Ym9GOFRURHJDY3RvaTlJQkJMQkNGZElsTEgtbGRaWWNB?oc=5",
+  "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+  "https://news.google.com/rss/articles/CBMiekFVX3lxTE1wOWd4MXJnbVFxUE5EcWY4WW5wZWMzeUlZWTNHYTBueTNyLVNvWndDM0ZPS1NWX3JEOXlzV1pIREx1STdGTVNTeDNRSGEyNEtMR195U3VCSUtONWtQZ1dSS0gwbzVBYjljdlcxMDNTTVJ2dXNyTVZFbmt30gGOAUFVX3lxTE1tQ2hlcjhxNG1LMFEwZTBYbXAxcHlyaWx2NjhhajNfdnZoN3dCUnlUMnQyNVZZWUI2YTktMjJLMkljRVJjWlBKR0tOUUNCbkJGeGtmU3BSdTZtMlotNnVVY0I2a1VlNVNEd2ZpNmh3TVBJZHZsenVOaGxyYkRVRkhBSmFTbE05Z0xaVlBPMmc?oc=5",
+  "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVUpwOXhaTlBYUzlZbVg4X2hxWFhFMS0zWF9ObHFxY251azR4dFRBZ0ZzNktlOWQxUEZsZnIwZ2xLaGRKNEFHMklMUThEVDBoQV90TkRWUkltbHBDMlRGOHBSdzJDTDNQVTJUclVNQ3FCQ1JuRzlRNjMzRGtORVRUU1hBTWdQbUV0cURPbmJLMFhTMW9KT0RqTG9xbHVQMGs?oc=5",
+  "https://news.google.com/rss/articles/CBMickFVX3lxTFBaYmIxSXIzSHpGcmNGdzd1ZzBTVTV4Vk9aNzZ3MEhvb0U5RzhxTHp4N1ZJaFAzSm5fVER3SEpZc3hyMV90bG9JM2c1YV85a3ZiRUEtVkxpdVJDNHpqaFZkVm5kZ1p6dXNUdVdxSVVDRmFMdw?oc=5",
+  "https://news.google.com/rss/articles/CBMinAFBVV95cUxOX0lhTy1hMmV0bmRiUzJoOXpMM05QbEwtNEhjNkloTzR3eVZkejdGMlBzREEyNUdwUUo1NUV3cGFLUGdjdlc0QUw1LWl2Qkx4X2NiQWdlX2k1a05Eb2VhNlVHUWRuS1RvcWUwZ04yUjNLa1JoZE9yMjJreHk5MDJ4Y1FSNmlCYjVSWWthbnNPMklCUXlncTdkQ1Z2eEg?oc=5",
+  "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeV9Kcno4ZmVrSnRqMF9lblA1bzd0S2xad0tGcnZ0ZFhobjJKdDQtQ0RCck9jSWVwbmZQaGtmY3VoeWxXSTdLQmdLZDJIMjhlVEJpRlJwNGFjU1NBZHhrVGROUUxKT3JZNnRUcTZrVW9OaEhia2QtUmVManlmNUlqaGNPRXkyUklxMF9TeGlLbjd3aDQyaXJUdnUyQS1CSkpuN1JhbWln?oc=5",
+  "https://news.google.com/rss/articles/CBMidEFVX3lxTFBINmJLZGRIRmdYSllzZ1Q0OThFWVpzbG4yeno1SE8zUTBlNlE2c0ZLNG42MU5DcDhJOFFOa3dwTV96VlhoUU9sb2N3WDFiLVhXVGt4QmZmMGowM1dtZ0liaGtkakFnRUc2SEZ5TXc2YUUyMFAx?oc=5"
  ]
 }
