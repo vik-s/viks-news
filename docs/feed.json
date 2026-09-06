@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-09-06T15:43:00.710897+00:00",
+  "generated_at": "2026-09-06T18:35:16.605721+00:00",
   "model": "claude-sonnet-4-6",
   "backend": "openrouter",
   "sources": [
@@ -12,7 +12,7 @@
    {
     "name": "ServeTheHome",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "The Next Platform",
@@ -32,7 +32,7 @@
    {
     "name": "Tom's Hardware",
     "ok": true,
-    "count": 7
+    "count": 0
    },
    {
     "name": "IEEE Spectrum",
@@ -57,12 +57,12 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Bloomberg (via Google News)",
     "ok": true,
-    "count": 0
+    "count": 2
    },
    {
     "name": "Reuters (via Google News)",
@@ -72,17 +72,17 @@
    {
     "name": "The Elec",
     "ok": true,
-    "count": 6
+    "count": 0
    },
    {
     "name": "Korea (Herald / Times / Chosun)",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "SCMP Tech",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "EE News Europe",
@@ -612,7 +612,7 @@
    {
     "name": "Data Center Dynamics",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Data Center Knowledge",
@@ -637,7 +637,7 @@
    {
     "name": "SemiWiki",
     "ok": true,
-    "count": 2
+    "count": 1
    },
    {
     "name": "Converge Digest",
@@ -652,7 +652,7 @@
    {
     "name": "TechCrunch AI",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Chips and Cheese",
@@ -672,7 +672,7 @@
    {
     "name": "Topic: co-packaged optics / SiPh",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: optical transceivers",
@@ -692,7 +692,7 @@
    {
     "name": "Topic: AI silicon",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: foundry / process",
@@ -702,12 +702,12 @@
    {
     "name": "Topic: semicap",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: datacenter power",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "Topic: liquid cooling",
@@ -745,7 +745,7 @@
     "count": 0
    }
   ],
-  "candidates": 22,
+  "candidates": 8,
   "kept": 0
  },
  "items": [
@@ -5965,14 +5965,6 @@
   }
  ],
  "seen_urls": [
-  "https://news.google.com/rss/articles/CBMixwFBVV95cUxOV0tuT3VpTDBoUm5BelEzUnhoY2NGalNmYlJrXzZxbXhoYVpUWWdWaU0yRFU4YmM0OFViUFhwc1U4OTYwU3dPNzlJYU5OcmJUSHZNUXpnUWFEcDloemxlSWk5d2ZIQTZ5MmliSVBmRmZCZUtaR2N0VG5OeWw0OUY1VnRaNFBJZEZEbUhOSzdCUGhyQXZVYlpJVkQyS1JxNzdPTjc1WmtDeHozdVdEdWpnemdhRTNLTkpBekIyXy1nLTJTVTVpbURR?oc=5",
-  "https://news.google.com/rss/articles/CBMiekFVX3lxTE96bW5JQ3ZlWDJPbWVMaXhxSzh6UHM5ZUFCam8xME9vT1NlY2ZIMW5jZDRoelExQ3dyRUJRNWJ3andwY1ZzbV9EV3F4TGJrcmtfaV9fM2lqeEZhS194SFZuQy0zWXByemN1MWNleWxjOW5nS2JXeXNYTkhB?oc=5",
-  "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUTcxU0RWQTBMWVdIcFRfYjJCZm5JNU1uRWFmVkM1QUc3Z0kzVUpMM1pGbWxEcmg3MzdlSXdQRXo1U0t6eHE3NXFQVlJxX2lmWUEwbHJWOWQ0MFdDeXVLUWJfX3QyamVUVEgwTk5nVHhYNXkyem53dDVkakQzOFpfTjhqQkhZSDVXSUJzLXlEUWpWQVowMm9TT09FaHZKTHh0WGRra0xoRnRqVlhjVWNDc2tkRkV1b003ZlVodzFR?oc=5",
-  "https://news.google.com/rss/articles/CBMifEFVX3lxTFBZMDY3TVNCdDRkUURTVjFlUVVybWgwR2U5bmM3VHNVLVl6T09NR210S3hILWhYTUVkQlZ3VF92clV6czgxYW9PaWxQdlQ0ZGlmVVVpbUl1aW5sNmJlXzcyZnZHRFZEUUpzWm9sU2pWQ0ZwZUVGV1hhWVBYNGc?oc=5",
-  "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTF9tVTUtTXQ0VUw1Q2lfa21iY3NRUFdPaXdtQTBOZm9iTUxnVDNtaWRPODVlbEJGLXdZbXE4bE00LTl0eTlKV3o3ZWxCNElQQnBNM2MwTUFyRlVQSjFEdWVvYklnNEVnNWU0ZVhHQ2FneGhYbmJ0ZE1IMHZDV0NPRjNmS0dkbFozZWlsOWlfMHVJUHpTZ2c?oc=5",
-  "https://semiengineering.com/streamlining-3d-ic-design-substrate-finalization-and-tapeout/",
-  "https://www.eetimes.com/newpower-worldwide-expands-credit-facility-to-750-million-to-support-global-growth-and-customer-demand/",
-  "https://www.tomshardware.com/tech-industry/artificial-intelligence/hot-chips-2026-cerebras-lays-out-the-future-of-wafer-scale-ai-nexus-system-architecture-triples-rack-scale-performance-cs-6-wafer-to-incorporate-stacked-dram",
   "https://arxiv.org/abs/2608.25708",
   "https://arxiv.org/abs/2608.25216",
   "https://www.bloomberg.com/news/articles/2026-08-27/netflix-s-grand-theft-auto-peek-draws-traffic-for-influencers",
@@ -8964,6 +8956,14 @@
   "https://www.thelec.net/news/articleView.html?idxno=13685",
   "https://www.tomshardware.com/pc-components/liquid-cooling/msi-meg-coreliquid-e15-360-aio-review-bold-and-stunning-with-market-leading-performance",
   "https://www.thelec.net/news/articleView.html?idxno=13683",
-  "https://www.tomshardware.com/service-providers/streaming/sales-of-cd-and-vinyl-music-sees-strong-resurgence-amid-physical-media-backlash-us-sales-of-retro-media-were-up-59-percent-and-18-percent-respectively-in-h1-2026"
+  "https://www.tomshardware.com/service-providers/streaming/sales-of-cd-and-vinyl-music-sees-strong-resurgence-amid-physical-media-backlash-us-sales-of-retro-media-were-up-59-percent-and-18-percent-respectively-in-h1-2026",
+  "https://www.servethehome.com/qnap-qsw-m2130-2-5gbe-and-10gbe-switches-shown/",
+  "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSzFudUFfd0tKMEliV05qYXNROUlTeUp3aVByM2p3QjhoYUVtT05fcm9UeTREdUt1MktGY19DY2l5VjNXdFk3OHRrdllFRzZUYnV2VGJ0REVOeEN4SFA0SXlYenMxQXE2bjBVejluVTE4VjNETnVZNzhaWXBGUDRoUmNBLXdVSGM4cGF5ZVBpMkdVM0hPVmFVcVRIQThaN3hhNkZBZw?oc=5",
+  "https://semiwiki.com/3dic/372087-comparing-advanced-packaging-from-tsmc-intel-foundry-and-samsung-foundry/",
+  "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+  "https://news.google.com/rss/articles/CBMieEFVX3lxTE55ektzSXlzV3pJakY4U2NMVl9oS002c2dqbGJoNG5FcVQ5RzkyZ0FHSy1vcFNpSnYxOE5McVJaalJQdW5KbFhZdEVHdUNkN3p0d1N5TGpsQXY1TERGUmk5X28zZG54SlpKcUJzYWNwRWtzWmVTcmpiSg?oc=5",
+  "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOWkwTUVLWk1QdmMtMlRJTmZYLWp0WldQZ01hQUFlX091NUk2UTlQNkU2TGFZdHlOUDdQaXVHZW1tY3p4b20ya1R4Y0pjbVpjZGJLNU4zOW1QcUtyR2YtQS1mTjIxY2lQdlZXRkNIeW1MYllBRTZiMzA2c0J6SXF4WjRXTnIycjE3LTQ3SFptLThnUTI1QUE?oc=5",
+  "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZWc1ck9vMHNpYU1SbTItV25CZTVMbEFKakZJME5rQ1o4Ry1WSUN3MkZMTTJnYVJtdVVWa05jaGlMd3lSWjFBaV9pTnNaRzJ0OXpTQTN3N3U3bXJaOHhwSXpLdnBZX1FPbXVRWFk0bUtkWDR6TDROUFpVV1RzQ0xRTW5LZlMzU2hPM2dMa09ud2F4dzBzdGpLN0tvX005ZUFhNXR3UVRENll3MVJtb3FUc2ZUMWVkNnBhTWJ2TzVuRQ?oc=5",
+  "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTGZ2cFFKQktCQXlidjZBTWRNYzFiekNFeWFuZlFFLWhudHVwZk14N1pxNlJyNEI3NEZuMENQaVBaX2ZTUjVCaUl2enhGcDVUcFZrc1dlLTR0MmVGcE15TXh1M05pRHZlamZycmJuT3pWTHBqbGUyWlBod0MtOVhZMGhZVGFTSHp5VktZWTdrbHBOTC1xbC1FV2xaLXQ2bXhDZ1p1cXMwWQ?oc=5"
  ]
 }
