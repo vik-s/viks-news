@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-09-12T18:39:14.900363+00:00",
+  "generated_at": "2026-09-12T22:31:45.311627+00:00",
   "model": "claude-sonnet-4-6",
   "backend": "openrouter",
   "sources": [
@@ -12,7 +12,7 @@
    {
     "name": "ServeTheHome",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "The Next Platform",
@@ -41,7 +41,7 @@
    },
    {
     "name": "The Register Off-Prem",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -57,17 +57,17 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 1
+    "count": 3
    },
    {
     "name": "Bloomberg (via Google News)",
     "ok": true,
-    "count": 1
+    "count": 2
    },
    {
     "name": "Reuters (via Google News)",
     "ok": true,
-    "count": 0
+    "count": 2
    },
    {
     "name": "The Elec",
@@ -181,7 +181,7 @@
    },
    {
     "name": "Ayar Labs",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -522,7 +522,7 @@
    {
     "name": "CoreWeave Blog",
     "ok": true,
-    "count": 0
+    "count": 13
    },
    {
     "name": "Vertiv",
@@ -672,7 +672,7 @@
    {
     "name": "Topic: co-packaged optics / SiPh",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: optical transceivers",
@@ -692,7 +692,7 @@
    {
     "name": "Topic: AI silicon",
     "ok": true,
-    "count": 4
+    "count": 2
    },
    {
     "name": "Topic: foundry / process",
@@ -717,7 +717,7 @@
    {
     "name": "Topic: interconnect fabrics",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: SiC / GaN power",
@@ -745,10 +745,65 @@
     "count": 0
    }
   ],
-  "candidates": 7,
-  "kept": 0
+  "candidates": 26,
+  "kept": 5
  },
  "items": [
+  {
+   "url": "https://www.servethehome.com/d-matrix-joins-the-nvidia-nvlink-fusion-platform/",
+   "title": "d-Matrix Joins the NVIDIA NVLink Fusion Platform",
+   "source": "ServeTheHome",
+   "published": "2026-09-12T21:42:59+00:00",
+   "why": "d-Matrix's Raptor accelerator will use NVLink Fusion for scale-up/scale-out connectivity, marking a new third-party silicon design attaching to NVIDIA's proprietary interconnect fabric.",
+   "topic": "networking",
+   "tag": "deep-dive",
+   "date": "2026-09-12",
+   "added_at": "2026-09-12T22:31:45.311627+00:00"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZjVuVzZyZFJHR1o3cW1WcTFhSGlyN2ZyZFRZV0Z2cngwTUc5bjBCTmRFdl81ZzVyeVRWMUNKV24zVkdvME94aFpnbVBlWTZxNXRvY1hlYWowS3oyUDZ4SnFPR2VuTkxkRzQ1RHF1VF9aRWFySFREU0JXTEEzRmJ5cm9lNA?oc=5",
+   "title": "CIOE 2026 Field Notes: The AI Optical Interconnect Race Is Entering Its Next Phase - semivision",
+   "source": "Topic: co-packaged optics / SiPh",
+   "published": "2026-09-12T14:10:43+00:00",
+   "why": "CIOE 2026 field notes covering the current state of AI optical interconnect competition\u2014CPO, LPO, and silicon photonics developments\u2014directly relevant to the optics beat.",
+   "topic": "optics",
+   "tag": "deep-dive",
+   "date": "2026-09-12",
+   "added_at": "2026-09-12T22:31:45.311627+00:00"
+  },
+  {
+   "url": "https://wf.coreweave.com/blog/coreweaves-innovation-velocity-drives-mlperf-6-0-leadership",
+   "title": "CoreWeave's Innovation Velocity Drives MLPerf 6.0 Leadership",
+   "source": "CoreWeave Blog",
+   "published": "2026-09-12T19:24:20+00:00",
+   "why": "CoreWeave claims MLPerf 6.0 leadership on NVIDIA GB200 NVL72 and GB300 NVL72 for DeepSeek R1 inference in offline mode, providing benchmark data on next-gen rack-scale systems.",
+   "topic": "ai-infra",
+   "tag": "digest",
+   "date": "2026-09-12",
+   "added_at": "2026-09-12T22:31:45.311627+00:00"
+  },
+  {
+   "url": "https://wf.coreweave.com/blog/coreweave-becomes-one-of-the-first-cloud-providers-to-achieve-nvidia-exemplar-cloud-validation-for-inference-on-nvidia-gb200-nvl72",
+   "title": "CoreWeave Becomes One of the First Cloud Providers to Achieve NVIDIA Exemplar Cloud Validation for Inference on NVIDIA GB200 NVL72",
+   "source": "CoreWeave Blog",
+   "published": "2026-09-12T19:24:20+00:00",
+   "why": "CoreWeave achieves NVIDIA Exemplar Cloud validation for both training and inference on GB200 NVL72, signaling production readiness of Blackwell rack-scale deployments at a named hyperscaler.",
+   "topic": "ai-infra",
+   "tag": "digest",
+   "date": "2026-09-12",
+   "added_at": "2026-09-12T22:31:45.311627+00:00"
+  },
+  {
+   "url": "https://wf.coreweave.com/blog/coreweave-2025-annual-report-shareholder-letter",
+   "title": "CEO Michael Intrator's 2025 Letter to Shareholders",
+   "source": "CoreWeave Blog",
+   "published": "2026-09-12T19:24:20+00:00",
+   "why": "CoreWeave's first annual shareholder letter offers primary-source data on financial discipline and infrastructure strategy from a major AI cloud operator.",
+   "topic": "ai-infra",
+   "tag": "fyi",
+   "date": "2026-09-12",
+   "added_at": "2026-09-12T22:31:45.311627+00:00"
+  },
   {
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWnlzOXhMaEFiOEZ3SXZhMEhtb1VVeC0wZnlKZzluYUF6VW9GcnczR1NoM1FXZ183M19NWlFYZ0d6LUV6R1c1UkVQM0ZkQkRhWnBGSzMzbERmLUt1UFBITVZuRk9qVHdvM0ZBcmt2SFRBM1AwaTRZWDZrTE51ODJ6VmVlTnE5eHJS?oc=5",
    "title": "The CPO Debate Is Over: Silicon Photonics Enters the Manufacturing Race - semivision",
@@ -5621,57 +5676,9 @@
    "tag": "fyi",
    "date": "2026-08-30",
    "added_at": "2026-08-30T13:59:32.099358+00:00"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPd2hCc0J6VmpxSFFyVjRiaWF0X0hqcUhfWHFzd2NHWmQtdzVhUTdWRlg1dE9NbGVkT09aNXloTzhsQXR3R3NKT2JlckR5bnRaT0Jpa1d6alhWcHVFQ1EyMnhIS1hkcnVjUEdnQ01zVG9FdXduV29pWHNnMGRDRWp3Ng?oc=5",
-   "title": "Amazon.com (AMZN) Triples AI Chip Orders As Robotaxi Supplier Network Expands - Yahoo Finance Singapore",
-   "source": "Topic: AI silicon",
-   "published": "2026-08-29T18:09:50+00:00",
-   "why": "Amazon tripling AI chip orders signals a major scale-up in accelerator procurement that affects Nvidia, custom silicon, and HBM supply planning.",
-   "topic": "ai-infra",
-   "tag": "digest",
-   "date": "2026-08-29",
-   "added_at": "2026-08-29T19:32:48.313625+00:00"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNenk2UFJEQ3VHWkhRbmpRQTZnOU1LQkZIM2hSWGYxX3Q1SDJiWWlabi1xS05HQXFZRXB6bjVFQ0VtR25UMHRUSmY3X3N4YzhwQ1RqTEFPTzZQOW5PTld4c1FzYjI5b2Jtb2JCMTFnX1k0Y2tWNVhSZlo5UVh4Z1ZOZ080amxJcEIzWnVDa3BtbFAzOVV2SGdJVExRWmx3ZWRVbklKRHFIN0daWjNnc1RIUmlHd2d4b01kblBSMlMzeTJnNm1iaS1fZlY3aXJNdDI5Wm56LTFR?oc=5",
-   "title": "Commerce Drafts AI Chip Rule for Loophole It Created by Rescinding Biden Know-Your-Customer - Tech Times",
-   "source": "Topic: AI silicon",
-   "published": "2026-08-29T17:58:07+00:00",
-   "why": "Commerce drafting a new AI chip know-your-customer rule to close loopholes from the rescinded Biden rule directly affects export controls on AI accelerators.",
-   "topic": "ai-infra",
-   "tag": "deep-dive",
-   "date": "2026-08-29",
-   "added_at": "2026-08-29T19:32:48.313625+00:00"
   }
  ],
  "seen_urls": [
-  "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-pair-utility-joins-every-gpu-in-your-home-into-a-cluster-for-agentic-ai-tasks-tool-uses-spare-cycles-to-keep-agent-swarms-from-hammering-one-gpu",
-  "https://arxiv.org/abs/2608.18382",
-  "https://www.bloomberg.com/news/articles/2026-09-03/crusoe-raises-over-3-billion-in-funding-at-30-billion-valuation",
-  "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTExZWExDS2U4ekpzNVFEZW1qU0NjQ3dqc19fNDFSa0t5SGoycGJFRkxGMXhDOHpQbHdjeVplYm5xYXJiTGpiaS1FN25qb1RscUgxWDNtUmFZZ0xwME93UDdJRXhScVBjZGhidU82bjVpRDZuR0RhcDk4dkVQUHB4ZUlsT3hybFU5S211MFV4MFdYekFMcGRlZThULTQ2Zm91Y0RfWjQzRlJIY1R2c3VaS2JUYw?oc=5",
-  "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTkxWaUZTWUN1WTdnSy1SREFuS1hVQ3N3MS1RV3pROEhrME1MXzNHQU81enhla2E4WmtuVFA3WllLeWhtYVRzSDNPc1JnUXFuY3JVNzdITFo3Rjl1ZU9xaFFyNHhhWW9TR1pNN01aRE9JSHFVbFN5TU1nWWhvTWY3dHRWTVo5aG9nUTJyQTdKRnNvVmtPYmFnZDBxbVlrek5wQThPa1lxa2hoMTlTZFgtRl8wOVBzQ1JuN2ZxSHNSUEVwc3VSc0E?oc=5",
-  "https://www.thelec.net/news/articleView.html?idxno=13640",
-  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9yTzAydWFQNnZfa2pTY2tLbzEwLTBSSWtjTlptQXNJN0VyMk51UV9JQzNOOTVOQlEwZDJlSWlDR3ZiSkhOZU9YaEJHOE1wLUcxbTBtbzh0TQ?oc=5",
-  "https://www.scmp.com/opinion/china-opinion/article/3365917/chinas-robot-revolution-may-not-arrive-way-you-expect?utm_source=rss_feed",
-  "https://www.lightreading.com/finance/t-mobile-sets-cfo-transition",
-  "https://news.lenovo.com/pressroom/press-releases/hybrid-ai-for-business-devices-displays-solutions/",
-  "https://www.prnewswire.com/news-releases/global-semiconductor-equipment-billings-increased-23-year-over-year-in-q2-2026-semi-reports-302869446.html",
-  "https://www.prnewswire.com/news-releases/tcl-pedstavilo-na-ifa-2026-adu-tab-a1-se-dvma-velikostmi-obrazovky-a-dvma-typy-zobrazeni-302869285.html",
-  "https://www.datacenterdynamics.com/en/news/chatgpt-claude-and-grok-hit-by-simultaneous-outages/",
-  "https://www.datacenterknowledge.com/ai-data-centers/the-corrosion-blind-spot-in-the-ai-buildout",
-  "https://www.semiconductor-digest.com/manz-asia-and-suss-announce-strategic-collaboration-in-semiconductor-inkjet-technology/?utm_source=rss&utm_medium=rss&utm_campaign=manz-asia-and-suss-announce-strategic-collaboration-in-semiconductor-inkjet-technology",
-  "https://semiwiki.com/eda/yieldwerx/372412-technical-case-study-microled-yield-management-with-plessey-and-yieldwerx/",
-  "https://convergedigest.com/ntia-bead-savings-location-true-up-broadband/",
-  "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
-  "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdWdfS0tLaTB0NDNoMTVoRTNoNGNhT1dPSzMwTVhYUUFVTXBLMHlXbGtlaDZPRU1GbjJ2SU5meHYxRncySlpqalNZcXIyNjZJd3NsS2dvdkpmb2dKY1lsVVZLRFRKWUpTLWFGSWM2OFlMS3g5b0VIb3hQVE5wbEFGYVUyU0FsQUFGV0pJY1Nn?oc=5",
-  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9zOGhmUDVfTU10LTBoOW9KR3ZoMUViNGF5YmlPY0YycVJ0SDVOTmVtbzZJMjI0dk5KRFVyTjlqMkFTU0ZabkFObEdqc3dHb25mWEY0dm5lNA?oc=5",
-  "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSVpjTUczTG1LTzRjZDE2a2hhOTVSbHRZS0M0UUNOQlFkcHAzeTlVWE5sT0VNY090MG52eU1PSERCc3d2RmsySG1WMnMwZWcxYXVIc2ZQSWF6Y0RxeFFDYmRreTZLTGlOUGNSUWlXTFl6V2txcmo4cXlrWllwZndoOVk5S1BCX3dkNW9n?oc=5",
-  "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZTN0ck5IbXpCMHZfYXVhN3dQUGpGOFA4UDNvUnhwSFJNcG9UQjNlXzlWVktVMk1ZS0E0STFYS1UwN2l5MlFsUm5lSzhlVHk0OV85MXR0ak1uMzdGSU9UMmktaGJiT3Q2TkYzc0xjMGJKNFVYbEY1cnBWWEpscGp5UWJuRE44Zmt2RFFfaXJuaGtZSFZMZkhNSE9n?oc=5",
-  "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQnpPWmhrTWVBWF9BWWtPb1lWTkYwemtRUmJ0dzRaaGNiYmhReWJ2TU8tT0hTRTE0b2lJMWZoMWFudkpZN3pQZVpXcWh5RVlha0ZuanpsSkMxQ2pWVVRJcHNDajB2UUJzV2dlYjBMVE5KcjV3elAybzhHTDZMdmJEc0FtdGlrNEg3UzVHb0dvVmdkOVpaM3JRc3EwYUpXbFNuT0xTd3pQakU1SEU2OTFYZUJ4cVVqcUZ2b1JacEZnclllRXE5TDczT3dfbFpLTDRaN3VBVnBCdXBsaXNBLUZ6bQ?oc=5",
-  "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdk11a291dDNYcFdoY01nZkRrQ29Vd3lLc1JPRGdZZ1BzVzF0X2wwV0pZaHNzRXc3a3dnLWU4NVo1c0pjcy1EeDV2amhwQ0luZzdTOUlsclc5N3B4NDlTUEQ1dVJTemc3R3B0bk1vN1B6R0N2ZjlZaHBwOHVMV0U5aE8xTzVPNjRLQ3plN0tR?oc=5",
-  "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSEZhRDAtNUItc25fQXlpekhvaWtiM0JSUmM5dmppcDhHS215VkxzMU5MdDVJY2JFQV9QTDI1NFREa3JRTEdlZ0s1NUtoRXpHT3pNd3NXa2lZTlBLeFVRUDQxa3NKMG5kUnFUUkZ6UG9nWmpUMHRCTmxXQ29MM0kyOURNSUswQmlXSFlrRlR4NzMyZUl0Uy1POExjVTE0SDJZMklyeTFvSjhxY29XeW9uNklBNTNVblF6Mmw1MGhtQ29hNGlKeHhMRjhCTVBKaEg4?oc=5",
-  "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRlF3dUQ3OURaRWhERTFwLWswM2ZITkpkaDlpSjRQeWdzY3ZzVGJPS3VNdmVMWWFSaDVwWXczV09XSWREeXNjQ0tQRmdMNzBpMkNleXlWeDNZWmxNbTlBQWFodzVLc2JuTnNLZ01WeGJpU3l5MGhKaENwVzJXM3ZxbmY5ZXVpbE54VVNyREIydGpCLWpqTU5HY0lOT0Q4RkdHTUtBaGNZMVZ4QmNaREEzckhvQlZTU0lmU0VVN3YwWXBiU0RpSF83ZFpxWQ?oc=5",
   "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNkptWjhRSzJHTm5kRWFfT1dmQmZDQTl1ZTlNanA5NEFYaDZxYXdwMXdyYl9yOEJSRlFUWjM1YXExSENKcDVTSmRXYVBCVHVxYnZvN0lzVkZ6ck1OSThFU1JoODNoTUIwVTBFVVJ6bTdqcmEtaFB3dmZQNzgtZXJMOUZwMFllYXJmeTFEdnhMU3VTcE1PT05OZk1ZdGFPLUZOWHdNUVAxS3dFd9IBqgFBVV95cUxPNkptWjhRSzJHTm5kRWFfT1dmQmZDQTl1ZTlNanA5NEFYaDZxYXdwMXdyYl9yOEJSRlFUWjM1YXExSENKcDVTSmRXYVBCVHVxYnZvN0lzVkZ6ck1OSThFU1JoODNoTUIwVTBFVVJ6bTdqcmEtaFB3dmZQNzgtZXJMOUZwMFllYXJmeTFEdnhMU3VTcE1PT05OZk1ZdGFPLUZOWHdNUVAxS3dFdw?oc=5",
   "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYl9DU2pRdUMwOFVsMGRKSDZyUzZyLThHMzhyaGVEclV2UEhBVFlMVEFMRzhuODhlbndyOGRyNlU1NEY2UFlLQ05VdlI5T0owNGJhTURmNHhjRUUwTTlPS1QtRkV4eUJlZUU3aDlJQ005UkRVN3pocS1xbTVVbk05QUcwRi1hTG1ZZ1NJMi1vajJLLWdGU2c5d0FsSQ?oc=5",
   "https://www.tomshardware.com/laptops/lenovo-thinkcentre-x-ultra-packs-gorgon-halo-amd-ryzen-ai-max-pro-495-shows-up-in-mini-workstation",
@@ -8645,6 +8652,32 @@
   "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaWVISUF0SDAwUlNZM2FZSWlHZE9qMlVJOUo4UjMxQzFaVjk0a3BUSXVWc0RJS1paRnJ4QmJpc3FheDBoV2tneU1PZkxqVnpGLTB5WVRXUTBIcktQLWhxSE0tS2xGZ2RhNWxnUzRlcnAyUWV3OUFCNlVrRFZFWDlrMjZTeTA0MFJQOXlZbXRkZTdqSk8yNkFnNg?oc=5",
   "https://news.google.com/rss/articles/CBMingFBVV95cUxNMEN4Yi12dXZRYU1yUzhkZmVMbEVjTHRsWUo4TEVjelc1SGthTFJZaGh4VjNBWTFrR3ZSbHBvOTFab0NUUmU5dzVqQlp5LVpjR01NZDNXSGJSTy1yeVhUM0hkZmU3VG9MRi1XWlZaR040TXdyR2F4V2dfNXNnejZTX01tc1RwbGRlZ1lnMXV3Ry1XZXBpcDI1UDFvUmNPZw?oc=5",
   "https://news.google.com/rss/articles/CBMioAJBVV95cUxQUU9vWEN3TDUyM2tIZEYwU1Bjak0zOGdiLUlsVmcxUzEwS09obW9xOEZabktLYlVLQ2RrNy05ODF1cVE5VWRXeDFFcDhIQmNtQi1NZHV4Sk9SWmxWcjhWOUh5anB6VkxrUUpjNDJNTzJSVnFDekhWbk0xS0VzZVp3a21FWTJXTnV1VmRqOXJvb3ZWT3N5Wmowa3htUHIzajNfelpYa2psQlZYbkdrSy1sM2FSYmg3cWE4MzFodHBYY3I1d0NKLU9KdFlrdVNWQTZPYWxsb082YzBsakxtZVlhM1A2czlCZ3Fac05qMHg3ZEhlaHpnNnpteHlpZzhsQU5SVms2YURVM1V0OHBvZ29LY1V1Q3huX1hZNHhONFc2QVI?oc=5",
-  "https://news.google.com/rss/articles/CBMilwFBVV95cUxNU3FzdTE1Tm1Yd1VZMmhmM3ZDa3VQQmVUUEpuUm9vYm9jU0lTdHNPalhZNUVqdmNlbjdTSnl4ZmEzd1d5VFluWW5wSUpXNE5xZ1NzbmR5bUNlY0xfaU5VWW9ldVRDYjVyNjlqeGRSSWV2YWw0bGdleGVRUVM3TkhEc0lISE05ZjVoNnVfeGhXSklxZ3pXUVhz?oc=5"
+  "https://news.google.com/rss/articles/CBMilwFBVV95cUxNU3FzdTE1Tm1Yd1VZMmhmM3ZDa3VQQmVUUEpuUm9vYm9jU0lTdHNPalhZNUVqdmNlbjdTSnl4ZmEzd1d5VFluWW5wSUpXNE5xZ1NzbmR5bUNlY0xfaU5VWW9ldVRDYjVyNjlqeGRSSWV2YWw0bGdleGVRUVM3TkhEc0lISE05ZjVoNnVfeGhXSklxZ3pXUVhz?oc=5",
+  "https://www.servethehome.com/d-matrix-joins-the-nvidia-nvlink-fusion-platform/",
+  "https://www.bloomberg.com/news/articles/2026-09-12/tesla-teases-oct-1-event-to-showcase-next-generation-roadster",
+  "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdDBsRHFoaDBPR1JoeTZ4cmZ4a2U1dnhTWGpyd1BlTUJmLXZuZGZDbG9BNVpmMW9RZE9LR0RBVWpCdVRnZ3NYQUkwTjlFTnBENDU2QkR3dUhIM0ZlSldKOXVMSmhNYXQ2Z1hBN2NjRUM1UzBDd1RsRDhqcGFiNkgxOVRoaF9oTmlaamZPR3FmWjdmY3ZSak1uMVN4bmJ6Z05mVy01bzM4VXZlUzBabmNLYg?oc=5",
+  "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSkNHUFFrUlZCVWVKZ2dpVVkxSzBmcy16aFFHVTJDV25PZ0YzMjBLVlFQZ0pJcU5EVWJlUW13azNiV1BwOENLcTFVOFpZYVVlT0haaXI2ZkFaOUZxTGp2eE1kaGZCb2pXV1dBQy1XcjQ2NmNXMFA3Nnk5ZnA3MU5wWGZCV0ktTWZad2o0LVBmeW1BclBndWRfWEJScFduQklEZUFEX0NteFBhNDYxRG5keUdiUml3dVYz?oc=5",
+  "https://wf.coreweave.com/blog/coreweave-closes-the-loop-between-training-and-inference",
+  "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
+  "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZjVuVzZyZFJHR1o3cW1WcTFhSGlyN2ZyZFRZV0Z2cngwTUc5bjBCTmRFdl81ZzVyeVRWMUNKV24zVkdvME94aFpnbVBlWTZxNXRvY1hlYWowS3oyUDZ4SnFPR2VuTkxkRzQ1RHF1VF9aRWFySFREU0JXTEEzRmJ5cm9lNA?oc=5",
+  "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaWp0Uk9CeU5NYkMxdE01cjA1aUpCNDdsZG16ZXllNUZIUklXb1h3Ny1Ja3lST2s1R1pyVUs0c05CQUNNYmE5WHpmQ0JzV2NKSjlXLUg1WDBweGVja0I0bVJoOFE2dE5QSW84bEYxMFZhbnNDMUNmTDhzYWZiYTNROXFQVUEzQlB5dnc?oc=5",
+  "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNllqcWRHV0NHcmxiUkNoajBPWENKNElsTjd0cWc1d3hOMG9UckVsUFJTbUo5ZmpvQUJlUjY4c3dyeTFsV3g1eEw3MW55UlBaSmRoWk5JbjM5aDFvZC11elZ3QUVha083X0JOd3Fxb0hQbTZxOUhodUJpOVdyaXA1MU04UXg?oc=5",
+  "https://www.bloomberg.com/news/articles/2026-09-12/openai-ipo-won-t-happen-until-2027-sam-altman-tells-fortune",
+  "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaVJLb3dfTEFHSV9PRXNXQkxIX3RFRm9KZ1ZrNEF5UnFmc2stLU1NTmFsWlNkTHNPVUhROWpiME84ZlAwY0RmQUlDS1dieGR6UkZ3bEE2dWRZaDVPb2V1YzhsRDBieG5FUzRVRlI0YW5qSFJLNEg4UzdyQ19xeDJvaklQNmp3a2FvOU1QUzB0c1AweHAzREljNm83X29tb0lLek1ReTlDRE1ac2xMdkVqS3JB?oc=5",
+  "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYTZCOHZjRXhtY2sxV3p2ZlB1MU1USlh5TWNfSVA5NU9qaVNZNFdPZWtfbjNqa1hOS2NtT3RrVlY5dkt0dE1jTW1xTmcxaUkwOWQ0Mm1odjBKb2hOTVQzaVZiaFZMQmNxQ0x6ZWE1SmF5YzNmM2s4OW9GZWxfbDFxQkptOHphUDRQRWtZa2FzLTF4TDRSWF95Wk5iTEdIZldzWlplcXFJbw?oc=5",
+  "https://wf.coreweave.com/blog/why-distributed-training-fails-at-scale",
+  "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZ0RpNG1SV3ZUb1ozdUdlQUFiWURkaFd3YzNhOEI3VnQtbkxiX0ZDVEFraUwwRmtEbzJ3aVM1cmxqQ0Q1SHNBQmF4NzJpR3lzSVh0S3p1c2dISTU5ejh6RmJlZWpTUUh5amN4YTlVbmpGV0xoY3FSTGFabGIxX05fT0Noal9PQVE?oc=5",
+  "https://www.bloomberg.com/news/newsletters/2026-09-12/blizzard-announces-diablo-v-new-starcraft-shooter",
+  "https://wf.coreweave.com/blog/run-agentic-workloads-safely-at-scale-with-coreweave-sandboxes",
+  "https://wf.coreweave.com/blog/new-coreweave-sunk-capabilities-help-teams-build-modern-ai-research-clusters",
+  "https://wf.coreweave.com/blog/coreweave-2025-annual-report-shareholder-letter",
+  "https://wf.coreweave.com/blog/lights-camera-inference-coreweave-powers-the-next-act-of-ai-creation",
+  "https://wf.coreweave.com/blog/top-5-factors-ai-leaders-need-to-evaluate-for-tco",
+  "https://wf.coreweave.com/blog/ai-cloud-essentials-goes-vertical-and-horizontal",
+  "https://wf.coreweave.com/blog/coreweaves-innovation-velocity-drives-mlperf-6-0-leadership",
+  "https://wf.coreweave.com/blog/the-next-chapter-for-ai-infrastructure-why-llm-ds-move-to-cncf-matters",
+  "https://wf.coreweave.com/blog/from-nvidia-gtc-2026-to-production-what-coreweave-showed-and-why-it-matters",
+  "https://wf.coreweave.com/blog/engineered-for-agentic-ai-nvidia-hgx-b300-on-coreweave-cloud",
+  "https://wf.coreweave.com/blog/coreweave-becomes-one-of-the-first-cloud-providers-to-achieve-nvidia-exemplar-cloud-validation-for-inference-on-nvidia-gb200-nvl72"
  ]
 }
