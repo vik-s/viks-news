@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-09-12T15:47:49.257278+00:00",
+  "generated_at": "2026-09-12T18:39:14.900363+00:00",
   "model": "claude-sonnet-4-6",
   "backend": "openrouter",
   "sources": [
@@ -21,7 +21,7 @@
    },
    {
     "name": "Blocks and Files",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
@@ -32,7 +32,7 @@
    {
     "name": "Tom's Hardware",
     "ok": true,
-    "count": 4
+    "count": 0
    },
    {
     "name": "IEEE Spectrum",
@@ -41,7 +41,7 @@
    },
    {
     "name": "The Register Off-Prem",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
@@ -57,17 +57,17 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 2
+    "count": 1
    },
    {
     "name": "Bloomberg (via Google News)",
     "ok": true,
-    "count": 2
+    "count": 1
    },
    {
     "name": "Reuters (via Google News)",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "The Elec",
@@ -181,7 +181,7 @@
    },
    {
     "name": "Ayar Labs",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
@@ -612,7 +612,7 @@
    {
     "name": "Data Center Dynamics",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Data Center Knowledge",
@@ -652,7 +652,7 @@
    {
     "name": "TechCrunch AI",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Chips and Cheese",
@@ -672,7 +672,7 @@
    {
     "name": "Topic: co-packaged optics / SiPh",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: optical transceivers",
@@ -692,17 +692,17 @@
    {
     "name": "Topic: AI silicon",
     "ok": true,
-    "count": 1
+    "count": 4
    },
    {
     "name": "Topic: foundry / process",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: semicap",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: datacenter power",
@@ -737,7 +737,7 @@
    {
     "name": "Topic: neocloud / AI compute",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: enterprise storage",
@@ -745,7 +745,7 @@
     "count": 0
    }
   ],
-  "candidates": 15,
+  "candidates": 7,
   "kept": 0
  },
  "items": [
@@ -5646,13 +5646,6 @@
   }
  ],
  "seen_urls": [
-  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1haFV4T19ZQ044TlFYbnJEX0FxUmVkZnZEdjZ3bjBCZ0J4bEcwLXFtbWtDTFA2UjQxZE1FV1lnLUs4X1QxWTlLRkdpR3BqMkdjNDJieHdVRQ?oc=5",
-  "https://www.lightreading.com/broadband/minnesota-operator-taps-moca-access-tech-to-connect-mdus",
-  "https://news.lenovo.com/pressroom/press-releases/lenovo-workato-expand-qira-ecosystem-with-new-cross-app-ai-experiences/",
-  "https://www.prnewswire.com/news-releases/lingverse-debuts-ensouled-ai-operating-system-lifeos-in-first-public-look-at-modular-ai-wearable-ikairos-302865514.html",
-  "https://www.prnewswire.com/news-releases/stellar-cyber-recognized-as-a-progressive-company-in-marketsandmarkets-latest-360quadrant-for-the-network-detection-and-response-ndr-market-302867664.html",
-  "https://www.prnewswire.com/news-releases/tcl-prezentuje-seri-tab-a1-na-targach-ifa-2026---dwa-rozmiary-ekranu-dwa-sposoby-korzystania-z-wywietlacza-302869294.html",
-  "https://www.nextplatform.com/ai/2026/09/03/nvidia-expands-its-open-source-ai-presence-with-129-billion-hugging-face-buy/5294352",
   "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-pair-utility-joins-every-gpu-in-your-home-into-a-cluster-for-agentic-ai-tasks-tool-uses-spare-cycles-to-keep-agent-swarms-from-hammering-one-gpu",
   "https://arxiv.org/abs/2608.18382",
   "https://www.bloomberg.com/news/articles/2026-09-03/crusoe-raises-over-3-billion-in-funding-at-30-billion-valuation",
@@ -8645,6 +8638,13 @@
   "https://www.bloomberg.com/news/articles/2026-09-12/trump-brushes-off-ai-doomsaying-to-safeguard-us-lead-over-china",
   "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNkttUlVrZDkyYS1jWjFESjByNUd4TWZZM1pxSlhKQ1BrbGVaWjNzMWhkRHhLdUJld3lvSkhvQ0drM3Z1cWU4Y2E1WGNnZTZ0X3FXOVNqMEM5TnZkd1lzYW9EZEpoaVJwUjlsT3B1WDhTT3dzMEtISTFxVkVWTk95a2tiQkNubnhVRlZvNTlPSUJ1Y1NCa0F3cnJSbnNuSWZCUGQ0TjRtU0VGUEN5VDRsMG9kV1U?oc=5",
   "https://www.tomshardware.com/pc-components/gpus/we-tested-dlss-multi-frame-generation-on-rtx-40-series-gpus-new-mod-brings-rtx-50-series-exclusive-feature-to-older-cards-and-it-really-works",
-  "https://www.tomshardware.com/video-games/pc-gaming/ikea-releases-new-skyrim-mod-that-adds-gloriously-mundane-kallax-shelving-unit-as-your-newest-companion-free-collab-provides-a-drab-flatpack-answer-to-your-loot-woes"
+  "https://www.tomshardware.com/video-games/pc-gaming/ikea-releases-new-skyrim-mod-that-adds-gloriously-mundane-kallax-shelving-unit-as-your-newest-companion-free-collab-provides-a-drab-flatpack-answer-to-your-loot-woes",
+  "https://www.bloomberg.com/news/articles/2026-09-12/larry-ellison-scraps-plan-to-sell-up-to-50-million-oracle-shares",
+  "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWkk3MkdCd1B5RUJsNVo4ZUtLd0JpcHpCQzk5TDR1VExJb1NlekdFVU1YNjFjWVNmR282bGRsWkxRaFlyeHBybENUczhNcm9FQ2lBaVI0WDVrekJpa2RBNUlESGdZNnE5aDN6NTQ4cGZqUlFhOENacEdDcHIzZWZ4Tkpzd1lORHQ5WHFjV3JMemRyMGs?oc=5",
+  "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+  "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaWVISUF0SDAwUlNZM2FZSWlHZE9qMlVJOUo4UjMxQzFaVjk0a3BUSXVWc0RJS1paRnJ4QmJpc3FheDBoV2tneU1PZkxqVnpGLTB5WVRXUTBIcktQLWhxSE0tS2xGZ2RhNWxnUzRlcnAyUWV3OUFCNlVrRFZFWDlrMjZTeTA0MFJQOXlZbXRkZTdqSk8yNkFnNg?oc=5",
+  "https://news.google.com/rss/articles/CBMingFBVV95cUxNMEN4Yi12dXZRYU1yUzhkZmVMbEVjTHRsWUo4TEVjelc1SGthTFJZaGh4VjNBWTFrR3ZSbHBvOTFab0NUUmU5dzVqQlp5LVpjR01NZDNXSGJSTy1yeVhUM0hkZmU3VG9MRi1XWlZaR040TXdyR2F4V2dfNXNnejZTX01tc1RwbGRlZ1lnMXV3Ry1XZXBpcDI1UDFvUmNPZw?oc=5",
+  "https://news.google.com/rss/articles/CBMioAJBVV95cUxQUU9vWEN3TDUyM2tIZEYwU1Bjak0zOGdiLUlsVmcxUzEwS09obW9xOEZabktLYlVLQ2RrNy05ODF1cVE5VWRXeDFFcDhIQmNtQi1NZHV4Sk9SWmxWcjhWOUh5anB6VkxrUUpjNDJNTzJSVnFDekhWbk0xS0VzZVp3a21FWTJXTnV1VmRqOXJvb3ZWT3N5Wmowa3htUHIzajNfelpYa2psQlZYbkdrSy1sM2FSYmg3cWE4MzFodHBYY3I1d0NKLU9KdFlrdVNWQTZPYWxsb082YzBsakxtZVlhM1A2czlCZ3Fac05qMHg3ZEhlaHpnNnpteHlpZzhsQU5SVms2YURVM1V0OHBvZ29LY1V1Q3huX1hZNHhONFc2QVI?oc=5",
+  "https://news.google.com/rss/articles/CBMilwFBVV95cUxNU3FzdTE1Tm1Yd1VZMmhmM3ZDa3VQQmVUUEpuUm9vYm9jU0lTdHNPalhZNUVqdmNlbjdTSnl4ZmEzd1d5VFluWW5wSUpXNE5xZ1NzbmR5bUNlY0xfaU5VWW9ldVRDYjVyNjlqeGRSSWV2YWw0bGdleGVRUVM3TkhEc0lISE05ZjVoNnVfeGhXSklxZ3pXUVhz?oc=5"
  ]
 }
