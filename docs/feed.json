@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-09-20T19:01:58.050630+00:00",
+  "generated_at": "2026-09-20T22:40:52.860905+00:00",
   "model": "claude-sonnet-4-6",
   "backend": "openrouter",
   "sources": [
@@ -12,16 +12,16 @@
    {
     "name": "ServeTheHome",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "The Next Platform",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Blocks and Files",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -32,7 +32,7 @@
    {
     "name": "Tom's Hardware",
     "ok": true,
-    "count": 5
+    "count": 1
    },
    {
     "name": "IEEE Spectrum",
@@ -41,7 +41,7 @@
    },
    {
     "name": "The Register Off-Prem",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -57,12 +57,12 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 5
+    "count": 1
    },
    {
     "name": "Bloomberg (via Google News)",
     "ok": true,
-    "count": 4
+    "count": 5
    },
    {
     "name": "Reuters (via Google News)",
@@ -77,7 +77,7 @@
    {
     "name": "Korea (Herald / Times / Chosun)",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "SCMP Tech",
@@ -607,12 +607,12 @@
    {
     "name": "PR Newswire Computer Hardware",
     "ok": true,
-    "count": 2
+    "count": 5
    },
    {
     "name": "Data Center Dynamics",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Data Center Knowledge",
@@ -626,7 +626,7 @@
    },
    {
     "name": "SemiAnalysis",
-    "ok": false,
+    "ok": true,
     "count": 0
    },
    {
@@ -637,12 +637,12 @@
    {
     "name": "SemiWiki",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "Converge Digest",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Fierce Electronics",
@@ -652,7 +652,7 @@
    {
     "name": "TechCrunch AI",
     "ok": true,
-    "count": 4
+    "count": 1
    },
    {
     "name": "Chips and Cheese",
@@ -672,7 +672,7 @@
    {
     "name": "Topic: co-packaged optics / SiPh",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: optical transceivers",
@@ -682,27 +682,27 @@
    {
     "name": "Topic: HBM",
     "ok": true,
-    "count": 3
+    "count": 0
    },
    {
     "name": "Topic: advanced packaging",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: AI silicon",
     "ok": true,
-    "count": 3
+    "count": 0
    },
    {
     "name": "Topic: foundry / process",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: semicap",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: datacenter power",
@@ -732,12 +732,12 @@
    {
     "name": "Topic: export controls",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: neocloud / AI compute",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: enterprise storage",
@@ -745,8 +745,8 @@
     "count": 0
    }
   ],
-  "candidates": 35,
-  "kept": 2
+  "candidates": 17,
+  "kept": 0
  },
  "items": [
   {
@@ -5877,23 +5877,6 @@
   }
  ],
  "seen_urls": [
-  "https://www.prnewswire.com/news-releases/from-ai-computing-to-space-technology-and-smart-sustainability-2026-tie-pavilions-showcase-taiwans-innovation-capabilities-302871394.html",
-  "https://www.prnewswire.com/news-releases/rohms-new-high-anti-surge-chip-resistors-in-sdr01-series-achieve-0-33w-rated-power-in-0402-size-302875901.html",
-  "https://www.prnewswire.com/news-releases/gomspace-receives-order-for-fast-deployment-satellite-solution-valued-at-2-4-musd-302876203.html",
-  "https://www.datacenterdynamics.com/en/news/uk-telcos-lament-planning-rules-says-5g-coverage-is-being-stifled/",
-  "https://www.datacenterknowledge.com/data-center-site-selection/urban-data-centers-who-needs-them-and-where-to-find-them",
-  "https://www.semiconductor-digest.com/synopsys-and-astar-ime-join-forces-to-accelerate-innovation-for-advanced-semiconductor-packaging/?utm_source=rss&utm_medium=rss&utm_campaign=synopsys-and-astar-ime-join-forces-to-accelerate-innovation-for-advanced-semiconductor-packaging",
-  "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
-  "https://news.google.com/rss/articles/CBMioAFBVV95cUxQclZKU2syX296LVRwMXlXY1BIc0ljTWdXTG9Zc21pdDB5UmJVcHZkU01pYWRER1lwTGk1QmJ0aDk4WTd2eGtqeW1Wa2wzSlNpcWw2cnJXRnQwU3lLaWpPNS1tLXc1MVNaUTlxZTV5MjRRWGJTTWNYckJZQ3RnblVqTmNPZ28wUWJKaGFOS0RGRFZ1MGI0VUhrcnJWa2xNZEI2?oc=5",
-  "https://news.google.com/rss/articles/CBMid0FVX3lxTFB3RFROMDlGUVdYNG5NbmRoRnNYRG44ODZqRkRhcWdOQ09jVWtrNnVJODlYNXRaMTRLVHA0ek0zN3JzRlNXNktHaDlDZ28wS1dKXzNXLWx6SmlZc21MS0ZYRjJzbTVaeGZVOUk4THBKMDAtSWdVblNj?oc=5",
-  "https://news.google.com/rss/articles/CBMikAJBVV95cUxPSVliTTRyNGFjRVVzVHZSMDdDYVpJSWRMVHV3UXdfUHZBR2d2Qkh1SW9pZ2FMNmNDZllxTEh4X0VNR2wwdXg0VGZvbHJOME5pX1hVNThLd19xMlRES1BkU3c0RDZINXdfM3J2U2NULUxnUVROUGZOekNjVzExMGJhVWJ0YzRSZzBpUGFOTXRhQmdxRVBReGo1c0hpYkphT1VXdXM1dl9LbFZFTWZUdTNULXJ3Wk5NX0FpTmIta0VLbEVYUlJ1a3NVTmJrbzhJMUdJaDhzbDBHMlgybGtOQi05aGtMRTZwZGx2VVFIMnJnX18xbnI5ZlB4V25Zb0dDVHFSckpBeG9jcWY4anFqNlBHSw?oc=5",
-  "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMkhrS3FwNzdPTWJzdnFJajhtN180WDdZNzJTTTVtLWxNNEYtRVJpVERNSFIzb3M0ZlJtblRIdEx1ZTN4RTNSZ3dzcUdrNkE3UV9NWVJNWUotV3pkbVVPbVZHUkgzeUt5WEZOaUlaU29UeFZoSkM4bHlnaV83dC1NOA?oc=5",
-  "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVkdJUnhtUDE1WjBSdUFNMFp3SUx1MEVBWHU1M08tc2Rmc2VIbHFaTy00aVdDSEF1R1dZWlBCVlRUd3JWODhTbFVOb1c1dWdBS3BFVTFXQTBnak05STNWNEdSbEdXMEZfNlphZ0VKc1RmVzRYcUNkUGpJbndmTUhqQm1LM3RvR2ZsSjd5T1g5ZklQTVZrUy1lNjlxREE5N21WdG5oQk03WEc3dmdwb3hzaWVwVmVHRmxWZVByY2NQbkk3dDhFX1hr?oc=5",
-  "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZMkp3Uk9sSFdGZWJRaTdQSVp6ZGhRODNzY3hOTHVzazFXZTM4enRpUDZFWFUtZ0x4a3NsNkhhdURhZG1nTTFmdmZ0TUE1S0hMQVJhOHJR?oc=5",
-  "https://news.google.com/rss/articles/CBMilAFBVV95cUxQd2xRcUZqSmhGdVQ0cWUzUHRISHR0NjhkWndwU1JjOHRzdEhrNE1mb29HRnZMZW9UMjhJbWJMTTFyZkpSNU9PNXFpMWNVWFQydUpIUXk4QnZQYTRzR0lqbjczZ2d4a0tCdVdjd21aZmdObzJnT1B4UEdfa09JZXJsamJtR2ZwZW9yX1AxWEY1ODV1QjJo?oc=5",
-  "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmttNk5uWlRaSFhGeGExWkU3SXpwOW9LLU1pd2xXbTNWWkk5ZzNsMXFuSUo3Y0oybkFjQUU1V2ZoZVdmX09KUWFUZzQ1UExNNVYzU1ZhZVQyZW5TdGd4VTZMaV9VQnlWU09zaVhEUUREVnJDNVNTeWRaSWVNcFFoYjNaMWxUbl9HakQ3a0UwYnNDSGwyVXEza3BGZw?oc=5",
-  "https://news.google.com/rss/articles/CBMidkFVX3lxTE1nbEY3TWdtTTVPcks2VUhBckllNDlrV0VCNm1rakdJQzZTVGxBQi1WZ0xLTTF1UjZ2R2stV040ZXJja2U2R1E0STdZTkFybHNncHNZVmQxYnNBcmIydkNFcXNZRXRtN21UQjI2UUtLdFBVdWwwR1E?oc=5",
-  "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZnRJWkROMHEyd0xnZHZNOGpsU1RxOTJXLVp5RnpTT1daV0hRV2hXbkhkcWFHZjNNUWFpOURUa3FTSzVMYXJ3SUIzQkRoMWYxOUd6NkdkcnJoQjBpaEphWGlMU0FTTFcxS3UzMFUxTGVpXzBHejBlN20wbXVVV0hfTk5GalFjVDkxN2J3U3FObW1XT2x6VjJXMUE3YVltZkdQ?oc=5",
   "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOEw0X243QTBxSExzLXNoeHNHLWRvMkxuRVpwWVQ2aEpjM2xwTkczdWpJV01FcW1CMi1IdXhDZ25DTEJ3UHV2UXlZQlVhM05EbnRJaU1SVS1TcUxVbDNKMWljRTZFZDluMFdJdzR0Tnh6STEwNThBdUd5d25JWWJhY2hmZi1aV3JkcWpDMWNlQ1VheFlWU3hKZTBOTDI2d054VTdYM09tdUtxNXdSb0VYQXBlR2hxZWZSbjJpUjdn?oc=5",
   "https://www.blocksandfiles.com/file/2026/09/11/owc-buys-open-drives-to-expand-stack/5295768",
   "https://www.eetimes.com/indian-researchers-look-beyond-gpus-to-neuromorphic-ai-hardware/",
@@ -8876,6 +8859,23 @@
   "https://news.google.com/rss/articles/CBMirAFBVV95cUxOc1Q2aFBHd1FEVFduUFA0cWt2VTloSTc5bmJWeDBCU195UHNueTZ5Z3ZyRTBaWWp3TkY4NFVTUnphWFlqbVpLMzNkRUttd05tLWZtZFA2Um9oQl9fRXNOa1N2a1NrVTl3RzBEcUI4ZE0ydFh1OXJxa0JuSl9oUXZ3TVNmTjdLd2o2SXE5WDZpcG9Wd1lJcVYwcU9ldzdPSDd2R0pYTzRuMVRSLW4y?oc=5",
   "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
   "https://www.tomshardware.com/video-games/final-fantasy-vii-revelation-might-use-upwards-of-200-gb-and-requires-an-additional-download-latest-entry-in-the-series-of-remakes-may-set-a-new-record-for-the-size-of-a-base-install",
-  "https://www.bloomberg.com/news/articles/2026-09-20/meloni-eyes-more-stringent-school-laws-to-counter-far-right-rise"
+  "https://www.bloomberg.com/news/articles/2026-09-20/meloni-eyes-more-stringent-school-laws-to-counter-far-right-rise",
+  "https://www.servethehome.com/nvidia-mms1x00-n5400-qsfp112-1310nm-400gbps-optic-quick-look/",
+  "https://www.tomshardware.com/pc-components/give-your-pc-the-deep-clean-it-deserves-the-wolfbox-mf60-air-duster-with-up-to-110-000-rpm-drops-to-usd33-99",
+  "https://www.bloomberg.com/news/articles/2026-09-20/musk-s-boring-co-working-on-tunnel-to-link-austin-san-antonio",
+  "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRXczNmN1MGZ3X3NMU2toblJ1dUJ3bzRwVU9nNmRMMjdTbzRUdHRQMlNQNnhkV0ttSHF3OVlVbHZuNEdRdlgyS1hqamJkS3Q0NEJscXJsR3JsMmJqdzRmdk9pTGJLQmZvNjhvU29nMXd2VGs3RzJhd0gwMk1TWFBEVGUwVE5hNlppTi1Hd0pmejNKUm1PTGZTalU1UUNCNEtheDZRVVJhUmYxVzNZNGxJNF9QWU44QQ?oc=5",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdmNESTJRR1lVVWZhVGNLQkZMMExmLTNLcFlKZTJIWFRqY1d6amhSUUZ4bnVxSWxoQ3ZiM1B6bmtVRTcyMU1PQ2F3eGZtYk9oVjRuWXl2YjZ2b3pmRGtuQWVubW85Ni02TWktRV9NWmpTVWRlTTBhcTNkTWs3SVVkQmMxcWhxUk5FQ0JaNl8yOXdTN1NySzkyQjFjLTRtczJ3aHZrXzBtVDVLV3FKeThRcDQyNNIBuAFBVV95cUxPRDN6c3hKRFhaVXRqTkJyVW9TWG5aTF9iREg4amVDNU1YaTY1MTN5ZHJPRXBnbFVxYnBnMDBiODc4QldkZXByeUtmclpobTBpaTJqbVhEb041Sklqd05SRVNSV1RYdER5aFRNVm9ndWdVbHdJMWlPZU1RYW1WZXNyT3VYWE5MOGtBeFlQMU5SNldFcDZXOVF2SGNBNVZDa2VqRkMyX0VvM3BmYW8xSWVzYkpfZS1PTFI2?oc=5",
+  "https://www.prnewswire.com/news-releases/huawei-digital-power-prasentiert-auf-der-idee-2026-losungen-fur-verschiedene-anwendungsszenarien-mit-den-schwerpunkten-netzbildung-und-ki-302884084.html",
+  "https://convergedigest.com/ecoc-2026-history-ai-optical-communications-program/",
+  "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
+  "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbGJ1bmJGTnhNYkM5blNjUy1RZGVDLXhIemhWSjRmZFFBakpCeW9QUF80VEpHT0RIZFk2bmpBcUZkT045ZW1YUFljam5CRWQwTlRBZURZS1kzQTkzTjRuMGpjN2o3cGVtb0NiRDFiWDhxbnkxT2luQjRiWEFOS2J1dXlJV2NrdlVnTXk1Ulk0MVRXdEdUOWIyWTExT3dNbm5OeXo1dEc0bU9lRVRGb0RJT3NYMWFDMjBxREM4TXA5WGhwdw?oc=5",
+  "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTXN5MkZTZTVyWUhGYWFTWHJ4UDBicVBYNFEzdjB5Wm9tQng4MDV0UGEweU5SSTVSMXJyQkdoTXRfMjIzZUtjOE5oRVNmWGRXam5LVWtVRUlISU5UczNHS0lDVnNCUFVqTmJSTjgydEtoUmFlQlktRmM5TEZUY21CQUg5Q2ZLY25yejZRXzJ2MzFBaE1FcnJwUmdhWDZ4VVBNakpyTUNYYWJOYTFTZk5DV1pB?oc=5",
+  "https://www.prnewswire.com/news-releases/huawei-digital-power-pedstavila-na-veletrhu-idee-2026-eeni-pro-rzne-scenae-s-vyuitim-technologie-tvorby-sit-a-umle-inteligence-302884083.html",
+  "https://news.google.com/rss/articles/CBMitAFBVV95cUxPT05rejlZZ1RZUmdlOHdjUk4tU0lpd01nQ0EzOC1kcndDZ0VTU3BCSG9EMHN5UDZuUlk1YUx0cmlWRHFJS3VpQVNxZG52SWdZelpXeGNacHl3ZEdtZFZqaXFhODdnVmliTHBpX0Q2V2RSN2FfQzZDNUFwNDV2eGNwajZsSkgyV0N2Mmlidmg0UWZFbXJtT1VXaTVHWDJhVEpRNFN6OXl2M2N3Q1psLTcxRG5UeTg?oc=5",
+  "https://www.prnewswire.com/news-releases/grid-interactive-aidc-losung-von-huawei-das-neue-paradigma-der-ki-infrastruktur-gestalten-302884081.html",
+  "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdmFDZGJzNkNUNmVWYUZfOV9teWROYVE1Vjg5Ym9OQTlLRVRPYTJQWnVpNjlrTll1SHJIVXJWOVN1VDlodDBic09RdVV3MFZudTU4dC01dC1RNF9BOHJyZ1dxY09IOUxSX2ZKb3ZtOEFpZks1YjAyclUwMk9xWFpjb0tURk5LWmJidlRVMjI5SWVZUFN2?oc=5",
+  "https://www.prnewswire.com/news-releases/solution-aidc-de-huawei-interconnectee-au-reseau-electrique--faconner-un-nouveau-paradigme-pour-les-infrastructures-dia-302884080.html",
+  "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV3dlMHlPN0xRYUJMbmNJak5HVE9yZWE3UTdLQ0NFaUlocmRMSnVjc052bE9FWWRUYVRRNGRMTVhlTkgtbXZ6M1RWVzJ6NzJoSUpQN3ZFY1JhazFHRlV3QXdRbVYyQzN5M1JyVDY2a25GcFFWZVA3TTl3RXc5YTRxZ1c0eGpnTU9DcFI1T0hhTlVveFlOTDNsYWdxNVVsRGJLSzVUWlFseXhMVDZjZDk4Z0I0UHY?oc=5",
+  "https://www.prnewswire.com/news-releases/eeni-aidc-spolenosti-huawei-pro-interakci-s-rozvodnou-siti-vytvaeni-noveho-paradigmatu-infrastruktury-umle-inteligence-302884077.html"
  ]
 }
