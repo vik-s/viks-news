@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-10-03T19:22:57.898599+00:00",
+  "generated_at": "2026-10-03T23:18:53.589354+00:00",
   "model": "claude-sonnet-4-6",
   "backend": "openrouter",
   "sources": [
@@ -12,7 +12,7 @@
    {
     "name": "ServeTheHome",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "The Next Platform",
@@ -32,7 +32,7 @@
    {
     "name": "Tom's Hardware",
     "ok": true,
-    "count": 6
+    "count": 0
    },
    {
     "name": "IEEE Spectrum",
@@ -57,12 +57,12 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Bloomberg (via Google News)",
     "ok": true,
-    "count": 5
+    "count": 2
    },
    {
     "name": "Reuters (via Google News)",
@@ -602,17 +602,17 @@
    {
     "name": "PR Newswire EDA",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "PR Newswire Computer Hardware",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "Data Center Dynamics",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Data Center Knowledge",
@@ -652,7 +652,7 @@
    {
     "name": "TechCrunch AI",
     "ok": true,
-    "count": 3
+    "count": 0
    },
    {
     "name": "Chips and Cheese",
@@ -687,12 +687,12 @@
    {
     "name": "Topic: advanced packaging",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: AI silicon",
     "ok": true,
-    "count": 6
+    "count": 1
    },
    {
     "name": "Topic: foundry / process",
@@ -702,17 +702,17 @@
    {
     "name": "Topic: semicap",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "Topic: datacenter power",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: liquid cooling",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: interconnect fabrics",
@@ -742,10 +742,10 @@
    {
     "name": "Topic: enterprise storage",
     "ok": true,
-    "count": 1
+    "count": 0
    }
   ],
-  "candidates": 34,
+  "candidates": 6,
   "kept": 0
  },
  "items": [
@@ -2467,12 +2467,6 @@
   }
  ],
  "seen_urls": [
-  "https://news.google.com/rss/articles/CBMiW0FVX3lxTE14ajBhN3FvLTJTR0ZmeEFUbko4NXlOdW9nRF9IX253ME1pQm44bklSQV80WjN6d3pma2RwOE11dmo3TEZ0cjJ1MU5MWUptMFBEQmsxTmhJZ2thTE3SAVdBVV95cUxQUFA5SWRNLVVLUmhfT0JJb29ydWFBTjY1RDFQNExVUGl6d1pNaHF5MDhGYXlTN3M1dk5pZWo4OHA5TmRhWUtDZ2VqVTVPTTBBUUJzSVB5WHc?oc=5",
-  "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPejRhSV9rZ3RyVUptTDc0SFVEUDZWRXNtNUpoOWdQOTA0Y3JqZF93aW5WaEFWdDN6TS1OazNvSzNRVF83NTJDb0Y1ZlFuQmN0N1UwaEpIWVFMeF91akgyeGkwcU1pX3ozdy04TlJGWm9pNENEeWhmaWFsX3J4a3lBeHVXbTlJUEdjN3dqcE83VWhvcVhKQnFHNy1WemtlaVdYdkEwbEVCZEF2blh5Sl83Y3htMmJ4elg1amx2MEMyMjRHcnRzejVzcE5oODZZNHVPRllFdW9nc2FiNXZaNDhPRW12S2hodjF1Uk5JRzhRYmNUMlZ0N3BfMDBfMGFweEE?oc=5",
-  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTkFyNG5pYVRqMm1KMnQwM2VzY20zMGNKR0ljMHRWMUk5ZGwtVGMyT1BIQ0Z3U3kxLU1lVktURUR5NGdTUS1va2pBNXJUZHRFRE9aMVFNNDhHNlp3OUx5bC12SWtaUDkzemd0bUhXLXhqOHF3ZVZLQmI0U19rQ1l0bENvRl9EZkRWUGFMYjZBazdtOFZKTGNZeVNyeGlFOTI3dm90ZkMyUlBCWGc?oc=5",
-  "https://news.google.com/rss/articles/CBMitwFBVV95cUxNV1picDUxZGNBc3pVNlY3SVM5dFFZc0lhTFlzUHptTjIxajNyUnZzbzlfbDBSVlkwN3l6eFlvbXhSaHdnNlJuRDRiazZnM3puRmRLX3hiQ3p0OGRXb1RvSkw2TzZDTjkwcm5FX3ozcFphUlV6ZlhmRnYyU3lwUjlHXzJaSWtnSTBxUnBvX2hCTWFsdkhJQ01wV3E0dXVSaVJDWnFVQlpNN1pOejVLaWphVlpTczVIVkk?oc=5",
-  "https://news.google.com/rss/articles/CBMidEFVX3lxTFBpRE5RRm5KdFB3NUNWQ3hlMnFBUjBaN1JlaHlxTmZvcERxeGxUUUJBcHFlc2xBYjNwZFpnSTE4QWtWa2tGTE5RcXNXM1p5aVUwYjBybk4wVTRSU21LYnBxeFk1V3BFdzRsVGtwNFJWamp2U3BV?oc=5",
-  "https://news.google.com/rss/articles/CBMidkFVX3lxTE55TWpDTl9pUV9jdThRU1hJX09od0RfcFJjUWo0aU5FdWhvNlFTSjdLZXpCbVFSSzZBdjNTVGJZX2c0UTN1Sy1SQVRCcmZQcE1xZXJfeTVLdnFUMEJ2RTRSWG1KUFlScnNWR1gwT21RRnAwWjRISWc?oc=5",
   "https://www.blocksandfiles.com/ai-ml/2026/09/15/sponsored-how-everpure-plans-to-stop-ai-from-starving-without-data/5295582",
   "https://www.tomshardware.com/tech-industry/developer-builds-viral-3d-source-code-visualizer-that-consumes-21gb-of-ram-flies-around-2-5-million-lines-of-code-at-over-120-frames-per-second",
   "https://arxiv.org/abs/2607.10415",
@@ -5466,6 +5460,12 @@
   "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTV9XeHFhOXJiMHNoUjliS0J4SjEtX3VMNmFwZjlZb0VMRG9OREVaV2xGR01zaUE2RXFhWkcwMG11V2k5WEFXM25QekpQajUzdU5ocWdtZWxQdUlsekVCNkhyMVQ0VlVqZXVHcmNxZ2FEbldNY2h3b1YwdTc1MG1rMTQ5UEZTQ3IxVUhIQ1EzVnB1SkNpQjc4QVYxUXRWTmUzZGtPSkg4bDNRRTd1SzZN?oc=5",
   "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZFVsYklXRERuWHRGMFo1Mk53Uno2T2ZRWER4QzNiQmYtcW9ZRE55Mmx6VnNsSl95dGZJU19EeDFsSnNJUkxwLXIxdHIwZ3FpdlFCUG5CM056amJtVUViX2FhYjB1S1k5ZG9fR3JzUTRZZWZpSnJSajcwTVU2enh6Zl9BdVB1V1FWYWN1ei1IN0RoeDk4eXR1YXlJUkxRMHh3bml2bjhVNXk2SnNEQ1JXeG1PLWZjbk9zUTJjZUJkZUxLTEprMUZsT042T3FwTVFrcnJfN2luNW7SAd4BQVVfeXFMTlBLR2thM1BnaEdLcHVOVllCRzRXdFNDalp1YzZ4d2dVYlBfVURqRzNfTjRScUV1WTVHQ2p2enBtZHlPNGJDMUl0SER6RE1ESUhNM3djYVlwREtndVcxTWxEdUhULVdXNWcxY2ZZQmVfWExUZllYWThxV0I3QVhhWklDSHA4MjRWTXhFdkFwb2ExMW5YSHVHSHB6Y3hHbHhpV0x6bGtZTEtkeXl4M0hFNW9FUm0wOV9MbENhODY2bUpHWjdGNFZIY1dBNGI1dlRndWJwOEhXYTNLSW45ZVRR?oc=5",
   "https://www.tomshardware.com/video-games/pc-gaming/steam-revenue-hit-usd1-7-billion-in-september-2026-pc-gaming-spending-grows-despite-skyrocketing-hardware-costs",
-  "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOGFLQWxWNmkwamNzNFd3dnpLN29wXzI5ZENIOUUwX2RVQ3l2alk3ZFYySE42XzBRdnVJcV91RVNrcHh5TjVvc1FNamtTaG1KbGVzOTFEclVpRVljakp6b21xdWwyaWhqVDYtaG5Jb0dMbWhKOVktT2ozclpCZW5nS3Q3bmVsSlRuMy04?oc=5"
+  "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOGFLQWxWNmkwamNzNFd3dnpLN29wXzI5ZENIOUUwX2RVQ3l2alk3ZFYySE42XzBRdnVJcV91RVNrcHh5TjVvc1FNamtTaG1KbGVzOTFEclVpRVljakp6b21xdWwyaWhqVDYtaG5Jb0dMbWhKOVktT2ozclpCZW5nS3Q3bmVsSlRuMy04?oc=5",
+  "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNmdfQ2hNM2V1NUo3eTlRN1Z6RXNxQ3JBSkxIWS1hYTZPN1VJUWFtajNQQllWcU1GejlQNV9zcF83UjFhTVpvVUhjdlRXdHFLdHlKczVEYWlET3lCdUV6SWhoYXUxSGJscWs0dTJscEtmTjZmNmIySVVZT2N1QTVodzdrUmMxR1RzZGhGd0kzbURXa1A2ci0zbU1SOFNJWnl0TUtWNjJnNVJrRWVY?oc=5",
+  "https://news.google.com/rss/articles/CBMisAFBVV95cUxPanBnbDA2SnluX0swT1ZpQ212VUNKRHh1T3d2Tmt0VDBieEtFVmh6blFFZEVCZlFLbjd4TnNYRnhacmtoSEdRTTFsbVdQN3RjRW5BTVd2NkJwdkdmcHNBa2czV3BZc19MYnJ1dkFvTkh1YXZQQkw1Zmtma2Y4Qm10RzlIUlhJS1ZSUHJnVVdTNlk1djVnNndqNXJBZ29hcEVJUmdkZTNWcklGWEF4TGtuZw?oc=5",
+  "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOEsyTmF1VHcxZGdBMnpEUkRuLWE4WWFVWTRLU3RmSzF2WUo0UjZKTWFrdU8yQ21neXlWX0xYZURVRGhxUW9VcHBsSmZoMjZaa2hvRkVWWUpod3pXb3FuUkExdkJLS0JnM0xUNm5NMHprcFN6VXNOTUJzVFJEWkY4OHI0X3J6WTBYWnlDdGpNR0NGNFZXcWc?oc=5",
+  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPXzhlcEZxMzR2NVhnNG5LMExwWWlWVjZ4cmZZMmhTSGZtNkY2ejc4OHptcTJxQnRpWlJuOU5sSnE3YTVlcjNQd3pLMVZMbG9ESWtvUXl6b0I0NU9NNGhZbGNuakxQNkZDVTlxM1FPNHNSUHBLWUFOYkdzUUZFdnRGZUxFNlJDb0ZvMjJSYUJsQWJCR25hX3hkVFZTTXZRY01pTzZ5azZxcU9sRV8takZLLTE0VXNRS2FKWXhSYnREaVZvT1BQYlU2UA?oc=5",
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxPV0hHMnBjTWctdzJLLVZlMlpKbURxU1lKdlBQdWNId3ZYMFA4cVFXOGQ3VXpieEJZUEJ6elpnb2V6ZEdNRC0xU2toZ3E5cWN5QUVRY2dPU0ZQdnBQX2ZWWkR1ME1XVU5rNXFpNWZNV2ZDZ1hGbm1PeWM2UEVEYVdiNUNYWkpOMDhtcDI5dFp5WnFyN3Y5VlB2Q1V3?oc=5",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUzBTcUk2Y053eFlvSmtkMkd2Q0VFeFN3T1lTVFFvTTJ2OFlTMWtSTG1lRVpMMHlOMV9VeXl1OUhOLV9kS0U2ZXUwMFA1UWZLRHU1WEJZaWlBREswbzc1TWpUNEs1RllxWmFVUjZxUkhaU2Itcml6U0JTVmpxOVAyYU5Mb1Qtc2NGZHJmejBod3RvUmxPa3pmQV9zd2wzcjE1RDhheVpjcmVmVnd5TWJ6ZnRNSQ?oc=5"
  ]
 }
