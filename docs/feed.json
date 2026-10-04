@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-10-03T23:18:53.589354+00:00",
+  "generated_at": "2026-10-04T06:14:56.786351+00:00",
   "model": "claude-sonnet-4-6",
   "backend": "openrouter",
   "sources": [
@@ -57,22 +57,22 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 0
+    "count": 2
    },
    {
     "name": "Bloomberg (via Google News)",
     "ok": true,
-    "count": 2
+    "count": 4
    },
    {
     "name": "Reuters (via Google News)",
     "ok": true,
-    "count": 1
+    "count": 2
    },
    {
     "name": "The Elec",
     "ok": true,
-    "count": 0
+    "count": 2
    },
    {
     "name": "Korea (Herald / Times / Chosun)",
@@ -82,7 +82,7 @@
    {
     "name": "SCMP Tech",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "EE News Europe",
@@ -626,7 +626,7 @@
    },
    {
     "name": "SemiAnalysis",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
@@ -672,7 +672,7 @@
    {
     "name": "Topic: co-packaged optics / SiPh",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: optical transceivers",
@@ -692,7 +692,7 @@
    {
     "name": "Topic: AI silicon",
     "ok": true,
-    "count": 1
+    "count": 3
    },
    {
     "name": "Topic: foundry / process",
@@ -702,7 +702,7 @@
    {
     "name": "Topic: semicap",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: datacenter power",
@@ -745,7 +745,7 @@
     "count": 0
    }
   ],
-  "candidates": 6,
+  "candidates": 18,
   "kept": 0
  },
  "items": [
@@ -2431,60 +2431,9 @@
    "tag": "fyi",
    "date": "2026-09-20",
    "added_at": "2026-09-20T13:13:59.737049+00:00"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1xSHNGUDVxZkxlaDFJYUhJMXV5cUpUbUJ3N1FBdnpKZlRncDNxTDdtVWsxdFh2a00xWXEtVUxSSTZ1bk5ra3ZldWY4R29UdHVXekgwVWhKcDRkcjFrUVYyaG5jLXdXRU9lc2NLSWFZTl9nRUU?oc=5",
-   "title": "Samsung Electronics Introduces Industry\u2019s First 512GB CXL Memory Module - Samsung Global Newsroom",
-   "source": "Topic: interconnect fabrics",
-   "published": "2026-09-19T04:58:14+00:00",
-   "why": "Samsung announces the industry's first 512GB CXL memory module, a key capacity milestone for CXL-based memory expansion in AI datacenter servers.",
-   "topic": "memory",
-   "tag": "deep-dive",
-   "date": "2026-09-20",
-   "added_at": "2026-09-20T05:18:24.784732+00:00"
-  },
-  {
-   "url": "https://www.prnewswire.com/news-releases/huawei-grid-interactive-aidc-solution-shaping-the-new-paradigm-of-ai-infrastructure-302883907.html",
-   "title": "Huawei Grid-Interactive AIDC Solution: Shaping the New Paradigm of AI Infrastructure",
-   "source": "PR Newswire Computer Hardware",
-   "published": "2026-09-20T04:25:00+00:00",
-   "why": "Huawei unveils a grid-interactive AIDC solution at HUAWEI CONNECT 2026 focused on maximizing tokens-per-watt, signaling a new power-efficiency architecture for AI datacenters.",
-   "topic": "power",
-   "tag": "digest",
-   "date": "2026-09-20",
-   "added_at": "2026-09-20T05:18:24.784732+00:00"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80MlJScUIxR1MtazFqMlg4bEp1REEzcUx2cHhSem51Y3piMVYwNFdvZklpMjROaHlGZGZFTnZyaV9uenRuNjlFUUxQYWpTMHpHMDBv?oc=5",
-   "title": "Ex-Intel Veterans Team Up to Challenge NVIDIA NVLink with Next-Gen High-Speed Interconnect Technology - 36Kr",
-   "source": "Topic: interconnect fabrics",
-   "published": "2026-09-20T03:23:09+00:00",
-   "why": "Ex-Intel veterans are building a new high-speed interconnect startup to compete with NVIDIA NVLink, adding a new challenger to the scale-up fabric market.",
-   "topic": "networking",
-   "tag": "digest",
-   "date": "2026-09-20",
-   "added_at": "2026-09-20T05:18:24.784732+00:00"
   }
  ],
  "seen_urls": [
-  "https://www.blocksandfiles.com/ai-ml/2026/09/15/sponsored-how-everpure-plans-to-stop-ai-from-starving-without-data/5295582",
-  "https://www.tomshardware.com/tech-industry/developer-builds-viral-3d-source-code-visualizer-that-consumes-21gb-of-ram-flies-around-2-5-million-lines-of-code-at-over-120-frames-per-second",
-  "https://arxiv.org/abs/2607.10415",
-  "https://www.bloomberg.com/news/videos/2026-09-15/moneygram-ceo-on-launch-of-new-payments-card-video",
-  "https://news.google.com/rss/articles/CBMivwFBVV95cUxOM0gwNHZJLUJhUzYyYmFRbWZxNmQyZ3pSXzRidzdneHFOdF9GUDZzYjItQ3R2YW9YTlFodkZhVTJxTlhQSkZ6bUlTX21BRGVPQlVLT0pmV3N1VmhTQlVUVjJlc0lfbldSN1FFSkh3ZXR5c2dxVW0tdmthaHhHU2RZc1dJR1F3MFdzUnlENXotNEEzOV9MTWphUTI1azVqeEJwTU1DTlZlNktxQVJTWm9YV2FFdGpRMU9ybnR6VWxrUQ?oc=5",
-  "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ1pkcTdFd3kzQU5MYVl0cWdDNGRkQ25IRXVwcjczZjlGTGRYUFRESnBfbENNVUFONFpyeXlUZHk2NFVLZUwwNENDOUVlSkhNYjRSWGFRNkpCYnRoVUVtNFR3MkNfbTh1RUFaYXlkMEIyem9oZ3hFZzdCdlNJMEpyMGg0cnNMRHRhZlkzbk9PY3BROWVwSjhIOVhWZC1xZzV2Ykd3dEw0Zw?oc=5",
-  "https://www.thelec.net/news/articleView.html?idxno=13952",
-  "https://www.prnewswire.com/news-releases/smarter-grids-can-save-europe-10-billion-in-grid-investment-302878893.html",
-  "https://www.prnewswire.com/news-releases/silkland-bringt-die-h96-auf-den-markt-die-weltweit-erste-zertifizierte-ultra96-hdmi-kabelserie-die-verbrauchern-weltweit-zur-verfugung-steht-302879275.html",
-  "https://www.datacenterdynamics.com/en/news/openai-hiring-for-clean-energy-and-new-technology-lead/",
-  "https://www.semiconductor-digest.com/mediatek-launches-dimensity-9600-pro-on-tsmc-2nm-process/?utm_source=rss&utm_medium=rss&utm_campaign=mediatek-launches-dimensity-9600-pro-on-tsmc-2nm-process",
-  "https://techcrunch.com/2026/09/15/former-tiktok-execs-built-an-app-that-uses-ai-to-teach-you-how-to-pose-for-a-photo/",
-  "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZEIxTjJQU1V2a1BtNXRGVG9GY0U1LWhQN0JyNnZoWkhCb3FuczJZNGRzSXVfRnZydjA1b3FlVEZsbTNuWFVKalNtQl90T0FkQUtUbjFyX3lrcjVkUEJfTlhDNVlCMEtUMVEyTzJNSXRhQkZkbWU1d3RXRE50NW1IRkUzWU1FejhEWVlNdjB6d2tYNFpjOEJGMkN0UHQtZTF2cVpnZlpoYkNrS0g4UkE?oc=5",
-  "https://news.google.com/rss/articles/CBMikgJBVV95cUxQakFKY25jSGFQM2hGMEdxQWJoVkpnWUdNTmZDXzNaOEthbXZ2ODcxWUwyVFJtU0tXSWlfcnhZUWpudXBhZV8tWXdjYmJWWTB5MEFmenZNV05vZm14aHpBemtJM2x2cFBPcFM3ZDNHeHo2em01bC1YZ1ZTc0NXcUlJS2xvdGJLNHhfcUo2MjRzMmNoOE9UVi1RYXoyaFVNaVRRRmRTYktHUDl1V21DQmlhU211Q1RCYXpsVzBzbUVMU1UzdHVzQmVXUHN6Y2FGUF9GS1ctWFpEbnJidlZxR2ZRbUptdWUyTFVHbVJqYU1aMDZOVTVqTlhaNHROZ1dpYWtBWl9DdkpsZHpzRDJvTG81MFhB0gGXAkFVX3lxTE1sTHdycjg3Vk1Eb2x2VDNtTXMyWV9TcGx5Y0RCY1F6Y0NJVEl1U0NoczIwZkhuWkVXLXJ4ZTBaYkcwNUlLTVg5WG16Y25qX3pGcDNDVDBCTHRKLWNLakl5ZXhVVDNBRjlXZWV4c0V0M1RCMDRFOUdYaHd1RExzc28tRjE5WENSOXgxYzVDNlRKM2V6M3BFNHZfeVlyN3l5dVhLdUdrS3V0U3dDWVVFb2NOTDNrSTNtUmh3NVRFVVlFV0oyZTJLc1k1M0RVNlAycWJ3VHRwd0h6TGRvLTFqZE10SURoaXFHQzhsTHFxWWpnOWNkZXN1UTZlTXMtOGJQemx6Zjg0a0lQT0pGZmo1WUg2NmYyeTgwVQ?oc=5",
-  "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzWkEwQ1JQNmdGRElSRXBQYTJGYXE5YnVzMG9lRkVkOXNhWnI2REV6YlJxc2REZHBXYm1XN1EyenJoZ0tGY2M1dmtfWFBPaHNtY1Z3N1MzUF94ZVRXTDNRRkJNMVREQkNub2s2LXR0Nml0WDlLWlE?oc=5",
-  "https://www.tomshardware.com/pc-components/gpus/amds-radeon-rx-9070-gre-graphics-card-returns-to-its-lowest-ever-price-of-usd499-rare-deal-places-this-current-generation-12gb-gpu-below-its-msrp-launch-price",
-  "https://arxiv.org/abs/2608.00153",
-  "https://www.bloomberg.com/news/articles/2026-09-15/openai-s-sam-altman-confident-industry-can-police-ai-safety",
   "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbXJMbVdHRktyWF9tQmVrenR6bVdzbnZ3eUFFcHE5VWNRT2VoMVh5SmFGM2o5MXlMbjdLeFN5YXBoUVVQVXpjZkF0M2dHQUpzQlpEa3YwbXVieUlGcl9uMVJNcFoyR2JvTVFkWUhHRmJPMUNrYVBWZG91OTBRNFVNWFNvR1ZpQkprVzQxdTloal9SQWVUMVh3cVhiVnlNODh6?oc=5",
   "https://news.google.com/rss/articles/CBMiugFBVV95cUxPLUtrSDJveHRTZDZNeXRVeHZvdjh0TWl1TUc2ZE1lMHpsb0VXWDRvbmVDUUNoSUJ4c3VvTDFQQi11RWpCckRvTDZjM0YtdFRfM3FpYVZjSXp1eXU3TzZKZGFmcElqdWxxMXpsYWNwRV9VSGxCV2FXSS11VFFWdE95eHd2NUw0SlM2cl9Tc1VJdmktLU1VVGtnbDZ0dmluMENkajVNZU1zNFFUbXFtc3A0UXAwSnF3azhUMmc?oc=5",
   "https://www.thelec.net/news/articleView.html?idxno=13951",
@@ -5466,6 +5415,24 @@
   "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOEsyTmF1VHcxZGdBMnpEUkRuLWE4WWFVWTRLU3RmSzF2WUo0UjZKTWFrdU8yQ21neXlWX0xYZURVRGhxUW9VcHBsSmZoMjZaa2hvRkVWWUpod3pXb3FuUkExdkJLS0JnM0xUNm5NMHprcFN6VXNOTUJzVFJEWkY4OHI0X3J6WTBYWnlDdGpNR0NGNFZXcWc?oc=5",
   "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPXzhlcEZxMzR2NVhnNG5LMExwWWlWVjZ4cmZZMmhTSGZtNkY2ejc4OHptcTJxQnRpWlJuOU5sSnE3YTVlcjNQd3pLMVZMbG9ESWtvUXl6b0I0NU9NNGhZbGNuakxQNkZDVTlxM1FPNHNSUHBLWUFOYkdzUUZFdnRGZUxFNlJDb0ZvMjJSYUJsQWJCR25hX3hkVFZTTXZRY01pTzZ5azZxcU9sRV8takZLLTE0VXNRS2FKWXhSYnREaVZvT1BQYlU2UA?oc=5",
   "https://news.google.com/rss/articles/CBMimgFBVV95cUxPV0hHMnBjTWctdzJLLVZlMlpKbURxU1lKdlBQdWNId3ZYMFA4cVFXOGQ3VXpieEJZUEJ6elpnb2V6ZEdNRC0xU2toZ3E5cWN5QUVRY2dPU0ZQdnBQX2ZWWkR1ME1XVU5rNXFpNWZNV2ZDZ1hGbm1PeWM2UEVEYVdiNUNYWkpOMDhtcDI5dFp5WnFyN3Y5VlB2Q1V3?oc=5",
-  "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUzBTcUk2Y053eFlvSmtkMkd2Q0VFeFN3T1lTVFFvTTJ2OFlTMWtSTG1lRVpMMHlOMV9VeXl1OUhOLV9kS0U2ZXUwMFA1UWZLRHU1WEJZaWlBREswbzc1TWpUNEs1RllxWmFVUjZxUkhaU2Itcml6U0JTVmpxOVAyYU5Mb1Qtc2NGZHJmejBod3RvUmxPa3pmQV9zd2wzcjE1RDhheVpjcmVmVnd5TWJ6ZnRNSQ?oc=5"
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUzBTcUk2Y053eFlvSmtkMkd2Q0VFeFN3T1lTVFFvTTJ2OFlTMWtSTG1lRVpMMHlOMV9VeXl1OUhOLV9kS0U2ZXUwMFA1UWZLRHU1WEJZaWlBREswbzc1TWpUNEs1RllxWmFVUjZxUkhaU2Itcml6U0JTVmpxOVAyYU5Mb1Qtc2NGZHJmejBod3RvUmxPa3pmQV9zd2wzcjE1RDhheVpjcmVmVnd5TWJ6ZnRNSQ?oc=5",
+  "https://www.bloomberg.com/news/articles/2026-10-04/korea-orders-security-checks-after-finance-sector-data-breaches",
+  "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMDlyc283Wk8zZ3RubnFCdWI5UTdiRFFiamxqYUVlcXNLeG9PcGJEX1pXMmVvVkFsZk5FZ1RYcjdjZ1RxNkw5aFFVTGtqYXhNT3V2YmgxZ3p6WEZCRG1vV0d4MU5WOEN0M1JUQTdHTVlwX3Nhc0FFZkZPNnl6VV95WGY0dzdQVnBzS21YOGdkM0l4bnVDMlEyZ1o0TS1ZbTFDRzI3ck40WEFJZldRQjEyXw?oc=5",
+  "https://news.google.com/rss/articles/CBMiugFBVV95cUxOczlKTmxkdnE3WHZpaWs1Y2V2dFJJOENfZkRRdjdCdGJBcXRqMFRWVlFKMGZWRDhlTXBiOTQxNUY1dDlSNlZYcXlmS1ZaaF9iWkJsek5QeTZ5V2txU0hOVnFXUE9EZHU1NE1XdldXV3FaQzAzcU9KZmZNcXhJMzVaVHdYV2tIUHVDdG5Cc1FMTjFHUHRvQzEtQmhFdDUwOXR3RlUwWlBDX3c5ZlNUMWZZd1BLcm12TWVWYWc?oc=5",
+  "https://www.thelec.net/news/articleView.html?idxno=14402",
+  "https://www.scmp.com/tech/policy/article/3368700/quality-over-quantity-chinas-ai-microdrama-producers-battle-viewer-fatigue?utm_source=rss_feed",
+  "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9UeHdDMGstcEIzTnI0dzRRaHRobndFeTBPdFAwOU40UEgxTG0zamVoZkMtNUllUGF4ekZsYXVwZkZ3cjBpOEVkX1ZEb1RZaDQwemVj?oc=5",
+  "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaU5YeTJOczVLTGpxaFB2Sm4tLXJSLW9XSkV3QkdxWEtwb3pZaGxDaHE5cXVQRndKTFE1NmpJM1dnSTlYMURxbmpEUlUtTUkzTWlGemM4aUg3STNTeWF6cHU0c3hpMkF0eTFkMGttV2VrMlpmUjBBYlZXWUQxbHZYcFN3Z2g0cTlYXzQydVZlQ2RXQQ?oc=5",
+  "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNcDRsWDZ6U1VVY1hfaHBVUkl4MHFtNjJRWnNqaGJ3aXZKRWd4eVdvNDA2MVhsZncya0pCdVMxalFQSkw3YkdmeWItenlIbUlmcGN0R0xoM0F5ckxFeEppRWJja0xRT1ZOcmliQmhBVGJHQmxHMVV4cXh5OHNrSG8tSlEzcFlSSHV6SnZ5VWxyM2xKRnpwak02N2VGTXNSSjZsLTJObWNXZWZrSmdFWVREdGpSNk5JU29pS2Rfb2ZUakVfOFVWWGg0LXphZWxPc0FGRmVCQXN2ZkxSYzd3Q0dvRFNia2NIRHVl0gHuAUFVX3lxTE9FbE10S05vNXdEWXdEcEM1aGRiQTF2TVo0ZlFVeUVOMEw4Zm16M0M3WnlnYXJiVFdXX0owX2hfdXkxRGVhQUQyTGFVVE4wTFhDT2lscWNoQmw4ZzJ0b0VFNk1uMnM4NWxMUm4zY2doMHZjWGlvYjFKZ1RFcHJfaDFIb3hld1dCZkhESTlJOHM1WEp2bE1PeENUYlFqYjdTZDVoTk90QlV4UzNBV05yWDJKbUtrcjJpUk9yWGFXMm5ZX3Z2djVNQ1JUUUZLU1VHNUgzbDItUjRlTFlRdzVxemNGcEpIdjRYU0ZkN3IwU2c?oc=5",
+  "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPY0hCVDFvYy1yQ296OWZVMV95ZF9Dc25NdDBLLXc1bDNhSEk0dzdEZkR1eEVSeTFTWlgwclB0cE8tY3F2aHBCQW9yTzRDZHNkM25SRlBobFpCMkdUaXpzN0d6VkRwTXc2RmFEUkM5S2drbDdQTExnX20xVjZNTUJEYV8tbzkxREx3a190X2JfN1hoYlJaN0laY3FyY2Y1eXduVUY2UFRWVDYtOThPM3Z2dEdzNXh2LXFQUVlCS1J2d2JzUjBoQ2c5Q3NLSmUtRm9iYk0yeGF4cGJIUkxk?oc=5",
+  "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9qZ2ZyYkFSaDZtcHY1SENvdlVfQWRCay1FQThoaDZTWDZ4T0EyNkUzaWNVMkFjbDJOY21qa2RTRjJBaWRXeDE3MGw2ZUpPZGVhRUE0?oc=5",
+  "https://www.bloomberg.com/news/articles/2026-10-03/us-ai-task-force-to-report-on-technology-s-risks-wsj-reports",
+  "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQkg2M1kweDR3dUZPNFQxT093Z29vcGFsYUw2Y3ZkcXpRdnlNdnBoaHJzVjNKZkNMWFpfVE5jT1dOQU8tdjM0ZkFHdnloUXoxTVlMSUFIcE5QQ2xzMHMxQktSQm5BcExPMm0tdWFVOFE4MzFYQjlFMHFkQTRreFhlZ3h0SGpvakNUMTRwTlZnNDZXZVhleU5UUUZVbDI1TUNRT014RU9jMG9qLVNieXh4ZQ?oc=5",
+  "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUDhZV3ZlNnY5c1FBQThfWXpEdWpHaEROXzlWQVNSdnVVZE9iN29HTEZIeFFWT1VXRDNVNXpGWFZwTGZ5RFYyNXJobFpkY1NOOHY5SlpQUzhpbXpmSGJ3WnNJNHJ1Z3VJM29tQ2lXRFJoRThxQWRZMkIxWjlCTDJOQU1iRTItRzdtX3dleDFtMklWendLSkVfRExodTdZN1ZPNnp4N0swdXc0RmZaU29YMWVtTmJDTGpiMGVPWjJtRGZDZmxmVEdzNVJR?oc=5",
+  "https://www.thelec.net/news/articleView.html?idxno=14399",
+  "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb05JT2pZb2xjakNVUW1NTXMtdThIUDZJUHBMQ1AySHd5SWJRMkZ4czBXY2c0aUxEWE4yTlVRU3ljTWtMN2RfanJNaXpvRDE0Y0tvaldnMTNoRnpCOEppaS1LZUIwUTFabjZJeU95blBwWms4cDU0MWN3TDYyMGRZN05icmp2blB0S2NtTnNydThKSjNZbVoxcHBSZUZOZE9LZVZIYmNRSmRjQWtobFF6Skd3?oc=5",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOTRRaDlQc2IwSjNacDRnZXlDTHpfS1Y4dUpBcjRvNjBOSTExbjVlc2pDcG53a1Z1VnRyY2hrd1dRaHVCbm9HQUhkMzBqdDhaMS0zOVFtd3lXMExtX1o3YjRWbzVyMlhpWWgwbWJ2M1FjbG1WMDhrLTk0Vk1LV0UwYUtkalAwM01mOTJoRmwtaWU4T3RsNHQ0T1UxS0t6MFZzX0FnaWpiajc4QmlXblRISXhwbw?oc=5",
+  "https://news.google.com/rss/articles/CBMikwJBVV95cUxQT3B1N3UwQzcyVXFTTVR0azRDb1VXenpzeHdtRUdJQ2d1WldyQzhwNDZ4dEhrc09uZUw3SFVweGJsU3FoLTFBRXQwRXltQ3hfTFZJRUtHUDdqN2d4c1dMeWRFcHBsNGR6VWlqTW5hUlVIQTdOMEdpbTZiZXg2S05FZkJDLW0tcnp2OFlnZVJNSjRCLUFPaTNJdXhUUUtaMHVDeWpUTDUtTDBKX1pMUlRMUWM4Y2R2Ym1NYUR5MnFZODNfSUxnREl0SUZ0R1RNTkhFUzJtdFFYNDUwNGlNRDROc3EyY0RDSUdaTnlMSnlaZDU0bkFkOGF0S0l5X2hrVlJMR3ZmU2c2ZDY4NzFNaGRIYWgtcw?oc=5",
+  "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUHlLSDJhdmsyYmYwMFJrSXhtTHh3aGpyR2U2RkYzLVdqMzc3Sm1rYUtHRlhMU0w1S3FBZF95dU5UbDY4MGhtM3pKbkNOS3NnRFpVTXd4X3FIOVIybUpXNmZyZmRnRUJZUXo3T1ozUi1FQVFRZklPOWxDVVMzcHVsaktqSEpUY2Q0Y3U3MGtmRlhjc3Z6emZGS21Td1MzUUJzMVd3RGVQTQ?oc=5"
  ]
 }
