@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-10-04T19:48:28.969672+00:00",
+  "generated_at": "2026-10-04T23:32:36.872941+00:00",
   "model": "claude-sonnet-4-6",
   "backend": "openrouter",
   "sources": [
@@ -12,7 +12,7 @@
    {
     "name": "ServeTheHome",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "The Next Platform",
@@ -32,7 +32,7 @@
    {
     "name": "Tom's Hardware",
     "ok": true,
-    "count": 3
+    "count": 0
    },
    {
     "name": "IEEE Spectrum",
@@ -57,17 +57,17 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 1
+    "count": 3
    },
    {
     "name": "Bloomberg (via Google News)",
     "ok": true,
-    "count": 3
+    "count": 2
    },
    {
     "name": "Reuters (via Google News)",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "The Elec",
@@ -82,7 +82,7 @@
    {
     "name": "SCMP Tech",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "EE News Europe",
@@ -592,12 +592,12 @@
    {
     "name": "PR Newswire Semiconductors",
     "ok": true,
-    "count": 0
+    "count": 4
    },
    {
     "name": "PR Newswire Electronic Components",
     "ok": true,
-    "count": 0
+    "count": 4
    },
    {
     "name": "PR Newswire EDA",
@@ -607,12 +607,12 @@
    {
     "name": "PR Newswire Computer Hardware",
     "ok": true,
-    "count": 1
+    "count": 4
    },
    {
     "name": "Data Center Dynamics",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Data Center Knowledge",
@@ -637,12 +637,12 @@
    {
     "name": "SemiWiki",
     "ok": true,
-    "count": 3
+    "count": 0
    },
    {
     "name": "Converge Digest",
     "ok": true,
-    "count": 0
+    "count": 2
    },
    {
     "name": "Fierce Electronics",
@@ -652,7 +652,7 @@
    {
     "name": "TechCrunch AI",
     "ok": true,
-    "count": 1
+    "count": 2
    },
    {
     "name": "Chips and Cheese",
@@ -687,7 +687,7 @@
    {
     "name": "Topic: advanced packaging",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: AI silicon",
@@ -702,17 +702,17 @@
    {
     "name": "Topic: semicap",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: datacenter power",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: liquid cooling",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: interconnect fabrics",
@@ -745,7 +745,7 @@
     "count": 0
    }
   ],
-  "candidates": 18,
+  "candidates": 25,
   "kept": 0
  },
  "items": [
@@ -2357,23 +2357,6 @@
   }
  ],
  "seen_urls": [
-  "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaEJVOG5OeDczdWVQME9PamZzRWg1aUp0QWRpYmxpMFZLY1lFa0JRWFFnLV8wR3NkVXVBdFp0NnRxWEkyWlVJQ2NqVExETkdLQnlPZS1hZnNsT3BhTERzWGxVLWNTdDcwZ0c4YllSMmlkX2lucF9LbkhQM28tQkY1SHpkdEZQY3BwUFB5YU5waVFiMVFuM0VkajZ3SnVEODNJWHk4?oc=5",
-  "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVUUxb05qMU11a0Qyc21ZMnBXU1pUTDMtUUxyTDhnNFdYdEIyUFplTUctNFhvWC1nQWZObXNGbUJDUl9rT2NlNmgzdlg0aXVmSml2TDEyTVQ4NGhGdVJvVDRJSENEbXZFYVZXLWE2ME5zelE3R081Nllla2ZrdldkNkU5UWhnblVTVWdEYk43VUY3TzV6VzZLLThVdVhrOEZub0hpeVpNdTBmMXEy?oc=5",
-  "https://news.google.com/rss/articles/CBMihgFBVV95cUxPa04yNlRkemRnUVI2Nm9IR0w0a3Z4b3hyRmh1UVA3R0xjaHhPQjdscTNaX0w5NjRRenVaZFZhbmFHY2Rjc3pzZUl5Z05rVkpyZ083LWhjQ2I4VHNGRlZWTHNjdDE3S2VBVVR3YkVxZW9hMXdXVHJocjVubEZnVUtRT2FldTQ2dw?oc=5",
-  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdVcwV01hRGZJMUlBMFVobzhHSEJsTFJwSEFnbGVNTHl5V3dyeXE3QjNDQW82NVY4WjlOSkN3X2s3NG9pWjJvWlZQWWlSazR1U1Nwd2FZMXBSeXRjZUVSNk1YQ19Xd19iVWNTckRRRjNHX3M1SnB0TlNoQU5vSnhZalpTaktmY0RnRUdyOWNqVFZBNkZZWGJ1SjUtaHlZUlVHQUR4OXhtQi1fdw?oc=5",
-  "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV2VaRnJDTVNUdm9oWUhleHN3TWx6OEg5bEFKRFd0U3gyWFZkR0tHNG1zVkJrTU0wOUNHVkxmR25xaThWVHFjaW5RNlRESTZpVy1vX1I4MHgtbXVJUFdrZW92RVJfQ2RFd3F4WTEwOUxlZFgwOTIxX3dyV1BXdUUwM0dQa2FJc2NoQUlHY3hsSEVYdw?oc=5",
-  "https://news.google.com/rss/articles/CBMizwFBVV95cUxONTF1dEFzVlpUOExuQ1VIaG85THBRa1Y0c2dvNm1lQWhVYWtPWHhTV3ZKQkV3SFFTb251NVl5QUhmQ01WWTI1UU81b2dMWjRMWGVuQWtMVHREdWZnZXFFSFp4UUZkMDdRT2pDQU1RbTZOV3R3SEllUzRHLUppNVI1eUNtVUNZUUZBaTFITTh5MkNCUVNHX0U4R0ZUQTNBV3cwNFI4bEVHaUlweXVhbEl2U3hUUXZQMERGSHRwU1YyZnA0OS14cVhLTDZPSFQ3anc?oc=5",
-  "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZW04RTdFQ1FsX2tUZUVKMncyZFVpZjdNbUZ4UkJ6cXBKY0lub2hhbU5Id1JkSTVQeEdrbm1PVEhDeVlpeUFWZkhhNVhGMHhWTkxXQWdZcWJXU244UjNhQk1EcFhSSE5abTNidTlVMk0xUFppbHFndDVvVnY5aXYzUmVEOE5qQXAxUVRpaUVqdWYwSFRiMDd4a0h6WFNicUYwWXZSN1R4cm9yQmpxNUVR?oc=5",
-  "https://arxiv.org/abs/2609.16413",
-  "https://arxiv.org/abs/2609.16085",
-  "https://www.bloomberg.com/news/articles/2026-09-16/chipmaker-sk-hynix-agrees-to-higher-cash-payout-to-ease-tensions",
-  "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSV9SRVpGQXZ0U0RMZGhKcGp1aENFQnUzLWlLR1ZWLU5mcGVWaWxEanE2YnNwbzJyX1J4UlVHX0ZyZlVIU3JfV1dQTkl3ZWVtMmp5ZGQ5QVlKd2JYdTBFaWpYUkZFcUJISENMbUNibERvd0cxRzV5VXp6a0REa3c3TGU3TmFtdGFwSUFNaEZXZUhJMnk1UmFrdjNSM18yZDFidG5xR0d3aVNwajY0NkJiR2xwdlg?oc=5",
-  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZ2hKc2ZyWjVSLVQtTmIydzVoN0Mwck16em15VVA5UmRiSktRcVdrUVRaNmJjX1AwR3dMWmMzX1FBS0E2cHVURUhScGVucmVUeVdzU1VzVGptUm9LQ0pKdHFVM3NZd0t1SXp0cTN0MmZONmlTVWZiUThXLV8xeEZrT2lSTkRMZGFUMV8yZUt3QmFxQ3E0czhySWlWT185dEg0aTZhdmpMQnFHZw?oc=5",
-  "https://www.prnewswire.com/news-releases/xgrids-devoile-le-lixel-l3-a-intergeo-2026-etablissant-une-nouvelle-reference-en-matiere-de-capture-spatiale-avec-une-precision-validee-de-5-mm-302879921.html",
-  "https://www.datacenterdynamics.com/en/news/vantage-data-centers-raises-2-billion-for-north-american-early-stage-portfolio-development/",
-  "https://convergedigest.com/delos-data-raises-100m-nonstop-ai-data-interface/",
-  "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSUctbDRoN2RYUTBWMFdnZTRQbXNJN0hjY1JNU0RKYlUyTDk5QUQ0U09qZW9udG54eENybGdKeVlCVkc4UWc4c2RxU0xtbXREeXJSMVBsR1A2aTlyZ1BPVVpMOW9KNDBJQWJYaEpWVUtwaEFPRHk4STR3VDV5M2ZkWlVTZVZ4dWV5WlNSTWZITzZZeU1NREt1U2l3?oc=5",
-  "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRjQzUmtRYW1ZX1V1OGxvMk84YXJ0UElaUFViRlY3Xzk0RDhuNEx1TDZ4R2YxLTdKYkN3MnBTdVdhU3lSaGNvZExtNEM0ZGdZRUxBR3NCM09zNDRMUlJmLTJTMTYzenBBRXZHXzIyWHMtbFVJYVM2VUtCSml6MDBhal9ZM3ZOY1QwbXhuaGppSQ?oc=5",
   "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbDdaNXhORF9yUHhBZzM4NGVkRVZKQnZsdks3cElYVGxhQVR1em1TbEJSR3hEY25sWFBnclk2MDVlSnBIc2RZd1gydVQ1anR3Sm9mUUQ2U2JIc2ItWjlpZWZ3bmgxYzRyMkVZTWszR2JmME9Lc2dzZ1lXQjRDSTIyMXBBY1JKb2lqOVRYdWRIaDB3QlhBcS1HdnZn?oc=5",
   "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVzlJclA2RXdqblJ5ZHJxTVBUUmcwN1V4VUZ1Y2dyLVlWekpycUoxdWRKZUVJdTlwR2xRWTdUQWJNMUZuTDVpQnluZUtBeUVLODFwZDUyd2ZTZ2tCc2tkZDVUYTJDaGp1MlU1YXhtQUlneTZMb1ZOZU5pN250eUVvUy1QT3p3aWFKRjQ4Y3ZNZXpJR2JQdzlnaGVMMA?oc=5",
   "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQk5sMk4zRXlNYjN3VXNXcmZHX3FoOWEwM3pfWkZPeUFfbFRrdkFBdkM0ZDlPWmJwb1o4WS1jVkd4S2plal9kSGN2bWdVdDlCYWgtWXFEVmtDWFhXbGhId3lBcWltdXpvMXBRZ3o1N1pmZG9BYTRzdkdYZjMxX2tyeHZuRVZuTnZlZ0VOaXlQX1M0aTg?oc=5",
@@ -5356,6 +5339,23 @@
   "https://semiwiki.com/ceo-interviews/374067-ceo-interview-with-paul-butler-of-veriquantix/",
   "https://www.tomshardware.com/pc-components/gpu-drivers/modder-brings-nvidia-pascal-gpu-support-to-windows-xp-32-bit-modded-drivers-unlock-better-displayport-and-hdmi-support-for-modern-monitors",
   "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQlRvRkM2Zlhvem5qWWhrSEVoY0ZyeHQ3dXdVMGs2Q1UzWUVnVFdJMi1NYW00aFNoTjBjd0txU2xZRWN6eUZ5Ujc2TVlESjA5eDBXNkhaQ1VNd1JhY0VwQWY2UFlZc3JDMmtoWEhXSHB0WXU2QWdKVGhXejhYZ0FCUTlUbGZnVDlKcENNQTNRZjB1MlZTYVdBNGJzWXg1RG9wZEozUW9FcHktQ00tbjVXQjJfSQ?oc=5",
-  "https://semiwiki.com/eda/374287-ai-eda-agents-can-prove-their-value/"
+  "https://semiwiki.com/eda/374287-ai-eda-agents-can-prove-their-value/",
+  "https://www.bloomberg.com/news/newsletters/2026-10-04/david-ellison-s-plan-for-warner-bros-is-no-longer-a-secret",
+  "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQVVRR3BBcHZWM2JKOWdfSXZZMzdLQ053am4ta2xzSzFULWdoZHlhbnlFNGNMRFhoUGRvX1lCeXprSjRPWVczTkNGVlViN2VwRHoyZHV1cFdlRHpNS0ZUV2FseUNZbS1Xei1wbkJwcjVaY09QWm9GRUV4dExBb1lOZUIzYzhCZFB1Z0lpc2pvSlhCcnJXa2hJNTVYeDkwSnpWeFRLV25qNDhIOHB6ZW9wSVBxOVhsRWtK?oc=5",
+  "https://news.google.com/rss/articles/CBMiowFBVV95cUxQT1lwRkt2ZlBuMTlqLVZCbk5ZVExzN0JMd0FnT0F5SllkSGdCU2xkNUlsSHVKZTRuNklIYlY5VTU5QmpqeUdWOXpJWEdhWGhaSE11dmRpQ0taekpfUllyay16MDg3VERqRm5WSjY3bGhKSGZVcnJWOFBod1FsQzBIdjVVN1U0b0xfT3VoZDNJdFZpVDJyN1Q0NlpjeUUtM2hFbUxF?oc=5",
+  "https://www.scmp.com/opinion/world-opinion/article/3369516/dario-amodeis-american-ai-imperialism?utm_source=rss_feed",
+  "https://www.prnewswire.com/news-releases/er-engineering-eroffnet-neues-werk-in-malaysia-ausbau-der-weltweiten-produktion-von-verpackungsmaterialien-und-lokalisierter-dienstleistungen-302897783.html",
+  "https://convergedigest.com/ocp-global-summit-2026-preview-agenda-keynotes-exhibitors/",
+  "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+  "https://news.google.com/rss/articles/CBMikwFBVV95cUxNN2luOEY1NXJFaVJLa2d5R2lNX2lxZExNQlFBdWhlenhkUXp5RjBzSUpuVWFQb3Y5ZU9XZ1kteGdCNjNETm5UaGYycDhKLURsS2RrcFQ1TFRfREZVYzU2czQwWlEyRUZveTE1QzBJSDFqSi13dFlQZFhSTnVCVFJZRlFUR0tqc3FtYmpkakFnTENqX3M?oc=5",
+  "https://news.google.com/rss/articles/CBMilgJBVV95cUxQME1oRkpEMFRJd1hmbVNXSk1GcnlzRjZtNjNTUkx5UTdCaklJd1gxVEprdm16cnhYNTZVaFhtRzRiMFBqUzNuZW9nUlE4czRuU0RsRzhLR1NvZ3F4Q1ppVHUzSVdNY0ZFUjV1UkUyalJVM2Nic3BTbmM4VzFDM01Cb2Q1U3d2Z2J1MjVsREZWcENKWDNLQjkzMWlnTGpBQ2RTdzhqQUE3TFZFMk5ZZnVVOGVZUGJqX2VrMmhTdXNoTVhMRkVURU5GZzdjMC1CU0JVbDc0ODVfeFg3VGZPeEdmOHI0X3A1ZVQ3eURrd0VIbHlmZDRKUlFsd2FrQ3VLekJOekhrSmhRenQ0U09oRUdhdVNSdmZOQQ?oc=5",
+  "https://www.bloomberg.com/news/articles/2026-10-04/us-lead-in-ai-over-china-narrows-after-deepseek-gains-bi-says",
+  "https://news.google.com/rss/articles/CBMirwFBVV95cUxQV2RfbFVfcGZjd0Vpc25BaDdsZlo0ZFV2N3VieG5IM294VUhGOTZkaWtPdXFSZTBsVDlPaFp6UWMzZWpGZFpwZjlGMXBDLW9DX1A2SDlxeGxSbGZBMnF6MW1vc1V2RGFlMk0wVnZKaThRc1ZQWGt3emh4TkdwWWEtdzEydzBLclY0Q1hUWnZMemNyS1BiOFQydjNiY0gtd0I3eEN4bjY5bVdxU2V5Tm5V?oc=5",
+  "https://www.prnewswire.com/news-releases/er-engineering-va-inaugurer-une-nouvelle-usine-en-malaisie--developpement-de-la-production-mondiale-de-materiaux-demballage-et-services-localises-302897782.html",
+  "https://www.prnewswire.com/news-releases/er-engineering-to-launch-new-malaysia-plant-expanding-global-packaging-materials-production-and-localized-services-302897740.html",
+  "https://convergedigest.com/cscale-145m-optical-ai-scale-up-interconnect/",
+  "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+  "https://www.bloomberg.com/news/articles/2026-10-04/ai-whistleblowers-google-openai-meta-to-face-new-york-city-council",
+  "https://www.prnewswire.com/news-releases/er-engineering-to-launch-new-malaysia-plant-expanding-global-packaging-materials-production-and-localized-services-302897736.html"
  ]
 }
