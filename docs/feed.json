@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-10-04T14:20:07.911358+00:00",
+  "generated_at": "2026-10-04T19:48:28.969672+00:00",
   "model": "claude-sonnet-4-6",
   "backend": "openrouter",
   "sources": [
@@ -12,7 +12,7 @@
    {
     "name": "ServeTheHome",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "The Next Platform",
@@ -32,7 +32,7 @@
    {
     "name": "Tom's Hardware",
     "ok": true,
-    "count": 13
+    "count": 3
    },
    {
     "name": "IEEE Spectrum",
@@ -57,17 +57,17 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 5
+    "count": 1
    },
    {
     "name": "Bloomberg (via Google News)",
     "ok": true,
-    "count": 2
+    "count": 3
    },
    {
     "name": "Reuters (via Google News)",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "The Elec",
@@ -607,12 +607,12 @@
    {
     "name": "PR Newswire Computer Hardware",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Data Center Dynamics",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Data Center Knowledge",
@@ -637,7 +637,7 @@
    {
     "name": "SemiWiki",
     "ok": true,
-    "count": 1
+    "count": 3
    },
    {
     "name": "Converge Digest",
@@ -652,7 +652,7 @@
    {
     "name": "TechCrunch AI",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Chips and Cheese",
@@ -682,17 +682,17 @@
    {
     "name": "Topic: HBM",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "Topic: advanced packaging",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: AI silicon",
     "ok": true,
-    "count": 4
+    "count": 1
    },
    {
     "name": "Topic: foundry / process",
@@ -712,12 +712,12 @@
    {
     "name": "Topic: liquid cooling",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: interconnect fabrics",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: SiC / GaN power",
@@ -745,7 +745,7 @@
     "count": 0
    }
   ],
-  "candidates": 30,
+  "candidates": 18,
   "kept": 0
  },
  "items": [
@@ -2354,49 +2354,9 @@
    "tag": "fyi",
    "date": "2026-09-21",
    "added_at": "2026-09-21T05:22:35.636573+00:00"
-  },
-  {
-   "url": "https://semiwiki.com/semiconductor-manufacturers/373540-broadcoms-ai-engine-shifts-into-overdrive/",
-   "title": "Broadcom\u2019s AI Engine Shifts Into Overdrive",
-   "source": "SemiWiki",
-   "published": "2026-09-20T15:00:43+00:00",
-   "why": "Broadcom Q3 FY2026 AI semiconductor revenue hit $16.7B, up 221% YoY and 54% sequentially, signaling accelerating custom ASIC and large-scale networking demand.",
-   "topic": "ai-infra",
-   "tag": "deep-dive",
-   "date": "2026-09-20",
-   "added_at": "2026-09-20T19:01:58.050630+00:00"
-  },
-  {
-   "url": "https://www.nextplatform.com/connect/2026/09/20/the-genai-boom-accelerates-and-transforms-ethernet-switching/5297603",
-   "title": "The GenAI Boom Accelerates And Transforms Ethernet Switching",
-   "source": "The Next Platform",
-   "published": "2026-09-20T10:53:28+00:00",
-   "why": "Analysis of how GenAI workloads are reshaping Ethernet switching architectures and vendor dynamics in AI datacenter scale-out networking.",
-   "topic": "networking",
-   "tag": "digest",
-   "date": "2026-09-20",
-   "added_at": "2026-09-20T19:01:58.050630+00:00"
   }
  ],
  "seen_urls": [
-  "https://www.datacenterdynamics.com/en/news/digital-parks-africa-expands-into-nigeria-plans-data-center-in-lagos/",
-  "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTUFsNFNzcnNyWjZTeklFUms3OW5YaHZyOV9jT0NoN2tCUzRabmcxa3BXdzVQX2ZKcUZUdEc2d0U3bWlqUDJUc3lkeFFRQ2o4T0xHZkJDelBpSTN1LVYzQXhRdWRVMDhzZmlhbmJ4dnI0UEp1NmdNOG9IenV0ZHhXZ0MxLTVmcEVlbXRoV25NUTB2SVc4Z3VDS2dKeF9sN19TV0NGWFJfckU5R0wycFVaOG5BcTd3U2JkQURocw?oc=5",
-  "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMm5VWV9hM3NhZEJ6R3RLRDFxY2xUTFFRcF92YXJ2WDBEUTdrNWFETlZNOHU0ZnJqMkVFSk1hSmNEbVM5T2RKMG9MdFJQTlJnN1plWC1vbVItd1pJNHBOc3dqdGJuRndZNDF5Y3d4WloySUUxcTA1R1IyU3Zpbi1XN09YdER0XzRBMWNTUzNhRDB5VmpGbThCcVR3bw?oc=5",
-  "https://arxiv.org/abs/1005.3999",
-  "https://arxiv.org/abs/2609.16379",
-  "https://arxiv.org/abs/2609.16003",
-  "https://www.bloomberg.com/news/articles/2026-09-16/softbank-cds-hovers-near-3-year-high-on-openai-funding-concerns",
-  "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQnV6clFLb1AweUpIS3RQYlJUcEpvTnp2aE55RTFSTVNmeGpWUTlydjYwWVZReDZBWENXTFRzWFIwMGJjOHM1VVBtLTZmbHZOOGNjcmJGSm5vdUlvRENuMENYUjAxNlBTQjhJenNBVi1VTEpvVTlDMFV1ZXhlM1Z0TGd4UXFQcEpUY1JJTXdMOENpb01hc096SzRSekJJNGEtdUluaDJYLWdBU1VTX0dOc1NWYkYwZw?oc=5",
-  "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUXpkV0dHb2JQWkgtUHFvUXBEU3ZVejJfSS1UeFVkYjRob1YzUGtBUVc2Y3dvRl83eU1nSHI0emU0c25lMzF0LUpXSTllVFJ4RlljaG9KX2lqTlppZ2VUM2Qyd3QtS3NaaWdRT3BFNVBQbktpbjRtUnlfWUhnazRMSGs5RzB2REhEVXA4YVFfRzBMY1Y3N0tRZVp5aUd5eG9XVHZSZUN4S0hER2pxRlE?oc=5",
-  "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSjlZMHZ0Z24zU2ViV19DdTJ1TC1KNkZ0cndwUWJ5TGVocnlvYkl1T0U1amxNT09rY2lwbVJSbG55TVNybWVFUTZMUTc5RTdLZ0FUTkhqUnRIemhibV9xOXc3OC0tLXJCc05UT1A5ZGpTOTFxblowZ1hmdndGZ0tBT1pZMFgyVW5YT3pkblkwWlNVb3BjcjVKTXBILWlkWDI0M1BrOHo1M0VnWUFIV1Nma2R0dy1qZ9IBuwFBVV95cUxNQVgtckN1VjJ3X2N2SnVEckRfNE9VeF9lMFdlSldodFFLX05BX1hBMzdCRDYxNlE0QVVfSHNZV3NnbWZmYVJhNkJUZjRsdTFlcHBfZXdoY1ZmV2FNOURSZWJMMC15WV9jUTFDbmNRazJvVkh0SXZCU1BHOEFVR05USy1IX05BOFhFdkhMX1FaRUIwa09NLVFnQ0hGdm94bV9mTEpYUmxEVHRWNlNqTENyTEg1clYyNW1FQ3NB?oc=5",
-  "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
-  "https://www.prnewswire.com/news-releases/xgrids-stellt-auf-der-intergeo-2026-den-lixel-l3-vor-und-setzt-damit-einen-neuen-maWstab-fur-die-raumliche-erfassung-mit-einer-validierten-genauigkeit-von-5-mm-302879924.html",
-  "https://www.datacenterdynamics.com/en/news/politicians-in-scotland-set-to-vote-on-national-data-center-moratorium/",
-  "https://convergedigest.com/astera-labs-leo-fabric-attached-memory-agentic-ai/",
-  "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
-  "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOYnNid0lieWYxb0FtUlZBVFNjSjB2T0JrQm9oM3ZMQUEtblZNRnhlUTNjTk15amJIWFlEakRWM3dvdTNhWDZZNERFb3FTTTU4cXE1VEh6c00zVDhUX3JWVC1qeDVUbTM0YVJuWGZ4VVJrZWlDY1NpaURBYnBJWmdCQnFJVUdQZkt4X0tjUXBVUHRQekxHZVpIb2hSSzNlY21IYjZTUDI5OEZGODU1SHVXNjM3VWx2THF2enYwWGRYWExBMXJvSWMwQVdSY2N5b01fbHE5OE1mQTlvdXFTT0RUTFNjWlU?oc=5",
-  "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVTlJRGN0ZkstQUZ5OFF5Rmx6ZGxzVTVMNk03UGVPNVM0ZnJ4QlVFV1ZzcTNsWF9DTmx0SDRiVEk4Zk1TaWV6Tm52SUdqd3JoSm9KZ1ZndnhNa3QtTklTUi0yY1p4TF90UFo1Z3pOS0owVEhuMHZibzg4VkJ0SmRtUW9qSkJ4dkdmM192OHpFTldNUmNrdlhxbkJ6RQ?oc=5",
-  "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQZWRON2ZkMHd4a0Fyb0MzOGl5eWxNZm1DT1FUdFU3NllORGp5d0RyMWZJNEZkSm94d0ZLSTV4MkVKWXdzRWhpZENtTm5JakxvanZCQ3VVR1ZwR0N0WFdvaGFYWEZFdHpBakhpU2FtWlBnUy03VWlRM25VYWpIMC02b3AxR3R3ODRDMW15UEs5UnBWV25ZdzhvWDJqcGxiQ19FdkpONGE0VTRWMTZBZERDNEZBZzJVMVB0XzZScmFCWmhHWUZvbXZtbjlZbGUzMG5nSkFKeWU0M25La2RHdGs5QUI1UTk?oc=5",
   "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaEJVOG5OeDczdWVQME9PamZzRWg1aUp0QWRpYmxpMFZLY1lFa0JRWFFnLV8wR3NkVXVBdFp0NnRxWEkyWlVJQ2NqVExETkdLQnlPZS1hZnNsT3BhTERzWGxVLWNTdDcwZ0c4YllSMmlkX2lucF9LbkhQM28tQkY1SHpkdEZQY3BwUFB5YU5waVFiMVFuM0VkajZ3SnVEODNJWHk4?oc=5",
   "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVUUxb05qMU11a0Qyc21ZMnBXU1pUTDMtUUxyTDhnNFdYdEIyUFplTUctNFhvWC1nQWZObXNGbUJDUl9rT2NlNmgzdlg0aXVmSml2TDEyTVQ4NGhGdVJvVDRJSENEbXZFYVZXLWE2ME5zelE3R081Nllla2ZrdldkNkU5UWhnblVTVWdEYk43VUY3TzV6VzZLLThVdVhrOEZub0hpeVpNdTBmMXEy?oc=5",
   "https://news.google.com/rss/articles/CBMihgFBVV95cUxPa04yNlRkemRnUVI2Nm9IR0w0a3Z4b3hyRmh1UVA3R0xjaHhPQjdscTNaX0w5NjRRenVaZFZhbmFHY2Rjc3pzZUl5Z05rVkpyZ083LWhjQ2I4VHNGRlZWTHNjdDE3S2VBVVR3YkVxZW9hMXdXVHJocjVubEZnVUtRT2FldTQ2dw?oc=5",
@@ -5378,6 +5338,24 @@
   "https://www.tomshardware.com/peripherals/controllers-gamepads/us-navy-uses-xbox-style-controllers-to-fire-anti-drone-lasers-deployed-on-ships-usd13-per-shot-laser-weapon-deployed-in-the-strait-of-hormuz-uses-a-familiar-interface-instead-of-a-custom-control-system",
   "https://www.tomshardware.com/tech-industry/artificial-intelligence/open-source-tool-designs-lego-builds-with-more-than-2-000-real-pieces-their-programs-output-detailed-cad-files-but-no-models-have-been-built-yet",
   "https://www.tomshardware.com/peripherals/portable-bluetooth-cd-player-has-a-glow-in-the-dark-transparent-green-finish-modern-features-new-limited-edition-has-usb-c-bluetooth-5-3-rechargeable-li-ion-and-wont-get-lost-in-your-dimly-lit-den",
-  "https://www.tomshardware.com/video-games/pc-gaming/free-browser-based-ai-generated-taipei-gta-clone-hits-1-2-million-concurrent-players-in-three-days-vibe-coded-game-cost-usd10-000-in-ai-tokens-to-build-is-set-on-the-streets-of-taipei"
+  "https://www.tomshardware.com/video-games/pc-gaming/free-browser-based-ai-generated-taipei-gta-clone-hits-1-2-million-concurrent-players-in-three-days-vibe-coded-game-cost-usd10-000-in-ai-tokens-to-build-is-set-on-the-streets-of-taipei",
+  "https://www.servethehome.com/intel-xeon-6-sku-list-and-value-analysis-clearwater-forest-runs-wide/",
+  "https://www.tomshardware.com/pc-components/gpus/modder-fixes-melting-rtx-5090-power-connectors-with-custom-distributor-dual-8-pin-mod-peaks-at-just-40c-during-a-48-hour-550w-stress-test",
+  "https://www.bloomberg.com/news/videos/2026-10-04/ai-stocks-drive-an-increasingly-divided-market-video",
+  "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbzQxSFhvb0lYekZDUDA4UlhCc2lJdDZNWFNUV0pVMTVXSW5QX2NQSXc4M01wc25mRlY0dDNuU21Kb1ZaVVJoWDRPUUJsbjk0NnAwd2duc2ZTZ1Y2cU5udUlHMEtGSkZ6QjdRZkRHWmNWTGNXa2VvdXhROFhVb1QtQmhKMUwzMXdsLTRwWXhDdHdYUm4xOUlvelJtWTA5blQwdS1JdEh3aHI2ZmdtWG9WWE1lSHY?oc=5",
+  "https://www.prnewswire.com/news-releases/lilic-sidecar-debuts-at-yotta-2026-as-vision-group-showcases-new-power-solutions-for-ai-infrastructure-302897757.html",
+  "https://www.datacenterdynamics.com/en/opinions/americas-ai-race-wont-be-won-by-hitting-pause-on-cata-centers/",
+  "https://semiwiki.com/artificial-intelligence/374083-ai-agent-breaches-in-2026/",
+  "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+  "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdHAzazlpbUdCc21oSjFIN1lFUHoxcW5xbm5oSEdkRm5kbDE1OEtIbWxtNzAzQ0FYUjctS3FNNUNOUGlIN2NOMUZ5WWxvWnlCTXlhakFFTHZpbEdsNGtkTFRUWWpwZFFsMWE2V1k3Y1F5N3BtMUx5ZUdYTWNrSU0takxxU3UzWXZ4bEg3bDIwSEVXN05tX3FnWXVKUDhvb1FJSWxhSWs4b1Y?oc=5",
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaHBtM3YyTUxwM0dyWlNveHZHOWZKUFNhSWNwbWN2WXlSSkR1QnpaMi1odUE4dkprdjVhc3BFWXROY0hJQ0ZjNVhFdEJ0RGw1Um5VYWJhVXBRWldLN1NLQlhyeHd5OTExLW5OQVllOUNraDRKWUdDQXhzYWFhNVRIaXQ4Mkp6T1ZIcC1LeFh3ZWxOVmJJT2oxQTBB?oc=5",
+  "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeUJ0SllGMDBPVEsxdHBNdEtQRnJnQzdLWVkwdlhNVkxTX0duUi00RFVrMTlOU1kwOWo4WDV1d05qYmFHcjZsamlKaGExMExFV0g3QXAyQnFiN2xuaGNjdkFqRWFxczNXMmxoRWRpY2FROGNfc0JabWhUQTE2ZHQ4Nzl6UFRTR3VkWElvQk4zODYtYVRFY1cxRXpiWHNPOEFCVktYbmFxY2RqVmVmRHpVV3JYX1U?oc=5",
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeHdlM1hWRnVnQ3pab1h0cWVuemZCc3otWWd2X0I3V21ldDludEJuZUtZRS1MRk04VTRIeG1zZjdRVVRRbkcxTlR1eDB1alVUMEJGYTlTeTVYaHd2NUlhVHFsZzlSZFQ5aEx6RzZHWHFDbUdYRkwtWWtvQzk2VUJQRlN2VDJNYUV6TjFocUFuZ0taQ1c2NDVRZFdn?oc=5",
+  "https://www.tomshardware.com/tech-industry/robotics/robotics-startup-has-real-human-vs-robot-cage-match-california-responds-with-cease-and-desist-order-regulator-threatens-misdemeanor-charges-after-youtuber-fights-three-robotic-humanoids",
+  "https://news.google.com/rss/articles/CBMiowFBVV95cUxOS2l1eU04UnlWUl9QUGduTHFPeTFBMTRJVUJSOVhDb3BDRWtjTEdxTnFxOS12SkQxMTk3TGl3b3M3U2RxQXpTSHhWTDU0RjNZTUVBNXZYUlNhbk16RWRIa05Fa1dXeGFWOVNQTjdkVl80REdLUFBERHZWMzMyaGY5NmxrazdZX0NNNDNPTV95N0wxRUozWlE4V3FEakhSZ0wzNXA4?oc=5",
+  "https://semiwiki.com/ceo-interviews/374067-ceo-interview-with-paul-butler-of-veriquantix/",
+  "https://www.tomshardware.com/pc-components/gpu-drivers/modder-brings-nvidia-pascal-gpu-support-to-windows-xp-32-bit-modded-drivers-unlock-better-displayport-and-hdmi-support-for-modern-monitors",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQlRvRkM2Zlhvem5qWWhrSEVoY0ZyeHQ3dXdVMGs2Q1UzWUVnVFdJMi1NYW00aFNoTjBjd0txU2xZRWN6eUZ5Ujc2TVlESjA5eDBXNkhaQ1VNd1JhY0VwQWY2UFlZc3JDMmtoWEhXSHB0WXU2QWdKVGhXejhYZ0FCUTlUbGZnVDlKcENNQTNRZjB1MlZTYVdBNGJzWXg1RG9wZEozUW9FcHktQ00tbjVXQjJfSQ?oc=5",
+  "https://semiwiki.com/eda/374287-ai-eda-agents-can-prove-their-value/"
  ]
 }
