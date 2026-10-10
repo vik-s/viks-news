@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-10-10T20:17:25.122189+00:00",
+  "generated_at": "2026-10-10T23:46:50.370651+00:00",
   "model": "claude-sonnet-4-6",
   "backend": "openrouter",
   "sources": [
@@ -12,7 +12,7 @@
    {
     "name": "ServeTheHome",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "The Next Platform",
@@ -21,7 +21,7 @@
    },
    {
     "name": "Blocks and Files",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
@@ -32,7 +32,7 @@
    {
     "name": "Tom's Hardware",
     "ok": true,
-    "count": 6
+    "count": 0
    },
    {
     "name": "IEEE Spectrum",
@@ -41,7 +41,7 @@
    },
    {
     "name": "The Register Off-Prem",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
@@ -57,12 +57,12 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 3
+    "count": 0
    },
    {
     "name": "Bloomberg (via Google News)",
     "ok": true,
-    "count": 3
+    "count": 4
    },
    {
     "name": "Reuters (via Google News)",
@@ -77,7 +77,7 @@
    {
     "name": "Korea (Herald / Times / Chosun)",
     "ok": true,
-    "count": 2
+    "count": 1
    },
    {
     "name": "SCMP Tech",
@@ -592,27 +592,27 @@
    {
     "name": "PR Newswire Semiconductors",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "PR Newswire Electronic Components",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "PR Newswire EDA",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "PR Newswire Computer Hardware",
     "ok": true,
-    "count": 3
+    "count": 0
    },
    {
     "name": "Data Center Dynamics",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Data Center Knowledge",
@@ -626,7 +626,7 @@
    },
    {
     "name": "SemiAnalysis",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
@@ -652,7 +652,7 @@
    {
     "name": "TechCrunch AI",
     "ok": true,
-    "count": 2
+    "count": 1
    },
    {
     "name": "Chips and Cheese",
@@ -672,7 +672,7 @@
    {
     "name": "Topic: co-packaged optics / SiPh",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: optical transceivers",
@@ -692,7 +692,7 @@
    {
     "name": "Topic: AI silicon",
     "ok": true,
-    "count": 4
+    "count": 0
    },
    {
     "name": "Topic: foundry / process",
@@ -702,12 +702,12 @@
    {
     "name": "Topic: semicap",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: datacenter power",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: liquid cooling",
@@ -722,12 +722,12 @@
    {
     "name": "Topic: SiC / GaN power",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: chip startup funding",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: export controls",
@@ -745,8 +745,8 @@
     "count": 0
    }
   ],
-  "candidates": 34,
-  "kept": 1
+  "candidates": 10,
+  "kept": 0
  },
  "items": [
   {
@@ -3930,16 +3930,6 @@
   }
  ],
  "seen_urls": [
-  "https://www.scmp.com/tech/big-tech/article/3368219/neither-us-nor-china-can-win-ai-race-alone-bofa-analyst-says?utm_source=rss_feed",
-  "https://www.lightreading.com/regulatory-politics/ncta-seeks-second-exemption-from-fcc-s-router-ban",
-  "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
-  "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-mobile-apps-amazon-connect-talent-ga-amazon-corretto-27-and-more-september-14-2026/",
-  "https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems/",
-  "https://lambda.ai/blog/eginterpolator-molecular-dynamics-drug-discovery",
-  "https://www.prnewswire.com/news-releases/whipsaws-the-workshop-kicks-off-new-cohort-of-breakthrough-hardware-startups-302885071.html",
-  "https://www.prnewswire.com/news-releases/lg-energy-solutions-battery-energy-storage-system-qualifies-as-nvidia-dsx-ready-bess-302884438.html",
-  "https://www.prnewswire.com/news-releases/pudu-robotics-prasentiert-die-pudu-gt-serie-und-intelligente-losungen-fur-die-grunflachenpflege-auf-der-galabau-2026-302885010.html",
-  "https://www.prnewswire.com/news-releases/huawei---intelligent-wan-target-architecture----302885146.html",
   "https://www.datacenterdynamics.com/en/news/nokia-ramps-up-ai-ran-momentum/",
   "https://www.datacenterknowledge.com/colocation/enterprises-adopt-colocation-for-ai-and-hybrid-cloud-initiatives",
   "https://www.datacenterfrontier.com/site-selection/article/55406539/data-centre-west-2026-alberta-moves-from-data-center-ambition-to-execution",
@@ -6929,6 +6919,16 @@
   "https://www.tomshardware.com/video-games/playstation/ps5-hack-delivers-native-ps2-disc-support-and-4k-upscaling-where-sony-refused-to-after-ps2-breakthrough-homebrew-dev-confirms-ps3-disc-support-is-next-for-ps5",
   "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUTlMblI4S001d1VveFRQY0czamxlRjZkZElMb2FDTEgxSFExdFBlTEUtZ3lXb21VSTJuaGVudnkxT2ZpUFBrRG9sM05LTERvSHJ6YTdXZjNOMkNPaWhwMmRmVEF5cHF0M0lxZ2pKQU5qaTBwRmdldG53cjZGQ3FpRzZDMlJrVnVWM05pRDJNUHF4d3VXOGdWX2prdw?oc=5",
   "https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-october-10-2026-tencent-grabs-bargain-chips-qualcomm-huawei-ip-deal-groq-lawsuit-and-more",
-  "https://www.tomshardware.com/tech-industry/data-centers/senate-investigation-says-that-some-ai-data-center-claims-are-misleading-senators-question-number-of-permanent-jobs-projects-bring-to-communities-but-companies-refuse-to-divulge-data"
+  "https://www.tomshardware.com/tech-industry/data-centers/senate-investigation-says-that-some-ai-data-center-claims-are-misleading-senators-question-number-of-permanent-jobs-projects-bring-to-communities-but-companies-refuse-to-divulge-data",
+  "https://www.servethehome.com/specviewperf-15-0-1-linux-edition-released-linuxs-key-graphics-benchmark-adds-arm-support/",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxNY2tYeVZwTkEwVmNuQnBYVnhKMHNnamZKeEtqeXlyT3AtRVlXbWtMS2wxRktaYWRyUUJfcDV5MktLeFZJRkFBYm9WN2xvT25VY2VsZFNnSzZhNXBoYzZSRzNCaGgwUFBiOFloZ3BwdzhnZzEyZzJKbFk2Q1ZDbW9udEZ5YklCSzNNd256aEN5elc4RlJfZVNrQ1FoVWlBOFBLWDNodUJBWVNVNVJEc2paY1pNQQ?oc=5",
+  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQXpmTnVsdlhWdUt0a0hnSUg1YUVoRWNhT2JSQ24yeHFvRWVPdG5SNzNsWkNLVS0zbng0UWZrMS1zaGtXRmNzRThMamRUNXJPUGRwX09vN2J0dXFSUW9ZSThFeGZ6bTg5bnFqVVktSk91RzBNMkN0MGFOX2FSSEFZMzZ4TXhMb1dsc1hpLUwtY1pmeERoMnE0M2llTEI0X1V2cGxRc1UtMnpYUmc?oc=5",
+  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9YM25FelpBV1lTS1pyQkVqVmtfMGNuODZzSTR4dlRTdEpia3gwOVRTcklqRk1XYjJwSk9jTDlfdEt2MXZvUldfdVpKVHdvUjA1V1Z2clltYw?oc=5",
+  "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+  "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZWphc0tNM0JpRHBCTUVEZVg2WFNjVXByZEZIODRfbkdjd0VsV0szbkx5RTI4LVlkeFBYSWE0ZWttcjVkQVdoekRUT1dxdF9icFRhblJ0VWE2OUs4VXJsdExNUUZ1b05Xa1JfNV94eHo2cktYeDIxcTZuR0pWemtObzhueGpJOTFpS092NUl0WGNzZ2ZMRFNVZy0yblFyNC14dVhRNUdsUy0tQTFmdTMyUHpaUjZXTkE?oc=5",
+  "https://news.google.com/rss/articles/CBMijAFBVV95cUxNU3ZIbE1aN3ZDaWg1TGp3SHNYaGZlSkpZaVNZNkFwN0ctb1NScU9IWDBDNjlORFNucHF1RUVLMUVGWTlWaVlUMnkxc0FjdXQyQklOMEJuM01uWjFEbnJNbXRiWXh4akFPZ1ByeFp5RWlfb3hFWGRaSkwwYkkycGl6Q3gzMTZsRDgtN3NCQQ?oc=5",
+  "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbEhNbm44LUd6U3ZnU2t4ZXVxVlBObW55LURVTlJjcnNOWHJmZEhwNEd4UDdiWHFwaDBZSGw0blpidEN3QldtTl9haFYwNjVpUFJYTVRUOHJ6bU9SZE5jLUVzT2ItQXk4cjNhVEk5TnlBZnIxeE5SZ2x2cW9XRFVRb2lDQkdlWUF5S01CN1RKZGxnRWQ0aVhFNmhaS2VFUXhYVlAtYjJnUlBoSFZ6VUE?oc=5",
+  "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQzhDQ0ZsWWNnck5TR1k2UGxUMGZ6WHVvN1BUZHJDaXZFSHZTMTJ2djFyWVlWNFRZb0N4cThZOE1FYmFVSDliZWZLdUs2blpyWm40ZHpHaTJGWXNQQkRCQ2FGSVBaSVRMN1ZaYlRSY01rRm9IdnNIaV9JNFlmNWJOZmt3QUZfNThuYWFSNWM1VUZYZjlSY0tkc1pHYWZhYjhaUUc1VFVDdmZHVWY5QUFfZlJocVY?oc=5",
+  "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaUJIS21IU3NScXNGc3llSVpWd1VYeG1FZFR4WjIzdldoalpsQ2hzUWVaWWRYQVplUDNkb1lpd1VBY0d6TENSaHRScWJPaDQyQ3VlUkpia2tyWG13STVfQnlVaF9EWnhOdGhxbmMyMk12UTZYWjRGWWtjaThBSzBndVcwY1BKNV9RbUdwXzgwc3pRYXVwRXhkdmQ3ZE56MkZYamx6RFFlOA?oc=5"
  ]
 }
