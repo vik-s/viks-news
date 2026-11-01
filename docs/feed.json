@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-01T15:26:26.036810+00:00",
+  "generated_at": "2026-11-01T20:45:15.094792+00:00",
   "model": "claude-sonnet-4-6",
   "backend": "openrouter",
   "sources": [
@@ -21,27 +21,27 @@
    },
    {
     "name": "Blocks and Files",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
     "name": "EE Times",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "Tom's Hardware",
     "ok": true,
-    "count": 14
+    "count": 3
    },
    {
     "name": "IEEE Spectrum",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "The Register Off-Prem",
-    "ok": true,
+    "ok": false,
     "count": 0
    },
    {
@@ -57,7 +57,7 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Bloomberg (via Google News)",
@@ -67,22 +67,22 @@
    {
     "name": "Reuters (via Google News)",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "The Elec",
     "ok": true,
-    "count": 0
+    "count": 4
    },
    {
     "name": "Korea (Herald / Times / Chosun)",
     "ok": true,
-    "count": 4
+    "count": 0
    },
    {
     "name": "SCMP Tech",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "EE News Europe",
@@ -602,7 +602,7 @@
    {
     "name": "PR Newswire EDA",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "PR Newswire Computer Hardware",
@@ -612,7 +612,7 @@
    {
     "name": "Data Center Dynamics",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "Data Center Knowledge",
@@ -637,7 +637,7 @@
    {
     "name": "SemiWiki",
     "ok": true,
-    "count": 2
+    "count": 4
    },
    {
     "name": "Converge Digest",
@@ -682,17 +682,17 @@
    {
     "name": "Topic: HBM",
     "ok": true,
-    "count": 4
+    "count": 1
    },
    {
     "name": "Topic: advanced packaging",
     "ok": true,
-    "count": 5
+    "count": 1
    },
    {
     "name": "Topic: AI silicon",
     "ok": true,
-    "count": 12
+    "count": 3
    },
    {
     "name": "Topic: foundry / process",
@@ -717,17 +717,17 @@
    {
     "name": "Topic: interconnect fabrics",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: SiC / GaN power",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: chip startup funding",
     "ok": true,
-    "count": 2
+    "count": 1
    },
    {
     "name": "Topic: export controls",
@@ -737,7 +737,7 @@
    {
     "name": "Topic: neocloud / AI compute",
     "ok": true,
-    "count": 4
+    "count": 0
    },
    {
     "name": "Topic: enterprise storage",
@@ -745,7 +745,7 @@
     "count": 0
    }
   ],
-  "candidates": 59,
+  "candidates": 18,
   "kept": 0
  },
  "items": [
@@ -5907,104 +5907,9 @@
    "tag": "fyi",
    "date": "2026-10-19",
    "added_at": "2026-10-19T05:10:44.238300+00:00"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZXR4LTdLOGVrSGJPVlVZb3FNcVlPNFZqQ0c4UVNvNXlfMmZWVTdWUWRvS1Q4MFl0SkdLaVlmX1hQcTR2aGdiOExmaVFFcG5sb2JnT05pcGZYY09hS0FMby1FeFFaSWNWMHJ6N2piRFR0SkVib3g1YWZPQllxNi1OZHFaQmg4N1ZT?oc=5",
-   "title": "NVIDIA and Cisco Introduce New Pluggable Optics Form Factor to Scale AI Factories - semivision",
-   "source": "Topic: co-packaged optics / SiPh",
-   "published": "2026-10-18T12:49:39+00:00",
-   "why": "Nvidia and Cisco are jointly introducing a new pluggable optics form factor targeting AI factory scale-out, signaling a potential industry-standard shift away from existing transceiver formats.",
-   "topic": "optics",
-   "tag": "deep-dive",
-   "date": "2026-10-18",
-   "added_at": "2026-10-18T18:52:20.408887+00:00"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE13VnE1X0N4SktSZm5GSGpRd1VhSDJaSHEyS3R3M0dfVFcyb29mc1NlclI1aF9SbmE2SzhqZmYwTm84ZmtuZFE2U0xhZXd2YWZrVXpnUjlCS3FtRk5xT3dOSi1tVWRzRlhwTmtUMWRvS1NKaUMzSWc?oc=5",
-   "title": "Intel Makes AI Optical Interconnect Push, Claims to Be Sole Volume Producer of 300mm Indium Phosphide Wafers - BigGo Finance",
-   "source": "Topic: co-packaged optics / SiPh",
-   "published": "2026-10-18T18:16:00+00:00",
-   "why": "Intel claims to be the sole volume producer of 300mm InP wafers and is making a direct push into AI optical interconnects, a key supply-chain bottleneck for CPO and LPO deployments.",
-   "topic": "optics",
-   "tag": "deep-dive",
-   "date": "2026-10-18",
-   "added_at": "2026-10-18T18:52:20.408887+00:00"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYW1tRVVVWVR1dzZ0a1oyQWZVZVhyTnZ6aTBpYlhIWjV1UjJVUGNvaTloT3dwZHZhMEY3bzA1emFFaVZ5MmM0OEFFOS1aYmNOY2lvRXlWaDhlZmJDZ1dOT28wVlBtSUJKQWtoaS14ems0dmJqVHpEWTZoNXo1dkMwMFZoZkljRWtIa2I4NlM5R096NlpKd004QnFfLW1nR2lkcHNNd29DeHJKRktyMnoyTg?oc=5",
-   "title": "Option Traders Brace for Volatility Surge as AI Jitters Jolt Market - Bloomberg.com",
-   "source": "Bloomberg (via Google News)",
-   "published": "2026-10-18T14:00:00+00:00",
-   "why": "Reuters reports Samsung will use TSMC logic process technology to manufacture Nvidia's next-generation HBM memory chips, a significant packaging and supply-chain development for HBM4.",
-   "topic": "memory",
-   "tag": "deep-dive",
-   "date": "2026-10-18",
-   "added_at": "2026-10-18T18:52:20.408887+00:00"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPeXVNRmtWTnVYV3hHWUV6UjVadDB6LUc0R1ZCM05FLWxocnFkVnMtczlpQ2FySzI4MWEwV0s2N25PcnpWN0lUTUFJVnlkYnYxVGRVVTdDY2VQWVZwa1NURHNVZVZkSE9CRnZXQzctX19CeXRoVVZiNWkwNHAtaFBSQmJqZllid09scmtnZC1FQVdMbjBTVFZIczlhenRvcHJhUFRtT3RGckpBNW50cVVPYTdGdEc3Y2NoOXZiZjRiUlFGWUFvcklMWFlYRm0zRk41clZENWRBaw?oc=5",
-   "title": "SK Hynix Charts Post-HBM Roadmap While Seoul Selloff Tests Bull Case - ad-hoc-news.de",
-   "source": "Topic: HBM",
-   "published": "2026-10-18T09:10:25+00:00",
-   "why": "SK Hynix is publicly outlining its post-HBM product roadmap, providing rare forward visibility on memory technology direction beyond HBM3E/HBM4.",
-   "topic": "memory",
-   "tag": "digest",
-   "date": "2026-10-18",
-   "added_at": "2026-10-18T18:52:20.408887+00:00"
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVVVydlVtRDNpV0d6X3JIZlJENk5sSzU2YmlWYlBvRFllQTBTRjZEMk9lblVPMno3aG9Jc1NRRFlhQy1IdktiVUUtM1JoWEI1UHVlV1RuaVp6WDBaS01rTktSU0hLZE82RkFPaWI5ekk0TU04RHphakZKbGtmNmVLWFJGRGkxbkNsdFozNXBudC1ObjIxbjNDdUtYSHVVRjdqLUE?oc=5",
-   "title": "Neocloud Shakeout Looms, and Nvidia Has a Lot to Lose - The Information",
-   "source": "Topic: neocloud / AI compute",
-   "published": "2026-10-18T15:30:00+00:00",
-   "why": "The Information's analysis of a looming neocloud shakeout has direct implications for Nvidia GPU demand concentration and datacenter infrastructure investment cycles.",
-   "topic": "ai-infra",
-   "tag": "deep-dive",
-   "date": "2026-10-18",
-   "added_at": "2026-10-18T18:52:20.408887+00:00"
-  },
-  {
-   "url": "https://semiwiki.com/ceo-interviews/373948-ceo-interview-with-dr-raj-talluri-of-kulicke-soffa/",
-   "title": "CEO Interview with Dr. Raj Talluri of Kulicke & Soffa",
-   "source": "SemiWiki",
-   "published": "2026-10-18T13:00:13+00:00",
-   "why": "New K&S CEO Dr. Raj Talluri's first public interview sets strategic direction for a key advanced packaging equipment supplier serving CoWoS and hybrid bonding markets.",
-   "topic": "packaging",
-   "tag": "digest",
-   "date": "2026-10-18",
-   "added_at": "2026-10-18T18:52:20.408887+00:00"
-  },
-  {
-   "url": "https://semiwiki.com/lithography/373583-maskless-euv-lithography-an-alternative-to-e-beam/",
-   "title": "Maskless EUV Lithography: An Alternative to E-Beam",
-   "source": "SemiWiki",
-   "published": "2026-10-18T15:00:21+00:00",
-   "why": "Technical overview of maskless EUV lithography as a potential alternative to e-beam patterning, relevant to next-generation advanced packaging and leading-edge node roadmaps.",
-   "topic": "packaging",
-   "tag": "fyi",
-   "date": "2026-10-18",
-   "added_at": "2026-10-18T18:52:20.408887+00:00"
   }
  ],
  "seen_urls": [
-  "https://www.bloomberg.com/news/videos/2026-10-21/the-close-10-21-2026-video",
-  "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWHNvdmdVTm04ekhWSHp1dmRWT29SYjlCdjBPYWtOYkxSdkRMWE5iV3lCSDJzc3VNZUFxWGZOUVduMS1rZjhldkpaeVJjTUxydnRqZ2dMbUU5bzFZQ1RubjRTX0phaW5KendZZG9hVFpfclJ0bko5bXE3OVU0LXRCdi1vWmVOZW1aTExrSHp0V2FaSEVTVjJtOU9DOW0yRVFvRmZkZzFXVmU4ZWZYdEE?oc=5",
-  "https://news.google.com/rss/articles/CBMixwFBVV95cUxNS3hNUU9fZGR5WUQ1NElPSE9qdjdWSmtWSmVodXRzWENUMzFnVDZVYUlvckprUGFOSXljOE5DSVJOTWw1b1FlTTkwV0NJY0NyWEd5bFdGUDJrZVBqNWNFMHR6TUFMVERfenZyNTgwQmFJSU9OR3dKdl9EY1ZiS2doUlhjbmYyUEI0c2c4NGhQX3VxOHNCQ185V05xdUVkMTQtZVJHbTYybUV1U0NWQmFfZlN6enNtR2poWnpvOFBaQmo1TU9yd0xn?oc=5",
-  "https://www.thelec.net/news/articleView.html?idxno=14814",
-  "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVTB0VFlyTGhWS0NGa0paaVFrT3hGdGZXZzAzMGJtRURFbmNpTEE5OEdQMUpqcEVpLTgwcVNWbG53MkxPblVWMklnbnFkWDBDOUs0SlUxaE9Uc24wTm5zMEE5MWl3alg3REczVHdFbWJiX3ZvRjJZY19rTlJQMnVtWGN4UGxtall0c00xbkI1c1RSWENSNHFQcnlFZDU3RXFIWE5vMWtpak10ZFpONHFnTlR3dDhuRG5xVVVFMkR5a3BCQXd3Y1hiZklZcDliSWRqNlg5N1VNUURPNkXSAeABQVVfeXFMUHctaHFaM1N4TmhmcEZZV2JxM25VWnZSRlZtd2pHdXhhSUxWZ2tSQmdpQ3B1RlRvQkdEekR1Zkg4aFZsSDd2aTU2NmRrLUZkdl9laWM3ckh3c3dqTms1eE9GNVFMdHczYnhqR0NPRENKS1NTWUtlLXlWUFpIOTI5UjdfUnJLZjhjaDEzWEQ1SGZxLS14Nkhoei0ta0t6Tjl2MW9rNks2eXU0bVU1aU1HV01hbVVxTEp0dzlNY2tSMk9LdWR0VWZ4YlNpd3c2TG1hLVozZGE5S2I5UThRbGo4aVM?oc=5",
-  "https://www.lightreading.com/wireless/private-wireless-ran-growth-slows-to-mid-single-digits-in-1h26-dell-oro",
-  "https://nvidianews.nvidia.com/news/openshell-reference-architecture",
-  "https://www.prnewswire.com/news-releases/vertiv-targets-up-to-30-more-cumulative-ai-token-output-in-first-12-months-using-nvidia-dsx-polar-deploys-approach-at-norway-site-302915397.html",
-  "https://www.prnewswire.com/news-releases/getac-integrates-veritone-redact-into-getac-video-suite-302914677.html",
-  "https://www.prnewswire.com/news-releases/hsg-laser-presenta-su-nueva-maquina-insignia-en-euroblech-2026-302915506.html",
-  "https://www.prnewswire.com/news-releases/businesses-face-added-productivity-governance-and-security-challenges-with-disconnected-workplace-technology-according-to-new-ricoh-data-302914797.html",
-  "https://www.datacenterdynamics.com/en/news/sc-capital-partners-invests-in-40mw-data-center-in-pohang-south-korea/",
-  "https://www.semiconductor-digest.com/stmicroelectronics-adds-mastergan7-devices-to-integrated-high-efficiency-power-family/?utm_source=rss&utm_medium=rss&utm_campaign=stmicroelectronics-adds-mastergan7-devices-to-integrated-high-efficiency-power-family",
-  "https://convergedigest.com/supermicro-raises-q1-fy2027-revenue-ai-demand/",
-  "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
-  "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQV1ZGcjJKdU5kQ2ZQNEZtSUdaWlBBVGh3N2RGd3UwdE1DRl94NVFLM0ZnOUM5eEgtNEV2VFA3dWRCMGR5amhlWjV4d05lbEVGdXVpM2FQVzBkZHpUWGtzcktzOXhySFVfenRXdHdCUXpuUHFmWDlIZXhMclpoSXBNdmZzQXFUdHY0a0pVVGt0b09BdXkwYXRNbnZyX01mOTFaMUFiSjFmaUZucUVrSzZXbTBTSEJBZ2pxOFBWZ3N3bnRJbTlzQ1Q4Vkp0UU9GMXl5WUFpQkY0R181NHY3dTBwZVpfN0FOdzViM1oyU2p6bG9GZWtIMU1SSFQ3OXFpcWF4Wm83Zy1hdnp4aEE?oc=5",
-  "https://news.google.com/rss/articles/CBMiekFVX3lxTFA5MENYOVM4QnV0QTU0VGRwNGNzemRKeElIQzFfQnJrZ3BkOGdCZGtlM2dsT1E4WWJqSzMxX2JHcWhMWko4bkYxVXY4aFlsZ3c5M055WWxpUG9LSGo2YlJYOXpyTG9pcVZpZUxBSXJhOW9Cb0E2NEU5aWt3?oc=5",
-  "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQR3E1aDNDQzJlS2RYVzhVODZYc0otQ0dReTM5UzFwTkVpRW1kMXgzVzAtS09kaHpackZuTWhjQnVPSmdQcHdYeWhVdjZUQW02V0VuN1EyYXFMaEFQQ0ZqQlpIa0JtTUJVWk5Gdm5SZ0VlTF94czZrUGVGaW5hSmU2c3BJN1k0d283a2djLVFsOU9USE5vZjJqaDlTNUZ5QkNhY192Z1ZqaVpzN2w2LW8xdnNqM1N0djJyUWI3cVphOTZoN252Z3pSY3ZyWHNmMWYxeG5UeVBmN01RanpXTTZvWWxjVjdvY0RzRTZ1VG5sTmhKblU?oc=5",
   "https://news.google.com/rss/articles/CBMikgFBVV95cUxPN0FMYVdwN2RMUm40U1VHNzl4SnpWM1lNZU5BMlNoMHhBcFZUUXJ2SDVGYUxkRTVldzdaTFJQdWpqLUJGSVZZQ2paOTdaUmU3T3lXUkZkWVd3TUlBQkthLUQ3RklmRDIxVTBlTDNhMlZNWFhXSTBGNENoQnFxM3BPel9kZmlhQlZoRzhfcDQtd1ZlZ9IBlwFBVV95cUxPdGFoeE5SeFRPQWNOR3NZckl6d3A1WW9DeEJPSGpobVpVQ1cxaUphei1qcXRyd1lFMkRDNEI1ODBUVHg2RDFtYWdHSmJzZnViWFVBNzYxYkt6SVU5MUFFa0h1bmlnR1lEVUh6Ymx3RUVGcUp3RU5xa2c3RFB2aTZmTV9PTngtUEhBdmRPTm9PV0h4Q1BvQnA0?oc=5",
   "https://www.tomshardware.com/laptops/gaming-laptops/save-a-massive-usd850-on-lenovos-legion-5i-gaming-laptop-with-this-32-percent-best-buy-discount-featuring-powerful-rtx-5070-graphics-and-a-3k-display-with-a-240hz-refresh-rate",
   "https://arxiv.org/abs/2610.28494",
@@ -8986,6 +8891,24 @@
   "https://www.tomshardware.com/tech-industry/space/voyager-1-probe-to-hit-historic-one-light-day-distance-from-earth-in-17-days-49-year-old-spacecraft-travels-16-billion-miles-and-survives-nearly-ten-times-the-length-of-its-original-five-year-mission",
   "https://news.google.com/rss/articles/CBMiekFVX3lxTE50ZU1YaF9adDNGQ2xNOF94bnJ6d3BtNkRMLVpLOWtFZlRPSE5EVXZZQ19MOEVORmtTSGEwaktVb2pWSEhMdDUtSllpOU5UVkFvVEJidWZLbTBwSWtBeVBXdEsxbFBuMTM4czMydlFHdGlxTXZSeEN5M19B0gGOAUFVX3lxTFBuSy1rbWZrcWJDQ1FBWFN0WkQxd0MwRXlpb3k3a2M3Wlo0TkVNeHNxRld4THdBYnAwSENNQ3M3ZHNEMjhJQkltaWNXdW1wbEtLV0FabzVxSDNQZV95NXJncUlaUHl4eHhraU9KYzNreHdfVTRGbklSeTY1SGVyeWJLN1g2SDc3MDIwMTRmWWc?oc=5",
   "https://www.tomshardware.com/tech-industry/space/usaf-successfully-tests-dropping-spacex-starfall-cargo-drop-pods-from-space-2-200-pound-capsule-drops-military-supplies-in-the-pacific-to-test-starcraft-like-supply-drops",
-  "https://www.tomshardware.com/tech-industry/drones/college-student-unofficially-breaks-world-record-for-fastest-jet-powered-drone-with-491-mph-aircraft-built-in-his-dorm-reaper-aims-to-grab-the-usd800-000-boom-prize"
+  "https://www.tomshardware.com/tech-industry/drones/college-student-unofficially-breaks-world-record-for-fastest-jet-powered-drone-with-491-mph-aircraft-built-in-his-dorm-reaper-aims-to-grab-the-usd800-000-boom-prize",
+  "https://www.tomshardware.com/video-games/gog-explores-reviving-physical-pc-game-releases-digital-storefront-needs-publisher-approvals-has-to-figure-out-the-logistics-and-legal-challenges",
+  "https://spectrum.ieee.org/ai-slop-trust-science",
+  "https://www.thelec.net/news/articleView.html?idxno=15150",
+  "https://semiwiki.com/ceo-interviews/375564-ceo-interview-with-vera-yang-of-flexcompute/",
+  "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSWpYNG9OYkRWREdwSDdUSXVRYXA5Q0xjc1NoQnpUVGhCWXB0S0tvUGdQOWU4b2kzR0NaN3RrVDNrMzVMdFV0a2lueFFfcHdUc0tyYUgzaVZUbnFiX0tPQ1EwMDZEVS1SWnJNYlFYUV81dDlzMUJPbU51OFFIaGVjTlNYVmo4SUx3TUE?oc=5",
+  "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbURtSVplVXEzSkRCT1VONUNGSmQzOVYwcm5DaGNTNldINnZXYU9nbEdWZnY2UUdPUFlPaW00Y0psR20xUlVKVEVHS203X1FSNGc0dmVmUDI2RGtJcXVabXdSbHRlQWRpSGdmTVktQjVOejFHdHVNRzVXSEhvOHd6a2JKS0UxUlJjR0FCbUVfc1l1bXVfb0c3a2Y1dmM?oc=5",
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxOanAzRWhxb3l1WGZuZE5yYXRlS3dzcWRpcm5pT1JPSjhPMDVaNW9pR3IzR1h6OFdMMEZkdzRfQUhqZWRJQlR5b05LRkNuWGhaMVh5OVk3MnYxU2VEdlB6LWw4by1iMTN4akJMWm8zTy01bTAwSURMWkxyd0dVckhwWlRLOUxoOU55Wm4tVnQ1RU1GWmRWdUc4T0Jn?oc=5",
+  "https://news.google.com/rss/articles/CBMiWkFVX3lxTE05Rk1SOTdvclJKbVlTeFVTcFZ5aWx2cmZjdm5DS0JNMVBVUWlHOWVfRFBaM2J4TXFuNGQ0R2l6b3lvaEVGTUp4TkZ0TUlnODdrSldBSzRpZ3RLdw?oc=5",
+  "https://www.tomshardware.com/pc-components/snag-a-nintendo-switch-2-for-only-usd469-while-stock-lasts-usd30-off-a-system-thats-not-often-on-sale",
+  "https://www.thelec.net/news/articleView.html?idxno=15151",
+  "https://semiwiki.com/semiconductor-manufacturers/375803-high-nas-obituary-was-premature/",
+  "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcGpIa183WFUycjVSNURMOXNjdUpMb3Q5Q25mMEhxNnFrN3E2ZGdENG9FNXpOU0lleVc3Z2FXQ2FuNURNQUlGdWNSeENrSVlBM2MxZndYNzZIYWw1Rm5vd1JkcElyMVQzcVlaTjIyLVdybzAwWXdtYVdKelphemI3dHYtdndFcFNVdjdmNjN5WFFkN0kwZURvUXU1dThGR2JjdUdLdTRRMFVVVUc1dEtKNHNtUS1oUQ?oc=5",
+  "https://www.tomshardware.com/desktops/gaming-pcs/lucky-pc-buyer-gets-usd1-200-discount-on-9900x3d-gaming-pc-walmart-honors-usd1-099-shelf-price-on-usd2-299-unit",
+  "https://www.thelec.net/news/articleView.html?idxno=15152",
+  "https://semiwiki.com/ceo-interviews/375343-ceo-interview-with-andrew-seddon-of-circuithub/",
+  "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdFZWaVlhdVlnUUJIRnhjWkR2eHNxaTJ4enNEZjNXajZlYXhWbUJvTHdham01eWk0T3ExREx0N1N0SVJpSkZLUXZXTGVjcWtZR0hlVlFGZkVDbzJPa1ZzYU5SbDBiRV9XVUl4UDA1RE9mLURZbE9QNUhfQ0FEYXh2bnNKdGxUNTdsY05FVFN3aG5Gcm9KUC1OYlRwRk9fSUF6cDBvcmNhbw?oc=5",
+  "https://www.thelec.net/news/articleView.html?idxno=15153",
+  "https://semiwiki.com/general/374750-the-compass-finding-tomorrow-in-the-minds-of-yesterday/"
  ]
 }
