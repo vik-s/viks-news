@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-01T06:42:04.802349+00:00",
+  "generated_at": "2026-11-01T15:26:26.036810+00:00",
   "model": "claude-sonnet-4-6",
   "backend": "openrouter",
   "sources": [
@@ -12,7 +12,7 @@
    {
     "name": "ServeTheHome",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "The Next Platform",
@@ -27,12 +27,12 @@
    {
     "name": "EE Times",
     "ok": true,
-    "count": 0
+    "count": 2
    },
    {
     "name": "Tom's Hardware",
     "ok": true,
-    "count": 0
+    "count": 14
    },
    {
     "name": "IEEE Spectrum",
@@ -57,32 +57,32 @@
    {
     "name": "Bloomberg Tech",
     "ok": true,
-    "count": 2
+    "count": 1
    },
    {
     "name": "Bloomberg (via Google News)",
     "ok": true,
-    "count": 3
+    "count": 0
    },
    {
     "name": "Reuters (via Google News)",
     "ok": true,
-    "count": 2
+    "count": 1
    },
    {
     "name": "The Elec",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "Korea (Herald / Times / Chosun)",
     "ok": true,
-    "count": 7
+    "count": 4
    },
    {
     "name": "SCMP Tech",
     "ok": true,
-    "count": 1
+    "count": 2
    },
    {
     "name": "EE News Europe",
@@ -602,17 +602,17 @@
    {
     "name": "PR Newswire EDA",
     "ok": true,
-    "count": 0
+    "count": 2
    },
    {
     "name": "PR Newswire Computer Hardware",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Data Center Dynamics",
     "ok": true,
-    "count": 0
+    "count": 2
    },
    {
     "name": "Data Center Knowledge",
@@ -637,7 +637,7 @@
    {
     "name": "SemiWiki",
     "ok": true,
-    "count": 0
+    "count": 2
    },
    {
     "name": "Converge Digest",
@@ -672,7 +672,7 @@
    {
     "name": "Topic: co-packaged optics / SiPh",
     "ok": true,
-    "count": 2
+    "count": 0
    },
    {
     "name": "Topic: optical transceivers",
@@ -682,17 +682,17 @@
    {
     "name": "Topic: HBM",
     "ok": true,
-    "count": 3
+    "count": 4
    },
    {
     "name": "Topic: advanced packaging",
     "ok": true,
-    "count": 1
+    "count": 5
    },
    {
     "name": "Topic: AI silicon",
     "ok": true,
-    "count": 5
+    "count": 12
    },
    {
     "name": "Topic: foundry / process",
@@ -702,7 +702,7 @@
    {
     "name": "Topic: semicap",
     "ok": true,
-    "count": 1
+    "count": 0
    },
    {
     "name": "Topic: datacenter power",
@@ -717,17 +717,17 @@
    {
     "name": "Topic: interconnect fabrics",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: SiC / GaN power",
     "ok": true,
-    "count": 0
+    "count": 1
    },
    {
     "name": "Topic: chip startup funding",
     "ok": true,
-    "count": 0
+    "count": 2
    },
    {
     "name": "Topic: export controls",
@@ -737,7 +737,7 @@
    {
     "name": "Topic: neocloud / AI compute",
     "ok": true,
-    "count": 2
+    "count": 4
    },
    {
     "name": "Topic: enterprise storage",
@@ -745,8 +745,8 @@
     "count": 0
    }
   ],
-  "candidates": 33,
-  "kept": 8
+  "candidates": 59,
+  "kept": 0
  },
  "items": [
   {
@@ -5984,97 +5984,9 @@
    "tag": "fyi",
    "date": "2026-10-18",
    "added_at": "2026-10-18T18:52:20.408887+00:00"
-  },
-  {
-   "url": "https://www.prnewswire.com/news-releases/linktel-technologies-highlights-breakthrough-1-6t-lpo-performance--strong-market-pull-at-ocp-2026--302911973.html",
-   "title": "Linktel Technologies Highlights Breakthrough 1.6T LPO Performance &amp; Strong Market Pull at OCP 2026",
-   "source": "PR Newswire Electronic Components",
-   "published": "2026-10-18T11:53:00+00:00",
-   "why": "Linktel showcased 1.6T LPO transceivers at OCP 2026, providing a primary-source data point on LPO performance and market traction at the key industry event.",
-   "topic": "optics",
-   "tag": "digest",
-   "date": "2026-10-18",
-   "added_at": "2026-10-18T12:48:21.864034+00:00"
-  },
-  {
-   "url": "https://www.tomshardware.com/tech-industry/data-centers/300-plus-local-data-center-bans-have-only-delayed-just-three-us-projects-bans-much-more-bark-than-bite-only-2-3-gigawatts-of-data-centers-are-held-up-versus-38-gigawatts-expected-online-in-2027",
-   "title": "300-plus local data center bans have only delayed just three US projects",
-   "source": "Tom's Hardware",
-   "published": "2026-10-18T11:45:00+00:00",
-   "why": "SemiAnalysis data showing 300+ local bans delayed only 3 projects and 2\u20133 GW vs. 38 GW expected online in 2027 quantifies that permitting risk to US datacenter build-out is lower than headlines suggest.",
-   "topic": "ai-infra",
-   "tag": "digest",
-   "date": "2026-10-18",
-   "added_at": "2026-10-18T12:48:21.864034+00:00"
-  },
-  {
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/microsoft-scraps-uk-data-center-deal-with-nscale-telegraph-says",
-   "title": "Microsoft Scraps UK Data Center Deal With Nscale, Telegraph Says",
-   "source": "Bloomberg Tech",
-   "published": "2026-10-18T08:31:10+00:00",
-   "why": "Microsoft pulling out of a UK datacenter deal with neocloud Nscale at IPO-critical timing is a primary business signal on hyperscaler-neocloud contracting risk.",
-   "topic": "ai-infra",
-   "tag": "fyi",
-   "date": "2026-10-18",
-   "added_at": "2026-10-18T12:48:21.864034+00:00"
   }
  ],
  "seen_urls": [
-  "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd1B1bUZjZ09QOC1FaEFmZVZkMWpPT1ZINU5VVnl4RUZUc3VFWDE3UFFWeXNpZ3pBSEFwYVlObjJkd2dOVFgwbXVqSzVLb3ZHWVVBbERZX0V4ZWRNTTI4c19RUHFZbmdHMkt5QjJVVkptaXN4TDYzc2tFdjdqTU8wbnlQT1BsOVdwNnQ1aEE4YXFSa0FSZDRBS0NKZ2NURS1ON0dxUWZicDJSeWdaRXFPMmNhQVI3QzhlMW5SeWdR?oc=5",
-  "https://www.thelec.net/news/articleView.html?idxno=14802",
-  "https://www.tomshardware.com/pc-components/dram/samsung-and-sk-hynix-are-upgrading-chinese-factories-to-produce-advanced-ram-chips-as-ai-data-center-competition-ramps-up-big-players-move-to-fight-off-the-threat-from-cxmt-and-co",
-  "https://arxiv.org/abs/2610.27639",
-  "https://www.bloomberg.com/news/videos/2026-10-21/meta-offers-zuckerberg-new-shares-to-shield-him-from-wealth-tax",
-  "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcWw2TXFoSmlmM18yRERkMXpHSGdDN0lWbzl1ZGVNczh4aUYxU1JmZkJualZKREM2Q3JmcjFtWE50a0JUR283UU5XdFk0d1UwSGh0QzdDM3puaU51MjlQM2k1dVdUSVBpZnVOTWI1SWg4eUN0OU5SY0ZfT2ljT0JOemxvd0JDb2tlY2lYWEZFT2VNZ1lka3RIbklORkgwUWJLMzE1XzNUQ0VReEtTaTl5U0Ezcw?oc=5",
-  "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRFhacjJyXzZ6ZzNUdkptUDkwRHFyV2pxSXhOc2JucmxQdDJFQ09WZ05DamcxS1NvNUx1b0cyR05DM1U3SzgwdXpvQlhaajl2dHNlVTVlYml2LVhLVENGaWtDbkdMWjFNVkdPMDRTWWFubXJsYkFZQ19peDBLMUI2cXF4cU1hN2lrU2FuZi1wSTRndFU?oc=5",
-  "https://www.thelec.net/news/articleView.html?idxno=14815",
-  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVkdPNDQ1d3JWSU9lQTc0TzFfbjR4TFdEVjc4MDdCem84QWlnX0d2WG9FYjBvNVlIdUZma3p4RXVFUlVDcU9TLXNxY09mSWVDSTdKN3ZGLXJybTd2eWFReV8tNFJTajNVLVBXRlM2RWJPTzlaUzFMTFZDS3hYOVgyYkdWeXRwd0FpT0MwNXN5NHExUTVNZXlZUnkxaGtpYmNQZkJscElhTlNUUdIBrwFBVV95cUxNcnU4cHZrRVdpUkVSRHQ3eDFZdk94T2loNU5ZTHl5bkNsQUlsVF9fbk5rWmVtQkQwSEJKcl9MWDJhWmw4WHJUTTVDZWtSR3MyQUdUX1lkMTZ1RGNPa2s5VFl4bXFMUVk3SFRiV0V0S1duS2taMTdMQmdIN3prcjdFeXlfdkhxS3RwR1FqZWRaWFlRWjE2dkVyNzRxWmp5NFNRaEVraTZvZFhFcXdXMXlZ?oc=5",
-  "https://www.scmp.com/news/world/article/3371694/websites-go-dark-worldwide-ai-exposes-critical-security-flaws",
-  "https://www.lightreading.com/5g/why-vmo2-isn-t-afraid-of-vodafonethree-s-monster-5g-footprint",
-  "https://nvidianews.nvidia.com/news/healthcare-and-life-sciences-leaders-build-on-nvidia-to-advance-drug-discovery-and-expand-patient-care",
-  "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
-  "https://www.prnewswire.com/news-releases/hyundai-mobis-accelerates-full-cycle-collaboration-as-a-k-automotive-semiconductor-korea-one-team-302915356.html",
-  "https://www.prnewswire.com/news-releases/rs-enables-next-generation-ai-data-centers-with-omron-automations-industrial-control-panel-products-302915406.html",
-  "https://www.prnewswire.com/news-releases/forge-fest-iautomation-to-host-open-house-at-franklin-ma-facility-302915981.html",
-  "https://www.prnewswire.com/news-releases/rision-launches-torix-a-standalone-handheld-thermal-camera-bringing-professional-inspection-detail-302915595.html",
-  "https://www.datacenterdynamics.com/en/news/russian-forces-destroy-gigacenter-data-center-in-kyiv-ukraine/",
-  "https://www.semiconductor-digest.com/navitas-unveils-next-generation-ultra-high-voltage-sic-power-module/?utm_source=rss&utm_medium=rss&utm_campaign=navitas-unveils-next-generation-ultra-high-voltage-sic-power-module",
-  "https://convergedigest.com/att-lowers-capital-investment-outlook-fiber-q3-2026/",
-  "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
-  "https://news.google.com/rss/articles/CBMidkFVX3lxTE04RVFaOXEtekc3UWRWSkhmSGlaT0pIcnloTlltVVJURnliWXlxTFBkZXhFQU4wSWxLQVIySU9IZGVmTHNHMkVaLXJXMmxDanZWTVBZdURpZXlHcXhKZjRER3JQN1pPTi1SeDREQVBFZWt1dzBaNlE?oc=5",
-  "https://news.google.com/rss/articles/CBMizwFBVV95cUxPN1o5dUdrMGJtaGg5LWZ1WFZWZFBSdG03Qzl6Nnk4NHNBX0owQk5JZGptWWFCQnRaZ1NXVlRySVZfU3RfQm1RMWlGWFp0YnE1U2s2QXQwQWVyUFAwTjJYbUEzMW1xVjJkQTYxbjZOMlZYMU9TSDdVZVk2R2tKOUJGQkFrSTFDMjJ1ZTJ4dXFTSHNqS3ZqaWZOVEVZaU95R01xNV85QzJlU3BwUGtwNEJjdndmbGpOSEc2Tm10eEp4ZEJiRFBpUEVWRmVMRlhEZTQ?oc=5",
-  "https://news.google.com/rss/articles/CBMidkFVX3lxTE03UXJNdExMTDd3Tk5jeEJRLVVUQlA3eE9oakxvUFRka1E4YW1nYjRkdER2R1AtT1IydWRIUy1xWGZNYlhoNkFSS0NYR01lWFZaTUVScGVwdE9XRWxwLWpJbE5uRGVVbDBfVHFkRHVTWTN3YnZ1cmc?oc=5",
-  "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOHYwaTQzalVCRjdqMDJ1cy11cldNWC02S2JpcXE3Q2phTFdQeENYZWw2NzlJYUROQVFrRzVYVVoyZUVYdDZnV0Y1c1FIUEw0MUQteGowLXJDaWtJb1VvSHBOSFBQTkE3Q0lzWHpaSU1mWXFOSmZ3S09YTU1RY1lzYlVLcmFCRjAycVFJMVQwdVJiX25zc1JfZG1UNjZxVTc1SUE?oc=5",
-  "https://news.google.com/rss/articles/CBMixgFBVV95cUxQXzB4VmtKZDVablJSUTdVTzRsendsMG5EcGlMaGlkNm12YzNXc2N5UTBGci1reDViQ0g3WEJleDNwS2prZmFGR09Ea2gzX1RYSEkxc1VIOGFkZFBJVFVmLVB6N1pLd0xFdi0wZGNzN0NZVmoxSEF0c0RleDMwWGpEOFhmWUtQRUR3ei01MEJHREV6Vkk0bzg0UWhWQy1UZFp5ZWJldTZYNzFyRmJRaFpuTzJPWUFCeWZrdmZ1akNGMUlHRU45TlE?oc=5",
-  "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNaFVtRXJiRElhQ1N4TVZUUWlrUHNNbzJVaDBGaEVodGlQcHhic2h1eUN5RHZEb1lYWFp1S3FVUzhSbDNsTkRjRkcwT2RXQkNHWVE0bUhES1RWOF80MWNqYkt2MWZNdUEwbDNJbXI4dTVoN2JvdGt6MTZ2bE9ScWQ2NGhQU0xHRWxJdDg2OEI4TzBvS1YwWll5MkV3OEd0ZmluZlZSbFJNc3BMMlBNWVBiLVZqZzR2UUtlUlBSeWduZERRVGIyN0Y3UDlBM2VoMVdXOVREVmg2c0UwZG1VOTFBdlRmNXo?oc=5",
-  "https://news.google.com/rss/articles/CBMipgFBVV95cUxNamU1ZlprUlk4bkVmTVh2dVlSSllWUWtuM3hueW04Z3hvd3dESWFtcDNwR3dDcENNQXp6b2o0WGp0X3d3aEJiTEVLTGhhT0diOHhUWGNBem8zZ2JHcWJJRHNVci1VQTd1bHQ3a1lCSFpBSHFHTkhMUnpZT1lRVmNacWJVbmdHZl84TlhZRGZxcUlvbFZzZEJGR0dObXdCalVsYUU5S2RB?oc=5",
-  "https://news.google.com/rss/articles/CBMiswFBVV95cUxPXzVHdjdKQ0VrdjJPZU9UVXJmRU4wUDQtZXRjMnR3LUZPT3JWaUpyNkMwYkJ0MU5peDliclZ1dFlxeXp5Qi1IakxIZlRPQXQtNUpPY0tXd09ra0xORU1CNUpsN25MNDMxS1E5UlhhZlBtNWRVSDVTWjJaSXhSQ3dTamp3OWJkcmFXeHRBek5XMHczRThldWNYc1R6Y3ZBM1A4WDFhSThEeGVELWxIRlp2MG9xbw?oc=5",
-  "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVTViejdvQnF3OFMzSll6dndxODVQM0t1SUgydWpCZDRpMXB3Q3lTa2FHalZDM2FJSHhIYnRYV2d2UktSaUZ5R0lFUl9leFhtaUFyMlZnS2tXRlM2bnNTY0NKbzlJaEltdW1PVmJ1VXQ5RXhnME1VYzlkTzhPSUJrVDBjZTEtd1NmQVp6SGVta2tDMFJzSmt4TmdB?oc=5",
-  "https://www.tomshardware.com/peripherals/headphones-headsets/why-you-dont-need-an-audiophile-headset-for-gaming-comfort-convenience-and-a-good-mic-win-over-pure-audio-fidelity",
-  "https://arxiv.org/abs/2610.27792",
-  "https://www.bloomberg.com/news/articles/2026-10-21/comcast-planning-significant-jobs-cuts-as-part-of-reorganization",
-  "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY2tqVW5kZ3c4OEhReHAxR3M5a3NXZnVyTTM3LTdsZjduQnJmZHZkNkNsVk1COWU1Ri1UVF90TE5xR2MwbkpiX1dHU0locHh5TGQwMGFucy1xQ05WNndXRHJHdEwyc0s3NE1WaHdMaXpjbC1keEluc2s4UnRQMzQ2S2ZHeTNMYk9TOV80VmFJT0RHUF9LUTZZRV82SENHZGs3ZkZNTzJZVHNnWjIyZWo0cA?oc=5",
-  "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRFFieGdGQjNVTEpWeTlmUG5ZOW5rRjgwSmpnV1RWdTUzRG5fZW1BQmxBdElRdEtfOVYzcWlaMjR1SGJqZWdPR200RzJuV2JZajJMYmhiSmh4VFdYVjdLQXNxRWo1ZEprRWpKQW1vQkhoMm5jT1RKNzJVczV4aUxHdDNWQ0JoSXVOYzN0WDhFMmh4cjg5RWNmZFhtaHlQTlJ0NmVnRlNpQjg?oc=5",
-  "https://www.thelec.net/news/articleView.html?idxno=14816",
-  "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbEFsREpNclhfYmFNTl9SdzdTckxUVUVJbXM1OXRiRmNkM2pmREdtOTR2c29LR2hsTnpxbFIzNXU2SlVOR1NCQXNpdnJOanhxUmo3a2RWLTFIUENhaDZNN2pPS3VrSTR3UUN1QlE4aXIxZ1A2QTVVM1BYOGRYZV96N0RXNEJrdnROOFdkV2xOVjMzNWdkQUV1Wl9QajZfOXRVOHd3YmttaTVtUV9TeVd5TXNPcjRzcHB1UnpvV1dnaG1uWG8yUTF5NXVEcVM0cTVPZjBrWWQyWUJrdFXSAeABQVVfeXFMT3NLaFFZZkdZWTZydXlzQUJiUzNuMWtxWXRISEpXdm9FYVlqaVRrZzg4bmo0dUhKbmVPc3ZuUUhfOVdwcWRfMkRNeHoxemFCMDF3SFNzN3lxNG5JejBlcWxSR01MSVB6SEc5NHQ0clZaS2ljMzBqV002d01Md3IwSXZxTGU5czBnc3NFb3NVN1ktWUhRMjlsY0ZOc1IwV1AxVjZ5SjVrOUZ0MkRFSFJjZHV4R2VveGhGWnN0NFVFbE1iTnF4YkE0NkY4d3ROV3JWdjZKTnlQcTd2TTR0emppV3g?oc=5",
-  "https://www.lightreading.com/security/toshiba-targets-scalability-with-new-quantum-safe-network-platform",
-  "https://nvidianews.nvidia.com/news/nvidia-nokia-and-leading-telecom-operators-turn-networks-into-distributed-intelligence-platforms",
-  "https://www.prnewswire.com/news-releases/axcelis-announces-timing-and-availability-of-third-quarter-2026-results-and-conference-call-302914875.html",
-  "https://www.prnewswire.com/news-releases/admoveo-systems-expands-school-wifi-pa-speaker-lineup-with-lcd-messaging-302915449.html",
-  "https://www.prnewswire.com/news-releases/hsg-laser-devoile-sa-nouvelle-machine-phare-a-leuroblech-2026-un-atout-majeur-pour-la-productivite-des-fabricants-europeens-302915664.html",
-  "https://www.datacenterdynamics.com/en/news/vantage-signs-1gw-solid-state-transformer-supply-deal-with-heron-power/",
-  "https://www.semiconductor-digest.com/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout/?utm_source=rss&utm_medium=rss&utm_campaign=nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
-  "https://convergedigest.com/nvidia-15x-cpo-optical-engine-capacity-spil/",
-  "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
-  "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQY2VXbUk4NzBqNGVKT3kyd2kzblhJNmd0ZUg1dmIzMG9mMFQycmliVkkwMmRCal9RV3V4U1o4anZNa0NHUjlqQmJLcnFvWjVQdENJQXZ4ZkRYYkZ3TVJqVTlsR2Z6NzJrRFQ0ZERvU19EVnl2Y2dZYzY0eWQ5SWctUi11bmM0bGdz?oc=5",
-  "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPMVlha2dBLWx1UWFFaGlxSW9GVl9hRkdmbHFtUGJCSnBSd2lraEh1UWU1eUJfX0tsUWY5WHR3eG9uT3RtcGdFeU1zbVE1Sl9yWkpwNW5tX3ZDQXF6aDRUbUNueVAzck83Xy0xcXlKV2FCRm4xdk01emh3YnZ1Q25aUGdnTWl6VjhQaGdvRzgzc0ZUOER0WVhLX19FaENDLTNhamQ2SUhsSHQ1dng1VUE1WlJCMGFmbzVnZFdncEtTdXNubXdVSGlXSmNOTHNoODJTMjhJcFVSeF9IRHdFOGE4anNiYk1sSVplUFNfcEhR?oc=5",
-  "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhVWlfX1lQb2RJbEwxQ01mNmpmZTMzT3JoTFh4U09iZnl1WWVGVWp0cU9VNmRfLWZPdFJmVWd1ZmxCTkR1V2NTeEY1aGRHd05KZGdWbzZWd2kyYzFBb2tuNWVyRzNpaG8tT0Nidkg2dDEtT0dDekE?oc=5",
-  "https://news.google.com/rss/articles/CBMifkFVX3lxTE1PSXRlTzI2eE52Q3c0bHhMUzdZWFJLb1YtWFlzcUtndzlGR2xidXh0VkZralpZZ1poSTJQS21SSndBN2hLc1MtT2lXSHM5dVhzV3B4ZmdCQVNoeVF6RUEyUkNLRTExdWczQVQ1UFItTWk2X2xUTW5FdGg5NGMtdw?oc=5",
-  "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQN0FpVUVWSnA4X3Jnd0poVUJPMl9MeTB0aXM5d3VZbGJJejZKSW9TRmphQzE5RTFwVDRPUWpRQTluMFRrT3FrLTMtd0xDMEpnU2NnRzhXUTc1MkUxWkVEbFlrTmszOElUT1k5dVhmb1pheVVDVDgzVmVscndjODBDNEk4NWRncnBaTnpLN0RrbGNMeVlLQ2VHVHJraHd2OTBxV3IxVDF6ZFpzN1dkWWN2YVdKcGVlSzlBNnhV?oc=5",
-  "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYWVtN1R2QzkzV0dBV0ZneGpObFBKVTB4N2F3WmhmaWhVNTE0M0Z6a0txeU1sQi14RlVRRmlzNzRXcE40UktyTUwwMXlPMmVDbVJhTlVidVNId3otczR0S0lGTm80RTBZcmtncEZNd1Z2cFZ6TkJscmtfZi1fYTFVRVAwX0cxVUhlVUxMODRqdjNvTmhxX0NjWHhsYjVYYmx1N2ZGczVzSG91aklxaExpejB4VU8?oc=5",
-  "https://news.google.com/rss/articles/CBMipwFBVV95cUxOU2NuZmdsV3VxbkFWNHppNjRaUlpLUjBBUm5zWDZiR3dkdEZHQTZqSUtvcXFZVW55SUQzcWdnNFFteF9sQlNzd2VxdVdLNmJteTY0RkxmX1RJSE51YWJ0S01WT2dGMHpELTZscnc1ZEp3SWt6eTd0b3JVdmNkVnBmNWFrSnZYbE1WS3p6Uk5SX1BmeDJrcjBwT0RMNkZvOHAxa3IyS0R0aw?oc=5",
-  "https://www.tomshardware.com/pc-components/dram/microns-taiwan-union-will-launch-a-one-day-strike-this-week-threatening-round-the-clock-fab-operations-workers-demand-concrete-terms-for-2026-bonus-and-clearer-profit-sharing-arrangements",
-  "https://arxiv.org/abs/2610.28485",
   "https://www.bloomberg.com/news/videos/2026-10-21/the-close-10-21-2026-video",
   "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWHNvdmdVTm04ekhWSHp1dmRWT29SYjlCdjBPYWtOYkxSdkRMWE5iV3lCSDJzc3VNZUFxWGZOUVduMS1rZjhldkpaeVJjTUxydnRqZ2dMbUU5bzFZQ1RubjRTX0phaW5KendZZG9hVFpfclJ0bko5bXE3OVU0LXRCdi1vWmVOZW1aTExrSHp0V2FaSEVTVjJtOU9DOW0yRVFvRmZkZzFXVmU4ZWZYdEE?oc=5",
   "https://news.google.com/rss/articles/CBMixwFBVV95cUxNS3hNUU9fZGR5WUQ1NElPSE9qdjdWSmtWSmVodXRzWENUMzFnVDZVYUlvckprUGFOSXljOE5DSVJOTWw1b1FlTTkwV0NJY0NyWEd5bFdGUDJrZVBqNWNFMHR6TUFMVERfenZyNTgwQmFJSU9OR3dKdl9EY1ZiS2doUlhjbmYyUEI0c2c4NGhQX3VxOHNCQ185V05xdUVkMTQtZVJHbTYybUV1U0NWQmFfZlN6enNtR2poWnpvOFBaQmo1TU9yd0xn?oc=5",
@@ -9019,6 +8931,61 @@
   "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB4R2oxNUlxRTExZnVpTUp2ZktoWE91MW9PU1VKRnJ6NC1mSnlhOXdhWVdacmFJeDA5c2c4S0ctajd1d20ybzBTaVBOTW1kamVwYmU4eFg4OA?oc=5",
   "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMWFoTXU2cGN6YmxFRzhid05iQk16RFJBVHp5US1wV1drM0VwNl94VkxLRC14TndaYkxtNWdJdEluZGtIVVR3aEhuNU9mQnpGWWdXS3Fkb0hMZ3lETU9KM1Vaa2dGdVFPQTgzUlhrNXJFWjlpT3lMaHJpNnVsaVg2Y2xCVHNscjAxSVltekpwWDRLZw?oc=5",
   "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRmpvSjB5RjhyV2ljUFpQQWk4aFRmdmRpYkhaaXNwRXladDQ3aHMzcnR4eTZjcExSN2N4SWxvbmVqRl9WWkkwTXNOOTB1QmhxTWpJc1pNZEFYN3ZteE1mYTZobVpNWldBSG9ZWHkyZnAxNXYzd0VEVnV1VUE2d2ZtYkU1S2NTNXJqV05iZ2w3MDBja0N2eGd2eU9qUlRMVHpDWGxMRk84MkFLcjA4SHfSAbMBQVVfeXFMTXhiTnh5S3g0Vkwwb2hKVk1BeDI4cjNjdEIwVURzeS00Y3RZUmlzLXN4UFRraHFld0tQVDV5VjhGMWJqeThMMGJ3b011MnhETHhlZGJuSDEyOGJScU0xOFllVGtSUnBWSWVSNkZEckdvU2V1Q2JKd0JudkJ2WXhhTFhlZXRUOEJtZm1qTS14SnR2U2N4UlJFb1MxeGhVRUpaam80QVlxd09hQk1YSFNPOW1JQms?oc=5",
-  "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBVdHBKVEhQcUoxYTNaV1dzcDdKekl5aFh4OVlkaVNpeVIxMmVKRWktX0lPT1BQNm4yMkdUTXcwOVVFU052RXhWa0s0SGU4b2lqeVMxYkRrbw?oc=5"
+  "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBVdHBKVEhQcUoxYTNaV1dzcDdKekl5aFh4OVlkaVNpeVIxMmVKRWktX0lPT1BQNm4yMkdUTXcwOVVFU052RXhWa0s0SGU4b2lqeVMxYkRrbw?oc=5",
+  "https://www.eetimes.com/designing-for-the-long-haul-building-obsolescence-resilient-product-lifecycles/",
+  "https://www.tomshardware.com/tech-industry/artificial-intelligence/brazilian-lawyers-busted-for-attempting-to-manipulate-courts-ai-with-prompt-injection-hidden-in-filing-courts-ai-flags-hidden-text-that-demanded-superficial-legal-scrutiny-lawyers-fined-usd16-000",
+  "https://www.bloomberg.com/news/newsletters/2026-11-01/apple-touch-screen-macbook-pro-impressions-software-division-gaming-shake-up",
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxQV05QRmVQbjJDUTZkNzRFaTA5VVp5RE9Bd2ctMkxITEVaZnNLZVVzdkx5aHBUUFZYOTJCb19YRFJRM2I1RW5QS0JJUmowaUtsVjlnaTExaWJDM2NsLVJINlJQZ0JHdlUyb05LS0kyRGdRMHlyVWdYRHFJOTNlbFRZc0plbkc2SE1nOHB1SklPVVNUVnhFY3lYdWtR?oc=5",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNlNLZy13bGJmVzNFUlpESUVmM0VVN3NOdEk1ZXBTMDFtMG1DTTlkRGhKWTA4QzFFeEVJRFhnMmlvb1p2aVk0TTRuZGlZTTJ3dkFDdFRiTlZwNG1IczhpY1B6UXdvanl1MXloald1Q1RyYXNFc0MyUjdJX2hSckdyZF8xdF8yTHh6VXBfNzhOYmthVTFqeEQ4SUxscnBZRFRuNk5QMDRBcWVISkZmRnFYNDVGd9IBuAFBVV95cUxNQ3YtZlpxcWFsczNzWkVnMWFPTjhxLUNmVzVhVlpLMGtIUTlrZWxKWEZLQ3FPVDkyMG93RmRPbmNoVXAxNkFXRmtDbldpcVJ3cjBOSlItdDlXcUJockZvVGRrbjM2S0hJR0VfYW5qYXBUNjdkSkhuS2ZjbGNRNFU0OFR2MkY1dFlVbjFWWDJhMG5UWjRsTnFodF93Sm5RLTNGMFA1LXNKNlN6WWtzVmVOTTZ1VTdVT0Jp?oc=5",
+  "https://www.scmp.com/tech/tech-trends/article/3372834/self-improving-ai-key-step-towards-agi-safety-key-zai-founder",
+  "https://www.prnewswire.com/news-releases/gac-remporte-huit-prix-dont-quatre-premiers-prix-pour-ses-capacites-dinnovation-technologique-302925723.html",
+  "https://www.datacenterdynamics.com/en/opinions/what-could-1000x-more-reliable-quantum-computation-unlock/",
+  "https://semiwiki.com/ceo-interviews/375302-ceo-interview-with-peter-jenkins-of-infinitesima/",
+  "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNMDlnM0stZm5NNHJKRGpVZDlEZVQyZ0hJVHVNU3JLSGExTWtjN2RGVzNiX3d0aXJJSUNsMnhSSVZqOWt6NldDcFNJek5WM0FxSUhDYlFvLVZhSnlJNHBOR1J6RmRmSzAxTDgwcDR4ZzNFOHlqTkRlN3pzT29mN3ZQLVBYLUdXMFp2R0Y3RmNDMEtGdXVSNXpJeEhrOUhZMUVXbE9BOWxKeHRXbUZCYWlmRnRfVGJBdS1CUVJ1X0pHRF9zVnZRQS1CS0E5cW9USjdZY0dTNWUwdVRwN2R4NnZrU1BiNXFtSWh1QUliZlI4YVlLUWs?oc=5",
+  "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbWNUWjk5Z1FjMW55bTUyMFhZS3Y3XzFjbG05bVY2bHR1Wlh0c3lBTnJPWXd1NU45VVpIbzV6ZkVvVElRU3c3VHNzcko2VnRqZ2RpckFuTFJjRlRVQTkzRnpnTDF1X0JIV2Fta1pWSnhob0l5SnRxZ2NZaUpobFVSblNn?oc=5",
+  "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNOW1Vc1BRUlZlMlJLWlEyNmVHN2ZxUmt0NHBTS2FGOVFaWHBwQ3U4cU4yc0F4a1F3RngzS0FNcnVydUtWYm1XRVNVcEJpLXZSZmJsUlo0UzN0ZkVrVnVIY08wanJiWmlINVY1M0s1WGZKckFpZDkyUmdiQUpRaGlXTkVqZktReHpkamRGTm82MzRWSEIwWVpTYXZwZ0FpcGdqUHA5ek5jTzhVREJoS2pzZEw4QjJpMnZTeE1fN2Q3OWRaVjVOOXBReURJNjV4bV9scFE?oc=5",
+  "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbFZKN3FHUjFiVmNnWktXN1VYSmZNNE1qVmVDdVVuSmNPNklITFNIQmZzWFpPZUlIMXpqUlhzZUwzMjh2TlhwWEtyYkNZR2Vua0U5Y2NMODJYV1Y3eEo3S1R2Q2NYbjQ5d0s5X1ZJNWNBS09td3o0d2lDTUdFZWU2UTVuWkxSWlBWZ1o2Y3JZbjRkb0Iz0gGaAUFVX3lxTE5LUGpHMzRKS2lHbUlNTi05VDBCU0JnT3FqbEhOSm5ZVzFFNTMzb1VHNk1uaDJsMVVNUHpUNzI5RlpZVm94YzVqUExTMGZwWkJjT0M1LVkycUR4ZUNJb3V5bWVXZkpxdWZzTlNvNV8zVFNmXzVlalFHS3hCY0FlM3diNFowSVRGcDQ0UGZ3YzMyVEN0QWtuTkVtWEE?oc=5",
+  "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NS1R5NVZhZF8tanJuQU1PaVB5dndZckQ5WGJGcW4tbmhtaFA5MGRXUWVwY01kUTRTOWRsa216RFBvNmlOeWpCSlk5SU90b21XSFE5WmM0alE0cmgwY3JRdFBhX3ZZWUFJRThCN2pkRElZTUVQLV81azg5Q2NtNG8?oc=5",
+  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSHc4WWpjLWhNeVBUVHN6aG9MT2o3Q3dOa0R3UFRSQmtXNVE5cXprSmZGc0JhMHd0X2NObnNmandhWnY0Z1JYUzdrOFdnSGU0Tm1jRVlseVd1OEpJdFJpNjZKd1ZDakFsUzFFRXlzMzV0LUJXQlN3RFNmY0huMV80Tk1NanhNTl9SbXBWdlV0MzVUd2ZHRzlXQ0RVUnk0V2hJNFZwRUJubGpVdzg?oc=5",
+  "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUkVSYTZKODBMUGwyQnl0Nk9RaE1zYXYwQy00OVhDanNlU1laWm9BdU41YlZJeFRwX0VSX2xNc0RlOG8zbkJ2dkpRWi1pRzI1c2ZYV2I0T0piWkFVTVBxYUVLNmszRHp1eFh1MHRQQ2loeGVldll0TnM3WmIwbG4xejlVMEhqWVNUSVRfQVN3UHpyVGJ0QkdsUmItcXdxYUtTTVhPVEROeV8?oc=5",
+  "https://www.eetimes.com/how-small-electronics-manufacturers-prevent-component-shortages/",
+  "https://www.tomshardware.com/pc-components/ssds/biwin-m560-2tb-ssd-review",
+  "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTV9PUzZMUU40VzZmV09xbDJLbDlSUl9uUUxoemNaMEV1RXE5Q0V6RHl4Z1RHMlU5NHJoTU9Ld0R4MGh0di1oVDlEQVhQTmoxbVVZWlNqY0JzVHZ3RjNyUGc1Yno4U3RFRnR3VUxJaWVHWHpUSlRWVkRVSDR1VkdSTE5qaWlaZXVOMjNkYXJuek1RMlVlSU5LT0tDOWM2SkFob05lOF9VZzZNTURCVERVZjF2WWhKOEZ3ZDhJLWtDaGtYSmF6aEdKV3QwQnpPeUhkSU13U1p4d3NzT2Zs0gHiAUFVX3lxTFBYenNQQ3gwdWlsOE5NZWtYMDh2b3otSEF4V0JETTJlMFh5ZVBCc29fb21ZbW5EQlhETzhUckNwdjhheWtSS1hJeWI4dDdkVGhjck1jZVctd0NlYTJOQmZMS2JvMUI0Q05kZkl1Z3kyN0VQVVVyWlNBajRMMlc1ZnBFU3hhbVlsc0I2QmpDTlBPY2pDU2dXRG53SWl5RUY1aXdMaWNkaHVJWWVhRi02eE1kZ0VnNXQxMEh0OS1SR2VPbkNBU3RiS2dObWNzSVJhd205eDJaZ0hkY3pTenRVOV9FdEE?oc=5",
+  "https://www.scmp.com/tech/article/3372884/deepseek-unveils-ai-super-agent-coding-race-openai-anthropic",
+  "https://www.prnewswire.com/news-releases/gac-gewinnt-8-auszeichnungen-darunter-4-erste-preise-und-stellt-damit-seine-technologische-innovationskraft-unter-beweis-302925721.html",
+  "https://www.datacenterdynamics.com/en/opinions/beyond-the-grid-the-maintenance-challenges-putting-the-data-center-boom-at-risk/",
+  "https://semiwiki.com/ceo-interviews/375308-ceo-interview-with-ram-machness-of-arbe/",
+  "https://news.google.com/rss/articles/CBMieEFVX3lxTE1KMzExNDRIZUZHV2hKYmVuQkFQQnJGbUNGZl9wZ09NU0ZjcUhNV3VpcWxxWWRHXzhUYWd3V2dZTmE3b2tZS29ZWG9BWDhyYUVHMUpiZXBWUlpUSUN2SjAycmxlZUE4OWhXeWN1QmdmTkhxZ3htbGl1RQ?oc=5",
+  "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOY0lNMUV1TERGSk1yb2l1MV9KMGtXa0VRZlpWY0xTcHZabGJBYVV1Ny1ycGpQaDVQNkRnZDk5NEQtR1BBeTQ3WDRia1pWZmhXSXo0UDV6bkdOd0pzemw0a1R6T2F5UTJDdHBSQUcxMkhYLXQxTVNVT25LTVNjNzdVb0RoN2hhblh1N3dSTHBuSFNWaURPaHZkNF9UbU9EZ3NDbmREU1BPVkFJMmVvcno3SmR6RGpPZWtaemh2dktCTlZiQ3o3UUd2YzdGQmFlSEkxdVU1UEU4QjQ4S0Z3bXFRbdIB5gFBVV95cUxPeUxTVjhsLThVM09iQXdEV0NBeVRtN3VFbFZSMThoRTZSRDMtMVRmMEtRYnFyNXlRYTRzd1NlMkZoVkIyWV9kM0lmLVlENzlRT3YtRFNwbzBUZW1NMHFXc0xPOVRHc0U4UUpuMHktWFc5NnctcUlHQmRwcmQ1ZlIwNW5kbXliWDI1LUhYQjNIbW1JUzZGMkFCWW81M0pGNHVLcnN6TVY2SmZ6d0NYblZjb1Byd0pseU9yTUFzZ2xmMVZvaGJZcDhwd1hpdjRlWXVJd3IzQzRET3RicVNDRERGNGNDcFNEdw?oc=5",
+  "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBiRFBCV0ZVbTE2aWh5ZTY0dkIwYnBMV3c4VUVpMXpaaG5jWElkbi02YlBMWTlCUjYyc3pIMk8zcnl5ZnYyZHVMMjZkZzdFbXBTOUNz?oc=5",
+  "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBIbzhvcUlBdkdTR1Y2a1BzaE44azNRNXhwZDNCdlJpeWtKaEFyZ2EtaFRhSFNmOWp1SVBFMFBNVzJjNFJBdGQ4YlYtc1lhWjRVOXNtcXFqOXdCX3c?oc=5",
+  "https://www.tomshardware.com/3d-printing/anycubic-and-thingiverse-announce-exclusive-3d-printing-partnership-makeronline-platform-to-offer-1-click-multicolor-3mf-models",
+  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1VMVo2QzBjbXVIcTlEUVN4emtWT0ZuWTdEV3NPdmlJZ2NTRUpGd2FXQ0t5czRwajYwaVpFd3pLb0ctX2ZrNWVQWTd4MUl1ODFYXzNkTDV5dw?oc=5",
+  "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPRWRvNmUycjhHSk9fOVpyVlNnM0xzeDdweHFtdWZ2TjhOS2xvTTlwWXhYSE1CTkRlVFBjYVNLVDJjN2JOY2s4eXZQTV91dUpramZUUm5POUtOdXBDdzZIb3BRUS1IRzdXTVNFTEdtYnQxa2R2YVZ3ZzdVS25JaGhTSVphd01FSWF3SmFFQXU0aEtPX2kwWVpyb0VZQlAxX1JIUzZYYjVLYmFXWHVXYWdTNUx0Y2ZyMTBWVzVma3BvOE56Y0Y0b2pwUmlldUV6WGtLZlRjSnZvUm9YTGJ10gHiAUFVX3lxTFBieEpVM3R6alJkREdySjlFaVY1VHlSY3A5V3FaSzRNZ2pkcS1QV0k5dXFNLW9KRzJobDRQNmg1ZEJqaXlaVDRsQjVfT2hRMUp4QldGb2dSNlNFYWtDVGF1NXBJNFE3dWZNMjhYTnJnSmo4bDNKSUU0ZFlza1BkbC1PUC1oZWtibWRfUF9FaGVaTEt4MUhYWnlYNVBPWEFadVAtMHhRaGRhVnZJVkIyM2N0LVFMZDN2elVwUWVIUWxCM29FaGVaRDJlbDlzYmwxQzVfMjBVYzRkekxibVZvTERFU3c?oc=5",
+  "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVjhVbG9sU2lWcG52WkVmX2hVc1BOMmhPa3djMndhVGRDTXA2OWpKQmNJQkhzNjVZNE5tdHFMaXBETl9TbXdNQXM0SHhXRHl5c3o3ZWMzejNsN3FCamljSnNTdzlPSUJ6YUhDWDVoZ2VvVXBoLWRiRU9Fay01cjNqbkdCeHM5Z3RZWDJIMW9mdDIyd3I5cGVDbVJIdjQxU2tGajFGTUVvaEs0TkY2Z0s4N2dBN3k3aTNKYjM1dNIBwgFBVV95cUxQaEVJSTF5bXJ1aHZNQXEwOEROT1dvSEtLVC1fbTVUSFYwejBlajVPLW5BYUczcEJOb29sUUxLR3hRU3RPZENBZmxnNkdWVnpnMXd0VUVXRV9mUGRKam1tZnN6YjBiT3Viang4Zm41dUJZWUo5SFQzRUplZWM2S1hENnpTTnFVYkNvZ1paYzVaTlVDZFc5NXgwMlU1Q2toOGxjb0Y5LVBOSlBTclg2UTBYeFY3a2p2X1kxemRYaXBIeXNCZw?oc=5",
+  "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9lWmtQZXVHVnA1b0NkZlNBTDhtVzViNVFRdUJEMVQ0c0dLb1liRmFJd1FVN1BJS1hGT0pyNHJ3VXdlcHRVMTBpTU9lQlhNcTBxTmIwVEFncWFTek96aUVtYV9n?oc=5",
+  "https://news.google.com/rss/articles/CBMidkFVX3lxTE5YSHpzNUV3NmpKU0U4LXNQWE1MVC10emFMdWFqWWVkYmFzSnctYjBsNmRjQmhsOUdoRElWQlRHNTRVejdTbDlVNzR2OGFQMi1LZFVqcHR4N252ZExrN2lRcWtTZF9Fc2NaM1UxWmhkWmtQd0IwSEE?oc=5",
+  "https://www.tomshardware.com/3d-printing/bambu-labs-black-friday-sale-cuts-up-to-usd300-on-the-flagship-h2c-printer-and-more-deep-cuts-across-companys-3d-printer-and-filament-lineup",
+  "https://news.google.com/rss/articles/CBMinwFBVV95cUxObmpKWTNhMFEtR3A5aGs5QjlPUnFKd1hWclp5Rng0R0RtUHhpWFl2NzVwNEhCSUpYV3RJSHBVNkFnbkJYSXBiTlk0Y0h4TURzdXZLZC1yVGg3RUpDM2VrZ1dNN29OWlVnR0dvSFZyVDFMeDBYbFVfWTNlaGdTdFpKTXdxOXF3Y3ZiSkxrZ3l2a3FyQXJQUFcxTWVoMTBHbWM?oc=5",
+  "https://news.google.com/rss/articles/CBMibkFVX3lxTE9uNE0xLXFPeURmUk9BT2JucU42MEJTN2ZrSTdiQ0Qxbk52cTZlVGFRYWdRZnBoYlZxdVI1LTMxYVp5R2RtRUI1ZHF6MkdMNFNIRms3NDIwQVhwRVdWbDNWRWYwV1VpX3F3UTJIU0tn?oc=5",
+  "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTmd2QV9Xa3VQZnJtcjVrQmUwbERkOVgwTkVreDlXYzBJTnROeERTWXNvNnBsWUJZTWp5WVhBaU9fc3QzQWRPRkF5UXhYMHJvZmZPRXJuZkhDUDhabHh1OGVvdHhwTEZ5NEpFUWhMMXJnR1pybldOWFVmSzRWTll1RWxNQTFyWWFxblBacjZqX1VQLWR4NnhnWXRvSmE?oc=5",
+  "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOLThCUmEwYlpQQ3p2UHJDSlRHbEVRVnhiVENmOU4xdExKVGdWc05FSnliQy1QbjRrZEpQLVpJeHdUd0VQMTluTW9ucmRtcDQ3Nlp2cWJmdXZoNGFOY1d1bm5GUzBtZmxNcUE4RmVDbFZfdW1JdzFQR24tVkpJTi1XNUMtSTh0WU1a?oc=5",
+  "https://www.tomshardware.com/tech-industry/data-centers/sam-altman-travels-to-south-korea-to-meet-samsung-leadership-to-secure-more-ram-for-data-centers-amid-crushing-shortages-openai-ceo-meets-samsung-leadership-to-discuss-future-ai-data-centers",
+  "https://news.google.com/rss/articles/CBMirwFBVV95cUxORFNfcXB0dVg2SFo5V0h2MzBUTmNvLW1xaFNQMDBmUmJSZ21UbEdmLU5DdFQ5VEg4ZWc0V2hHVTUwUTdUdEpBNlVieE9YRjkxSmIyUHlkdndjcS1udF83REU5VVhYRlgycWx2R1dHMGdYOURQT2pjYjg0VzZhSzV2eTdpU0FsOWU4d3RSMFhGRTQ2Um9HUUd3emlsMjlIbzhOazIxVTN2Q1gzQzk0TTZz?oc=5",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZTZSUjNWQl9RNF9lX2dwc2swc3hiOHQ4UDZYNl9iczRVVHZnaWwtZWo2Q1J3elZ5bFJuQ19COHVzR2dWcHZzLXZKRnVvUVlRT3A2QjZqeHQyN2lGb1pVaml4eUFlX2U1TVd2dFFjaGtyLXE1QldQelFMbjUwWlR3Q08zOEhEM2U2X090OVJhWnFuSzRGQWVMZ1R5MThOdDk4NzhnSkx1SzNfZDVvMC1VeG43bFh4eUZCQlowb2lKQzQ?oc=5",
+  "https://www.tomshardware.com/pc-components/gpus/open-source-usb-tool-unlocks-nvidias-half-speed-gpu-ai-limiter-on-windows-lifts-gpus-fp16-math-performance-up-to-65-percent-uefi-unlocker-covers-rtx-20-30-and-40-series-desktops-and-laptops",
+  "https://www.tomshardware.com/tech-industry/big-tech/police-chief-physically-unplugs-flock-cameras-after-the-company-ignores-contract-cancellation-city-takes-matters-into-its-own-hands-amid-privacy-controversies",
+  "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPd09iaVhRZkJxX3hVNE4zZ0IwQnlZRzdCQ0RGRjRXWFpFQkFzbzZMUVdnVVFDTjF0QnZhb0NEbjAtbkVRYWZlWjV1Z3NhNlpvb2xSVlRSNGJlcnI3ajBOSEpRQjN3dDhTS29oSUdsWGVOWGduSUtyRy1JY0REZnFNQmpKUVZCMGo5Q3hxWWpYWTE2TGdBbWNOOG1ZVW9oUTBCVURmaFBYaGh4Ri1uZE9tYTV3d2V6eUNMVHE0cm8xNGRqZ2JEZUJ4Z2xMOHluZjl2a2hF0gHYAUFVX3lxTE0wQkliTTdZZjFwWGt2RmJ4VFZzVGhvUUdFTG9TbVJ2bWxoNEg2eFc4TmtfSzRuVXRkLTltZVoyRlRQUVBXQm9ucEQydUF1S3lMeE1ualFUdDhsZ1UzVFdkUXhib2RCenVlZmFrQkZBb3lLaF9Pa1R0VnVrdkdZZjNTRi14SVktcFdUTHlBTTJLZmxwcjR4NUY4U1czSVp0M1N6UlN4OGdNdFpGdmI4c0pQaTROd19SUnYyVm1aUmtfYzJ3VEhtbDJ4MTJmOU9yZW5DamlfZU9HRA?oc=5",
+  "https://www.tomshardware.com/peripherals/wearable-tech/elon-musk-says-neuralink-is-ready-to-cure-blindness-says-blindsight-will-enable-even-those-who-are-completely-blind-or-have-never-seen-to-see",
+  "https://www.tomshardware.com/tech-industry/cyber-security/lenovo-fingerprint-usb-stick-sold-as-aes-256-encrypted-had-a-plain-sd-card-inside-ai-assisted-follow-up-finds-a-backdoor-and-hardcoded-keys-in-other-secure-usb-products",
+  "https://news.google.com/rss/articles/CBMiU0FVX3lxTE91RDR3MWtFNW16Y2g0dGlsUjZ0QUNMOEFvSHNaNE84bm9wQWx0NkV1Y3p2eEJRTmpMSDNuOFZEX3VfdUFaSjlEOXMxZlFwVjNWQXBB?oc=5",
+  "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+  "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOXNwckF1Yk1ITGEwRFFoM1BZQjlnTU9yN3A3cDlMRkNoM0h1M2xzcDA5aWo5X0gwaUZacTZaeDM2T3AxZnFvSF9tQVFhd1N6RWtUR1FhZzJrSW9SWW53clFxb2lpS0d4M3ROMHdqTjc5OE5nek9TMHpmUnpiRGNWOFMtVWFWdmtSVUp4QlJVaEJ0M09OeW9BZUJrOXNhQUN6VTg1NVc2aFhibWktQkNDZ1RCU21abFhTZW1JT2l1RkdzR0hiSG5tTDYxaHcybjRMal9RU1E4TjdXd9IB3wFBVV95cUxORWotY0xLMWdEbUd2Q2RjTl8xZWM0OTZpQlhrRkg1MmM3MFdkdWtzUlRNMHdBQW1PMDFwd0hBMy1hbWN6RFhZWWprN2p0bTNBSlNwbW4taGxieGRiVTdEemU0OTFrUUxkUWs3dmtFRGpjQWZqc2hVVHgxRFBjQU9ySVIwVUV1cllZUEdNYldMUGxfN3N5UjZHS0t5azNqdWlQZjYwQ2otR3VDdmREeF9pVC1YZkd0ckg3YXAtSUZaMXZoV3ZmanZNNHQ5RkxJMW03cmgyQzQ5blRZeGhuM3FZ?oc=5",
+  "https://www.tomshardware.com/tech-industry/drones/california-county-secures-autonomous-firefighting-drones-with-500-gallon-foam-payload-to-deal-with-wildfires-five-drone-strike-team-can-be-controlled-by-a-single-operator-conduct-nighttime-ops-and-access-difficult-terrain",
+  "https://news.google.com/rss/articles/CBMidkFVX3lxTE56blRHdDJ0LVoyMTVJeEl5bFBUc3I4SEFKXzlzcjdEWDVVVXlWOTI2Rl9UWFZTdE1iOTVmYU5Ob0ZJNWl2bXJFcDJObzliYzhRZjFwem0zRzBXWVFUNTNzZVh1dFVPVUU0RlB6bnNfbGFnZWlLQUE?oc=5",
+  "https://www.tomshardware.com/tech-industry/space/voyager-1-probe-to-hit-historic-one-light-day-distance-from-earth-in-17-days-49-year-old-spacecraft-travels-16-billion-miles-and-survives-nearly-ten-times-the-length-of-its-original-five-year-mission",
+  "https://news.google.com/rss/articles/CBMiekFVX3lxTE50ZU1YaF9adDNGQ2xNOF94bnJ6d3BtNkRMLVpLOWtFZlRPSE5EVXZZQ19MOEVORmtTSGEwaktVb2pWSEhMdDUtSllpOU5UVkFvVEJidWZLbTBwSWtBeVBXdEsxbFBuMTM4czMydlFHdGlxTXZSeEN5M19B0gGOAUFVX3lxTFBuSy1rbWZrcWJDQ1FBWFN0WkQxd0MwRXlpb3k3a2M3Wlo0TkVNeHNxRld4THdBYnAwSENNQ3M3ZHNEMjhJQkltaWNXdW1wbEtLV0FabzVxSDNQZV95NXJncUlaUHl4eHhraU9KYzNreHdfVTRGbklSeTY1SGVyeWJLN1g2SDc3MDIwMTRmWWc?oc=5",
+  "https://www.tomshardware.com/tech-industry/space/usaf-successfully-tests-dropping-spacex-starfall-cargo-drop-pods-from-space-2-200-pound-capsule-drops-military-supplies-in-the-pacific-to-test-starcraft-like-supply-drops",
+  "https://www.tomshardware.com/tech-industry/drones/college-student-unofficially-breaks-world-record-for-fastest-jet-powered-drone-with-491-mph-aircraft-built-in-his-dorm-reaper-aims-to-grab-the-usd800-000-boom-prize"
  ]
 }
